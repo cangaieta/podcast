@@ -576,15 +576,17 @@
 
             switch(platform) {
                 case 'ios':
-                    // Try Apple Podcasts first
-                    window.location.href = `podcasts://cangaieta.github.io/podcast/feed.xml`;
+                    // Try Apple Podcasts with different URL schemes
+                    const iosUrl = `podcasts://subscribe?feedUrl=${encodeURIComponent(rssUrl)}`;
+                    window.location.href = iosUrl;
+
                     // Fallback after delay
                     setTimeout(() => {
-                        if (confirm('Si no s\'ha obert Apple Podcasts, vols copiar l\'URL per afegir-lo manualment?')) {
+                        if (confirm('Apple Podcasts no s\'ha obert? Prova el mètode manual:')) {
                             copyRSS();
-                            alert('Obre Apple Podcasts → Biblioteca → Editar → Afegir un programa per URL');
+                            alert('1. Obre Apple Podcasts\n2. Toca "Biblioteca"\n3. Toca "Editar" (dalt a la dreta)\n4. Toca "Afegir un programa per URL"\n5. Enganxa l\'URL que s\'ha copiat');
                         }
-                    }, 2000);
+                    }, 3000);
                     break;
 
                 case 'android':
@@ -610,13 +612,15 @@
                     break;
 
                 case 'mac':
-                    // Try Apple Podcasts on Mac
-                    window.location.href = `podcasts://cangaieta.github.io/podcast/feed.xml`;
+                    // Try Apple Podcasts on Mac with proper URL scheme
+                    const macUrl = `podcasts://subscribe?feedUrl=${encodeURIComponent(rssUrl)}`;
+                    window.location.href = macUrl;
                     setTimeout(() => {
-                        if (confirm('Si no s\'ha obert Apple Podcasts, vols copiar l\'URL?')) {
+                        if (confirm('Si Apple Podcasts no s\'ha obert, vols copiar l\'URL?')) {
                             copyRSS();
+                            alert('Obre Apple Podcasts → Biblioteca → Editar → Afegir un programa per URL');
                         }
-                    }, 2000);
+                    }, 3000);
                     break;
 
                 default:
@@ -628,13 +632,29 @@
 
         // Platform-specific subscribe buttons
         function subscribeApplePodcasts() {
-            window.location.href = `podcasts://cangaieta.github.io/podcast/feed.xml`;
+            const rssUrl = "{{ site.url }}{{ site.baseurl }}/feed.xml";
+            // Try different Apple Podcasts URL schemes
+            const applePodcastsUrls = [
+                `podcasts://subscribe?feedUrl=${encodeURIComponent(rssUrl)}`,
+                `podcast://subscribe?feedUrl=${encodeURIComponent(rssUrl)}`,
+                `podcasts://cangaieta.github.io/podcast/feed.xml`
+            ];
+
+            // Try first URL
+            window.location.href = applePodcastsUrls[0];
+
             setTimeout(() => {
-                if (confirm('Si no s\'ha obert Apple Podcasts, vols copiar l\'URL?')) {
-                    copyRSS();
-                    alert('Obre Apple Podcasts → Biblioteca → Editar → Afegir un programa per URL');
+                if (confirm('Si no s\'ha obert Apple Podcasts, vols provar una altra manera?')) {
+                    // Try second URL
+                    window.location.href = applePodcastsUrls[1];
+                    setTimeout(() => {
+                        if (confirm('Encara no funciona? Et copio l\'URL per afegir-lo manualment')) {
+                            copyRSS();
+                            alert('Obre Apple Podcasts → Biblioteca → Editar → Afegir un programa per URL → Enganxa l\'URL');
+                        }
+                    }, 2000);
                 }
-            }, 2000);
+            }, 3000);
         }
 
         function subscribeGooglePodcasts() {

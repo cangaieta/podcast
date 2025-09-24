@@ -146,7 +146,8 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
                 <div class="app-specific-help">
                     <details>
                         <summary><strong>🍎 Apple Podcasts</strong></summary>
-                        <p>Biblioteca → Editar → Afegir un programa per URL → Enganxa l'URL</p>
+                        <p><strong>iPhone/iPad:</strong> Obre Apple Podcasts → Toca "Biblioteca" → Toca "Editar" (dalt dreta) → "Afegir un programa per URL" → Enganxa l'URL</p>
+                        <p><strong>Mac:</strong> Obre Apple Podcasts → Biblioteca → Fitxer → Subscriure a podcast → Enganxa l'URL</p>
                     </details>
                     <details>
                         <summary><strong>🟢 Google Podcasts</strong></summary>
