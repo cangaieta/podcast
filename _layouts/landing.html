@@ -310,9 +310,115 @@
         }
 
         .subscribe-btn:hover {
-            background: #D35400;
             transform: translateY(-3px);
             box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        }
+
+        /* Platform-specific button colors */
+        .apple-btn {
+            background: #000000;
+            color: var(--blanc-pur);
+        }
+
+        .apple-btn:hover {
+            background: #333333;
+        }
+
+        .google-btn {
+            background: #4285F4;
+            color: var(--blanc-pur);
+        }
+
+        .google-btn:hover {
+            background: #3367D6;
+        }
+
+        .pocket-btn {
+            background: #F43E37;
+            color: var(--blanc-pur);
+        }
+
+        .pocket-btn:hover {
+            background: #D32F2F;
+        }
+
+        .rss-btn {
+            background: var(--taronja-calid);
+            color: var(--blanc-pur);
+        }
+
+        .rss-btn:hover {
+            background: #D35400;
+        }
+
+        /* Manual instructions styling */
+        .manual-instructions {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+
+        .instruction-steps .step {
+            margin: 1rem 0;
+            padding: 0.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .step code.rss-url {
+            background: rgba(0,0,0,0.2);
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.8rem;
+            flex-grow: 1;
+            word-break: break-all;
+        }
+
+        .copy-inline-btn {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            color: var(--blanc-pur);
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .copy-inline-btn:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        /* App-specific help */
+        .app-specific-help {
+            margin-top: 2rem;
+        }
+
+        .app-specific-help details {
+            margin: 0.5rem 0;
+            background: rgba(255,255,255,0.05);
+            border-radius: 5px;
+            padding: 0.5rem;
+        }
+
+        .app-specific-help summary {
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .app-specific-help summary:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .app-specific-help p {
+            padding: 0.5rem 1rem;
+            margin: 0;
+            font-size: 0.95rem;
         }
 
         .rss-info {
@@ -447,6 +553,135 @@
     {{ content }}
 
     <script>
+        // Platform detection
+        function detectPlatform() {
+            const userAgent = navigator.userAgent.toLowerCase();
+            const platform = navigator.platform.toLowerCase();
+
+            if (/ipad|iphone|ipod/.test(userAgent) || (platform === 'macintel' && navigator.maxTouchPoints > 1)) {
+                return 'ios';
+            } else if (/android/.test(userAgent)) {
+                return 'android';
+            } else if (/mac/.test(platform)) {
+                return 'mac';
+            } else {
+                return 'desktop';
+            }
+        }
+
+        // Smart podcast subscription
+        function openPodcast() {
+            const rssUrl = "{{ site.url }}{{ site.baseurl }}/feed.xml";
+            const platform = detectPlatform();
+
+            switch(platform) {
+                case 'ios':
+                    // Try Apple Podcasts first
+                    window.location.href = `podcasts://cangaieta.github.io/podcast/feed.xml`;
+                    // Fallback after delay
+                    setTimeout(() => {
+                        if (confirm('Si no s\'ha obert Apple Podcasts, vols copiar l\'URL per afegir-lo manualment?')) {
+                            copyRSS();
+                            alert('Obre Apple Podcasts → Biblioteca → Editar → Afegir un programa per URL');
+                        }
+                    }, 2000);
+                    break;
+
+                case 'android':
+                    // Try multiple Android podcast apps
+                    const androidApps = [
+                        `intent://cangaieta.github.io/podcast/feed.xml#Intent;scheme=podcast;package=au.com.shiftyjelly.pocketcasts;end`,
+                        `intent://cangaieta.github.io/podcast/feed.xml#Intent;scheme=podcast;package=com.google.android.apps.podcasts;end`,
+                        rssUrl
+                    ];
+
+                    // Try first app
+                    window.location.href = androidApps[0];
+                    setTimeout(() => {
+                        if (confirm('Si no s\'ha obert cap app de podcasts, vols provar Google Podcasts?')) {
+                            window.location.href = androidApps[1];
+                            setTimeout(() => {
+                                if (confirm('Vols copiar l\'URL per afegir-lo manualment a la teva app de podcasts?')) {
+                                    copyRSS();
+                                }
+                            }, 2000);
+                        }
+                    }, 2000);
+                    break;
+
+                case 'mac':
+                    // Try Apple Podcasts on Mac
+                    window.location.href = `podcasts://cangaieta.github.io/podcast/feed.xml`;
+                    setTimeout(() => {
+                        if (confirm('Si no s\'ha obert Apple Podcasts, vols copiar l\'URL?')) {
+                            copyRSS();
+                        }
+                    }, 2000);
+                    break;
+
+                default:
+                    // Desktop fallback
+                    copyRSS();
+                    alert('URL copiat! Pega\'l a la teva aplicació de podcasts preferida:\\n\\nApple Podcasts, Spotify (amb Anchor), Google Podcasts, Pocket Casts, etc.');
+            }
+        }
+
+        // Platform-specific subscribe buttons
+        function subscribeApplePodcasts() {
+            window.location.href = `podcasts://cangaieta.github.io/podcast/feed.xml`;
+            setTimeout(() => {
+                if (confirm('Si no s\'ha obert Apple Podcasts, vols copiar l\'URL?')) {
+                    copyRSS();
+                    alert('Obre Apple Podcasts → Biblioteca → Editar → Afegir un programa per URL');
+                }
+            }, 2000);
+        }
+
+        function subscribeGooglePodcasts() {
+            const rssUrl = "{{ site.url }}{{ site.baseurl }}/feed.xml";
+            // Try Google Podcasts intent for Android
+            if (detectPlatform() === 'android') {
+                window.location.href = `intent://cangaieta.github.io/podcast/feed.xml#Intent;scheme=podcast;package=com.google.android.apps.podcasts;end`;
+            } else {
+                // Fallback to web version
+                window.open(`https://podcasts.google.com/feed/${btoa(rssUrl)}`, '_blank');
+            }
+        }
+
+        function subscribePocketCasts() {
+            if (detectPlatform() === 'android') {
+                window.location.href = `intent://cangaieta.github.io/podcast/feed.xml#Intent;scheme=podcast;package=au.com.shiftyjelly.pocketcasts;end`;
+            } else {
+                window.open('https://pca.st/subscribe', '_blank');
+                setTimeout(() => {
+                    copyRSS();
+                    alert('Pega aquesta URL a Pocket Casts per subscriure\'t');
+                }, 1000);
+            }
+        }
+
+        // Update button text based on platform
+        function updatePlatformUI() {
+            const platform = detectPlatform();
+            const listenButton = document.querySelector('.btn-primary');
+
+            if (listenButton) {
+                switch(platform) {
+                    case 'ios':
+                        listenButton.innerHTML = '🎧 Obre a Apple Podcasts';
+                        break;
+                    case 'android':
+                        listenButton.innerHTML = '🎧 Obre app de podcasts';
+                        break;
+                    case 'mac':
+                        listenButton.innerHTML = '🎧 Obre a Apple Podcasts';
+                        break;
+                    default:
+                        listenButton.innerHTML = '🎧 Copiar RSS per subscriure\'s';
+                }
+            }
+        }
+
         // Smooth scroll for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -478,10 +713,24 @@
         // Copy RSS URL to clipboard
         function copyRSS() {
             const rssUrl = "{{ site.url }}{{ site.baseurl }}/feed.xml";
-            navigator.clipboard.writeText(rssUrl).then(() => {
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(rssUrl).then(() => {
+                    alert('URL del RSS copiat al porta-retalls!');
+                });
+            } else {
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = rssUrl;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
                 alert('URL del RSS copiat al porta-retalls!');
-            });
+            }
         }
+
+        // Initialize platform-specific UI when page loads
+        document.addEventListener('DOMContentLoaded', updatePlatformUI);
     </script>
 </body>
 </html>

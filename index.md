@@ -29,9 +29,9 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
                 Contingut generat amb IA basant-se en fonts oficials.
             </p>
             <div class="cta-buttons">
-                <a href="#subscribe" class="btn btn-primary">
+                <button onclick="openPodcast()" class="btn btn-primary">
                     🎧 Escolta ara
-                </a>
+                </button>
                 <a href="#about" class="btn btn-secondary">
                     📖 Més informació
                 </a>
@@ -105,22 +105,58 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
             <p>Mantén-te informat dels últims esdeveniments de Can Gaietà i Tiana</p>
 
             <div class="subscribe-options">
-                <a href="{{ '/feed.xml' | relative_url }}" class="subscribe-btn">
-                    📡 RSS Feed
-                </a>
-                <a href="https://github.com/cangaieta/podcast" target="_blank" class="subscribe-btn">
-                    💻 GitHub
-                </a>
-                <button onclick="copyRSS()" class="subscribe-btn">
-                    📋 Copiar URL RSS
+                <button onclick="subscribeApplePodcasts()" class="subscribe-btn apple-btn">
+                    🍎 Apple Podcasts
+                </button>
+                <button onclick="subscribeGooglePodcasts()" class="subscribe-btn google-btn">
+                    🟢 Google Podcasts
+                </button>
+                <button onclick="subscribePocketCasts()" class="subscribe-btn pocket-btn">
+                    🟤 Pocket Casts
+                </button>
+                <button onclick="copyRSS()" class="subscribe-btn rss-btn">
+                    📡 Copiar RSS
                 </button>
             </div>
 
             <div class="rss-info">
-                <h3>Per subscriure't des de la teva app de podcasts:</h3>
-                <p>Copia aquesta URL i afegeix-la a la teva aplicació de podcasts favorita:</p>
-                <div class="rss-url">{{ site.url }}{{ site.baseurl }}/feed.xml</div>
-                <p><em>Compatible amb Apple Podcasts, Spotify, Google Podcasts, i totes les apps de podcasts principals.</em></p>
+                <h3>📱 Subscripció automàtica</h3>
+                <p>Els botons de dalt intenten obrir directament la teva app de podcasts. Si no funciona:</p>
+
+                <div class="manual-instructions">
+                    <h4>📋 Instruccions manuals:</h4>
+                    <div class="instruction-steps">
+                        <div class="step">
+                            <strong>1.</strong> Copia l'URL RSS:
+                            <code class="rss-url">{{ site.url }}{{ site.baseurl }}/feed.xml</code>
+                            <button onclick="copyRSS()" class="copy-inline-btn">📋</button>
+                        </div>
+                        <div class="step">
+                            <strong>2.</strong> Obre la teva app de podcasts favorita
+                        </div>
+                        <div class="step">
+                            <strong>3.</strong> Busca l'opció "Afegir podcast per URL" o similar
+                        </div>
+                        <div class="step">
+                            <strong>4.</strong> Enganxa l'URL i subscriu-te
+                        </div>
+                    </div>
+                </div>
+
+                <div class="app-specific-help">
+                    <details>
+                        <summary><strong>🍎 Apple Podcasts</strong></summary>
+                        <p>Biblioteca → Editar → Afegir un programa per URL → Enganxa l'URL</p>
+                    </details>
+                    <details>
+                        <summary><strong>🟢 Google Podcasts</strong></summary>
+                        <p>Explorar → Subscripcions → Afegir per RSS → Enganxa l'URL</p>
+                    </details>
+                    <details>
+                        <summary><strong>🟣 Spotify</strong></summary>
+                        <p>Spotify no suporta RSS directament. Usa Apple Podcasts o Pocket Casts.</p>
+                    </details>
+                </div>
             </div>
         </div>
     </section>
