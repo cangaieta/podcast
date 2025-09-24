@@ -1,0 +1,140 @@
+---
+layout: default
+---
+
+<article class="episode">
+  <header class="episode-header">
+    <h1>{{ page.title }}</h1>
+    <div class="episode-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d de %B de %Y" }}</time>
+      {% if page.duration %}<span class="duration">Durada: {{ page.duration }}</span>{% endif %}
+    </div>
+  </header>
+
+  {% if page.audio_file %}
+  <div class="audio-player">
+    <audio controls preload="metadata">
+      <source src="{{ '/episodes/' | append: page.audio_file | relative_url }}" type="audio/mpeg">
+      El teu navegador no suporta l'element d'audio.
+    </audio>
+  </div>
+  {% endif %}
+
+  <div class="episode-content">
+    {{ content }}
+  </div>
+
+  {% if page.sources %}
+  <section class="sources">
+    <h2>📚 fonts Utilitzades</h2>
+    <ul>
+    {% for source in page.sources %}
+      <li>
+        {% if source.url %}
+          <a href="{{ source.url }}" target="_blank">{{ source.title }}</a>
+        {% else %}
+          {{ source.title }}
+        {% endif %}
+        {% if source.description %} - {{ source.description }}{% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if page.disclaimer %}
+  <div class="disclaimer">
+    <h3>⚠️ Disclaimer</h3>
+    <p>{{ page.disclaimer }}</p>
+  </div>
+  {% endif %}
+
+  <footer class="episode-footer">
+    <p><strong>Recordatori:</strong> Aquest contingut ha estat generat amb Google NotebookLM basant-se en les fonts oficials indicades. Consulta sempre les fonts originals per obtenir la informació completa.</p>
+
+    <div class="navigation">
+      {% if page.previous %}
+        <a href="{{ page.previous.url }}" class="nav-link prev">← Episodi anterior</a>
+      {% endif %}
+      {% if page.next %}
+        <a href="{{ page.next.url }}" class="nav-link next">Episodi següent →</a>
+      {% endif %}
+    </div>
+  </footer>
+</article>
+
+<style>
+.episode-header {
+  margin-bottom: 2rem;
+}
+
+.episode-meta {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.episode-meta .duration {
+  margin-left: 1rem;
+}
+
+.audio-player {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.audio-player audio {
+  width: 100%;
+  max-width: 500px;
+}
+
+.episode-content {
+  line-height: 1.6;
+  margin: 2rem 0;
+}
+
+.sources {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.sources h2 {
+  margin-top: 0;
+  color: #495057;
+}
+
+.disclaimer {
+  background-color: #fff3cd;
+  border: 1px solid #ffeaa7;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 2rem 0;
+}
+
+.disclaimer h3 {
+  margin-top: 0;
+  color: #856404;
+}
+
+.episode-footer {
+  border-top: 1px solid #dee2e6;
+  padding-top: 2rem;
+  margin-top: 3rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.nav-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+</style>
