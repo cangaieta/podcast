@@ -324,6 +324,17 @@
             background: #333333;
         }
 
+        .android-btn {
+            background: #3DDC84;
+            color: #1B5E20;
+            font-weight: bold;
+        }
+
+        .android-btn:hover {
+            background: #00C853;
+            color: var(--blanc-pur);
+        }
+
         .google-btn {
             background: #4285F4;
             color: var(--blanc-pur);
@@ -599,6 +610,35 @@
             color: #666;
             font-size: 0.95rem;
             line-height: 1.5;
+        }
+
+        /* Android notice styling */
+        .android-notice {
+            background: rgba(61, 220, 132, 0.1);
+            border: 2px solid rgba(61, 220, 132, 0.3);
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .android-notice h4 {
+            color: #1B5E20;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .android-notice p {
+            color: #2E7D32;
+            margin-bottom: 0.8rem;
+            line-height: 1.5;
+        }
+
+        .android-notice em {
+            background: rgba(61, 220, 132, 0.2);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-style: normal;
+            font-weight: 600;
         }
 
         /* App-specific instructions improvements */
@@ -926,20 +966,34 @@
             console.log('Attempting to open Apple Podcasts...');
         }
 
-        function subscribeGooglePodcasts() {
+        function subscribeAndroidUniversal() {
             const rssUrl = "{{ site.url }}{{ site.baseurl }}/feed.xml";
-            // Try Google Podcasts intent for Android
             if (detectPlatform() === 'android') {
-                window.location.href = `intent://cangaieta.github.io/podcast/feed.xml#Intent;scheme=podcast;package=com.google.android.apps.podcasts;end`;
+                // Use subscribeonandroid.com - the most reliable Android solution
+                window.open('https://subscribeonandroid.com/' + encodeURIComponent(rssUrl), '_blank');
             } else {
-                // Fallback to web version
-                window.open(`https://podcasts.google.com/feed/${btoa(rssUrl)}`, '_blank');
+                // Show explanation for non-Android users
+                copyRSS();
+                alert('Aquest botó és específic per dispositius Android.\n\nURL copiat al porta-retalls per subscriure\'t manualment.');
             }
         }
 
+        function subscribeGooglePodcasts() {
+            // Google Podcasts discontinued, redirect to universal solution or manual
+            copyRSS();
+            alert('Google Podcasts s\'ha descontinuat el 2024.\n\nURL copiat al porta-retalls.\n\nRecomendacions:\n• Android: Utilitza el botó "Android (Universal)"\n• iOS: Utilitza Apple Podcasts\n• Altres: Qualsevol app de podcasts');
+        }
+
         function subscribePocketCasts() {
+            const rssUrl = "{{ site.url }}{{ site.baseurl }}/feed.xml";
             if (detectPlatform() === 'android') {
-                window.location.href = `intent://cangaieta.github.io/podcast/feed.xml#Intent;scheme=podcast;package=au.com.shiftyjelly.pocketcasts;end`;
+                // Try multiple Android approaches
+                tryMultipleAndroidSchemes('Pocket Casts', [
+                    `intent://${rssUrl}#Intent;scheme=itpc;package=au.com.shiftyjelly.pocketcasts;end`,
+                    `intent://${rssUrl}#Intent;scheme=feed;package=au.com.shiftyjelly.pocketcasts;end`,
+                    `itpc://${rssUrl.replace('https://', '')}`,
+                    `feed://${rssUrl.replace('https://', '')}`
+                ]);
             } else {
                 window.open('https://pca.st/subscribe', '_blank');
                 setTimeout(() => {
@@ -975,13 +1029,82 @@
 
         function subscribeAntennaPod() {
             const platform = detectPlatform();
+            const rssUrl = "{{ site.url }}{{ site.baseurl }}/feed.xml";
             if (platform === 'android') {
-                // AntennaPod intent
-                window.location.href = `intent://cangaieta.github.io/podcast/feed.xml#Intent;scheme=podcast;package=de.danoeh.antennapod;end`;
+                // Try multiple Android approaches for AntennaPod
+                tryMultipleAndroidSchemes('AntennaPod', [
+                    `intent://${rssUrl}#Intent;scheme=itpc;package=de.danoeh.antennapod;end`,
+                    `intent://${rssUrl}#Intent;scheme=feed;package=de.danoeh.antennapod;end`,
+                    `itpc://${rssUrl.replace('https://', '')}`,
+                    `feed://${rssUrl.replace('https://', '')}`
+                ]);
             } else {
                 // Fallback to manual
                 copyRSS();
                 alert('AntennaPod només està disponible per Android. URL copiat al porta-retalls - obre AntennaPod i afegeix manualment.');
+            }
+        }
+
+        // Universal Android URL scheme handler with multiple fallbacks
+        function tryMultipleAndroidSchemes(appName, schemes) {
+            const rssUrl = "{{ site.url }}{{ site.baseurl }}/feed.xml";
+            let currentSchemeIndex = 0;
+
+            function tryNextScheme() {
+                if (currentSchemeIndex >= schemes.length) {
+                    // All schemes failed, use universal Android solution
+                    showAndroidFallback(appName, rssUrl);
+                    return;
+                }
+
+                const scheme = schemes[currentSchemeIndex];
+                currentSchemeIndex++;
+
+                // Try to open the scheme
+                const timeout = setTimeout(() => {
+                    // If we're still here after 2 seconds, the scheme probably failed
+                    tryNextScheme();
+                }, 2000);
+
+                // Set up visibility change listener to detect if app opened
+                const handleVisibilityChange = () => {
+                    if (document.hidden) {
+                        // App likely opened successfully
+                        clearTimeout(timeout);
+                        document.removeEventListener('visibilitychange', handleVisibilityChange);
+                    }
+                };
+
+                document.addEventListener('visibilitychange', handleVisibilityChange);
+
+                try {
+                    window.location.href = scheme;
+                } catch (e) {
+                    clearTimeout(timeout);
+                    document.removeEventListener('visibilitychange', handleVisibilityChange);
+                    tryNextScheme();
+                }
+            }
+
+            tryNextScheme();
+        }
+
+        function showAndroidFallback(appName, rssUrl) {
+            // Show user-friendly options
+            const choice = confirm(
+                `No s'ha pogut obrir ${appName} automàticament.\n\n` +
+                `Opcions:\n` +
+                `• OK: Obre subscribeonandroid.com (universal)\n` +
+                `• Cancel: Copia URL per afegir manualment`
+            );
+
+            if (choice) {
+                // Use subscribeonandroid.com as universal solution
+                window.open('https://subscribeonandroid.com/' + encodeURIComponent(rssUrl), '_blank');
+            } else {
+                // Copy RSS for manual addition
+                copyRSS();
+                alert(`URL del podcast copiat al porta-retalls.\n\nObre ${appName} i afegeix el feed manualment.`);
             }
         }
 

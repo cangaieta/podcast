@@ -154,6 +154,14 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
             <!-- App-specific instructions -->
             <div class="app-specific-help">
                 <h3>🔧 Instruccions específiques per app</h3>
+
+                <!-- Android Notice -->
+                <div class="android-notice">
+                    <h4>🤖 Usuaris d'Android</h4>
+                    <p><strong>Recomanació:</strong> Utilitza el botó <em>"Android (Universal)"</em> de dalt, que obre subscribeonandroid.com - la solució més fiable per Android.</p>
+                    <p>Els URL schemes tradicionals no sempre funcionen en Android modern. La subscripció universal detecta quines apps de podcasts tens instal·lades i t'ajuda a subscriure't.</p>
+                </div>
+
                 <div class="app-instructions-grid">
                     <details class="app-detail">
                         <summary><strong>🍎 Apple Podcasts</strong></summary>
@@ -273,8 +281,8 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
                     <button onclick="subscribeApplePodcasts()" class="subscribe-btn apple-btn">
                         🍎 Apple Podcasts
                     </button>
-                    <button onclick="subscribeGooglePodcasts()" class="subscribe-btn google-btn">
-                        🟢 Google Podcasts
+                    <button onclick="subscribeAndroidUniversal()" class="subscribe-btn android-btn">
+                        🤖 Android (Universal)
                     </button>
                     <button onclick="subscribePocketCasts()" class="subscribe-btn pocket-btn">
                         🟤 Pocket Casts
