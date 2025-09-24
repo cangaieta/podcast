@@ -97,6 +97,7 @@
             justify-content: center;
             text-align: center;
             padding: 2rem;
+            padding-top: 6rem; /* Space for fixed navbar */
             background: linear-gradient(135deg, var(--beix-clar) 0%, var(--blanc-pur) 100%);
         }
 
@@ -402,6 +403,7 @@
         @media (max-width: 480px) {
             .hero {
                 padding: 1rem;
+                padding-top: 5rem; /* Less space on mobile */
                 min-height: 90vh;
             }
 
@@ -411,6 +413,14 @@
 
             .about-card {
                 padding: 1.5rem;
+            }
+
+            .header {
+                padding: 0.5rem 0;
+            }
+
+            .nav {
+                padding: 0.5rem 1rem;
             }
         }
 

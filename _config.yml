@@ -10,6 +10,7 @@ podcast:
   description: "Podcast informatiu que ofereix una font d'informació alternativa sobre els esdeveniments del poble, discussions del ple i sessions del CAUT. Contingut generat amb Google NotebookLM basant-se en fonts oficials."
   author: "Associació Veïnal de Can Gaietà"
   email: "podcast@cangaieta.cat"
+  website: "https://cangaieta.cat"
   language: "ca-ES"
   category: "News & Politics"
   image: "/assets/logo-podcast.png"

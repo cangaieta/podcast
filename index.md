@@ -132,6 +132,7 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
         <div class="footer-links">
             <a href="#about">Sobre nosaltres</a>
             <a href="#disclaimer">Disclaimer</a>
+            <a href="https://cangaieta.cat" target="_blank">Web oficial AV Can Gaietà</a>
             <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
             <a href="https://github.com/cangaieta/podcast">GitHub</a>
             <a href="https://notebooklm.google" target="_blank">Google NotebookLM</a>

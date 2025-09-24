@@ -7,15 +7,14 @@ description: "Analitzem l'article 'Així seran els pisos de Can Gaietà' i contr
 episode_number: 1
 season: 1
 sources:
-  - title: "Article 'Així seran els pisos de Can Gaietà' - Revista de Tiana"
-    url: "#"
-    description: "Article que analitzem en aquest episodi"
-  - title: "Vídeo de la sessió del CAUT"
-    url: "#"
-    description: "Sessió completa del Consell Assessor Urbanístic de Tiana"
-  - title: "Acta oficial de la sessió del CAUT"
-    url: "#"
-    description: "Documentació oficial de la sessió"
+  - title: "Article 'Així seran els pisos de Can Gaietà'"
+    description: "Plaça de la Vila, núm. 22 Setembre-octubre del 2025"
+  - title: "Videoacta de la sessió del CAUT"
+    url: "https://youtu.be/7w4e0yR_4r0?t=3243"
+    description: "Sessió del Consell Assessor Urbanístic de Tiana (minut 54:03 - intervenció David Ródenas)"
+  - title: "Transcripció completa de la intervenció de David Ródenas"
+    url: "/sources/001-transcripcio-caut-david-rodenas.txt"
+    description: "Text literal de la intervenció del president de l'associació veïnal"
 ---
 
 ## Introducció
