@@ -104,59 +104,193 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
             <h2>Subscriu-te al Podcast</h2>
             <p>Mantén-te informat dels últims esdeveniments de Can Gaietà i Tiana</p>
 
-            <div class="subscribe-options">
-                <button onclick="subscribeApplePodcasts()" class="subscribe-btn apple-btn">
-                    🍎 Apple Podcasts
-                </button>
-                <button onclick="subscribeGooglePodcasts()" class="subscribe-btn google-btn">
-                    🟢 Google Podcasts
-                </button>
-                <button onclick="subscribePocketCasts()" class="subscribe-btn pocket-btn">
-                    🟤 Pocket Casts
-                </button>
-                <button onclick="copyRSS()" class="subscribe-btn rss-btn">
-                    📡 Copiar RSS
-                </button>
-            </div>
+            <!-- Manual Instructions Prominently Featured -->
+            <div class="manual-subscription-primary">
+                <div class="manual-header">
+                    <h3>📋 Subscripció Manual (Recomanada)</h3>
+                    <p>Mètode més fiable i compatible amb totes les apps de podcasts</p>
+                </div>
 
-            <div class="rss-info">
-                <h3>📱 Subscripció automàtica</h3>
-                <p>Els botons de dalt intenten obrir directament la teva app de podcasts. Si no funciona:</p>
-
-                <div class="manual-instructions">
-                    <h4>📋 Instruccions manuals:</h4>
-                    <div class="instruction-steps">
-                        <div class="step">
-                            <strong>1.</strong> Copia l'URL RSS:
-                            <code class="rss-url">{{ site.url }}{{ site.baseurl }}/feed.xml</code>
-                            <button onclick="copyRSS()" class="copy-inline-btn">📋</button>
-                        </div>
-                        <div class="step">
-                            <strong>2.</strong> Obre la teva app de podcasts favorita
-                        </div>
-                        <div class="step">
-                            <strong>3.</strong> Busca l'opció "Afegir podcast per URL" o similar
-                        </div>
-                        <div class="step">
-                            <strong>4.</strong> Enganxa l'URL i subscriu-te
-                        </div>
+                <div class="rss-copy-section">
+                    <label for="rss-input">URL del Feed RSS:</label>
+                    <div class="rss-input-group">
+                        <input type="text" id="rss-input" value="{{ site.url }}{{ site.baseurl }}/feed.xml" readonly>
+                        <button onclick="copyRSS()" class="copy-btn">📋 Copiar</button>
                     </div>
                 </div>
 
-                <div class="app-specific-help">
-                    <details>
+                <div class="manual-steps">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Copia l'URL RSS</h4>
+                            <p>Utilitza el botó "Copiar" de dalt per copiar l'adreça del feed</p>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Obre la teva app de podcasts</h4>
+                            <p>Qualsevol app: Apple Podcasts, Google Podcasts, Pocket Casts, Castro...</p>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Cerca l'opció "Afegir per URL"</h4>
+                            <p>Normalment a la secció de subscripcions o biblioteca</p>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Enganxa l'URL i subscriu-te</h4>
+                            <p>Ja estaràs subscrit i rebràs els nous episodis automàticament</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- App-specific instructions -->
+            <div class="app-specific-help">
+                <h3>🔧 Instruccions específiques per app</h3>
+                <div class="app-instructions-grid">
+                    <details class="app-detail">
                         <summary><strong>🍎 Apple Podcasts</strong></summary>
-                        <p><strong>iPhone/iPad:</strong> Obre Apple Podcasts → Toca "Biblioteca" → Toca "Editar" (dalt dreta) → "Afegir un programa per URL" → Enganxa l'URL</p>
-                        <p><strong>Mac:</strong> Obre Apple Podcasts → Biblioteca → Fitxer → Subscriure a podcast → Enganxa l'URL</p>
+                        <div class="instruction-content">
+                            <p><strong>iPhone/iPad:</strong></p>
+                            <ol>
+                                <li>Obre Apple Podcasts</li>
+                                <li>Toca "Biblioteca" (baix de la pantalla)</li>
+                                <li>Toca "Editar" (dalt dreta)</li>
+                                <li>Toca "Afegir un programa per URL"</li>
+                                <li>Enganxa l'URL i toca "Subscriure's"</li>
+                            </ol>
+                            <p><strong>Mac:</strong></p>
+                            <ol>
+                                <li>Obre Apple Podcasts</li>
+                                <li>Ves a "Biblioteca"</li>
+                                <li>Menú "Fitxer" → "Subscriure a podcast"</li>
+                                <li>Enganxa l'URL i confirma</li>
+                            </ol>
+                        </div>
                     </details>
-                    <details>
+
+                    <details class="app-detail">
                         <summary><strong>🟢 Google Podcasts</strong></summary>
-                        <p>Explorar → Subscripcions → Afegir per RSS → Enganxa l'URL</p>
+                        <div class="instruction-content">
+                            <ol>
+                                <li>Obre Google Podcasts</li>
+                                <li>Toca "Explorar" (menú inferior)</li>
+                                <li>Toca "Subscripcions"</li>
+                                <li>Toca el botó "+" o "Afegir per RSS"</li>
+                                <li>Enganxa l'URL</li>
+                            </ol>
+                        </div>
                     </details>
-                    <details>
+
+                    <details class="app-detail">
+                        <summary><strong>🟤 Pocket Casts</strong></summary>
+                        <div class="instruction-content">
+                            <ol>
+                                <li>Obre Pocket Casts</li>
+                                <li>Toca "Podcasts" (menú inferior)</li>
+                                <li>Toca el botó "+" (dalt dreta)</li>
+                                <li>Selecciona "Add podcast by URL"</li>
+                                <li>Enganxa l'URL i confirma</li>
+                            </ol>
+                        </div>
+                    </details>
+
+                    <details class="app-detail">
+                        <summary><strong>☁️ Overcast</strong></summary>
+                        <div class="instruction-content">
+                            <ol>
+                                <li>Obre Overcast</li>
+                                <li>Toca el botó "+" (dalt dreta)</li>
+                                <li>Selecciona "Add URL"</li>
+                                <li>Enganxa l'URL del feed</li>
+                            </ol>
+                        </div>
+                    </details>
+
+                    <details class="app-detail">
+                        <summary><strong>📻 Castro</strong></summary>
+                        <div class="instruction-content">
+                            <ol>
+                                <li>Obre Castro</li>
+                                <li>Toca la lupa (Cercar)</li>
+                                <li>Toca "Add from URL" (dalt dreta)</li>
+                                <li>Enganxa l'URL del feed</li>
+                                <li>Toca "Subscribe"</li>
+                            </ol>
+                        </div>
+                    </details>
+
+                    <details class="app-detail">
+                        <summary><strong>⬇️ Downcast</strong></summary>
+                        <div class="instruction-content">
+                            <ol>
+                                <li>Obre Downcast</li>
+                                <li>Toca "Add Podcast"</li>
+                                <li>Selecciona "By URL"</li>
+                                <li>Enganxa l'URL del feed</li>
+                                <li>Toca "Add"</li>
+                            </ol>
+                        </div>
+                    </details>
+
+                    <details class="app-detail">
+                        <summary><strong>🤖 AntennaPod</strong></summary>
+                        <div class="instruction-content">
+                            <p><strong>Android només</strong></p>
+                            <ol>
+                                <li>Obre AntennaPod</li>
+                                <li>Toca "Add Podcast" (botó +)</li>
+                                <li>Selecciona "By RSS address"</li>
+                                <li>Enganxa l'URL del feed</li>
+                                <li>Toca "Confirm"</li>
+                            </ol>
+                        </div>
+                    </details>
+
+                    <details class="app-detail">
                         <summary><strong>🟣 Spotify</strong></summary>
-                        <p>Spotify no suporta RSS directament. Usa Apple Podcasts o Pocket Casts.</p>
+                        <div class="instruction-content">
+                            <p><strong>⚠️ Limitació:</strong> Spotify no suporta feeds RSS externs directament.</p>
+                            <p><strong>Alternativa:</strong> Utilitza Apple Podcasts, Google Podcasts o Pocket Casts per escoltar el nostre podcast.</p>
+                        </div>
                     </details>
+                </div>
+            </div>
+
+            <!-- Automatic subscription buttons as secondary option -->
+            <div class="automatic-subscription-secondary">
+                <h3>🚀 Subscripció automàtica (Experimental)</h3>
+                <p><small>Els següents botons intenten obrir directament la teva app. Si no funcionen, utilitza el mètode manual de dalt.</small></p>
+
+                <div class="subscribe-options">
+                    <button onclick="subscribeApplePodcasts()" class="subscribe-btn apple-btn">
+                        🍎 Apple Podcasts
+                    </button>
+                    <button onclick="subscribeGooglePodcasts()" class="subscribe-btn google-btn">
+                        🟢 Google Podcasts
+                    </button>
+                    <button onclick="subscribePocketCasts()" class="subscribe-btn pocket-btn">
+                        🟤 Pocket Casts
+                    </button>
+                    <button onclick="subscribeOvercast()" class="subscribe-btn overcast-btn">
+                        ☁️ Overcast
+                    </button>
+                    <button onclick="subscribeCastro()" class="subscribe-btn castro-btn">
+                        📻 Castro
+                    </button>
+                    <button onclick="subscribeDowncast()" class="subscribe-btn downcast-btn">
+                        ⬇️ Downcast
+                    </button>
+                    <button onclick="subscribeAntennaPod()" class="subscribe-btn antenna-btn">
+                        🤖 AntennaPod
+                    </button>
                 </div>
             </div>
         </div>
