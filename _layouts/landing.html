@@ -929,16 +929,40 @@
             font-weight: 600;
         }
 
-        .universal-subscribe-link {
-            text-decoration: none;
-            display: block;
-            max-width: 600px;
+        .subscription-requirement {
+            max-width: 800px;
             margin: 0 auto;
         }
 
-        .universal-subscribe-card {
-            background: linear-gradient(135deg, #3DDC84, #00C853);
-            color: white;
+        .requirement-text {
+            color: #333;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            padding: 1rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--taronja-calid);
+        }
+
+        .subscription-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .option-card {
+            flex: 1;
+        }
+
+        .universal-subscribe-link,
+        .listen-web-link {
+            text-decoration: none;
+            display: block;
+        }
+
+        .universal-subscribe-card,
+        .listen-web-card {
             padding: 2rem;
             border-radius: 15px;
             display: flex;
@@ -946,36 +970,53 @@
             gap: 1.5rem;
             transition: all 0.3s ease;
             cursor: pointer;
+            height: 100%;
         }
 
-        .universal-subscribe-card:hover {
+        .universal-subscribe-card {
+            background: linear-gradient(135deg, #3DDC84, #00C853);
+            color: white;
+        }
+
+        .listen-web-card {
+            background: linear-gradient(135deg, var(--terra-cuita), #B85450);
+            color: white;
+        }
+
+        .universal-subscribe-card:hover,
+        .listen-web-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
 
-        .universal-icon {
+        .universal-icon,
+        .web-icon {
             font-size: 2.5rem;
             flex-shrink: 0;
         }
 
-        .universal-content {
+        .universal-content,
+        .web-content {
             flex: 1;
             text-align: left;
         }
 
-        .universal-content h4 {
+        .universal-content h4,
+        .web-content h4 {
             margin: 0 0 0.5rem 0;
             color: white;
             font-size: 1.3rem;
         }
 
-        .universal-content p {
+        .universal-content p,
+        .web-content p {
             margin: 0;
             color: rgba(255,255,255,0.9);
             font-size: 0.95rem;
         }
 
-        .universal-arrow {
+        .universal-arrow,
+        .web-arrow {
             font-size: 1.5rem;
             flex-shrink: 0;
         }
@@ -1295,19 +1336,32 @@
             }
 
             /* New subscription sections mobile */
-            .universal-subscribe-card {
+            .subscription-options {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .universal-subscribe-card,
+            .listen-web-card {
                 padding: 1.5rem;
                 flex-direction: column;
                 text-align: center;
                 gap: 1rem;
             }
 
-            .universal-content {
+            .universal-content,
+            .web-content {
                 text-align: center;
             }
 
-            .universal-arrow {
+            .universal-arrow,
+            .web-arrow {
                 display: none;
+            }
+
+            .requirement-text {
+                font-size: 1rem;
+                padding: 0.8rem;
             }
 
             .step-item {

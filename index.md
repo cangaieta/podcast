@@ -117,20 +117,43 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
             <!-- 1. Subscripció Universal -->
             <div class="universal-subscription">
                 <h3>🌐 Subscripció Universal</h3>
-                <div class="universal-link-section">
-                    <a href="https://www.subscribeonandroid.com/cangaieta.github.io/podcast/feed.xml"
-                       target="_blank"
-                       rel="noopener"
-                       class="universal-subscribe-link">
-                        <div class="universal-subscribe-card">
-                            <div class="universal-icon">📱</div>
-                            <div class="universal-content">
-                                <h4>Subscribe on Android</h4>
-                                <p>Detecta automàticament les teves apps de podcasts i t'ajuda a subscriure't</p>
-                            </div>
-                            <div class="universal-arrow">→</div>
+
+                <div class="subscription-requirement">
+                    <p class="requirement-text">
+                        <strong>📱 Per subscriure't necessites una app de podcasts</strong>
+                        (AntennaPod, Pocket Casts, Podcast Addict...)
+                    </p>
+
+                    <div class="subscription-options">
+                        <div class="option-card">
+                            <a href="https://www.subscribeonandroid.com/cangaieta.github.io/podcast/feed.xml"
+                               target="_blank"
+                               rel="noopener"
+                               class="universal-subscribe-link">
+                                <div class="universal-subscribe-card">
+                                    <div class="universal-icon">📱</div>
+                                    <div class="universal-content">
+                                        <h4>Subscriu-te amb App</h4>
+                                        <p>Detecta les teves apps de podcasts i t'ajuda a subscriure't</p>
+                                    </div>
+                                    <div class="universal-arrow">→</div>
+                                </div>
+                            </a>
                         </div>
-                    </a>
+
+                        <div class="option-card">
+                            <a href="{{ '/episodis' | relative_url }}" class="listen-web-link">
+                                <div class="listen-web-card">
+                                    <div class="web-icon">🌐</div>
+                                    <div class="web-content">
+                                        <h4>Escolta al Navegador</h4>
+                                        <p>No tens app? Escolta directament aquí sense instal·lar res</p>
+                                    </div>
+                                    <div class="web-arrow">→</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
