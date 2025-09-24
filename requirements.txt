@@ -1,0 +1,10 @@
+# Transcripció automàtica amb Whisper
+openai-whisper>=20230314
+
+# Processament de text i dates
+python-dateutil>=2.8.2
+pyyaml>=6.0
+
+# Opcional: per millor rendiment amb GPU
+# torch>=1.13.0
+# torchaudio>=0.13.0
