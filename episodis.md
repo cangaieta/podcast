@@ -4,7 +4,10 @@ title: "Tots els Episodis"
 permalink: /episodis/
 ---
 
-# Tots els Episodis del Podcast
+<div class="episodes-header">
+  <a href="{{ '/' | relative_url }}" class="btn-back-header">← Tornar a l'inici</a>
+  <h1>Tots els Episodis del Podcast</h1>
+</div>
 
 <div class="episodes-page">
   {% assign sorted_episodes = site.episodes | sort: 'date' | reverse %}
@@ -53,10 +56,42 @@ permalink: /episodis/
 </div>
 
 <style>
+.episodes-header {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 2rem 0 2rem;
+  position: relative;
+}
+
+.btn-back-header {
+  display: inline-block;
+  background: var(--terra-cuita);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.btn-back-header:hover {
+  background: #B85450;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.episodes-header h1 {
+  color: var(--verd-natura);
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: center;
+}
+
 .episodes-page {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
 }
 
 .no-episodes {

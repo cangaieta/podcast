@@ -1,6 +1,11 @@
 ---
-layout: default
+layout: landing
 ---
+
+<div class="episode-navigation">
+  <a href="{{ '/' | relative_url }}" class="nav-link">← Inici</a>
+  <a href="{{ '/episodis' | relative_url }}" class="nav-link">← Tots els episodis</a>
+</div>
 
 <article class="episode">
   <header class="episode-header">
@@ -8,6 +13,7 @@ layout: default
     <div class="episode-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d de %B de %Y" }}</time>
       {% if page.duration %}<span class="duration">Durada: {{ page.duration }}</span>{% endif %}
+      {% if page.episode_number %}<span class="episode-number">Episodi {{ page.episode_number }}</span>{% endif %}
     </div>
   </header>
 
@@ -64,77 +70,223 @@ layout: default
 </article>
 
 <style>
+.episode-navigation {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 2rem 0 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.episode-navigation .nav-link {
+  background: var(--terra-cuita);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.episode-navigation .nav-link:hover {
+  background: #B85450;
+  transform: translateY(-2px);
+}
+
+.episode {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 2rem 2rem 2rem;
+  background: white;
+  border-radius: 15px;
+  margin-top: 1rem;
+}
+
 .episode-header {
   margin-bottom: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--beix-clar);
+}
+
+.episode-header h1 {
+  color: var(--verd-natura);
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
 }
 
 .episode-meta {
   color: #666;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
-.episode-meta .duration {
-  margin-left: 1rem;
+.episode-meta span {
+  background: var(--beix-clar);
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
 }
 
 .audio-player {
-  margin: 2rem 0;
+  margin: 3rem 0;
   text-align: center;
+  background: rgba(76, 129, 80, 0.05);
+  padding: 2rem;
+  border-radius: 15px;
 }
 
 .audio-player audio {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
+  border-radius: 10px;
 }
 
 .episode-content {
-  line-height: 1.6;
-  margin: 2rem 0;
+  line-height: 1.7;
+  margin: 3rem 0;
+  font-size: 1.05rem;
+  color: #333;
+}
+
+.episode-content h2 {
+  color: var(--verd-natura);
+  margin: 2rem 0 1rem 0;
+  font-size: 1.8rem;
+}
+
+.episode-content h3 {
+  color: var(--terra-cuita);
+  margin: 1.5rem 0 0.8rem 0;
+  font-size: 1.4rem;
 }
 
 .sources {
-  background-color: #f8f9fa;
-  padding: 1.5rem;
-  border-radius: 8px;
-  margin: 2rem 0;
+  background: linear-gradient(135deg, var(--beix-clar), rgba(245, 238, 220, 0.7));
+  padding: 2rem;
+  border-radius: 15px;
+  margin: 3rem 0;
+  border-left: 5px solid var(--taronja-calid);
 }
 
 .sources h2 {
   margin-top: 0;
-  color: #495057;
+  color: var(--verd-natura);
+  font-size: 1.6rem;
+}
+
+.sources ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.sources li {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  border-left: 3px solid var(--terra-cuita);
+}
+
+.sources a {
+  color: var(--terra-cuita);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.sources a:hover {
+  color: #B85450;
+  text-decoration: underline;
 }
 
 .disclaimer {
-  background-color: #fff3cd;
-  border: 1px solid #ffeaa7;
-  padding: 1rem;
-  border-radius: 4px;
-  margin: 2rem 0;
+  background: linear-gradient(135deg, var(--rosa-salmo), rgba(241, 148, 138, 0.7));
+  padding: 2rem;
+  border-radius: 15px;
+  margin: 3rem 0;
+  border-left: 5px solid var(--taronja-calid);
 }
 
 .disclaimer h3 {
   margin-top: 0;
-  color: #856404;
+  color: var(--verd-natura);
+  font-size: 1.4rem;
 }
 
 .episode-footer {
-  border-top: 1px solid #dee2e6;
+  border-top: 3px solid var(--beix-clar);
   padding-top: 2rem;
   margin-top: 3rem;
+  text-align: center;
+}
+
+.episode-footer p {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 2rem;
+  background: rgba(255,255,255,0.5);
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 .navigation {
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  gap: 1rem;
 }
 
-.nav-link {
-  color: #007bff;
+.navigation .nav-link {
+  background: var(--verd-natura);
+  color: white;
+  padding: 0.8rem 1.5rem;
   text-decoration: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  font-weight: 500;
 }
 
-.nav-link:hover {
-  text-decoration: underline;
+.navigation .nav-link:hover {
+  background: #3d6640;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+  .episode-navigation {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .episode {
+    padding: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .episode-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .episode-meta {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .audio-player {
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .navigation {
+    flex-direction: column;
+  }
+
+  .sources,
+  .disclaimer {
+    padding: 1.5rem;
+  }
 }
 </style>

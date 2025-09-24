@@ -1501,13 +1501,7 @@
         function subscribeApplePodcasts() {
             const platform = detectPlatform();
 
-            if (platform === 'mac') {
-                // Use pcast:// for Mac (to test)
-                window.location.href = 'pcast://cangaieta.github.io/podcast/feed.xml';
-            } else {
-                // Use tested working URL for iOS
-                window.location.href = 'podcast://cangaieta.github.io/podcast/feed.xml';
-            }
+            window.location.href = 'podcast://cangaieta.github.io/podcast/feed.xml';
 
             // No automatic fallback since the URL works
             console.log('Attempting to open Apple Podcasts...');
