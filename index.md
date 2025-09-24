@@ -288,32 +288,121 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
                 </div>
             </div>
 
-            <!-- Android manual subscription with universal option -->
+            <!-- Android subscription with three subsections -->
             <div class="android-manual-subscription" id="android-subscription">
                 <h3>🤖 Subscripció per Android</h3>
-                <p>Els URL schemes automàtics no funcionen bé en Android. Tria una opció:</p>
+                <p>Els URL schemes automàtics no funcionen bé en Android. Utilitza una d'aquestes opcions:</p>
 
-                <div class="android-options">
-                    <button onclick="openAndroidUniversal()" class="subscribe-btn android-universal-btn">
-                        🌐 Subscripció Universal Android
-                    </button>
-                    <p class="option-description">
-                        <strong>Recomanat:</strong> Obre subscribeonandroid.com que detecta automàticament les teves apps de podcasts instal·lades i t'ajuda a subscriure't.
+                <!-- Subsection 1: Subscribe on Android button -->
+                <div class="android-subscribe-button-section">
+                    <h4>🌐 Subscripció Universal (Recomanat)</h4>
+                    <div class="subscribe-android-button">
+                        <a href="https://www.subscribeonandroid.com/cangaieta.github.io/podcast/feed.xml"
+                           title="Subscribe on Android"
+                           target="_blank"
+                           rel="noopener">
+                            <img src="https://assets.blubrry.com/soa/BadgeLarge.png"
+                                 alt="Subscribe on Android"
+                                 style="border:0; max-width: 200px; height: auto;" />
+                        </a>
+                    </div>
+                    <p class="android-description">
+                        Detecta automàticament les teves apps de podcasts instal·lades i t'ajuda a subscriure't.
                     </p>
+                </div>
 
-                    <div class="android-manual-steps">
-                        <h4>📱 O subscriu-te manualment:</h4>
-                        <ol>
-                            <li><strong>Copia l'URL del feed:</strong>
+                <!-- Subsection 2: Manual subscription steps -->
+                <div class="android-manual-steps">
+                    <h4>📱 Subscripció Manual</h4>
+                    <div class="manual-steps-left">
+                        <div class="step-card-left">
+                            <div class="step-number">1</div>
+                            <div class="step-content-left">
+                                <h5>Copia l'URL del feed RSS</h5>
                                 <div class="rss-input-group">
-                                    <input type="text" value="{{ site.url }}{{ site.baseurl }}/feed.xml" readonly>
-                                    <button onclick="copyRSS()" class="copy-btn">📋 Copiar</button>
+                                    <input type="text" id="rss-input-android" value="{{ site.url }}{{ site.baseurl }}/feed.xml" readonly>
+                                    <button onclick="copyRSSNoAlert()" class="copy-btn">📋 Copiar</button>
                                 </div>
-                            </li>
-                            <li>Obre la teva app de podcasts (AntennaPod, Pocket Casts, Podcast Addict...)</li>
-                            <li>Cerca l'opció "Afegir podcast per URL" o "Add by RSS"</li>
-                            <li>Enganxa l'URL i subscriu-te</li>
-                        </ol>
+                            </div>
+                        </div>
+                        <div class="step-card-left">
+                            <div class="step-number">2</div>
+                            <div class="step-content-left">
+                                <h5>Obre la teva app de podcasts</h5>
+                                <p>AntennaPod, Pocket Casts, Podcast Addict, Player FM...</p>
+                            </div>
+                        </div>
+                        <div class="step-card-left">
+                            <div class="step-number">3</div>
+                            <div class="step-content-left">
+                                <h5>Afegeix per URL o RSS</h5>
+                                <p>Cerca l'opció "Afegir podcast per URL", "Add by RSS" o similar</p>
+                            </div>
+                        </div>
+                        <div class="step-card-left">
+                            <div class="step-number">4</div>
+                            <div class="step-content-left">
+                                <h5>Enganxa i subscriu-te</h5>
+                                <p>Enganxa l'URL copiat i confirma la subscripció</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Subsection 3: App-specific instructions -->
+                <div class="android-app-instructions">
+                    <h4>🔧 Instruccions per app específica</h4>
+                    <div class="android-apps-left">
+                        <details class="android-app-detail">
+                            <summary><strong>🤖 AntennaPod</strong></summary>
+                            <div class="android-instruction-content">
+                                <ol>
+                                    <li>Obre AntennaPod</li>
+                                    <li>Toca "Add Podcast" (botó +)</li>
+                                    <li>Selecciona "By RSS address"</li>
+                                    <li>Enganxa l'URL del feed</li>
+                                    <li>Toca "Confirm"</li>
+                                </ol>
+                            </div>
+                        </details>
+
+                        <details class="android-app-detail">
+                            <summary><strong>🟤 Pocket Casts</strong></summary>
+                            <div class="android-instruction-content">
+                                <ol>
+                                    <li>Obre Pocket Casts</li>
+                                    <li>Toca "Podcasts" (menú inferior)</li>
+                                    <li>Toca el botó "+" (dalt dreta)</li>
+                                    <li>Selecciona "Add podcast by URL"</li>
+                                    <li>Enganxa l'URL i confirma</li>
+                                </ol>
+                            </div>
+                        </details>
+
+                        <details class="android-app-detail">
+                            <summary><strong>📻 Podcast Addict</strong></summary>
+                            <div class="android-instruction-content">
+                                <ol>
+                                    <li>Obre Podcast Addict</li>
+                                    <li>Toca el menú (☰)</li>
+                                    <li>Selecciona "Add Podcast"</li>
+                                    <li>Toca "Add Podcast by URL"</li>
+                                    <li>Enganxa l'URL del feed</li>
+                                </ol>
+                            </div>
+                        </details>
+
+                        <details class="android-app-detail">
+                            <summary><strong>🎵 Player FM</strong></summary>
+                            <div class="android-instruction-content">
+                                <ol>
+                                    <li>Obre Player FM</li>
+                                    <li>Toca "Discover" i després la lupa</li>
+                                    <li>Toca "Add custom RSS URL"</li>
+                                    <li>Enganxa l'URL del feed</li>
+                                </ol>
+                            </div>
+                        </details>
                     </div>
                 </div>
             </div>

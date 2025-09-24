@@ -776,6 +776,143 @@
             line-height: 1.5;
         }
 
+        /* Android subsections styling */
+        .android-subscribe-button-section {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .android-subscribe-button-section h4 {
+            color: #1B5E20;
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+
+        .subscribe-android-button {
+            margin: 1.5rem 0;
+        }
+
+        .subscribe-android-button img {
+            transition: transform 0.3s ease;
+        }
+
+        .subscribe-android-button img:hover {
+            transform: scale(1.05);
+        }
+
+        .android-description {
+            color: #2E7D32;
+            font-size: 0.9rem;
+            font-style: italic;
+            text-align: center;
+        }
+
+        /* Manual steps with left alignment */
+        .android-manual-steps {
+            margin-bottom: 3rem;
+        }
+
+        .android-manual-steps h4 {
+            color: #1B5E20;
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        .manual-steps-left {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .step-card-left {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .step-card-left:hover {
+            border-color: rgba(61, 220, 132, 0.3);
+        }
+
+        .step-content-left {
+            text-align: left;
+            flex: 1;
+        }
+
+        .step-content-left h5 {
+            color: #1B5E20;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .step-content-left p {
+            color: #2E7D32;
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        /* App-specific instructions with left alignment */
+        .android-app-instructions {
+            margin-bottom: 2rem;
+        }
+
+        .android-app-instructions h4 {
+            color: #1B5E20;
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        .android-apps-left {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .android-app-detail {
+            background: rgba(255,255,255,0.05);
+            border: 2px solid rgba(61, 220, 132, 0.2);
+            border-radius: 10px;
+            padding: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .android-app-detail:hover {
+            border-color: rgba(61, 220, 132, 0.4);
+        }
+
+        .android-app-detail summary {
+            font-size: 1.1rem;
+            padding: 0.8rem;
+            margin: -1rem;
+            margin-bottom: 1rem;
+            border-radius: 10px 10px 0 0;
+            cursor: pointer;
+            color: #1B5E20;
+            text-align: left;
+        }
+
+        .android-instruction-content {
+            padding: 1rem 0 0.5rem 0;
+            text-align: left;
+        }
+
+        .android-instruction-content ol {
+            padding-left: 1.5rem;
+            margin: 0.5rem 0;
+            color: #2E7D32;
+        }
+
+        .android-instruction-content li {
+            margin: 0.5rem 0;
+            font-size: 0.95rem;
+            line-height: 1.4;
+        }
+
         /* Footer */
         .footer {
             background: #333;
@@ -915,6 +1052,26 @@
             .android-manual-steps {
                 padding: 1rem;
             }
+
+            .android-subscribe-button-section {
+                margin-bottom: 2rem;
+            }
+
+            .subscribe-android-button img {
+                max-width: 180px;
+            }
+
+            .step-card-left {
+                padding: 1rem;
+            }
+
+            .android-app-detail {
+                padding: 0.8rem;
+            }
+
+            .android-apps-left {
+                gap: 0.8rem;
+            }
         }
 
         @media (max-width: 480px) {
@@ -1050,15 +1207,44 @@
             console.log('Attempting to open Apple Podcasts...');
         }
 
-        function openAndroidUniversal() {
-            // Direct link to subscribeonandroid.com with our feed URL
-            window.open('https://www.subscribeonandroid.com/cangaieta.github.io/podcast/feed.xml', '_blank');
+        function copyRSSNoAlert() {
+            const rssUrl = "{{ site.url }}{{ site.baseurl }}/feed.xml";
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(rssUrl).then(() => {
+                    // Visual feedback instead of alert
+                    const button = event.target;
+                    const originalText = button.textContent;
+                    button.textContent = '✅ Copiat!';
+                    button.style.background = '#00C853';
+                    setTimeout(() => {
+                        button.textContent = originalText;
+                        button.style.background = '';
+                    }, 2000);
+                });
+            } else {
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = rssUrl;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+
+                // Visual feedback
+                const button = event.target;
+                const originalText = button.textContent;
+                button.textContent = '✅ Copiat!';
+                button.style.background = '#00C853';
+                setTimeout(() => {
+                    button.textContent = originalText;
+                    button.style.background = '';
+                }, 2000);
+            }
         }
 
         function subscribeGooglePodcasts() {
-            // Google Podcasts discontinued, redirect to universal solution or manual
-            copyRSS();
-            alert('Google Podcasts s\'ha descontinuat el 2024.\n\nURL copiat al porta-retalls.\n\nRecomendacions:\n• Android: Utilitza el botó "Android (Universal)"\n• iOS: Utilitza Apple Podcasts\n• Altres: Qualsevol app de podcasts');
+            // Google Podcasts discontinued - just copy URL without alert
+            copyRSSNoAlert();
         }
 
         function subscribePocketCasts() {
@@ -1072,11 +1258,8 @@
                     `feed://${rssUrl.replace('https://', '')}`
                 ]);
             } else {
-                window.open('https://pca.st/subscribe', '_blank');
-                setTimeout(() => {
-                    copyRSS();
-                    alert('Pega aquesta URL a Pocket Casts per subscriure\'t');
-                }, 1000);
+                // For non-Android, just copy URL
+                copyRSSNoAlert();
             }
         }
 
@@ -1086,9 +1269,8 @@
                 // Castro URL scheme
                 window.location.href = 'castro://subscribe/cangaieta.github.io/podcast/feed.xml';
             } else {
-                // Fallback to manual
-                copyRSS();
-                alert('Castro només està disponible per iOS. URL copiat al porta-retalls - obre Castro i afegeix manualment.');
+                // Fallback to manual without alert
+                copyRSSNoAlert();
             }
         }
 
@@ -1098,9 +1280,8 @@
                 // Downcast URL scheme
                 window.location.href = 'downcast://cangaieta.github.io/podcast/feed.xml';
             } else {
-                // Fallback to manual
-                copyRSS();
-                alert('Downcast només està disponible per iOS. URL copiat al porta-retalls - obre Downcast i afegeix manualment.');
+                // Fallback to manual without alert
+                copyRSSNoAlert();
             }
         }
 
@@ -1116,9 +1297,8 @@
                     `feed://${rssUrl.replace('https://', '')}`
                 ]);
             } else {
-                // Fallback to manual
-                copyRSS();
-                alert('AntennaPod només està disponible per Android. URL copiat al porta-retalls - obre AntennaPod i afegeix manualment.');
+                // Fallback to manual without alert
+                copyRSSNoAlert();
             }
         }
 
@@ -1167,22 +1347,8 @@
         }
 
         function showAndroidFallback(appName, rssUrl) {
-            // Show user-friendly options
-            const choice = confirm(
-                `No s'ha pogut obrir ${appName} automàticament.\n\n` +
-                `Opcions:\n` +
-                `• OK: Obre subscribeonandroid.com (universal)\n` +
-                `• Cancel: Copia URL per afegir manualment`
-            );
-
-            if (choice) {
-                // Use subscribeonandroid.com as universal solution
-                window.open('https://subscribeonandroid.com/' + encodeURIComponent(rssUrl), '_blank');
-            } else {
-                // Copy RSS for manual addition
-                copyRSS();
-                alert(`URL del podcast copiat al porta-retalls.\n\nObre ${appName} i afegeix el feed manualment.`);
-            }
+            // Just copy URL silently without popups
+            copyRSSNoAlert();
         }
 
         // Show appropriate subscription section based on platform
