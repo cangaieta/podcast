@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: landing
 title: "Tots els Episodis"
 permalink: /episodis/
 ---

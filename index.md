@@ -11,7 +11,7 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
             <li><a href="#about">Sobre el podcast</a></li>
             <li><a href="#disclaimer">Disclaimer</a></li>
             <li><a href="#subscribe">Subscriu-te</a></li>
-            <li><a href="/episodis">Episodis</a></li>
+            <li><a href="{{ '/episodis' | relative_url }}">Episodis</a></li>
         </ul>
     </nav>
 </header>
@@ -24,9 +24,9 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
             <h1>Podcast Can Gaietà</h1>
             <p class="subtitle">Informació transparent sobre el que passa a Tiana</p>
             <p class="description">
-                Una font d'informació alternativa sobre els esdeveniments del poble,
-                discussions del ple de l'ajuntament i sessions del CAUT.
-                Contingut generat amb IA basant-se en fonts oficials.
+                Una eina per fomentar l'esperit crític sobre els esdeveniments del poble.
+                Analitzem discussions del ple i sessions del CAUT des de diferents perspectives.
+                Contingut 100% generat amb IA - busca la veritat per tu mateix.
             </p>
             <div class="cta-buttons">
                 <button onclick="openPodcast()" class="btn btn-primary">
@@ -56,8 +56,8 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
                 </div>
                 <div class="about-card">
                     <div class="icon">🤖</div>
-                    <h3>Generat amb IA</h3>
-                    <p>Utilitzem Google NotebookLM per crear contingut basat en fonts oficials i documentació real.</p>
+                    <h3>100% Generat amb IA</h3>
+                    <p>NotebookLM, Whisper i Claude creen contingut per fomentar el debat crític. No som una font de veritat absolute.</p>
                 </div>
                 <div class="about-card">
                     <div class="icon">📚</div>
@@ -81,19 +81,29 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
     <!-- Disclaimer Section -->
     <section id="disclaimer" class="disclaimer fade-in">
         <div class="disclaimer-content">
-            <h2>⚠️ Disclaimer Important</h2>
+            <h2>⚠️ Esperit Crític i Transparència</h2>
             <p>
-                Tot el contingut d'aquest podcast (guions i audio) està creat amb
-                <span class="highlight">Google NotebookLM</span>,
-                una eina d'intel·ligència artificial.
+                Aquest podcast està <strong>completament generat amb intel·ligència artificial</strong> utilitzant
+                <span class="highlight">Google NotebookLM</span>, <span class="highlight">Whisper</span> i <span class="highlight">Claude</span>.
             </p>
             <p>
-                Encara que el contingut es basa en <strong>fonts oficials reals</strong>,
-                pot contenir interpretacions o matisos de la IA que no encaixin completament amb la realitat.
+                <strong>El nostre objectiu NO és "informar dels fets tal com són"</strong>,
+                sinó <strong>fomentar l'esperit crític</strong> presentant diferents perspectives i conceptes
+                sobre els esdeveniments locals.
             </p>
             <p>
-                <strong>Sempre proporcionem les fonts de dades originals</strong>
-                perquè puguis consultar la informació directament i formar-te la teva pròpia opinió.
+                <strong>Et convidem a buscar la veritat per tu mateix.</strong>
+                Sempre proporcionem les fonts originals perquè puguis:
+            </p>
+            <ul>
+                <li>✅ Contrastar la informació directament</li>
+                <li>✅ Formar-te la teva pròpia opinió</li>
+                <li>✅ Qüestionar tant el nostre contingut com les fonts oficials</li>
+                <li>✅ Participar activament en el debat públic</li>
+            </ul>
+            <p>
+                <strong>Recorda:</strong> La IA pot contenir interpretacions, biaixos o errors.
+                El pensament crític i la verificació independent són sempre essencials.
             </p>
         </div>
     </section>
@@ -104,146 +114,100 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
             <h2>Subscriu-te al Podcast</h2>
             <p>Mantén-te informat dels últims esdeveniments de Can Gaietà i Tiana</p>
 
-            <!-- Manual Instructions Prominently Featured -->
-            <div class="manual-subscription-primary">
-                <div class="manual-header">
-                    <h3>📋 Subscripció Manual (Recomanada)</h3>
-                    <p>Mètode més fiable i compatible amb totes les apps de podcasts</p>
+            <!-- 1. Subscripció Universal -->
+            <div class="universal-subscription">
+                <h3>🌐 Subscripció Universal</h3>
+                <div class="universal-link-section">
+                    <a href="https://www.subscribeonandroid.com/cangaieta.github.io/podcast/feed.xml"
+                       target="_blank"
+                       rel="noopener"
+                       class="universal-subscribe-link">
+                        <div class="universal-subscribe-card">
+                            <div class="universal-icon">📱</div>
+                            <div class="universal-content">
+                                <h4>Subscribe on Android</h4>
+                                <p>Detecta automàticament les teves apps de podcasts i t'ajuda a subscriure't</p>
+                            </div>
+                            <div class="universal-arrow">→</div>
+                        </div>
+                    </a>
                 </div>
+            </div>
 
-                <div class="rss-copy-section">
-                    <label for="rss-input">URL del Feed RSS:</label>
-                    <div class="rss-input-group">
-                        <input type="text" id="rss-input" value="{{ site.url }}{{ site.baseurl }}/feed.xml" readonly>
-                        <button onclick="copyRSS()" class="copy-btn">📋 Copiar</button>
+            <!-- 2. Subscripció Manual -->
+            <div class="manual-subscription">
+                <h3>📋 Subscripció Manual</h3>
+                <div class="manual-content">
+                    <div class="rss-copy-section">
+                        <label for="rss-input">URL del Feed RSS:</label>
+                        <div class="rss-input-group">
+                            <input type="text" id="rss-input" value="{{ site.url }}{{ site.baseurl }}/feed.xml" readonly>
+                            <button onclick="copyRSSNoAlert()" class="copy-btn">📋 Copiar</button>
+                        </div>
                     </div>
-                </div>
 
-                <div class="manual-steps">
-                    <div class="step-card">
-                        <div class="step-number">1</div>
-                        <div class="step-content">
-                            <h4>Copia l'URL RSS</h4>
-                            <p>Utilitza el botó "Copiar" de dalt per copiar l'adreça del feed</p>
+                    <div class="manual-steps">
+                        <div class="step-item">
+                            <div class="step-number">1</div>
+                            <div class="step-text">
+                                <strong>Copia l'URL del feed RSS</strong> utilitzant el botó de dalt
+                            </div>
                         </div>
-                    </div>
-                    <div class="step-card">
-                        <div class="step-number">2</div>
-                        <div class="step-content">
-                            <h4>Obre la teva app de podcasts</h4>
-                            <p>Qualsevol app: Apple Podcasts, Google Podcasts, Pocket Casts, Castro...</p>
+                        <div class="step-item">
+                            <div class="step-number">2</div>
+                            <div class="step-text">
+                                <strong>Obre la teva app de podcasts</strong> favorita (Apple Podcasts, AntennaPod, Pocket Casts...)
+                            </div>
                         </div>
-                    </div>
-                    <div class="step-card">
-                        <div class="step-number">3</div>
-                        <div class="step-content">
-                            <h4>Cerca l'opció "Afegir per URL"</h4>
-                            <p>Normalment a la secció de subscripcions o biblioteca</p>
+                        <div class="step-item">
+                            <div class="step-number">3</div>
+                            <div class="step-text">
+                                <strong>Busca l'opció "Afegir per URL"</strong> normalment a la secció de subscripcions
+                            </div>
                         </div>
-                    </div>
-                    <div class="step-card">
-                        <div class="step-number">4</div>
-                        <div class="step-content">
-                            <h4>Enganxa l'URL i subscriu-te</h4>
-                            <p>Ja estaràs subscrit i rebràs els nous episodis automàticament</p>
+                        <div class="step-item">
+                            <div class="step-number">4</div>
+                            <div class="step-text">
+                                <strong>Enganxa l'URL i subscriu-te</strong> - ja rebràs els nous episodis automàticament
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- App-specific instructions -->
-            <div class="app-specific-help">
-                <h3>🔧 Instruccions específiques per app</h3>
-                <div class="app-instructions-grid">
-                    <details class="app-detail">
+            <!-- 3. Instruccions per Plataforma -->
+            <div class="platform-instructions">
+                <h3>🔧 Instruccions per Plataforma</h3>
+                <div class="platform-grid">
+                    <details class="platform-detail">
                         <summary><strong>🍎 Apple Podcasts</strong></summary>
-                        <div class="instruction-content">
-                            <p><strong>iPhone/iPad:</strong></p>
-                            <ol>
-                                <li>Obre Apple Podcasts</li>
-                                <li>Toca "Biblioteca" (baix de la pantalla)</li>
-                                <li>Toca "Editar" (dalt dreta)</li>
-                                <li>Toca "Afegir un programa per URL"</li>
-                                <li>Enganxa l'URL i toca "Subscriure's"</li>
-                            </ol>
-                            <p><strong>Mac:</strong></p>
-                            <ol>
-                                <li>Obre Apple Podcasts</li>
-                                <li>Ves a "Biblioteca"</li>
-                                <li>Menú "Fitxer" → "Subscriure a podcast"</li>
-                                <li>Enganxa l'URL i confirma</li>
-                            </ol>
+                        <div class="platform-content">
+                            <div class="platform-variant">
+                                <strong>iPhone/iPad:</strong>
+                                <ol>
+                                    <li>Obre Apple Podcasts</li>
+                                    <li>Toca "Biblioteca" (baix de la pantalla)</li>
+                                    <li>Toca "Editar" (dalt dreta)</li>
+                                    <li>Toca "Afegir un programa per URL"</li>
+                                    <li>Enganxa l'URL i toca "Subscriure's"</li>
+                                </ol>
+                            </div>
+                            <div class="platform-variant">
+                                <strong>Mac:</strong>
+                                <ol>
+                                    <li>Obre Apple Podcasts</li>
+                                    <li>Ves a "Biblioteca"</li>
+                                    <li>Menú "Fitxer" → "Subscriure a podcast"</li>
+                                    <li>Enganxa l'URL i confirma</li>
+                                </ol>
+                            </div>
                         </div>
                     </details>
 
-                    <details class="app-detail">
-                        <summary><strong>🟢 Google Podcasts</strong></summary>
-                        <div class="instruction-content">
-                            <ol>
-                                <li>Obre Google Podcasts</li>
-                                <li>Toca "Explorar" (menú inferior)</li>
-                                <li>Toca "Subscripcions"</li>
-                                <li>Toca el botó "+" o "Afegir per RSS"</li>
-                                <li>Enganxa l'URL</li>
-                            </ol>
-                        </div>
-                    </details>
-
-                    <details class="app-detail">
-                        <summary><strong>🟤 Pocket Casts</strong></summary>
-                        <div class="instruction-content">
-                            <ol>
-                                <li>Obre Pocket Casts</li>
-                                <li>Toca "Podcasts" (menú inferior)</li>
-                                <li>Toca el botó "+" (dalt dreta)</li>
-                                <li>Selecciona "Add podcast by URL"</li>
-                                <li>Enganxa l'URL i confirma</li>
-                            </ol>
-                        </div>
-                    </details>
-
-                    <details class="app-detail">
-                        <summary><strong>☁️ Overcast</strong></summary>
-                        <div class="instruction-content">
-                            <ol>
-                                <li>Obre Overcast</li>
-                                <li>Toca el botó "+" (dalt dreta)</li>
-                                <li>Selecciona "Add URL"</li>
-                                <li>Enganxa l'URL del feed</li>
-                            </ol>
-                        </div>
-                    </details>
-
-                    <details class="app-detail">
-                        <summary><strong>📻 Castro</strong></summary>
-                        <div class="instruction-content">
-                            <ol>
-                                <li>Obre Castro</li>
-                                <li>Toca la lupa (Cercar)</li>
-                                <li>Toca "Add from URL" (dalt dreta)</li>
-                                <li>Enganxa l'URL del feed</li>
-                                <li>Toca "Subscribe"</li>
-                            </ol>
-                        </div>
-                    </details>
-
-                    <details class="app-detail">
-                        <summary><strong>⬇️ Downcast</strong></summary>
-                        <div class="instruction-content">
-                            <ol>
-                                <li>Obre Downcast</li>
-                                <li>Toca "Add Podcast"</li>
-                                <li>Selecciona "By URL"</li>
-                                <li>Enganxa l'URL del feed</li>
-                                <li>Toca "Add"</li>
-                            </ol>
-                        </div>
-                    </details>
-
-                    <details class="app-detail">
+                    <details class="platform-detail">
                         <summary><strong>🤖 AntennaPod</strong></summary>
-                        <div class="instruction-content">
-                            <p><strong>Android només</strong></p>
+                        <div class="platform-content">
+                            <p class="platform-note">Android només</p>
                             <ol>
                                 <li>Obre AntennaPod</li>
                                 <li>Toca "Add Podcast" (botó +)</li>
@@ -254,156 +218,79 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
                         </div>
                     </details>
 
-                    <details class="app-detail">
-                        <summary><strong>🟣 Spotify</strong></summary>
-                        <div class="instruction-content">
-                            <p><strong>⚠️ Limitació:</strong> Spotify no suporta feeds RSS externs directament.</p>
-                            <p><strong>Alternativa:</strong> Utilitza Apple Podcasts, Google Podcasts o Pocket Casts per escoltar el nostre podcast.</p>
+                    <details class="platform-detail">
+                        <summary><strong>🟤 Pocket Casts</strong></summary>
+                        <div class="platform-content">
+                            <ol>
+                                <li>Obre Pocket Casts</li>
+                                <li>Toca "Podcasts" (menú inferior)</li>
+                                <li>Toca el botó "+" (dalt dreta)</li>
+                                <li>Selecciona "Add podcast by URL"</li>
+                                <li>Enganxa l'URL i confirma</li>
+                            </ol>
                         </div>
                     </details>
-                </div>
-            </div>
 
-            <!-- iPhone automatic subscription -->
-            <div class="iphone-automatic-subscription" id="iphone-subscription">
-                <h3>🍎 Subscripció automàtica (iPhone/iPad)</h3>
-                <p>Els següents botons obren directament la teva app de podcasts:</p>
-
-                <div class="subscribe-options">
-                    <button onclick="subscribeApplePodcasts()" class="subscribe-btn apple-btn">
-                        🍎 Apple Podcasts
-                    </button>
-                    <button onclick="subscribeOvercast()" class="subscribe-btn overcast-btn">
-                        ☁️ Overcast
-                    </button>
-                    <button onclick="subscribeCastro()" class="subscribe-btn castro-btn">
-                        📻 Castro
-                    </button>
-                    <button onclick="subscribeDowncast()" class="subscribe-btn downcast-btn">
-                        ⬇️ Downcast
-                    </button>
-                    <button onclick="subscribePocketCasts()" class="subscribe-btn pocket-btn">
-                        🟤 Pocket Casts
-                    </button>
-                </div>
-            </div>
-
-            <!-- Android subscription with three subsections -->
-            <div class="android-manual-subscription" id="android-subscription">
-                <h3>🤖 Subscripció per Android</h3>
-                <p>Els URL schemes automàtics no funcionen bé en Android. Utilitza una d'aquestes opcions:</p>
-
-                <!-- Subsection 1: Subscribe on Android button -->
-                <div class="android-subscribe-button-section">
-                    <h4>🌐 Subscripció Universal (Recomanat)</h4>
-                    <div class="subscribe-android-button">
-                        <a href="https://www.subscribeonandroid.com/cangaieta.github.io/podcast/feed.xml"
-                           title="Subscribe on Android"
-                           target="_blank"
-                           rel="noopener">
-                            <img src="https://assets.blubrry.com/soa/BadgeLarge.png"
-                                 alt="Subscribe on Android"
-                                 style="border:0; max-width: 200px; height: auto;" />
-                        </a>
-                    </div>
-                    <p class="android-description">
-                        Detecta automàticament les teves apps de podcasts instal·lades i t'ajuda a subscriure't.
-                    </p>
-                </div>
-
-                <!-- Subsection 2: Manual subscription steps -->
-                <div class="android-manual-steps">
-                    <h4>📱 Subscripció Manual</h4>
-                    <div class="manual-steps-left">
-                        <div class="step-card-left">
-                            <div class="step-number">1</div>
-                            <div class="step-content-left">
-                                <h5>Copia l'URL del feed RSS</h5>
-                                <div class="rss-input-group">
-                                    <input type="text" id="rss-input-android" value="{{ site.url }}{{ site.baseurl }}/feed.xml" readonly>
-                                    <button onclick="copyRSSNoAlert()" class="copy-btn">📋 Copiar</button>
-                                </div>
-                            </div>
+                    <details class="platform-detail">
+                        <summary><strong>☁️ Overcast</strong></summary>
+                        <div class="platform-content">
+                            <p class="platform-note">iOS només</p>
+                            <ol>
+                                <li>Obre Overcast</li>
+                                <li>Toca el botó "+" (dalt dreta)</li>
+                                <li>Selecciona "Add URL"</li>
+                                <li>Enganxa l'URL del feed</li>
+                            </ol>
                         </div>
-                        <div class="step-card-left">
-                            <div class="step-number">2</div>
-                            <div class="step-content-left">
-                                <h5>Obre la teva app de podcasts</h5>
-                                <p>AntennaPod, Pocket Casts, Podcast Addict, Player FM...</p>
-                            </div>
+                    </details>
+
+                    <details class="platform-detail">
+                        <summary><strong>📻 Castro</strong></summary>
+                        <div class="platform-content">
+                            <p class="platform-note">iOS només</p>
+                            <ol>
+                                <li>Obre Castro</li>
+                                <li>Toca la lupa (Cercar)</li>
+                                <li>Toca "Add from URL" (dalt dreta)</li>
+                                <li>Enganxa l'URL del feed</li>
+                                <li>Toca "Subscribe"</li>
+                            </ol>
                         </div>
-                        <div class="step-card-left">
-                            <div class="step-number">3</div>
-                            <div class="step-content-left">
-                                <h5>Afegeix per URL o RSS</h5>
-                                <p>Cerca l'opció "Afegir podcast per URL", "Add by RSS" o similar</p>
-                            </div>
+                    </details>
+
+                    <details class="platform-detail">
+                        <summary><strong>📻 Podcast Addict</strong></summary>
+                        <div class="platform-content">
+                            <p class="platform-note">Android només</p>
+                            <ol>
+                                <li>Obre Podcast Addict</li>
+                                <li>Toca el menú (☰)</li>
+                                <li>Selecciona "Add Podcast"</li>
+                                <li>Toca "Add Podcast by URL"</li>
+                                <li>Enganxa l'URL del feed</li>
+                            </ol>
                         </div>
-                        <div class="step-card-left">
-                            <div class="step-number">4</div>
-                            <div class="step-content-left">
-                                <h5>Enganxa i subscriu-te</h5>
-                                <p>Enganxa l'URL copiat i confirma la subscripció</p>
-                            </div>
+                    </details>
+
+                    <details class="platform-detail">
+                        <summary><strong>🎵 Player FM</strong></summary>
+                        <div class="platform-content">
+                            <ol>
+                                <li>Obre Player FM</li>
+                                <li>Toca "Discover" i després la lupa</li>
+                                <li>Toca "Add custom RSS URL"</li>
+                                <li>Enganxa l'URL del feed</li>
+                            </ol>
                         </div>
-                    </div>
-                </div>
+                    </details>
 
-                <!-- Subsection 3: App-specific instructions -->
-                <div class="android-app-instructions">
-                    <h4>🔧 Instruccions per app específica</h4>
-                    <div class="android-apps-left">
-                        <details class="android-app-detail">
-                            <summary><strong>🤖 AntennaPod</strong></summary>
-                            <div class="android-instruction-content">
-                                <ol>
-                                    <li>Obre AntennaPod</li>
-                                    <li>Toca "Add Podcast" (botó +)</li>
-                                    <li>Selecciona "By RSS address"</li>
-                                    <li>Enganxa l'URL del feed</li>
-                                    <li>Toca "Confirm"</li>
-                                </ol>
-                            </div>
-                        </details>
-
-                        <details class="android-app-detail">
-                            <summary><strong>🟤 Pocket Casts</strong></summary>
-                            <div class="android-instruction-content">
-                                <ol>
-                                    <li>Obre Pocket Casts</li>
-                                    <li>Toca "Podcasts" (menú inferior)</li>
-                                    <li>Toca el botó "+" (dalt dreta)</li>
-                                    <li>Selecciona "Add podcast by URL"</li>
-                                    <li>Enganxa l'URL i confirma</li>
-                                </ol>
-                            </div>
-                        </details>
-
-                        <details class="android-app-detail">
-                            <summary><strong>📻 Podcast Addict</strong></summary>
-                            <div class="android-instruction-content">
-                                <ol>
-                                    <li>Obre Podcast Addict</li>
-                                    <li>Toca el menú (☰)</li>
-                                    <li>Selecciona "Add Podcast"</li>
-                                    <li>Toca "Add Podcast by URL"</li>
-                                    <li>Enganxa l'URL del feed</li>
-                                </ol>
-                            </div>
-                        </details>
-
-                        <details class="android-app-detail">
-                            <summary><strong>🎵 Player FM</strong></summary>
-                            <div class="android-instruction-content">
-                                <ol>
-                                    <li>Obre Player FM</li>
-                                    <li>Toca "Discover" i després la lupa</li>
-                                    <li>Toca "Add custom RSS URL"</li>
-                                    <li>Enganxa l'URL del feed</li>
-                                </ol>
-                            </div>
-                        </details>
-                    </div>
+                    <details class="platform-detail">
+                        <summary><strong>🟣 Spotify</strong></summary>
+                        <div class="platform-content">
+                            <p class="platform-warning">⚠️ Spotify no suporta feeds RSS externs directament.</p>
+                            <p><strong>Alternativa:</strong> Utilitza Apple Podcasts, AntennaPod o Pocket Casts.</p>
+                        </div>
+                    </details>
                 </div>
             </div>
         </div>
@@ -422,6 +309,6 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
             <a href="https://notebooklm.google" target="_blank">Google NotebookLM</a>
         </div>
         <p>&copy; {{ 'now' | date: '%Y' }} Associació Veïnal de Can Gaietà - Tiana</p>
-        <p><small>Contingut generat amb IA • Fonts sempre transparents</small></p>
+        <p><small>100% generat amb IA (NotebookLM + Whisper + Claude) • Fomenta l'esperit crític • Busca la veritat per tu mateix</small></p>
     </div>
 </footer>

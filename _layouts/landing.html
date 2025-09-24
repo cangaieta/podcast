@@ -913,6 +913,218 @@
             line-height: 1.4;
         }
 
+        /* New clean subscription sections */
+        .universal-subscription {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .universal-subscription h3 {
+            color: var(--verd-natura);
+            margin-bottom: 1.5rem;
+        }
+
+        .universal-subscribe-link {
+            text-decoration: none;
+            display: block;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .universal-subscribe-card {
+            background: linear-gradient(135deg, #3DDC84, #00C853);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .universal-subscribe-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .universal-icon {
+            font-size: 2.5rem;
+            flex-shrink: 0;
+        }
+
+        .universal-content {
+            flex: 1;
+            text-align: left;
+        }
+
+        .universal-content h4 {
+            margin: 0 0 0.5rem 0;
+            color: white;
+            font-size: 1.3rem;
+        }
+
+        .universal-content p {
+            margin: 0;
+            color: rgba(255,255,255,0.9);
+            font-size: 0.95rem;
+        }
+
+        .universal-arrow {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        /* Manual subscription */
+        .manual-subscription {
+            margin-bottom: 3rem;
+        }
+
+        .manual-subscription h3 {
+            color: var(--verd-natura);
+            margin-bottom: 1.5rem;
+        }
+
+        .manual-content {
+            text-align: left;
+        }
+
+        .manual-steps {
+            margin-top: 1.5rem;
+        }
+
+        .step-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+            border-left: 4px solid var(--terra-cuita);
+        }
+
+        .step-number {
+            background: var(--terra-cuita);
+            color: var(--blanc-pur);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+
+        .step-text {
+            color: #555;
+            line-height: 1.5;
+        }
+
+        /* Platform instructions */
+        .platform-instructions {
+            margin-bottom: 2rem;
+        }
+
+        .platform-instructions h3 {
+            color: var(--verd-natura);
+            margin-bottom: 1.5rem;
+        }
+
+        .platform-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .platform-detail {
+            background: rgba(255,255,255,0.05);
+            border: 2px solid rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .platform-detail:hover {
+            border-color: rgba(255,255,255,0.2);
+        }
+
+        .platform-detail summary {
+            font-size: 1.1rem;
+            padding: 0.8rem;
+            margin: -1rem;
+            margin-bottom: 1rem;
+            border-radius: 10px 10px 0 0;
+            cursor: pointer;
+            color: var(--verd-natura);
+        }
+
+        .platform-content {
+            padding: 1rem 0 0.5rem 0;
+            text-align: left;
+        }
+
+        .platform-variant {
+            margin-bottom: 1rem;
+        }
+
+        .platform-variant:last-child {
+            margin-bottom: 0;
+        }
+
+        .platform-content ol {
+            padding-left: 1.5rem;
+            margin: 0.5rem 0;
+            color: #555;
+        }
+
+        .platform-content li {
+            margin: 0.3rem 0;
+            font-size: 0.95rem;
+            line-height: 1.4;
+        }
+
+        .platform-note {
+            color: #666;
+            font-size: 0.9rem;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+
+        .platform-warning {
+            color: #E67E22;
+            font-weight: 600;
+        }
+
+        /* Updated disclaimer styles */
+        .disclaimer-content ul {
+            margin: 1.5rem 0;
+            padding-left: 0;
+            list-style: none;
+            text-align: left;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .disclaimer-content li {
+            margin: 0.8rem 0;
+            padding-left: 0.5rem;
+            line-height: 1.6;
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        .highlight {
+            background: rgba(230, 126, 34, 0.2);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            color: #E67E22;
+            font-weight: 600;
+        }
+
         /* Footer */
         .footer {
             background: #333;
@@ -1071,6 +1283,37 @@
 
             .android-apps-left {
                 gap: 0.8rem;
+            }
+
+            /* New subscription sections mobile */
+            .universal-subscribe-card {
+                padding: 1.5rem;
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+
+            .universal-content {
+                text-align: center;
+            }
+
+            .universal-arrow {
+                display: none;
+            }
+
+            .step-item {
+                padding: 0.8rem;
+                flex-direction: column;
+                text-align: center;
+                gap: 0.8rem;
+            }
+
+            .platform-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .platform-detail {
+                padding: 0.8rem;
             }
         }
 
@@ -1351,26 +1594,6 @@
             copyRSSNoAlert();
         }
 
-        // Show appropriate subscription section based on platform
-        function updatePlatformSubscription() {
-            const platform = detectPlatform();
-            const iphoneSection = document.getElementById('iphone-subscription');
-            const androidSection = document.getElementById('android-subscription');
-
-            if (platform === 'ios') {
-                // iPhone/iPad: Show automatic subscription buttons
-                iphoneSection.style.display = 'block';
-                androidSection.style.display = 'none';
-            } else if (platform === 'android') {
-                // Android: Show manual subscription with universal option
-                iphoneSection.style.display = 'none';
-                androidSection.style.display = 'block';
-            } else {
-                // Desktop/other: Show both sections
-                iphoneSection.style.display = 'block';
-                androidSection.style.display = 'block';
-            }
-        }
 
         // Update button text based on platform
         function updatePlatformUI() {
@@ -1380,16 +1603,13 @@
             if (listenButton) {
                 switch(platform) {
                     case 'ios':
-                        listenButton.innerHTML = '🎧 Obre a Apple Podcasts';
-                        break;
-                    case 'android':
-                        listenButton.innerHTML = '🎧 Obre app de podcasts';
-                        break;
                     case 'mac':
-                        listenButton.innerHTML = '🎧 Obre a Apple Podcasts';
+                        listenButton.innerHTML = '🍎 Obre a Apple Podcasts';
+                        listenButton.onclick = () => subscribeApplePodcasts();
                         break;
                     default:
-                        listenButton.innerHTML = '🎧 Copiar RSS per subscriure\'s';
+                        listenButton.innerHTML = '🎧 Escolta ara';
+                        listenButton.onclick = () => window.location.href = '#subscribe';
                 }
             }
         }
@@ -1444,7 +1664,6 @@
         // Initialize platform-specific UI when page loads
         document.addEventListener('DOMContentLoaded', function() {
             updatePlatformUI();
-            updatePlatformSubscription();
         });
     </script>
 </body>
