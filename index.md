@@ -154,14 +154,6 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
             <!-- App-specific instructions -->
             <div class="app-specific-help">
                 <h3>🔧 Instruccions específiques per app</h3>
-
-                <!-- Android Notice -->
-                <div class="android-notice">
-                    <h4>🤖 Usuaris d'Android</h4>
-                    <p><strong>Recomanació:</strong> Utilitza el botó <em>"Android (Universal)"</em> de dalt, que obre subscribeonandroid.com - la solució més fiable per Android.</p>
-                    <p>Els URL schemes tradicionals no sempre funcionen en Android modern. La subscripció universal detecta quines apps de podcasts tens instal·lades i t'ajuda a subscriure't.</p>
-                </div>
-
                 <div class="app-instructions-grid">
                     <details class="app-detail">
                         <summary><strong>🍎 Apple Podcasts</strong></summary>
@@ -272,20 +264,14 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
                 </div>
             </div>
 
-            <!-- Automatic subscription buttons as secondary option -->
-            <div class="automatic-subscription-secondary">
-                <h3>🚀 Subscripció automàtica (Experimental)</h3>
-                <p><small>Els següents botons intenten obrir directament la teva app. Si no funcionen, utilitza el mètode manual de dalt.</small></p>
+            <!-- iPhone automatic subscription -->
+            <div class="iphone-automatic-subscription" id="iphone-subscription">
+                <h3>🍎 Subscripció automàtica (iPhone/iPad)</h3>
+                <p>Els següents botons obren directament la teva app de podcasts:</p>
 
                 <div class="subscribe-options">
                     <button onclick="subscribeApplePodcasts()" class="subscribe-btn apple-btn">
                         🍎 Apple Podcasts
-                    </button>
-                    <button onclick="subscribeAndroidUniversal()" class="subscribe-btn android-btn">
-                        🤖 Android (Universal)
-                    </button>
-                    <button onclick="subscribePocketCasts()" class="subscribe-btn pocket-btn">
-                        🟤 Pocket Casts
                     </button>
                     <button onclick="subscribeOvercast()" class="subscribe-btn overcast-btn">
                         ☁️ Overcast
@@ -296,9 +282,39 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
                     <button onclick="subscribeDowncast()" class="subscribe-btn downcast-btn">
                         ⬇️ Downcast
                     </button>
-                    <button onclick="subscribeAntennaPod()" class="subscribe-btn antenna-btn">
-                        🤖 AntennaPod
+                    <button onclick="subscribePocketCasts()" class="subscribe-btn pocket-btn">
+                        🟤 Pocket Casts
                     </button>
+                </div>
+            </div>
+
+            <!-- Android manual subscription with universal option -->
+            <div class="android-manual-subscription" id="android-subscription">
+                <h3>🤖 Subscripció per Android</h3>
+                <p>Els URL schemes automàtics no funcionen bé en Android. Tria una opció:</p>
+
+                <div class="android-options">
+                    <button onclick="openAndroidUniversal()" class="subscribe-btn android-universal-btn">
+                        🌐 Subscripció Universal Android
+                    </button>
+                    <p class="option-description">
+                        <strong>Recomanat:</strong> Obre subscribeonandroid.com que detecta automàticament les teves apps de podcasts instal·lades i t'ajuda a subscriure't.
+                    </p>
+
+                    <div class="android-manual-steps">
+                        <h4>📱 O subscriu-te manualment:</h4>
+                        <ol>
+                            <li><strong>Copia l'URL del feed:</strong>
+                                <div class="rss-input-group">
+                                    <input type="text" value="{{ site.url }}{{ site.baseurl }}/feed.xml" readonly>
+                                    <button onclick="copyRSS()" class="copy-btn">📋 Copiar</button>
+                                </div>
+                            </li>
+                            <li>Obre la teva app de podcasts (AntennaPod, Pocket Casts, Podcast Addict...)</li>
+                            <li>Cerca l'opció "Afegir podcast per URL" o "Add by RSS"</li>
+                            <li>Enganxa l'URL i subscriu-te</li>
+                        </ol>
+                    </div>
                 </div>
             </div>
         </div>

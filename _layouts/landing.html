@@ -685,25 +685,95 @@
             line-height: 1.4;
         }
 
-        /* Automatic subscription as secondary */
-        .automatic-subscription-secondary {
-            background: rgba(255,255,255,0.05);
+        /* iPhone automatic subscription section */
+        .iphone-automatic-subscription {
+            background: rgba(255,255,255,0.1);
             padding: 1.5rem;
             border-radius: 10px;
             margin-top: 3rem;
-            border: 1px dashed rgba(255,255,255,0.2);
+            border: 2px solid rgba(255,255,255,0.2);
         }
 
-        .automatic-subscription-secondary h3 {
-            font-size: 1.2rem;
-            color: #666;
+        .iphone-automatic-subscription h3 {
+            font-size: 1.3rem;
+            color: var(--verd-natura);
             margin-bottom: 0.5rem;
         }
 
-        .automatic-subscription-secondary p {
-            color: #888;
-            font-size: 0.9rem;
+        .iphone-automatic-subscription p {
+            color: #666;
             margin-bottom: 1.5rem;
+        }
+
+        /* Android manual subscription section */
+        .android-manual-subscription {
+            background: rgba(61, 220, 132, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-top: 3rem;
+            border: 2px solid rgba(61, 220, 132, 0.3);
+        }
+
+        .android-manual-subscription h3 {
+            font-size: 1.4rem;
+            color: #1B5E20;
+            margin-bottom: 0.5rem;
+        }
+
+        .android-manual-subscription > p {
+            color: #2E7D32;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+        }
+
+        .android-universal-btn {
+            background: #3DDC84;
+            color: #1B5E20;
+            font-weight: bold;
+            font-size: 1.1rem;
+            padding: 1rem 2rem;
+            margin-bottom: 1rem;
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .android-universal-btn:hover {
+            background: #00C853;
+            color: var(--blanc-pur);
+            transform: translateY(-3px);
+        }
+
+        .option-description {
+            color: #2E7D32;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .android-manual-steps {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+        }
+
+        .android-manual-steps h4 {
+            color: #1B5E20;
+            margin-bottom: 1rem;
+        }
+
+        .android-manual-steps ol {
+            color: #2E7D32;
+            padding-left: 1.5rem;
+        }
+
+        .android-manual-steps li {
+            margin-bottom: 1rem;
+            line-height: 1.5;
         }
 
         /* Footer */
@@ -827,9 +897,23 @@
                 padding: 0.8rem;
             }
 
-            .automatic-subscription-secondary {
+            .iphone-automatic-subscription {
                 padding: 1rem;
                 margin-top: 2rem;
+            }
+
+            .android-manual-subscription {
+                padding: 1.5rem;
+                margin-top: 2rem;
+            }
+
+            .android-universal-btn {
+                font-size: 1rem;
+                padding: 0.8rem 1.5rem;
+            }
+
+            .android-manual-steps {
+                padding: 1rem;
             }
         }
 
@@ -966,16 +1050,9 @@
             console.log('Attempting to open Apple Podcasts...');
         }
 
-        function subscribeAndroidUniversal() {
-            const rssUrl = "{{ site.url }}{{ site.baseurl }}/feed.xml";
-            if (detectPlatform() === 'android') {
-                // Use subscribeonandroid.com - the most reliable Android solution
-                window.open('https://subscribeonandroid.com/' + encodeURIComponent(rssUrl), '_blank');
-            } else {
-                // Show explanation for non-Android users
-                copyRSS();
-                alert('Aquest botó és específic per dispositius Android.\n\nURL copiat al porta-retalls per subscriure\'t manualment.');
-            }
+        function openAndroidUniversal() {
+            // Direct link to subscribeonandroid.com with our feed URL
+            window.open('https://www.subscribeonandroid.com/cangaieta.github.io/podcast/feed.xml', '_blank');
         }
 
         function subscribeGooglePodcasts() {
@@ -1108,6 +1185,27 @@
             }
         }
 
+        // Show appropriate subscription section based on platform
+        function updatePlatformSubscription() {
+            const platform = detectPlatform();
+            const iphoneSection = document.getElementById('iphone-subscription');
+            const androidSection = document.getElementById('android-subscription');
+
+            if (platform === 'ios') {
+                // iPhone/iPad: Show automatic subscription buttons
+                iphoneSection.style.display = 'block';
+                androidSection.style.display = 'none';
+            } else if (platform === 'android') {
+                // Android: Show manual subscription with universal option
+                iphoneSection.style.display = 'none';
+                androidSection.style.display = 'block';
+            } else {
+                // Desktop/other: Show both sections
+                iphoneSection.style.display = 'block';
+                androidSection.style.display = 'block';
+            }
+        }
+
         // Update button text based on platform
         function updatePlatformUI() {
             const platform = detectPlatform();
@@ -1178,7 +1276,10 @@
         }
 
         // Initialize platform-specific UI when page loads
-        document.addEventListener('DOMContentLoaded', updatePlatformUI);
+        document.addEventListener('DOMContentLoaded', function() {
+            updatePlatformUI();
+            updatePlatformSubscription();
+        });
     </script>
 </body>
 </html>
