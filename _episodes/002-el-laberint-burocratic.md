@@ -1,16 +1,5 @@
 ---
-title: "Episodi 2: El Laberint ## Fonts
-
-Aquest episodi està basat en documentació oficial i correspondència real:
-
-- **[Història d'una Proposta Negada](/sources/002-historia-proposta-negada.pdf)**: Document principal amb tota la documentació del cas
-- **Pressupostos Participatius de Tiana 2025**: Proposta ciutadana original
-- **Correspondència oficial**: Comunicacions entre ciutadania i Ajuntament (maig-agost 2025)
-- **Pla de Condicions Tècniques**: Concurs habitatges socials
-- **Web oficial**: Pla de Carrers de l'Ajuntament de Tiana
-- **Reclamació GAI**: Comissió de Transparència de la Generalitat
-
-*Contingut generat amb Google NotebookLM basant-se en fonts oficials reals.*- Quan Arreglar uns Bancs es Converteix en una Investigació"
+title: "Episodi 2: El Laberint Burocràtic - Quan Arreglar uns Bancs es Converteix en una Investigació"
 date: "2025-09-26"
 duration: "10:32"
 audio_file: "002-el-laberint-burocratic.mp3"
@@ -19,7 +8,7 @@ episode_number: 2
 season: 1
 sources:
   - title: "Història d'una Proposta Negada"
-    url: "/sources/002-historia-proposta-negada.pdf"
+    url: "/podcast/sources/002-historia-proposta-negada.pdf"
     description: "Document principal amb tota la documentació oficial del cas: proposta original, correspondència municipal i reclamació GAI"
   - title: "Pressupostos Participatius de Tiana 2025"
     description: "Proposta ciutadana per arreglar els bancs de la placeta Fonoll-Ginestó"
@@ -30,7 +19,7 @@ sources:
   - title: "Pla de Carrers - Web oficial Ajuntament de Tiana"
     description: "Llista d'actuacions municipals publicada a la web oficial"
   - title: "Transcripció automàtica de l'episodi"
-    url: "/sources/002-el-laberint-burocratic-transcripcio.txt"
+    url: "/podcast/sources/002-el-laberint-burocratic-transcripcio.txt"
     description: "Transcripció completa generada amb OpenAI Whisper"
 ---
 
@@ -46,13 +35,7 @@ Alguna vegada, una petició que semblava del llom és senzilla s'ha convertit en
 
 ## Fonts
 
-Aquest episodi està basat en documentació oficial i correspondència real:
-
-- **Pressupostos Participatius de Tiana 2025**: Proposta ciutadana original
-- **Correspondència oficial**: Comunicacions entre ciutadania i Ajuntament (maig-agost 2025)
-- **Pla de Condicions Tècniques**: Concurs habitatges socials
-- **Web oficial**: Pla de Carrers de l'Ajuntament de Tiana
-- **Reclamació GAI**: Comissió de Transparència de la Generalitat
+Aquest episodi està basat en documentació oficial i correspondència real. Les fonts detallades es troben a la secció "Fonts Utilitzades" al final de l'episodi.
 
 _Contingut generat amb Google NotebookLM basant-se en fonts oficials reals._
 
