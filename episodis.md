@@ -23,7 +23,7 @@ permalink: /episodis/
       {% for episode in sorted_episodes %}
         <article class="episode-card">
           <header class="episode-header">
-            <h2><a href="{{ episode.url }}">{{ episode.title }}</a></h2>
+            <h2><a href="{{ episode.url | relative_url }}">{{ episode.title }}</a></h2>
             <div class="episode-meta">
               <time datetime="{{ episode.date | date_to_xmlschema }}">{{ episode.date | date: "%d/%m/%Y" }}</time>
               {% if episode.duration %}<span class="duration">{{ episode.duration }}</span>{% endif %}
@@ -44,7 +44,7 @@ permalink: /episodis/
           </div>
 
           <div class="episode-actions">
-            <a href="{{ episode.url }}" class="btn-read">Llegir més</a>
+            <a href="{{ episode.url | relative_url }}" class="btn-read">Llegir més</a>
             {% if episode.audio_file %}
               <a href="{{ '/episodes/' | append: episode.audio_file | relative_url }}" download class="btn-download">⬇️ Descarregar</a>
             {% endif %}
