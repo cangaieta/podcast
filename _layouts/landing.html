@@ -46,6 +46,13 @@
             --overlay-light: rgba(255,255,255,0.1);
             --overlay-lighter: rgba(255,255,255,0.05);
             --overlay-dark: rgba(0,0,0,0.2);
+
+            /* Fons de seccions destacades */
+            --disclaimer-bg: #F1948A;
+            --disclaimer-text: #333;
+            --disclaimer-heading: #4C8150;
+            --subscribe-bg: #4C8150;
+            --subscribe-text: #FFFFFF;
         }
 
         @media (prefers-color-scheme: dark) {
@@ -70,6 +77,13 @@
                 --rosa-salmo: #F5A4A0;
                 --verd-natura: #5FA165;
                 --beix-clar: #3a3a3a;
+
+                /* Fons de seccions destacades (molt més foscos per contrast) */
+                --disclaimer-bg: #3d2428;
+                --disclaimer-text: #e0e0e0;
+                --disclaimer-heading: #5FA165;
+                --subscribe-bg: #1e3522;
+                --subscribe-text: #e0e0e0;
             }
         }
 
@@ -279,8 +293,9 @@
 
         /* Disclaimer Section */
         .disclaimer {
-            background: var(--rosa-salmo);
+            background: var(--disclaimer-bg);
             padding: 3rem 2rem;
+            transition: background-color 0.3s ease;
         }
 
         .disclaimer-content {
@@ -294,15 +309,19 @@
         }
 
         .disclaimer h2 {
-            color: var(--verd-natura);
+            color: var(--disclaimer-heading);
             margin-bottom: 1.5rem;
             font-size: 2rem;
         }
 
         .disclaimer p {
-            color: var(--text-secondary);
+            color: var(--disclaimer-text);
             font-size: 1.1rem;
             margin-bottom: 1rem;
+        }
+
+        .disclaimer strong {
+            color: var(--disclaimer-text);
         }
 
         .disclaimer .highlight {
@@ -315,21 +334,24 @@
 
         /* Subscribe Section */
         .subscribe {
-            background: var(--verd-natura);
-            color: var(--blanc-pur);
+            background: var(--subscribe-bg);
+            color: var(--subscribe-text);
             padding: 5rem 2rem;
             text-align: center;
+            transition: background-color 0.3s ease;
         }
 
         .subscribe h2 {
             font-size: 2.5rem;
             margin-bottom: 1rem;
+            color: var(--subscribe-text);
         }
 
         .subscribe p {
             font-size: 1.2rem;
             margin-bottom: 3rem;
-            opacity: 0.9;
+            opacity: 0.95;
+            color: var(--subscribe-text);
         }
 
         .subscribe-options {
@@ -547,17 +569,18 @@
 
         .manual-header h3 {
             font-size: 1.5rem;
-            color: var(--verd-natura);
+            color: var(--subscribe-text);
             margin-bottom: 0.5rem;
         }
 
         .manual-header p {
-            color: var(--text-tertiary);
+            color: var(--subscribe-text);
             font-size: 1rem;
+            opacity: 0.9;
         }
 
         .rss-copy-section {
-            background: rgba(255,255,255,0.2);
+            background: var(--overlay-light);
             padding: 1.5rem;
             border-radius: 10px;
             margin-bottom: 2rem;
@@ -567,7 +590,7 @@
             display: block;
             font-weight: 600;
             margin-bottom: 0.5rem;
-            color: var(--verd-natura);
+            color: var(--subscribe-text);
         }
 
         .rss-input-group {
@@ -647,15 +670,16 @@
         }
 
         .step-content h4 {
-            color: var(--verd-natura);
+            color: var(--subscribe-text);
             margin-bottom: 0.5rem;
             font-size: 1.1rem;
         }
 
         .step-content p {
-            color: var(--text-tertiary);
+            color: var(--subscribe-text);
             font-size: 0.95rem;
             line-height: 1.5;
+            opacity: 0.9;
         }
 
         /* Android notice styling */
@@ -966,7 +990,7 @@
         }
 
         .universal-subscription h3 {
-            color: #2C5530;
+            color: var(--subscribe-text);
             margin-bottom: 1.5rem;
             font-weight: 600;
         }
@@ -977,7 +1001,7 @@
         }
 
         .requirement-text {
-            color: var(--text-primary);
+            color: var(--subscribe-text);
             font-size: 1.1rem;
             margin-bottom: 2rem;
             text-align: center;
@@ -985,6 +1009,10 @@
             padding: 1rem;
             border-radius: 10px;
             border-left: 4px solid var(--taronja-calid);
+        }
+
+        .requirement-text strong {
+            color: var(--subscribe-text);
         }
 
         .subscription-options {
@@ -1069,7 +1097,7 @@
         }
 
         .manual-subscription h3 {
-            color: #2C5530;
+            color: var(--subscribe-text);
             margin-bottom: 1.5rem;
             font-weight: 600;
         }
@@ -1088,7 +1116,7 @@
             gap: 1rem;
             margin-bottom: 1rem;
             padding: 1rem;
-            background: rgba(255,255,255,0.05);
+            background: var(--overlay-light);
             border-radius: 10px;
             border-left: 4px solid var(--terra-cuita);
         }
@@ -1108,7 +1136,7 @@
         }
 
         .step-text {
-            color: var(--text-primary);
+            color: var(--subscribe-text);
             line-height: 1.5;
         }
 
@@ -1118,7 +1146,7 @@
         }
 
         .platform-instructions h3 {
-            color: #2C5530;
+            color: var(--subscribe-text);
             margin-bottom: 1.5rem;
             font-weight: 600;
         }
@@ -1130,15 +1158,15 @@
         }
 
         .platform-detail {
-            background: rgba(255,255,255,0.05);
-            border: 2px solid rgba(255,255,255,0.1);
+            background: var(--overlay-light);
+            border: 2px solid var(--overlay-light);
             border-radius: 10px;
             padding: 1rem;
             transition: all 0.3s ease;
         }
 
         .platform-detail:hover {
-            border-color: rgba(255,255,255,0.2);
+            border-color: var(--overlay-dark);
         }
 
         .platform-detail summary {
@@ -1148,7 +1176,7 @@
             margin-bottom: 1rem;
             border-radius: 10px 10px 0 0;
             cursor: pointer;
-            color: #2C5530;
+            color: var(--subscribe-text);
             font-weight: 600;
         }
 
@@ -1168,21 +1196,22 @@
         .platform-content ol {
             padding-left: 1.5rem;
             margin: 0.5rem 0;
-            color: var(--text-primary);
+            color: var(--subscribe-text);
         }
 
         .platform-content li {
             margin: 0.3rem 0;
             font-size: 0.95rem;
             line-height: 1.4;
-            color: var(--text-primary);
+            color: var(--subscribe-text);
         }
 
         .platform-note {
-            color: var(--text-tertiary);
+            color: var(--subscribe-text);
             font-size: 0.9rem;
             font-style: italic;
             margin-bottom: 0.5rem;
+            opacity: 0.8;
         }
 
         .platform-warning {
@@ -1205,15 +1234,15 @@
             margin: 0.8rem 0;
             padding-left: 0.5rem;
             line-height: 1.6;
-            color: var(--text-secondary);
+            color: var(--disclaimer-text);
             font-size: 0.95rem;
         }
 
         .highlight {
-            background: rgba(230, 126, 34, 0.2);
+            background: rgba(230, 126, 34, 0.3);
             padding: 0.2rem 0.4rem;
             border-radius: 4px;
-            color: var(--taronja-calid);
+            color: var(--blanc-pur);
             font-weight: 600;
         }
 
