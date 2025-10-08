@@ -32,11 +32,14 @@ pip install -r requirements.txt
 
 ### 3. **Transcripció automàtica**
 ```bash
-# Opció ràpida:
-./scripts/quick_transcribe.sh episodes/002-nom-episodi.mp3
-
-# Opció amb més control:
+# Episodis curts (≤10 minuts) - usar model medium:
 python scripts/transcribe_episode.py episodes/002-nom-episodi.mp3 --model medium
+
+# Episodis llargs (>10 minuts) - usar model small:
+python scripts/transcribe_episode.py episodes/003-nom-episodi.mp3 --model small
+
+# Opció ràpida (detecta automàticament):
+./scripts/quick_transcribe.sh episodes/002-nom-episodi.mp3
 ```
 
 **Què fa automàticament:**
@@ -114,8 +117,12 @@ Tots els episodis han d'incloure:
 
 ### **Models de Whisper**
 - `medium`: **Recomanat per català**, bon equilibri velocitat/qualitat
+  - ⚠️ **Limitació**: Només per episodis **≤10 minuts** (timeout 10 min)
+- `small`: **Usar per episodis >10 minuts** (no té limitació de timeout)
+  - Exemple: episodi de 26 min transcriu correctament
+  - Qualitat suficient per català
 - `large`: Màxima precisió, més lent
-- `small`: Més ràpid, menys precís
+- `tiny`: Només per proves ràpides
 
 ## Paleta de Colors (per gràfics/imatges)
 
