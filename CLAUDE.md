@@ -118,19 +118,23 @@ Tots els episodis han d'incloure:
 ### **Models de Whisper**
 
 **Acceleració hardware:**
-- ✅ **Apple Silicon (M1/M2/M3)**: Script optimitzat amb MPS (Metal Performance Shaders)
-- ✅ Detecció automàtica del millor dispositiu (MPS > CUDA > CPU)
-- 🚀 Millora significativa de velocitat respecte CPU
+- ⚠️ **Apple Silicon (M1/M2/M3)**: MPS no compatible amb Whisper (error SparseMPS)
+- ✅ **CUDA (NVIDIA)**: Suportat i accelerat
+- 💻 **CPU**: Mode per defecte en Macs, funciona correctament
+
+**Temps de transcripció (CPU M1/M2):**
+- Model `small`: ~5:40 per episodi de 26 min (ràtio ~1:5)
+- Model `medium`: més lent, ~1:4 o menys
 
 **Selecció de model:**
 - `medium`: **Recomanat per català**, bon equilibri velocitat/qualitat
-  - ⚠️ **Limitació**: Només per episodis **≤10 minuts** (timeout 10 min)
-  - Amb MPS: ~2-3x més ràpid
-- `small`: **Usar per episodis >10 minuts** (no té limitació de timeout)
-  - Exemple: episodi de 26 min transcriu correctament
+  - ⚠️ **Limitació**: Només per episodis **≤10 minuts** (timeout 10 min en CPU)
+  - Temps: ~2 min per episodi de 10 min
+- `small`: **Usar per episodis >10 minuts** (sense limitació de timeout)
+  - Exemple: episodi de 26 min → 5:40 min transcripció
   - Qualitat suficient per català
-  - Amb MPS: significativament més ràpid
-- `large`: Màxima precisió, més lent
+  - **Recomanat per episodis llargs**
+- `large`: Màxima precisió, molt més lent
 - `tiny`: Només per proves ràpides
 
 ## Paleta de Colors (per gràfics/imatges)

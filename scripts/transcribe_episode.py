@@ -43,16 +43,20 @@ def transcribe_audio(audio_path, model_size="medium"):
     """Transcriu l'audio amb Whisper."""
     import torch
 
-    # Detectar dispositiu (MPS per Apple Silicon, CUDA per NVIDIA, CPU per defecte)
-    if torch.backends.mps.is_available():
-        device = "mps"
-        print(f"🚀 Usant acceleració Apple Silicon (MPS)")
-    elif torch.cuda.is_available():
+    # NOTE: MPS (Apple Silicon) té problemes de compatibilitat amb Whisper
+    # Error: "Could not run 'aten::empty.memory_format' with arguments from the 'SparseMPS' backend"
+    # Per ara, forcem CPU que és més estable
+
+    # Detectar dispositiu (CUDA per NVIDIA, CPU per defecte)
+    if torch.cuda.is_available():
         device = "cuda"
         print(f"🚀 Usant acceleració GPU (CUDA)")
     else:
         device = "cpu"
-        print(f"⚠️  Usant CPU (sense acceleració)")
+        if torch.backends.mps.is_available():
+            print(f"💻 Usant CPU (MPS/Apple Silicon no compatible amb Whisper)")
+        else:
+            print(f"💻 Usant CPU")
 
     print(f"🎯 Carregant model Whisper ({model_size})...")
     model = whisper.load_model(model_size, device=device)
