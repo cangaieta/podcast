@@ -116,11 +116,20 @@ Tots els episodis han d'incloure:
 - Models Whisper: `tiny`, `small`, `medium` (recomanat), `large`
 
 ### **Models de Whisper**
+
+**Acceleració hardware:**
+- ✅ **Apple Silicon (M1/M2/M3)**: Script optimitzat amb MPS (Metal Performance Shaders)
+- ✅ Detecció automàtica del millor dispositiu (MPS > CUDA > CPU)
+- 🚀 Millora significativa de velocitat respecte CPU
+
+**Selecció de model:**
 - `medium`: **Recomanat per català**, bon equilibri velocitat/qualitat
   - ⚠️ **Limitació**: Només per episodis **≤10 minuts** (timeout 10 min)
+  - Amb MPS: ~2-3x més ràpid
 - `small`: **Usar per episodis >10 minuts** (no té limitació de timeout)
   - Exemple: episodi de 26 min transcriu correctament
   - Qualitat suficient per català
+  - Amb MPS: significativament més ràpid
 - `large`: Màxima precisió, més lent
 - `tiny`: Només per proves ràpides
 

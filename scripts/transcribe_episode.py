@@ -41,8 +41,21 @@ def extract_episode_info_from_filename(mp3_path):
 
 def transcribe_audio(audio_path, model_size="medium"):
     """Transcriu l'audio amb Whisper."""
+    import torch
+
+    # Detectar dispositiu (MPS per Apple Silicon, CUDA per NVIDIA, CPU per defecte)
+    if torch.backends.mps.is_available():
+        device = "mps"
+        print(f"🚀 Usant acceleració Apple Silicon (MPS)")
+    elif torch.cuda.is_available():
+        device = "cuda"
+        print(f"🚀 Usant acceleració GPU (CUDA)")
+    else:
+        device = "cpu"
+        print(f"⚠️  Usant CPU (sense acceleració)")
+
     print(f"🎯 Carregant model Whisper ({model_size})...")
-    model = whisper.load_model(model_size)
+    model = whisper.load_model(model_size, device=device)
 
     print(f"🎙️  Transcrivint {audio_path}...")
     result = model.transcribe(audio_path, language="ca")
