@@ -17,7 +17,6 @@ if [ ! -f "$MP3_FILE" ]; then
 fi
 
 echo "🎙️  Transcrivint $MP3_FILE..."
-echo "📋 Assegura't que tens Whisper instal·lat: pip install openai-whisper"
 echo ""
 
 # Comprovar si Python està disponible
@@ -26,5 +25,15 @@ if ! command -v python3 &> /dev/null; then
     exit 1
 fi
 
-# Executar script de transcripció
-python3 scripts/transcribe_episode.py "$MP3_FILE"
+# Detectar arquitectura i seleccionar backend
+if [[ $(uname -m) == "arm64" ]]; then
+    echo "🚀 Detectat Apple Silicon - usant acceleració GPU (MLX)"
+    echo "📋 Assegura't que tens mlx-whisper instal·lat: pip install mlx-whisper"
+    echo ""
+    python3 scripts/transcribe_episode.py "$MP3_FILE" --backend mlx --model large-v3
+else
+    echo "💻 Usant backend per defecte (CPU/CUDA)"
+    echo "📋 Assegura't que tens Whisper instal·lat: pip install openai-whisper"
+    echo ""
+    python3 scripts/transcribe_episode.py "$MP3_FILE"
+fi

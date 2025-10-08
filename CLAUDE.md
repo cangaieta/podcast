@@ -31,22 +31,38 @@ pip install -r requirements.txt
 ```
 
 ### 3. **Transcripció automàtica**
+
+**Backends disponibles:**
+- `mlx` (per defecte en M1/M2/M3): GPU accelerat amb Apple MLX (~3-4x més ràpid)
+- `lightning`: Ultra-ràpid, pot perdre precisió (~10x més ràpid)
+- `whisper`: CPU/CUDA (fallback compatibilitat)
+- `auto`: Detecció automàtica segons hardware
+
 ```bash
-# Episodis curts (≤10 minuts) - usar model medium:
-python scripts/transcribe_episode.py episodes/002-nom-episodi.mp3 --model medium
+# RECOMANAT per M1 MAX (32GB RAM): model large-v3 amb MLX
+python scripts/transcribe_episode.py episodes/002-nom-episodi.mp3 --model large-v3 --backend mlx
 
-# Episodis llargs (>10 minuts) - usar model small:
-python scripts/transcribe_episode.py episodes/003-nom-episodi.mp3 --model small
-
-# Opció ràpida (detecta automàticament):
+# Opció ràpida (detecta automàticament backend i model):
 ./scripts/quick_transcribe.sh episodes/002-nom-episodi.mp3
+
+# Ultra-ràpid (experimental):
+python scripts/transcribe_episode.py episodes/002-nom-episodi.mp3 --backend lightning
+
+# CPU fallback:
+python scripts/transcribe_episode.py episodes/002-nom-episodi.mp3 --backend whisper --model small
 ```
 
 **Què fa automàticament:**
-- Transcriu l'MP3 amb OpenAI Whisper
+- Transcriu l'MP3 amb Whisper (backend seleccionat)
 - Crea `_episodes/002-nom-episodi.md` amb metadades
 - Guarda transcripció a `sources/002-nom-episodi-transcripcio.txt`
 - Genera descripció automàtica
+
+**Temps de transcripció (episodi 26 min, M1 MAX):**
+- Backend `mlx` + model `large-v3`: ~2-3 min (màxima qualitat)
+- Backend `mlx` + model `medium`: ~1-1.5 min
+- Backend `lightning`: ~30-60 seg (experimental)
+- Backend `whisper` (CPU): ~5-6 min
 
 ### 4. **Personalitzar l'episodi**
 Editar `_episodes/XXX-nom-episodi.md`:
@@ -115,27 +131,47 @@ Tots els episodis han d'incloure:
 - `scripts/transcribe_episode.py` - Script principal amb opcions
 - Models Whisper: `tiny`, `small`, `medium` (recomanat), `large`
 
-### **Models de Whisper**
+### **Models i Backends de Whisper**
 
-**Acceleració hardware:**
-- ⚠️ **Apple Silicon (M1/M2/M3)**: MPS no compatible amb Whisper (error SparseMPS)
-- ✅ **CUDA (NVIDIA)**: Suportat i accelerat
-- 💻 **CPU**: Mode per defecte en Macs, funciona correctament
+#### **Acceleració hardware:**
+- ✅ **Apple Silicon (M1/M2/M3)**: GPU accelerat amb **MLX** (recomanat)
+  - Backend `mlx`: Usa Neural Engine + GPU (~3-4x més ràpid que CPU)
+  - Backend `lightning`: Ultra-optimitzat (~10x més ràpid, pot perdre precisió)
+  - ⚠️ Backend `whisper` amb MPS: NO compatible (error SparseMPS)
+- ✅ **CUDA (NVIDIA)**: Backend `whisper` amb acceleració GPU
+- 💻 **CPU**: Backend `whisper` sense GPU (fallback)
 
-**Temps de transcripció (CPU M1/M2):**
-- Model `small`: ~5:40 per episodi de 26 min (ràtio ~1:5)
-- Model `medium`: més lent, ~1:4 o menys
+#### **Temps de transcripció (episodi 26 min):**
 
-**Selecció de model:**
-- `medium`: **Recomanat per català**, bon equilibri velocitat/qualitat
-  - ⚠️ **Limitació**: Només per episodis **≤10 minuts** (timeout 10 min en CPU)
-  - Temps: ~2 min per episodi de 10 min
-- `small`: **Usar per episodis >10 minuts** (sense limitació de timeout)
-  - Exemple: episodi de 26 min → 5:40 min transcripció
-  - Qualitat suficient per català
-  - **Recomanat per episodis llargs**
-- `large`: Màxima precisió, molt més lent
+**M1 MAX (32GB RAM) amb backend MLX:**
+- Model `large-v3`: ~2-3 min ⭐ **Recomanat per màxima qualitat**
+- Model `large`: ~2 min
+- Model `medium`: ~1-1.5 min
+- Model `small`: ~45-60 seg
+
+**CPU (sense GPU):**
+- Model `small`: ~5:40 min (ràtio ~1:5)
+- Model `medium`: ~7-8 min (timeout 10 min per CPU)
+
+#### **Selecció de model i backend:**
+
+**Per M1 MAX (32GB RAM):**
+- `large-v3` + `mlx`: **Recomanat** - Millor qualitat, sense timeout
+- `medium` + `mlx`: Balanç velocitat/qualitat
+- `lightning`: Experimental, màxima velocitat
+
+**Per altres màquines:**
+- `medium` + `whisper`: Si tens GPU NVIDIA o episodis curts (≤10 min)
+- `small` + `whisper`: Si CPU o episodis llargs (>10 min)
 - `tiny`: Només per proves ràpides
+
+**Models disponibles:**
+- `large-v3`: Última versió, màxima precisió (recomanat per M1 MAX)
+- `large`: Alta precisió
+- `medium`: Balanç qualitat/velocitat
+- `small`: Ràpid, qualitat acceptable
+- `base`: Molt ràpid, qualitat baixa
+- `tiny`: Proves ràpides
 
 ## Paleta de Colors (per gràfics/imatges)
 

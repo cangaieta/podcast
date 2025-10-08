@@ -39,8 +39,8 @@ def extract_episode_info_from_filename(mp3_path):
 
     return None
 
-def transcribe_audio(audio_path, model_size="medium"):
-    """Transcriu l'audio amb Whisper."""
+def transcribe_audio_whisper_original(audio_path, model_size="medium"):
+    """Transcriu l'audio amb openai-whisper (CPU/CUDA)."""
     import torch
 
     # NOTE: MPS (Apple Silicon) té problemes de compatibilitat amb Whisper
@@ -54,7 +54,7 @@ def transcribe_audio(audio_path, model_size="medium"):
     else:
         device = "cpu"
         if torch.backends.mps.is_available():
-            print(f"💻 Usant CPU (MPS/Apple Silicon no compatible amb Whisper)")
+            print(f"💻 Usant CPU (MPS/Apple Silicon no compatible amb openai-whisper)")
         else:
             print(f"💻 Usant CPU")
 
@@ -65,6 +65,104 @@ def transcribe_audio(audio_path, model_size="medium"):
     result = model.transcribe(audio_path, language="ca")
 
     return result
+
+def transcribe_audio_mlx(audio_path, model_size="large-v3"):
+    """Transcriu l'audio amb mlx-whisper (GPU Apple Silicon)."""
+    try:
+        import mlx_whisper
+    except ImportError:
+        print("❌ Error: mlx-whisper no està instal·lat")
+        print("Instal·la'l amb: pip install mlx-whisper")
+        sys.exit(1)
+
+    print(f"🚀 Usant acceleració GPU (MLX/Apple Silicon)")
+    print(f"🎯 Carregant model {model_size}...")
+
+    # Models disponibles en Hugging Face MLX Community
+    model_map = {
+        'large-v3': 'mlx-community/whisper-large-v3-mlx',
+        'large': 'mlx-community/whisper-large-v2-mlx',
+        'medium': 'mlx-community/whisper-medium-mlx',
+        'small': 'mlx-community/whisper-small-mlx',
+        'base': 'mlx-community/whisper-base-mlx',
+        'tiny': 'mlx-community/whisper-tiny-mlx',
+    }
+
+    model_id = model_map.get(model_size, model_map['large-v3'])
+
+    print(f"🎙️  Transcrivint {audio_path}...")
+    result = mlx_whisper.transcribe(
+        audio_path,
+        path_or_hf_repo=model_id,
+        language='ca',
+        verbose=True
+    )
+
+    return result
+
+def transcribe_audio_lightning(audio_path, model_size="large-v3"):
+    """Transcriu l'audio amb lightning-whisper-mlx (ultra-ràpid)."""
+    try:
+        from lightning_whisper_mlx import LightningWhisperMLX
+    except ImportError:
+        print("❌ Error: lightning-whisper-mlx no està instal·lat")
+        print("Instal·la'l amb: pip install lightning-whisper-mlx")
+        sys.exit(1)
+
+    print(f"⚡ Usant acceleració GPU ultra-ràpida (Lightning MLX)")
+    print(f"🎯 Carregant model {model_size}...")
+
+    whisper_model = LightningWhisperMLX(
+        model=model_size,
+        batch_size=12,  # M1 MAX pot gestionar batch gran
+        quant=None      # Sense quantització, amb 32GB RAM no cal
+    )
+
+    print(f"🎙️  Transcrivint {audio_path}...")
+    result = whisper_model.transcribe(audio_path, language='ca')
+
+    return result
+
+def transcribe_audio(audio_path, model_size="large-v3", backend="auto"):
+    """Transcriu l'audio amb el backend especificat.
+
+    Args:
+        audio_path: Ruta al fitxer d'audio
+        model_size: Model de Whisper (tiny, base, small, medium, large, large-v3)
+        backend: Backend a utilitzar (auto, mlx, lightning, whisper)
+
+    Returns:
+        Diccionari amb el resultat de la transcripció
+    """
+    # Detecció automàtica del backend
+    if backend == "auto":
+        import platform
+        import torch
+
+        # Detectar Apple Silicon
+        if platform.processor() == 'arm' and platform.system() == 'Darwin':
+            backend = "mlx"
+            print(f"🔍 Detecció automàtica: Apple Silicon → backend MLX")
+        # Detectar CUDA (NVIDIA GPU)
+        elif torch.cuda.is_available():
+            backend = "whisper"
+            print(f"🔍 Detecció automàtica: NVIDIA GPU → backend whisper amb CUDA")
+        # Fallback a CPU
+        else:
+            backend = "whisper"
+            print(f"🔍 Detecció automàtica: CPU → backend whisper")
+
+    # Seleccionar backend
+    if backend == "mlx":
+        return transcribe_audio_mlx(audio_path, model_size)
+    elif backend == "lightning":
+        return transcribe_audio_lightning(audio_path, model_size)
+    elif backend == "whisper":
+        return transcribe_audio_whisper_original(audio_path, model_size)
+    else:
+        print(f"❌ Error: Backend desconegut '{backend}'")
+        print("Backends disponibles: auto, mlx, lightning, whisper")
+        sys.exit(1)
 
 def generate_description(transcript, max_length=200):
     """Genera una descripció breu a partir de la transcripció."""
@@ -146,9 +244,12 @@ def create_transcription_file(episode_info, transcript, output_dir="sources"):
 def main():
     parser = argparse.ArgumentParser(description='Transcriu episodi de podcast')
     parser.add_argument('audio_file', help='Fitxer MP3 a transcriure')
-    parser.add_argument('--model', default='medium',
-                       choices=['tiny', 'base', 'small', 'medium', 'large'],
-                       help='Model de Whisper a utilitzar')
+    parser.add_argument('--model', default='large-v3',
+                       choices=['tiny', 'base', 'small', 'medium', 'large', 'large-v3'],
+                       help='Model de Whisper a utilitzar (per defecte: large-v3)')
+    parser.add_argument('--backend', default='auto',
+                       choices=['auto', 'mlx', 'lightning', 'whisper'],
+                       help='Backend de transcripció: auto (detecció automàtica), mlx (GPU Apple Silicon), lightning (ultra-ràpid), whisper (CPU/CUDA)')
     parser.add_argument('--output-episode', default='_episodes',
                        help='Directori per al fitxer markdown')
     parser.add_argument('--output-transcript', default='sources',
@@ -170,7 +271,7 @@ def main():
     print(f"📝 Processant episodi {episode_info['number']}: {episode_info['title']}")
 
     # Transcriure
-    result = transcribe_audio(args.audio_file, args.model)
+    result = transcribe_audio(args.audio_file, args.model, args.backend)
     transcript = result["text"]
 
     # Generar descripció

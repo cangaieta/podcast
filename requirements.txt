@@ -1,5 +1,7 @@
 # Transcripció automàtica amb Whisper
-openai-whisper>=20230314
+openai-whisper>=20230314          # Backend CPU/CUDA (fallback)
+mlx-whisper>=0.1.0                # Backend GPU Apple Silicon (recomanat per M1/M2/M3)
+lightning-whisper-mlx>=0.1.0      # Backend GPU ultra-ràpid (experimental)
 
 # Processament de text i dates
 python-dateutil>=2.8.2
