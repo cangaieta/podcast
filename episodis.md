@@ -78,7 +78,7 @@ permalink: /episodis/
 .btn-back-header:hover {
   background: #B85450;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 15px var(--shadow-color-strong);
 }
 
 .episodes-header h1 {
@@ -97,19 +97,19 @@ permalink: /episodis/
 .no-episodes {
   text-align: center;
   padding: 4rem 2rem;
-  background: #f8f9fa;
+  background: var(--bg-secondary);
   border-radius: 15px;
   margin: 2rem 0;
 }
 
 .no-episodes h2 {
-  color: #4C8150;
+  color: var(--verd-natura);
   margin-bottom: 1rem;
 }
 
 .btn-back {
   display: inline-block;
-  background: #CD6155;
+  background: var(--terra-cuita);
   color: white;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
@@ -130,22 +130,23 @@ permalink: /episodis/
 }
 
 .episode-card {
-  background: white;
+  background: var(--bg-primary);
   border-radius: 15px;
   padding: 2rem;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 5px 15px var(--shadow-color);
   transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
 }
 
 .episode-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 30px var(--shadow-color-strong);
 }
 
 .episode-header h2 {
   margin: 0 0 0.5rem 0;
   font-size: 1.5rem;
-  color: #4C8150;
+  color: var(--verd-natura);
 }
 
 .episode-header h2 a {
@@ -154,20 +155,21 @@ permalink: /episodis/
 }
 
 .episode-header h2 a:hover {
-  color: #CD6155;
+  color: var(--terra-cuita);
 }
 
 .episode-meta {
-  color: #666;
+  color: var(--text-tertiary);
   font-size: 0.9rem;
   margin-bottom: 1rem;
 }
 
 .episode-meta .duration {
   margin-left: 1rem;
-  background: #F5EEDC;
+  background: var(--bg-secondary);
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
+  color: var(--text-primary);
 }
 
 .audio-player {
@@ -181,7 +183,7 @@ permalink: /episodis/
 .episode-description {
   margin: 1rem 0;
   line-height: 1.6;
-  color: #555;
+  color: var(--text-secondary);
 }
 
 .episode-actions {
@@ -200,7 +202,7 @@ permalink: /episodis/
 }
 
 .btn-read {
-  background: #4C8150;
+  background: var(--verd-natura);
   color: white;
 }
 
@@ -210,7 +212,7 @@ permalink: /episodis/
 }
 
 .btn-download {
-  background: #E67E22;
+  background: var(--taronja-calid);
   color: white;
 }
 

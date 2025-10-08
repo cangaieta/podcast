@@ -97,16 +97,17 @@ layout: landing
   max-width: 1000px;
   margin: 0 auto;
   padding: 1rem 2rem 2rem 2rem;
-  background: white;
+  background: var(--bg-primary);
   border-radius: 15px;
   margin-top: 1rem;
+  box-shadow: 0 4px 6px var(--shadow-color);
 }
 
 .episode-header {
   margin-bottom: 2rem;
   text-align: center;
   padding-bottom: 1rem;
-  border-bottom: 2px solid var(--beix-clar);
+  border-bottom: 2px solid var(--border-color);
 }
 
 .episode-header h1 {
@@ -116,7 +117,7 @@ layout: landing
 }
 
 .episode-meta {
-  color: #666;
+  color: var(--text-tertiary);
   font-size: 0.95rem;
   display: flex;
   justify-content: center;
@@ -125,17 +126,19 @@ layout: landing
 }
 
 .episode-meta span {
-  background: var(--beix-clar);
+  background: var(--bg-secondary);
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
+  color: var(--text-primary);
 }
 
 .audio-player {
   margin: 3rem 0;
   text-align: center;
-  background: rgba(76, 129, 80, 0.05);
+  background: var(--overlay-lighter);
   padding: 2rem;
   border-radius: 15px;
+  border: 1px solid var(--border-color);
 }
 
 .audio-player audio {
@@ -148,7 +151,7 @@ layout: landing
   line-height: 1.7;
   margin: 3rem 0;
   font-size: 1.05rem;
-  color: #333;
+  color: var(--text-primary);
 }
 
 .episode-content h2 {
@@ -164,7 +167,7 @@ layout: landing
 }
 
 .sources {
-  background: linear-gradient(135deg, var(--beix-clar), rgba(245, 238, 220, 0.7));
+  background: var(--bg-secondary);
   padding: 2rem;
   border-radius: 15px;
   margin: 3rem 0;
@@ -185,9 +188,10 @@ layout: landing
 .sources li {
   margin: 1rem 0;
   padding: 1rem;
-  background: white;
+  background: var(--bg-primary);
   border-radius: 8px;
   border-left: 3px solid var(--terra-cuita);
+  color: var(--text-primary);
 }
 
 .sources a {
@@ -202,7 +206,7 @@ layout: landing
 }
 
 .disclaimer {
-  background: linear-gradient(135deg, var(--rosa-salmo), rgba(241, 148, 138, 0.7));
+  background: var(--rosa-salmo);
   padding: 2rem;
   border-radius: 15px;
   margin: 3rem 0;
@@ -215,18 +219,22 @@ layout: landing
   font-size: 1.4rem;
 }
 
+.disclaimer p {
+  color: var(--text-secondary);
+}
+
 .episode-footer {
-  border-top: 3px solid var(--beix-clar);
+  border-top: 3px solid var(--border-color);
   padding-top: 2rem;
   margin-top: 3rem;
   text-align: center;
 }
 
 .episode-footer p {
-  color: #666;
+  color: var(--text-tertiary);
   font-style: italic;
   margin-bottom: 2rem;
-  background: rgba(255,255,255,0.5);
+  background: var(--overlay-lighter);
   padding: 1rem;
   border-radius: 10px;
 }
