@@ -1,7 +1,7 @@
 ---
-title: "Episodi 1: Què es va dir realment sobre els pisos de Can Gaietà al CAUT?"
+title: "Episodi 001: Què es va dir realment sobre els pisos de Can Gaietà al CAUT?"
 date: '2025-09-24'
-duration: '19:04'
+duration: '12:41'
 audio_file: '001-pisos-can-gaieta-caut.mp3'
 description: "Analitzem l'article 'Així seran els pisos de Can Gaietà' i contrastem amb el que realment es va dir a la sessió del CAUT. Una exploració sobre comunicació, transparència i participació veïnal."
 episode_number: 1

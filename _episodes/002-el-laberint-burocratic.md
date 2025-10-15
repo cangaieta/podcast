@@ -1,7 +1,7 @@
 ---
-title: "Episodi 2: El Laberint Burocràtic - Quan Arreglar uns Bancs es Converteix en una Investigació"
+title: "Episodi 002: El Laberint Burocràtic - Quan Arreglar uns Bancs es Converteix en una Investigació"
 date: "2025-09-26"
-duration: "10:32"
+duration: "6:07"
 audio_file: "002-el-laberint-burocratic.mp3"
 description: "Quan una proposta ciutadana tan simple com arreglar uns bancs acaba convertint-se en una investigació sobre transparència municipal. Una història que il·lustra com les contradiccions administratives poden minar la confiança en la participació ciutadana."
 episode_number: 2
