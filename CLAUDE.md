@@ -19,6 +19,15 @@ Aquest és un podcast informatiu de l'Associació Veïnal de Can Gaietà que ofe
 
 ## Workflow per Nous Episodis
 
+### 0. **PRIMER PAS: Obtenir les fonts oficials** ⚠️ OBLIGATORI
+
+**SEMPRE demanar ABANS de començar:**
+- 📄 **URL de l'acta oficial** (exemple: https://actes.tiana.cat/session/sessionDetail/...)
+- 🎥 **URL de la videoacta** (exemple: https://www.youtube.com/watch?v=...)
+- 📋 **Altres fonts utilitzades** per NotebookLM (articles, documents, etc.)
+
+**Sense fonts oficials NO es pot crear un episodi.**
+
 ### 1. **Preparar el nou episodi**
 ```bash
 # Pujar l'MP3 a episodes/ amb format: XXX-nom-episodi.mp3
@@ -71,7 +80,7 @@ Editar `_episodes/XXX-nom-episodi.md`:
 ---
 title: "Episodi X: Títol Personalitzat"
 date: 2024-XX-XX
-duration: "XX:XX"  # Actualitzar amb durada real
+duration: "XX:XX"  # Actualitzar amb durada real (obtenir amb ffprobe)
 audio_file: "XXX-nom-episodi.mp3"
 description: "Descripció personalitzada basada en el contingut"
 sources:
@@ -81,15 +90,31 @@ sources:
   - title: "Videoacta sessió"
     url: "https://youtu.be/..."
     description: "..."
+  - title: "Transcripció automàtica de l'episodi"
+    url: "/sources/XXX-nom-episodi-transcripcio.txt"
+    description: "Transcripció completa generada amb OpenAI Whisper (model large-v3)"
 ---
+```
+
+**Obtenir durada real de l'episodi:**
+```bash
+# Opció 1: Format curt (recomanat)
+ffprobe -i episodes/XXX-nom-episodi.mp3 -show_entries format=duration -v quiet -of csv="p=0"
+
+# Opció 2: Informació completa
+ffmpeg -i episodes/XXX-nom-episodi.mp3 2>&1 | grep Duration
+
+# Conversió a MM:SS (si cal):
+python3 -c "import math; seconds = 837.459592; minutes = int(seconds // 60); secs = int(seconds % 60); print(f'{minutes:02d}:{secs:02d}')"
 ```
 
 **Contingut a actualitzar:**
 - Títol més descriptiu
 - Descripció basada en transcripció
+- **Durada exacta de l'episodi** (amb ffprobe)
 - Fonts reals utilitzades per NotebookLM
-- Durada exacte de l'episodi
 - Contingut principal de l'episodi
+- **Referències creuades** a episodis anteriors relacionats (si n'hi ha)
 
 ### 5. **Afegir fonts utilitzades**
 Sempre especificar:
@@ -212,10 +237,12 @@ pip install --upgrade openai-whisper
 ## Tasques Recurrents
 
 ### **Cada episodi:**
+0. **DEMANAR fonts oficials** (acta + videoacta) ⚠️ OBLIGATORI
 1. Transcriure automàticament
-2. Personalitzar contingut
-3. Verificar fonts
-4. Deploy
+2. Obtenir durada amb ffprobe
+3. Personalitzar contingut
+4. Verificar fonts i afegir referències creuades
+5. Deploy
 
 ### **Setmanalment:**
 - Revisar que RSS funciona
