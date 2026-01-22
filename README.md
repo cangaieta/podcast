@@ -24,10 +24,13 @@ Els vídeos de les sessions municipals estan disponibles a YouTube i són una de
 ```
 /
 ├── episodes/           # Fitxers MP3 dels episodis
-├── assets/            # Imatges, logo, etc.
-├── _posts/            # Pàgines individuals de cada episodi
-├── _config.yml        # Configuració Jekyll
-└── feed.xml           # RSS feed del podcast
+├── _episodes/          # Fitxers markdown amb metadades dels episodis
+├── sources/            # Fonts i transcripcions
+├── scripts/            # Scripts d'automatització
+├── assets/             # Imatges, logo, etc.
+├── _layouts/           # Plantilles Jekyll
+├── _config.yml         # Configuració Jekyll
+└── feed.xml            # RSS feed del podcast
 ```
 
 ## Com Escoltar

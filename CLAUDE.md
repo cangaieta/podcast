@@ -123,12 +123,14 @@ Sempre especificar:
 - **Transcripcions manuals** (si n'hi ha)
 - **Documents oficials** (actes, resolucions, etc.)
 
-### 6. **Deploy**
+### 6. **Deploy** ⚠️ FER SEMPRE AL FINAL
 ```bash
 git add .
 git commit -m "Add episode XXX: [títol]"
 git push
 ```
+
+**IMPORTANT:** Sempre executar aquest pas al final per publicar l'episodi. No deixar canvis sense commit.
 
 ## Consideracions Importants
 
