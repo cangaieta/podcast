@@ -33,7 +33,11 @@ permalink: /episodis/
           {% if episode.audio_file %}
           <div class="audio-player">
             <audio controls preload="none">
+              {% if episode.audio_file contains "http" %}
+              <source src="{{ episode.audio_file }}" type="audio/mpeg">
+              {% else %}
               <source src="{{ '/episodes/' | append: episode.audio_file | relative_url }}" type="audio/mpeg">
+              {% endif %}
               El teu navegador no suporta l'element d'audio.
             </audio>
           </div>
@@ -46,7 +50,11 @@ permalink: /episodis/
           <div class="episode-actions">
             <a href="{{ episode.url | relative_url }}" class="btn-read">Llegir més</a>
             {% if episode.audio_file %}
+              {% if episode.audio_file contains "http" %}
+              <a href="{{ episode.audio_file }}" download class="btn-download">⬇️ Descarregar</a>
+              {% else %}
               <a href="{{ '/episodes/' | append: episode.audio_file | relative_url }}" download class="btn-download">⬇️ Descarregar</a>
+              {% endif %}
             {% endif %}
           </div>
         </article>
