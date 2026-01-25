@@ -16,7 +16,7 @@ sources:
   url: "https://youtu.be/lR-PQdGBZw4"
   description: "Segona part de l'enregistrament oficial del ple municipal"
 - title: "Transcripció automàtica de l'episodi"
-  url: "/sources/003-ple-octubre-2025-transcripcio.txt"
+  url: "/podcast/sources/003-ple-octubre-2025-transcripcio.txt"
   description: "Transcripció completa generada amb OpenAI Whisper"
 title: 'Episodi 003: Ple Octubre 2025'
 ---

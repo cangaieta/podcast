@@ -13,7 +13,7 @@ sources:
   url: "https://www.youtube.com/live/AJLi2nnUYY0"
   description: "Enregistrament oficial del ple municipal extraordinari"
 - title: "Transcripció automàtica de l'episodi"
-  url: "/sources/007-tiana-triplica-deute-municipal-transcripcio.txt"
+  url: "/podcast/sources/007-tiana-triplica-deute-municipal-transcripcio.txt"
   description: "Transcripció completa generada amb OpenAI Whisper (model large-v3)"
 title: 'Episodi 007: Tiana Triplica el Deute Municipal'
 ---

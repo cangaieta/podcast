@@ -13,7 +13,7 @@ sources:
   url: "https://www.youtube.com/watch?v=6LxauZKsBgg"
   description: "Enregistrament oficial del ple municipal"
 - title: "Transcripció automàtica de l'episodi"
-  url: "/sources/006-batalla-escombraries-barris-oblidats-transcripcio.txt"
+  url: "/podcast/sources/006-batalla-escombraries-barris-oblidats-transcripcio.txt"
   description: "Transcripció completa generada amb OpenAI Whisper (model large-v3)"
 - title: "Episodi 004: La Puja Fiscal a Tiana - Per Què Pagarem un 60% Més de Taxa de Residus?"
   url: "/episodi/004-puja-fiscal-taxa-residus/"

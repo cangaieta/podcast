@@ -13,7 +13,7 @@ sources:
   url: "https://www.youtube.com/live/e8M0BCudwUU?si=SpEx0eiiYrgua7Yq"
   description: "Enregistrament complet de la sessió plenària"
 - title: "Transcripció automàtica de l'episodi"
-  url: "/sources/009-festa-a-dit-bar-irregular-ridicul-solar-transcripcio.txt"
+  url: "/podcast/sources/009-festa-a-dit-bar-irregular-ridicul-solar-transcripcio.txt"
   description: "Transcripció completa generada amb OpenAI Whisper (model large-v3)"
 title: "Episodi 009: Festa a dit, bar irregular i ridícul solar"
 ---

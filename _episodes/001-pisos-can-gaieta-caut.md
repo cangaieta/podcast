@@ -13,10 +13,10 @@ sources:
     url: "https://youtu.be/7w4e0yR_4r0?t=3243"
     description: "Sessió del Consell Assessor Urbanístic de Tiana (minut 54:03 - intervenció David Ródenas)"
   - title: "Transcripció completa de la intervenció de David Ródenas"
-    url: "/sources/001-transcripcio-caut-david-rodenas.txt"
+    url: "/podcast/sources/001-transcripcio-caut-david-rodenas.txt"
     description: "Text literal de la intervenció del president de l'associació veïnal"
   - title: "Transcripció automàtica de l'episodi"
-    url: "/sources/001-pisos-can-gaieta-caut-transcripcio.txt"
+    url: "/podcast/sources/001-pisos-can-gaieta-caut-transcripcio.txt"
     description: "Transcripció completa generada amb OpenAI Whisper"
 ---
 

@@ -16,7 +16,7 @@ sources:
   url: "https://youtu.be/lR-PQdGBZw4"
   description: "Segona part de l'enregistrament oficial del ple municipal"
 - title: "Transcripció automàtica de l'episodi"
-  url: "/sources/004-puja-fiscal-taxa-residus-transcripcio.txt"
+  url: "/podcast/sources/004-puja-fiscal-taxa-residus-transcripcio.txt"
   description: "Transcripció completa generada amb OpenAI Whisper"
 title: 'Episodi 004: La Puja Fiscal a Tiana - Per Què Pagarem un 60% Més de Taxa de Residus?'
 ---

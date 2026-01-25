@@ -10,7 +10,7 @@ sources:
   url: "https://youtu.be/ZuMLc61Y1FU"
   description: "Enregistrament oficial complet de la sessió plenària del 4 de novembre de 2025"
 - title: "Transcripció automàtica de l'episodi"
-  url: "/sources/005-escola-bressol-ibi-deute-ple-tens-transcripcio.txt"
+  url: "/podcast/sources/005-escola-bressol-ibi-deute-ple-tens-transcripcio.txt"
   description: "Transcripció completa generada amb OpenAI Whisper (model large-v3)"
 title: 'Episodi 005: Escola Bressol, IBI i Deute - El Ple Tens del 4 de Novembre'
 ---
