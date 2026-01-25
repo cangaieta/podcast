@@ -1,5 +1,5 @@
 ---
-audio_file: 006-batalla-escombraries-barris-oblidats.mp3
+audio_file: "https://archive.org/download/podcast-cangaieta-006-batalla-escombraries-barris-oblidats/006-batalla-escombraries-barris-oblidats.mp3"
 date: '2026-01-14'
 description: 'Anàlisi del Ple Municipal de Tiana del 2 de desembre de 2025: la batalla per la revisió de preus del contracte de residus, el model de porta a porta, la invisibilització dels barris perifèrics i la denúncia de doble imposició en la taxa d''escombraries.'
 duration: '13:57'
