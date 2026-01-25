@@ -35,5 +35,14 @@ Thumbs.db
 # Logs
 *.log
 
-# Audio files (stored in archive.org, kept locally only)
-episodes/*.mp3
+# Audio files migrated to archive.org (keep local backup)
+episodes/001-*.mp3
+episodes/002-*.mp3
+episodes/003-*.mp3
+episodes/004-*.mp3
+episodes/005-*.mp3
+# Episodes 006-009 served from GitHub temporarily until migration
+# episodes/006-*.mp3
+# episodes/007-*.mp3
+# episodes/008-*.mp3
+# episodes/009-*.mp3
