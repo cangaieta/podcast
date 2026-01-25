@@ -32,6 +32,32 @@ Els fitxers MP3 dels episodis **NO s'allotgen a GitHub** (massa grans). En lloc 
 └── feed.xml           # RSS feed del podcast
 ```
 
+## ⚠️ Migració a Archive.org - Episodis Pendents
+
+**REGLA:** Per cada episodi nou que es publiqui, pujar també UN dels pendents.
+
+**Episodis que encara cal pujar a archive.org:**
+
+- [ ] Episodi 006: La Batalla de les Escombraries i els Barris Oblidats
+- [ ] Episodi 007: Tiana Triplica el Deute Municipal
+- [ ] Episodi 008: Normes Fantasma i el Caos de la Casa d'Entitats
+- [ ] Episodi 009: Festa a dit, bar irregular i ridícul solar
+
+**Com pujar-los:**
+```bash
+# Esperar 30-60 minuts des de la pujada del nou episodi
+python scripts/upload_to_archive.py --episodi 006
+
+# Un cop pujat, tatxar de la llista i fer commit
+git add _episodes/006-*.md
+git commit -m "Migrar episodi 006 a archive.org"
+git push
+```
+
+**Quan estiguin tots pujats:** Eliminar aquesta secció del CLAUDE.md
+
+---
+
 ## Workflow per Nous Episodis
 
 ### 0. **PRIMER PAS: Obtenir les fonts oficials** ⚠️ OBLIGATORI
@@ -89,34 +115,26 @@ python scripts/transcribe_episode.py episodes/002-nom-episodi.mp3 --backend whis
 - Backend `lightning`: ~30-60 seg (experimental)
 - Backend `whisper` (CPU): ~5-6 min
 
-### 4. **Pujar MP3 a archive.org** 🌐
+**El script de transcripció ja crea el markdown amb `audio_file` buit. Ara el completarem.**
 
-#### Opció A: Automàtic (RECOMANAT) ✨
+### 4. **Pujar MP3 a archive.org** 🌐 (AUTOMÀTIC)
 
 ```bash
-# Primera vegada: configurar credencials d'archive.org
+# Primera vegada només: configurar credencials d'archive.org
 ia configure
 
-# Pujar l'episodi automàticament
+# Pujar l'episodi automàticament (XXX = número episodi)
 python scripts/upload_to_archive.py --episodi XXX
 ```
 
-L'script:
-- Puja l'MP3 amb totes les metadades correctes
-- Genera la URL automàticament
-- Actualitza el markdown amb la URL
+**Què fa l'script:**
+- ✅ Puja l'MP3 a archive.org amb totes les metadades
+- ✅ Genera la URL pública automàticament
+- ✅ Actualitza el camp `audio_file` del markdown
 
-**Consulta [ARCHIVE_ORG.md](ARCHIVE_ORG.md) per més detalls sobre l'automatització.**
+**IMPORTANT:** Si reps error de "rate limit", espera 30-60 minuts i torna a intentar.
 
-#### Opció B: Manual
-
-1. Anar a https://archive.org i iniciar sessió
-2. Clicar "Upload" al menú superior  
-3. Consultar [ARCHIVE_ORG_METADADES_EPISODIS.md](ARCHIVE_ORG_METADADES_EPISODIS.md) per copiar les metadades
-4. Pujar el fitxer MP3
-5. Copiar la URL pública resultant
-
-**URL format**: `https://archive.org/download/podcast-cangaieta-XXX-nom/XXX-nom.mp3`
+**Més detalls:** Consulta [ARCHIVE_ORG.md](ARCHIVE_ORG.md) o [scripts/README_UPLOAD.md](scripts/README_UPLOAD.md)
 
 ### 5. **Personalitzar l'episodi**
 Editar `_episodes/XXX-nom-episodi.md`:
@@ -171,7 +189,7 @@ Sempre especificar:
 
 ### 6. **Deploy** ⚠️ FER SEMPRE AL FINAL
 ```bash
-git add .
+git add _episodes/XXX-nom-episodi.md
 git commit -m "Add episode XXX: [títol]"
 git push
 ```
@@ -179,8 +197,25 @@ git push
 **IMPORTANT:** 
 - Sempre executar aquest pas al final per publicar l'episodi
 - No deixar canvis sense commit
-- Els fitxers MP3 a `episodes/` NO es pujaran (estan al .gitignore)
-- Només es puja el fitxer markdown amb la URL d'archive.org
+- Els fitxers MP3 a `episodes/` NO es pugen a GitHub (estan al .gitignore)
+- Només es puja el markdown amb la URL d'archive.org
+- El RSS s'actualitza automàticament amb el push
+
+### 7. **Migració gradual** 🔄 (SI HI HA PENDENTS)
+
+**DESPRÉS de cada episodi nou, pujar UN episodi pendent:**
+
+```bash
+# Esperar 30-60 minuts des de la pujada del nou episodi
+python scripts/upload_to_archive.py --episodi [NUM_PENDENT]
+
+# Commit del pendent migrat
+git add _episodes/[NUM_PENDENT]-*.md
+git commit -m "Migrar episodi [NUM_PENDENT] a archive.org"
+git push
+```
+
+**Tatxar l'episodi de la llista de pendents** a la secció "Migració a Archive.org".
 
 ## Consideracions Importants
 
@@ -291,10 +326,12 @@ pip install --upgrade openai-whisper
 ### **Cada episodi:**
 0. **DEMANAR fonts oficials** (acta + videoacta) ⚠️ OBLIGATORI
 1. Transcriure automàticament
-2. Obtenir durada amb ffprobe
-3. Personalitzar contingut
-4. Verificar fonts i afegir referències creuades
-5. Deploy
+2. **Pujar a archive.org** automàticament
+3. Obtenir durada amb ffprobe
+4. Personalitzar contingut i verificar fonts
+5. Afegir referències creuades a episodis anteriors
+6. Deploy (commit + push)
+7. **Pujar UN episodi pendent** (si n'hi ha a la llista)
 
 ### **Setmanalment:**
 - Revisar que RSS funciona
