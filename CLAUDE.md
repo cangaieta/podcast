@@ -40,8 +40,8 @@ Els fitxers MP3 dels episodis **NO s'allotgen a GitHub** (massa grans). En lloc 
 
 - [ ] Episodi 006: La Batalla de les Escombraries i els Barris Oblidats
 - [ ] Episodi 007: Tiana Triplica el Deute Municipal
-- [ ] Episodi 008: Normes Fantasma i el Caos de la Casa d'Entitats
-- [ ] Episodi 009: Festa a dit, bar irregular i ridícul solar
+- [x] Episodi 008: Normes Fantasma i el Caos de la Casa d'Entitats
+- [x] Episodi 009: Festa a dit, bar irregular i ridícul solar
 
 **Com pujar-los:**
 ```bash
