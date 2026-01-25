@@ -1,5 +1,5 @@
 ---
-audio_file: 003-ple-octubre-2025.mp3
+audio_file: "https://archive.org/download/podcast-cangaieta-003-ple-octubre-2025/003-ple-octubre-2025.mp3"
 date: '2025-10-08'
 description: 'Anàlisi completa del Ple Municipal del 7 d''octubre de 2025: pujada de taxes de residus, demandes dels veïns dels Bessans, polèmiques sobre licitacions, mocions sobre el català i les ombres a les escoles, i la tensió pre-electoral que marca el debat polític a Tiana.'
 duration: '26:19'

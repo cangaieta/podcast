@@ -1,5 +1,5 @@
 ---
-audio_file: 005-escola-bressol-ibi-deute-ple-tens.mp3
+audio_file: "https://archive.org/download/podcast-cangaieta-005-escola-bressol-ibi-deute-ple-tens/005-escola-bressol-ibi-deute-ple-tens.mp3"
 date: '2025-11-06'
 description: "Anàlisi del ple municipal del 4 de novembre de 2025: licitació de l'Escola Bressol per 5,6 milions, la polèmica sobre la taxa de residus i l'IBI amb més de 1.000 signatures, i el reconeixement d'un deute de 225.000 euros sense contracte. Un ple marcat per la tensió política i el debat sobre la gestió municipal."
 duration: '15:57'

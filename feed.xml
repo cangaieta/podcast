@@ -42,9 +42,16 @@ layout: null
       <pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
 
       {% if episode.audio_file %}
+      <!-- Support both full URLs (archive.org) and relative paths (legacy) -->
+      {% if episode.audio_file contains "http" %}
+      <enclosure url="{{ episode.audio_file }}"
+                 type="audio/mpeg"
+                 length="0" />
+      {% else %}
       <enclosure url="{{ site.url }}{{ site.baseurl }}/episodes/{{ episode.audio_file }}"
                  type="audio/mpeg"
                  length="0" />
+      {% endif %}
 
       <!-- iTunes specific tags -->
       <itunes:author>{{ site.podcast.author }}</itunes:author>

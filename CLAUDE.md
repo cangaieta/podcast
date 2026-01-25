@@ -4,6 +4,21 @@
 
 Aquest és un podcast informatiu de l'Associació Veïnal de Can Gaietà que ofereix una font d'informació alternativa sobre els esdeveniments de Tiana. El contingut s'genera amb **Google NotebookLM** basant-se en fonts oficials.
 
+## Allotjament dels Fitxers MP3
+
+Els fitxers MP3 dels episodis **NO s'allotgen a GitHub** (massa grans). En lloc d'això:
+
+- 📦 **Archive.org**: Allotjament públic i permanent dels MP3
+- 💾 **Local**: Còpia de seguretat a `episodes/` (ignorada per git)
+- 🔗 **RSS Feed**: Apunta directament a les URLs d'archive.org
+
+### Per què archive.org?
+- Gratuït i sense límits de mida
+- Preservació permanent de contingut
+- URLs públiques estables
+- Bandwidth il·limitat
+- Missió d'arxiu cultural
+
 ## Estructura del Projecte
 
 ```
@@ -30,8 +45,9 @@ Aquest és un podcast informatiu de l'Associació Veïnal de Can Gaietà que ofe
 
 ### 1. **Preparar el nou episodi**
 ```bash
-# Pujar l'MP3 a episodes/ amb format: XXX-nom-episodi.mp3
-# Exemple: 002-ple-ajuntament-octubre.mp3
+# Desar l'MP3 a episodes/ amb format: XXX-nom-episodi.mp3
+# Exemple: 010-nom-episodi.mp3
+# IMPORTANT: Aquest fitxer NO es pujarà a GitHub (està al .gitignore)
 ```
 
 ### 2. **Instal·lar dependències (primera vegada)**
@@ -73,7 +89,36 @@ python scripts/transcribe_episode.py episodes/002-nom-episodi.mp3 --backend whis
 - Backend `lightning`: ~30-60 seg (experimental)
 - Backend `whisper` (CPU): ~5-6 min
 
-### 4. **Personalitzar l'episodi**
+### 4. **Pujar MP3 a archive.org** 🌐
+
+#### Opció A: Automàtic (RECOMANAT) ✨
+
+```bash
+# Primera vegada: configurar credencials d'archive.org
+ia configure
+
+# Pujar l'episodi automàticament
+python scripts/upload_to_archive.py --episodi XXX
+```
+
+L'script:
+- Puja l'MP3 amb totes les metadades correctes
+- Genera la URL automàticament
+- Actualitza el markdown amb la URL
+
+**Consulta [ARCHIVE_ORG.md](ARCHIVE_ORG.md) per més detalls sobre l'automatització.**
+
+#### Opció B: Manual
+
+1. Anar a https://archive.org i iniciar sessió
+2. Clicar "Upload" al menú superior  
+3. Consultar [ARCHIVE_ORG_METADADES_EPISODIS.md](ARCHIVE_ORG_METADADES_EPISODIS.md) per copiar les metadades
+4. Pujar el fitxer MP3
+5. Copiar la URL pública resultant
+
+**URL format**: `https://archive.org/download/podcast-cangaieta-XXX-nom/XXX-nom.mp3`
+
+### 5. **Personalitzar l'episodi**
 Editar `_episodes/XXX-nom-episodi.md`:
 
 ```yaml
@@ -81,7 +126,7 @@ Editar `_episodes/XXX-nom-episodi.md`:
 title: "Episodi X: Títol Personalitzat"
 date: 2024-XX-XX
 duration: "XX:XX"  # Actualitzar amb durada real (obtenir amb ffprobe)
-audio_file: "XXX-nom-episodi.mp3"
+audio_file: "https://archive.org/download/podcast-cangaieta-XXX-nom-episodi/XXX-nom-episodi.mp3"
 description: "Descripció personalitzada basada en el contingut"
 sources:
   - title: "Font principal"
@@ -112,6 +157,7 @@ python3 -c "import math; seconds = 837.459592; minutes = int(seconds // 60); sec
 - Títol més descriptiu
 - Descripció basada en transcripció
 - **Durada exacta de l'episodi** (amb ffprobe)
+- **`audio_file`**: URL COMPLETA d'archive.org (no només el nom del fitxer)
 - Fonts reals utilitzades per NotebookLM
 - Contingut principal de l'episodi
 - **Referències creuades** a episodis anteriors relacionats (si n'hi ha)
@@ -130,7 +176,11 @@ git commit -m "Add episode XXX: [títol]"
 git push
 ```
 
-**IMPORTANT:** Sempre executar aquest pas al final per publicar l'episodi. No deixar canvis sense commit.
+**IMPORTANT:** 
+- Sempre executar aquest pas al final per publicar l'episodi
+- No deixar canvis sense commit
+- Els fitxers MP3 a `episodes/` NO es pujaran (estan al .gitignore)
+- Només es puja el fitxer markdown amb la URL d'archive.org
 
 ## Consideracions Importants
 

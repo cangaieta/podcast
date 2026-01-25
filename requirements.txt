@@ -7,6 +7,9 @@ lightning-whisper-mlx>=0.1.0      # Backend GPU ultra-ràpid (experimental)
 python-dateutil>=2.8.2
 pyyaml>=6.0
 
+# Pujada automàtica a archive.org
+internetarchive>=3.0.0
+
 # Opcional: per millor rendiment amb GPU
 # torch>=1.13.0
 # torchaudio>=0.13.0

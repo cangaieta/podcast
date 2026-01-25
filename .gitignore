@@ -34,3 +34,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Audio files (stored in archive.org, kept locally only)
+episodes/*.mp3

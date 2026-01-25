@@ -1,5 +1,5 @@
 ---
-audio_file: 004-puja-fiscal-taxa-residus.mp3
+audio_file: "https://archive.org/download/podcast-cangaieta-004-puja-fiscal-taxa-residus/004-puja-fiscal-taxa-residus.mp3"
 date: '2025-10-15'
 description: 'Anàlisi de la polèmica pujada del 60% de la taxa de residus aprovada al Ple Municipal del 7 d''octubre de 2025. Un debat tens entre l''obligació legal i la percepció de pagar més sense millora del servei, amb acusacions creuades entre govern i oposició sobre retards en la nova licitació.'
 duration: '6:50'
