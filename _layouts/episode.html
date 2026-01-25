@@ -20,7 +20,11 @@ layout: landing
   {% if page.audio_file %}
   <div class="audio-player">
     <audio controls preload="metadata">
+      {% if page.audio_file contains "http" %}
+      <source src="{{ page.audio_file }}" type="audio/mpeg">
+      {% else %}
       <source src="{{ '/episodes/' | append: page.audio_file | relative_url }}" type="audio/mpeg">
+      {% endif %}
       El teu navegador no suporta l'element d'audio.
     </audio>
   </div>
