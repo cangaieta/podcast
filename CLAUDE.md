@@ -32,32 +32,6 @@ Els fitxers MP3 dels episodis **NO s'allotgen a GitHub** (massa grans). En lloc 
 └── feed.xml           # RSS feed del podcast
 ```
 
-## ⚠️ Migració a Archive.org - Episodis Pendents
-
-**REGLA:** Per cada episodi nou que es publiqui, pujar també UN dels pendents.
-
-**Episodis que encara cal pujar a archive.org:**
-
-- [ ] Episodi 006: La Batalla de les Escombraries i els Barris Oblidats
-- [ ] Episodi 007: Tiana Triplica el Deute Municipal
-- [x] Episodi 008: Normes Fantasma i el Caos de la Casa d'Entitats
-- [x] Episodi 009: Festa a dit, bar irregular i ridícul solar
-
-**Com pujar-los:**
-```bash
-# Esperar 30-60 minuts des de la pujada del nou episodi
-python scripts/upload_to_archive.py --episodi 006
-
-# Un cop pujat, tatxar de la llista i fer commit
-git add _episodes/006-*.md
-git commit -m "Migrar episodi 006 a archive.org"
-git push
-```
-
-**Quan estiguin tots pujats:** Eliminar aquesta secció del CLAUDE.md
-
----
-
 ## Workflow per Nous Episodis
 
 ### 0. **PRIMER PAS: Obtenir les fonts oficials** ⚠️ OBLIGATORI
@@ -201,22 +175,6 @@ git push
 - Només es puja el markdown amb la URL d'archive.org
 - El RSS s'actualitza automàticament amb el push
 
-### 7. **Migració gradual** 🔄 (SI HI HA PENDENTS)
-
-**DESPRÉS de cada episodi nou, pujar UN episodi pendent:**
-
-```bash
-# Esperar 30-60 minuts des de la pujada del nou episodi
-python scripts/upload_to_archive.py --episodi [NUM_PENDENT]
-
-# Commit del pendent migrat
-git add _episodes/[NUM_PENDENT]-*.md
-git commit -m "Migrar episodi [NUM_PENDENT] a archive.org"
-git push
-```
-
-**Tatxar l'episodi de la llista de pendents** a la secció "Migració a Archive.org".
-
 ## Consideracions Importants
 
 ### **Disclaimer sempre present**
@@ -331,7 +289,6 @@ pip install --upgrade openai-whisper
 4. Personalitzar contingut i verificar fonts
 5. Afegir referències creuades a episodis anteriors
 6. Deploy (commit + push)
-7. **Pujar UN episodi pendent** (si n'hi ha a la llista)
 
 ### **Setmanalment:**
 - Revisar que RSS funciona
