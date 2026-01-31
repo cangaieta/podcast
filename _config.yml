@@ -14,7 +14,7 @@ podcast:
   language: "ca-ES"
   category: "News"
   subcategory: "Politics"
-  image: "/assets/logo-podcast.png"
+  image: "/assets/logo-podcast.jpg"
 
 # GitHub Pages
 plugins:
