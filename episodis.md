@@ -88,7 +88,6 @@ permalink: /episodis/
 .btn-back-header:hover {
   background: #A67B6A;
   border-color: #956B5A;
-  transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
@@ -135,7 +134,6 @@ permalink: /episodis/
 .btn-back:hover {
   background: #A67B6A;
   border-color: #956B5A;
-  transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
@@ -155,7 +153,6 @@ permalink: /episodis/
 }
 
 .episode-card:hover {
-  transform: translateY(-5px);
   box-shadow: 0 10px 30px var(--shadow-color-strong);
 }
 
@@ -228,7 +225,6 @@ permalink: /episodis/
 .btn-read:hover {
   background: #6A8A70;
   border-color: #5A7A60;
-  transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
@@ -241,7 +237,6 @@ permalink: /episodis/
 .btn-download:hover {
   background: #A67B6A;
   border-color: #956B5A;
-  transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
