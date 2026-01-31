@@ -3,8 +3,11 @@ layout: landing
 ---
 
 <div class="episode-navigation">
-  <a href="{{ '/' | relative_url }}" class="nav-link">← Inici</a>
-  <a href="{{ '/episodis' | relative_url }}" class="nav-link">← Tots els episodis</a>
+  <div class="nav-links-left">
+    <a href="{{ '/' | relative_url }}" class="nav-link">← Inici</a>
+    <a href="{{ '/episodis' | relative_url }}" class="nav-link">← Tots els episodis</a>
+  </div>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1bA1mx4xQhM_6gspCBxSr2KE0M-26eks1wwwk5B4r4z1Psg/viewform" target="_blank" class="nav-link nav-cta">Uneix-te</a>
 </div>
 
 <article class="episode">
@@ -85,21 +88,56 @@ layout: landing
   margin: 0 auto;
   padding: 2rem 2rem 0 2rem;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 1rem;
 }
 
-.episode-navigation .nav-link {
-  background: var(--terra-cuita);
-  color: white;
-  padding: 0.6rem 1.2rem;
+.nav-links-left {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links-left .nav-link {
+  background: transparent;
+  color: #956B5A !important;
+  padding: 0.8rem 1.5rem;
   text-decoration: none;
-  border-radius: 20px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 2px solid #956B5A;
+  border-radius: 8px;
+  box-shadow: none;
+  transition: border-color 0.2s ease;
+}
+
+.nav-links-left .nav-link:visited,
+.nav-links-left .nav-link:active {
+  color: #956B5A !important;
+}
+
+.nav-links-left .nav-link:hover {
+  color: #7A5548 !important;
+  border-color: #7A5548;
+  background: transparent;
+}
+
+.episode-navigation .nav-cta {
+  background: #B8907D;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 2px solid #956B5A;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   transition: all 0.3s ease;
 }
 
-.episode-navigation .nav-link:hover {
-  background: #B85450;
+.episode-navigation .nav-cta:hover {
+  background: #956B5A;
+  border-color: #7A5548;
 }
 
 .episode {

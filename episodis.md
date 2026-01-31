@@ -5,7 +5,10 @@ permalink: /episodis/
 ---
 
 <div class="episodes-header">
-  <a href="{{ '/' | relative_url }}" class="btn-back-header">← Tornar a l'inici</a>
+  <div class="header-nav">
+    <a href="{{ '/' | relative_url }}" class="btn-back-header">← Tornar a l'inici</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1bA1mx4xQhM_6gspCBxSr2KE0M-26eks1wwwk5B4r4z1Psg/viewform" target="_blank" class="btn-cta-header">Uneix-te</a>
+  </div>
   <h1>Tots els Episodis del Podcast</h1>
 </div>
 
@@ -71,18 +74,54 @@ permalink: /episodis/
   position: relative;
 }
 
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
 .btn-back-header {
+  background: transparent;
+  color: #956B5A !important;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 2px solid #956B5A;
+  border-radius: 8px;
+  box-shadow: none;
+  transition: border-color 0.2s ease;
+}
+
+.btn-back-header:visited,
+.btn-back-header:active {
+  color: #956B5A !important;
+}
+
+.btn-back-header:hover {
+  color: #7A5548 !important;
+  border-color: #7A5548;
+  background: transparent;
+  box-shadow: none;
+}
+
+.btn-cta-header {
   display: inline-block;
   background: #B8907D;
   color: white;
   padding: 1rem 2rem;
   text-decoration: none;
   border-radius: 8px;
-  margin-bottom: 2rem;
   transition: all 0.25s ease;
   font-weight: 700;
   border: 2px solid #A67B6A;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn-cta-header:hover {
+  background: #956B5A;
+  border-color: #7A5548;
 }
 
 .btn-back-header:hover {
