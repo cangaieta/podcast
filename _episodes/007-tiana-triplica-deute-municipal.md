@@ -1,5 +1,6 @@
 ---
 audio_file: "https://archive.org/download/podcast-cangaieta-007-tiana-triplica-deute-municipal/007-tiana-triplica-deute-municipal.mp3"
+audio_size: 6280808
 date: '2026-01-14'
 description: 'Anàlisi del Ple Extraordinari de Tiana del 29 de desembre de 2025: aprovació del pressupost 2026 amb un pla per triplicar el deute municipal (250%), confrontació entre la visió d''inversió valenta del govern i la prudència defensada per l''oposició, i un moment de col·laboració en la defensa dels treballadors de les cures.'
 duration: '13:05'

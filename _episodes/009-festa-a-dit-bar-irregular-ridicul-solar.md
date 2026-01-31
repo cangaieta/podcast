@@ -1,5 +1,6 @@
 ---
 audio_file: "https://archive.org/download/podcast-cangaieta-009-festa-a-dit-bar-irregular-ridicul-solar/009-festa-a-dit-bar-irregular-ridicul-solar.mp3"
+audio_size: 10914537
 date: '2026-01-22'
 description: "Anàlisi del ple municipal del 13 de gener de 2026 a Tiana. La síndica de greuges denuncia la passivitat de l'Ajuntament amb La Centraleta, un bar que funciona des del 2020 sense llicència d'activitat, certificat tècnic ni estudi d'impacte acústic. També examinem la polèmica de la comunitat energètica (un quilowatt de potència?), el sistema de porta a porta de residus, i la festa de Cap d'Any amb adjudicació a dit a Descorxats."
 duration: '22:44'

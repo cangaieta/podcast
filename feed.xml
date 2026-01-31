@@ -46,11 +46,11 @@ layout: null
       {% if episode.audio_file contains "http" %}
       <enclosure url="{{ episode.audio_file }}"
                  type="audio/mpeg"
-                 length="0" />
+                 length="{{ episode.audio_size | default: 0 }}" />
       {% else %}
       <enclosure url="{{ site.url }}{{ site.baseurl }}/episodes/{{ episode.audio_file }}"
                  type="audio/mpeg"
-                 length="0" />
+                 length="{{ episode.audio_size | default: 0 }}" />
       {% endif %}
 
       <!-- iTunes specific tags -->

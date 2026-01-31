@@ -1,5 +1,6 @@
 ---
 audio_file: "https://archive.org/download/podcast-cangaieta-008-normes-fantasma-casa-entitats/008-normes-fantasma-casa-entitats.mp3"
+audio_size: 6386970
 date: '2026-01-15'
 description: 'Quan una associació de veïns intenta fer la seva assemblea anual i es troba amb un mur de normes contradictòries, restriccions horàries inexplicables i regles fantasma que ningú ha aprovat. Anàlisi d''un cas que revela com els equipaments públics poden convertir-se en obstacles burocràtics en lloc de punts de trobada ciutadana.'
 duration: '13:18'
