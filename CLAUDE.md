@@ -184,6 +184,14 @@ Tots els episodis han d'incloure:
 - Fonts sempre transparents i accessibles
 - Enllaç a la web oficial: https://cangaieta.cat
 
+### **CTA "Uneix-te" a cada episodi** ⚠️ IMPORTANT
+A la pàgina de detall de cada episodi (`_layouts/episode.html`) hi ha una secció `join-cta` que es mostra automàticament. 
+
+- **RSS feed**: El CTA s'afegeix automàticament a `feed.xml` (just després del contingut, abans del disclaimer)
+- **Web**: El `join-cta` es mostra dins de cada episodi
+- **URL d'inscripció**: https://docs.google.com/forms/d/e/1FAIpQLSe1bA1mx4xQhM_6gspCBxSr2KE0M-26eks1wwwk5B4r4z1Psg/viewform
+- **URL curta** (només per RSS): tinyurl.com/24mml85h
+
 ### **Format de fitxers**
 - **MP3**: `XXX-nom-descriptiu.mp3`
 - **Episodis**: `_episodes/XXX-nom-descriptiu.md`
