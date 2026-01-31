@@ -73,20 +73,23 @@ permalink: /episodis/
 
 .btn-back-header {
   display: inline-block;
-  background: var(--terra-cuita);
+  background: #B8907D;
   color: white;
-  padding: 0.8rem 1.5rem;
+  padding: 1rem 2rem;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 8px;
   margin-bottom: 2rem;
-  transition: all 0.3s ease;
-  font-weight: 500;
+  transition: all 0.25s ease;
+  font-weight: 700;
+  border: 2px solid #A67B6A;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .btn-back-header:hover {
-  background: #B85450;
+  background: #A67B6A;
+  border-color: #956B5A;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px var(--shadow-color-strong);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
 .episodes-header h1 {
@@ -117,18 +120,23 @@ permalink: /episodis/
 
 .btn-back {
   display: inline-block;
-  background: var(--terra-cuita);
+  background: #B8907D;
   color: white;
-  padding: 0.8rem 1.5rem;
+  padding: 1rem 2rem;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 8px;
   margin-top: 1rem;
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
+  font-weight: 700;
+  border: 2px solid #A67B6A;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .btn-back:hover {
-  background: #B85450;
+  background: #A67B6A;
+  border-color: #956B5A;
   transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
 .episodes-grid {
@@ -201,32 +209,40 @@ permalink: /episodis/
 }
 
 .btn-read, .btn-download {
-  padding: 0.6rem 1.2rem;
-  border-radius: 20px;
+  padding: 1rem 2rem;
+  border-radius: 8px;
   text-decoration: none;
   font-size: 0.9rem;
-  font-weight: 500;
-  transition: all 0.3s ease;
+  font-weight: 700;
+  transition: all 0.25s ease;
+  border: 2px solid transparent;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .btn-read {
-  background: var(--verd-natura);
+  background: #7A9B7F;
   color: white;
+  border-color: #6A8A70;
 }
 
 .btn-read:hover {
-  background: #3d6640;
+  background: #6A8A70;
+  border-color: #5A7A60;
   transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
 .btn-download {
-  background: var(--taronja-calid);
+  background: #B8907D;
   color: white;
+  border-color: #A67B6A;
 }
 
 .btn-download:hover {
-  background: #D35400;
+  background: #A67B6A;
+  border-color: #956B5A;
   transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
 @media (max-width: 768px) {
