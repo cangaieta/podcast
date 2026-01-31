@@ -59,6 +59,12 @@ layout: landing
   </div>
   {% endif %}
 
+  <!-- Uneix-te CTA -->
+  <div class="join-cta">
+    <p><i data-feather="users"></i> T'agrada el que fem?</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1bA1mx4xQhM_6gspCBxSr2KE0M-26eks1wwwk5B4r4z1Psg/viewform" target="_blank" class="join-btn">Uneix-te al projecte</a>
+  </div>
+
   <footer class="episode-footer">
     <p><strong>Recordatori:</strong> Aquest contingut ha estat generat amb Google NotebookLM basant-se en les fonts oficials indicades. Consulta sempre les fonts originals per obtenir la informació completa.</p>
 
@@ -224,6 +230,47 @@ layout: landing
 
 .disclaimer p {
   color: var(--text-secondary);
+}
+
+/* Join CTA */
+.join-cta {
+  background: linear-gradient(135deg, var(--bg-secondary), var(--overlay-light));
+  border: 2px solid var(--border-color);
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.join-cta p {
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.join-cta i {
+  color: var(--verd-natura);
+}
+
+.join-btn {
+  display: inline-block;
+  background: #B8907D;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 700;
+  border: 2px solid #956B5A;
+  transition: all 0.25s ease;
+}
+
+.join-btn:hover {
+  background: #A67B6A;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .episode-footer {
