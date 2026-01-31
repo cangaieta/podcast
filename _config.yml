@@ -12,7 +12,8 @@ podcast:
   email: "info@cangaieta.cat"
   website: "https://cangaieta.cat"
   language: "ca-ES"
-  category: "News & Politics"
+  category: "News"
+  subcategory: "Politics"
   image: "/assets/logo-podcast.png"
 
 # GitHub Pages

@@ -30,7 +30,9 @@ layout: null
       <itunes:email>{{ site.podcast.email }}</itunes:email>
     </itunes:owner>
     <itunes:image href="{{ site.url }}{{ site.baseurl }}{{ site.podcast.image }}" />
-    <itunes:category text="{{ site.podcast.category | xml_escape }}" />
+    <itunes:category text="{{ site.podcast.category | xml_escape }}">
+      {% if site.podcast.subcategory %}<itunes:category text="{{ site.podcast.subcategory | xml_escape }}" />{% endif %}
+    </itunes:category>
     <itunes:explicit>false</itunes:explicit>
 
     {% for episode in site.episodes reversed %}
