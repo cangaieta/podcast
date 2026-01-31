@@ -66,10 +66,10 @@ layout: null
       {% endif %}
 
       <content:encoded><![CDATA[
-        {{ episode.content }}
-
         <h3>👥 T'agrada el que fem?</h3>
         <p>Uneix-te al projecte! <a href="https://tinyurl.com/24mml85h" target="_blank">Apunta't aquí</a> (tinyurl.com/24mml85h)</p>
+
+        {{ episode.content }}
 
         <h3>⚠️ Disclaimer Important</h3>
         <p>Aquest contingut ha estat generat amb <a href="https://notebooklm.google" target="_blank">Google NotebookLM</a> basant-se en fonts oficials. Pot contenir interpretacions de la IA que no encaixin completament amb la realitat. Consulta sempre les fonts originals.</p>
