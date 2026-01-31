@@ -86,6 +86,9 @@ layout: null
         {% endfor %}
         </ul>
         {% endif %}
+
+        <h3>👥 T'agrada el que fem?</h3>
+        <p>Uneix-te al projecte! <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1bA1mx4xQhM_6gspCBxSr2KE0M-26eks1wwwk5B4r4z1Psg/viewform" target="_blank">Apunta't aquí</a></p>
       ]]></content:encoded>
     </item>
     {% endfor %}

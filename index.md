@@ -33,7 +33,7 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <img src="{{ '/assets/logo-podcast.png' | relative_url }}" alt="Logo Podcast Can Gaietà" class="podcast-logo">
+            <img src="{{ '/assets/logo-podcast.jpg' | relative_url }}" alt="Logo Podcast Can Gaietà" class="podcast-logo">
             <h1>Podcast Can Gaietà</h1>
             <p class="subtitle">Informació transparent sobre el que passa a Tiana</p>
             <p class="description">
