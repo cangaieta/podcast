@@ -12,7 +12,7 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
             <li><a href="#disclaimer">Disclaimer</a></li>
             <li><a href="#subscribe">Subscriu-te</a></li>
             <li><a href="{{ '/episodis' | relative_url }}">Episodis</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe1bA1mx4xQhM_6gspCBxSr2KE0M-26eks1wwwk5B4r4z1Psg/viewform" target="_blank" class="nav-cta">Uneix-te</a></li>
+            <li><a href="https://tinyurl.com/24mml85h" target="_blank" class="nav-cta">Uneix-te</a></li>
         </ul>
         <button class="hamburger" onclick="toggleMobileMenu()" aria-label="Menú">
             <span></span>
@@ -25,7 +25,7 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
         <a href="#disclaimer"><i data-feather="alert-circle"></i> Disclaimer</a>
         <a href="#subscribe"><i data-feather="smartphone"></i> Subscriu-te</a>
         <a href="{{ '/episodis' | relative_url }}"><i data-feather="headphones"></i> Tots els Episodis</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1bA1mx4xQhM_6gspCBxSr2KE0M-26eks1wwwk5B4r4z1Psg/viewform" target="_blank" class="mobile-cta"><i data-feather="users"></i> Uneix-te</a>
+        <a href="https://tinyurl.com/24mml85h" target="_blank" class="mobile-cta"><i data-feather="users"></i> Uneix-te</a>
     </div>
 </header>
 
