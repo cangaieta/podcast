@@ -109,6 +109,16 @@ EPISODIS = [
         "date": "2026-01-22",
         "duration": "22:44",
         "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "sindica", "llicencies", "energia", "festes"]
+    },
+    {
+        "num": "010",
+        "fitxer": "010-antifrau-polemica-solar-auditoria-inexistent.mp3",
+        "identifier": "podcast-cangaieta-010-antifrau-polemica-solar-auditoria-inexistent",
+        "title": "Episodi 010: Antifrau, polèmica solar i l'auditoria inexistent",
+        "description": "Anàlisi del ple municipal del 3 de febrer de 2026 a Tiana. L'oficina Antifrau de Catalunya arxiva una denúncia contra l'Ajuntament, però el govern transforma la notícia en un relat de victimisme. La polèmica de la comunitat energètica solar torna: la taxa aprovada no cobreix ni el manteniment. I al final, un veí posa el govern davant del seu propi programa electoral: l'auditoria econòmica promesa fa gairebé 4 anys que no s'ha fet. L'alcalde no respon.",
+        "date": "2026-02-19",
+        "duration": "11:39",
+        "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "antifrau", "energia solar", "auditoria", "transparencia", "deixalleria", "rodalies"]
     }
 ]
 
