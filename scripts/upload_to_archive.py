@@ -129,6 +129,16 @@ EPISODIS = [
         "date": "2026-03-10",
         "duration": "15:36",
         "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "transparencia", "equipaments", "espai jove", "dioptria", "participacio ciutadana", "entitats", "normes"]
+    },
+    {
+        "num": "012",
+        "fitxer": "012-autobusos-fantasma-lavabos-precintats.mp3",
+        "identifier": "podcast-cangaieta-012-autobusos-fantasma-lavabos-precintats",
+        "title": "Episodi 012: Autobusos fantasma i lavabos precintats",
+        "description": "Anàlisi del ple municipal del 3 de març de 2026 a Tiana. El govern elimina les línies B34 i B35 per crear la nova B32 que connecta amb un CAP i un mercat que encara no existeixen. Un terreny públic de gairebé 4 milions que es cedeix a l'AMB malgrat que la caixa municipal té 7,9 milions en reserva. Lavabos del casal del poble clausurats amb bosses d'escombraries negres. I un alcalde que al final del ple assenyala públicament un veí i el vincula a l'extrema dreta.",
+        "date": "2026-03-10",
+        "duration": "15:25",
+        "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "autobusos", "mobilitat", "calcfrares", "habitatge social", "residus", "casal", "antifrau", "participacio ciutadana", "ple municipal"]
     }
 ]
 
