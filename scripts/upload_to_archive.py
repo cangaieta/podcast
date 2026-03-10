@@ -119,6 +119,16 @@ EPISODIS = [
         "date": "2026-02-19",
         "duration": "11:39",
         "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "antifrau", "energia solar", "auditoria", "transparencia", "deixalleria", "rodalies"]
+    },
+    {
+        "num": "011",
+        "fitxer": "011-playstation-excusa-can-gaieta.mp3",
+        "identifier": "podcast-cangaieta-011-playstation-excusa-can-gaieta",
+        "title": "Episodi 011: La PlayStation com a excusa",
+        "description": "La PlayStation com a excusa: l'Ajuntament de Tiana confessa per escrit que no existeix cap norma que justifiqui la prohibició d'ús de l'Espai Diòptria entre les 17h i les 20:30h. Anàlisi de l'expedient de transparència que revela el doble rasador de l'Ajuntament, les dades reals d'ocupació (11 dies amb 0 joves en 5 mesos) i com l'Associació Veïnal de Can Gaietà ha estat discriminada pel comportament d'altres entitats que ni tan sols s'identifiquen.",
+        "date": "2026-03-10",
+        "duration": "15:36",
+        "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "transparencia", "equipaments", "espai jove", "dioptria", "participacio ciutadana", "entitats", "normes"]
     }
 ]
 
