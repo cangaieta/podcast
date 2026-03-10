@@ -1,14 +1,7 @@
 ---
-mode: agent
+agent: agent
 description: "Genera un nou episodi del podcast Can Gaietà: transcripció, upload a archive.org, personalització i deploy"
-tools:
-  - run_in_terminal
-  - read_file
-  - replace_string_in_file
-  - create_file
-  - grep_search
-  - file_search
-  - get_errors
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 ---
 
 # Skill: Generar Episodi del Podcast Can Gaietà
@@ -23,11 +16,51 @@ Els MP3 s'allotgen a **archive.org** (no a GitHub).
 
 Segueix aquests passos **en ordre estricte**. No saltis cap pas.
 
+### PAS PREVI: Preparar directori d'staging
+
+**Fes-ho SEMPRE al principi, abans de demanar res més.**
+
+1. Determinar automàticament el número del pròxim episodi:
+```bash
+ls _episodes/ | sort | tail -1
+```
+Agafar el número de l'últim episodi i sumar 1. Formatar amb zeros: `011`, `012`, etc.
+
+2. Crear el directori d'staging:
+```bash
+mkdir -p /tmp/podcast-staging/XXX
+```
+
+3. Obrir el directori al Finder de Mac:
+```bash
+open /tmp/podcast-staging/XXX
+```
+
+4. Indicar a l'usuari:
+```
+📁 Directori preparat: /tmp/podcast-staging/XXX (episodi XXX)
+Copia-hi:
+  - El fitxer MP3 de l'episodi (ex: XXX-nom-episodi.mp3)
+  - Qualsevol font addicional (PDFs, documents, etc.)
+
+Quan ho tinguis llest, avisa'm i continuarem.
+```
+
+5. **Esperar confirmació de l'usuari** que ha copiat els fitxers.
+
+6. Un cop confirmat, moure l'MP3 a `episodes/` i les fonts a `sources/`:
+```bash
+mv /tmp/podcast-staging/XXX/*.mp3 episodes/
+mv /tmp/podcast-staging/XXX/* sources/ 2>/dev/null || true
+```
+
+---
+
 ### PAS 0: Recollir informació de l'usuari
 
 **OBLIGATORI — No continuar sense això:**
 
-1. **Fitxer MP3**: L'usuari ha d'indicar el path al fitxer MP3 (dins `episodes/`).
+1. **Fitxer MP3**: Confirmar que l'MP3 s'ha mogut a `episodes/` en el pas anterior.
    - Format esperat: `XXX-nom-descriptiu.mp3` (ex: `011-tema-episodi.mp3`)
    - Si no existeix, demanar-lo.
 
@@ -130,13 +163,13 @@ Paràgraf curt que resumeix l'episodi i el context.
 
 - **Tema 1**: Descripció breu amb detalls rellevants
 - **Tema 2**: Descripció breu, inclou noms i dades concretes
-- **Tema 3**: Si un tema apareix en episodis anteriors, afegir referència creuada: [Episodi XXX](/podcast/episodi/XXX-nom-episodi/)
+- **Tema 3**: Si un tema apareix en episodis anteriors, afegir referència creuada: Episodi XXX a `/podcast/episodi/XXX-nom-episodi/`
 
 ## Fonts
 
-- [Títol font](URL) - Descripció
-- [Videoacta del Ple Municipal](URL_YouTube) - Enregistrament complet
-- [Transcripció automàtica](/podcast/sources/XXX-nom-episodi-transcripcio.txt) - Generada amb OpenAI Whisper (model large-v3)
+- Títol font (URL_FONT) - Descripció
+- Videoacta del Ple Municipal (URL_YOUTUBE) - Enregistrament complet
+- Transcripció automàtica (`/podcast/sources/XXX-nom-episodi-transcripcio.txt`) - Generada amb OpenAI Whisper (model large-v3)
 
 ---
 
