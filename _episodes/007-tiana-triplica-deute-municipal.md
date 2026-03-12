@@ -17,6 +17,11 @@ sources:
   url: "/podcast/sources/007-tiana-triplica-deute-municipal-transcripcio.txt"
   description: "Transcripció completa generada amb OpenAI Whisper (model large-v3)"
 title: 'Episodi 007: Tiana Triplica el Deute Municipal'
+
+chapters_file: "007-tiana-triplica-deute-municipal-chapters.json"
+soundbite_start: 109.9
+soundbite_duration: 48
+soundbite_title: "El deute que triplica: d'on ve i qui en paga les conseqüències"
 ---
 
 ## Introducció

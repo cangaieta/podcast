@@ -79,6 +79,11 @@ sources:
   description: "Transcripció completa generada amb OpenAI Whisper (model large-v3)"
 title: "Episodi 013: La contraportada que treballa contra les famílies: pantalles,
   menors i el problema de salut pública que amplifica"
+
+chapters_file: "013-youtuber-revista-pantalles-chapters.json"
+soundbite_start: 307.7
+soundbite_duration: 45
+soundbite_title: "La revista municipal: informació o relacions públiques?"
 ---
 
 ## Introducció

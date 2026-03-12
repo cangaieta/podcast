@@ -22,6 +22,11 @@ sources:
   - title: "Transcripció automàtica de l'episodi"
     url: "/podcast/sources/002-el-laberint-burocratic-transcripcio.txt"
     description: "Transcripció completa generada amb OpenAI Whisper"
+
+chapters_file: "002-el-laberint-burocratic-chapters.json"
+soundbite_start: 249.6
+soundbite_duration: 38
+soundbite_title: "Dues justificacions oficials que no existeixen documentalment"
 ---
 
 ## Introducció

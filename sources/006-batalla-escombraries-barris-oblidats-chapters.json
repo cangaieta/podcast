@@ -1,0 +1,29 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "Introducció: la batalla de les escombraries"
+    },
+    {
+      "startTime": 100.4,
+      "title": "Barris oblidats: el problema de la recollida"
+    },
+    {
+      "startTime": 251.1,
+      "title": "Comparativa entre barris i zones de Tiana"
+    },
+    {
+      "startTime": 418.5,
+      "title": "Arguments del govern i l'oposició"
+    },
+    {
+      "startTime": 569.2,
+      "title": "El cost real del servei i el contracte pendent"
+    },
+    {
+      "startTime": 694.7,
+      "title": "Reflexió: gestió local i servei públic"
+    }
+  ]
+}

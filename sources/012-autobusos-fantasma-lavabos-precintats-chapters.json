@@ -1,0 +1,29 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "Introducció: autobusos i lavabos"
+    },
+    {
+      "startTime": 92.5,
+      "title": "Els autobusos fantasma: línies sense servei real"
+    },
+    {
+      "startTime": 259.0,
+      "title": "Els lavabos precintats: accessibilitat pública"
+    },
+    {
+      "startTime": 444.0,
+      "title": "Queixes veïnals i peticions formals"
+    },
+    {
+      "startTime": 592.0,
+      "title": "Respostes de l'Ajuntament"
+    },
+    {
+      "startTime": 721.5,
+      "title": "Reflexió: serveis bàsics i drets dels ciutadans"
+    }
+  ]
+}

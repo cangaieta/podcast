@@ -20,6 +20,11 @@ sources:
   url: "/episodi/004-puja-fiscal-taxa-residus/"
   description: "Context previ: anàlisi de la polèmica pujada del 60% de la taxa de residus aprovada al Ple del 7 d'octubre de 2025"
 title: 'Episodi 006: La Batalla de les Escombraries i els Barris Oblidats'
+
+chapters_file: "006-batalla-escombraries-barris-oblidats-chapters.json"
+soundbite_start: 267.8
+soundbite_duration: 45
+soundbite_title: "Barris que paguen el mateix però reben menys servei"
 ---
 
 ## Introducció

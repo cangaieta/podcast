@@ -38,6 +38,11 @@ sources:
   url: "/podcast/sources/008-normes-fantasma-casa-entitats-transcripcio.txt"
   description: "Transcripció completa generada amb OpenAI Whisper (model large-v3)"
 title: 'Episodi 008: Normes Fantasma i el Caos de la Casa d''Entitats'
+
+chapters_file: "008-normes-fantasma-casa-entitats-chapters.json"
+soundbite_start: 239.4
+soundbite_duration: 42
+soundbite_title: "Les normes que existien però ningú coneixia"
 ---
 
 ## Introducció

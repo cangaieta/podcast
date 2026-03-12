@@ -22,6 +22,11 @@ sources:
   url: "/podcast/sources/010-antifrau-polemica-solar-auditoria-inexistent-transcripcio.txt"
   description: "Transcripció completa generada amb OpenAI Whisper (model large-v3)"
 title: "Episodi 010: Antifrau, polèmica solar i l'auditoria inexistent"
+
+chapters_file: "010-antifrau-polemica-solar-auditoria-inexistent-chapters.json"
+soundbite_start: 83.9
+soundbite_duration: 45
+soundbite_title: "La denúncia a l'Antifrau: fets que demanen explicació"
 ---
 
 ## Introducció

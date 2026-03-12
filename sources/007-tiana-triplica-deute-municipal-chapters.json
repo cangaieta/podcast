@@ -1,0 +1,29 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "Introducció: el deute municipal de Tiana"
+    },
+    {
+      "startTime": 94.2,
+      "title": "Dades del deute: la xifra que triplica"
+    },
+    {
+      "startTime": 219.8,
+      "title": "Context: d'on ve el deute"
+    },
+    {
+      "startTime": 353.2,
+      "title": "Inversions i despeses principals"
+    },
+    {
+      "startTime": 486.7,
+      "title": "Debat polític: qui és responsable"
+    },
+    {
+      "startTime": 612.3,
+      "title": "Reflexió final sobre sostenibilitat financera"
+    }
+  ]
+}

@@ -26,6 +26,11 @@ sources:
   url: "/podcast/sources/011-playstation-excusa-can-gaieta-transcripcio.txt"
   description: "Transcripció completa generada amb OpenAI Whisper (model large-v3)"
 title: "Episodi 011: La PlayStation com a excusa"
+
+chapters_file: "011-playstation-excusa-can-gaieta-chapters.json"
+soundbite_start: 262.1
+soundbite_duration: 40
+soundbite_title: "La PlayStation: una excusa per negar l'accés al local veïnal"
 ---
 
 ## Introducció

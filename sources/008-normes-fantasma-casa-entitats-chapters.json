@@ -1,0 +1,29 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "Introducció: la Casa d'Entitats i les normes fantasma"
+    },
+    {
+      "startTime": 95.8,
+      "title": "El reglament que ningú coneixia"
+    },
+    {
+      "startTime": 239.4,
+      "title": "Problemes d'accés i gestió"
+    },
+    {
+      "startTime": 383.0,
+      "title": "Entitats afectades: experiències directes"
+    },
+    {
+      "startTime": 510.7,
+      "title": "Comparativa amb altres municipis"
+    },
+    {
+      "startTime": 622.4,
+      "title": "Reflexió: transparència i participació"
+    }
+  ]
+}

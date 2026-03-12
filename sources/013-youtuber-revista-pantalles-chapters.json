@@ -1,0 +1,33 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "Introducció"
+    },
+    {
+      "startTime": 109.9,
+      "title": "El youtuber: influència i polèmica"
+    },
+    {
+      "startTime": 307.7,
+      "title": "La revista municipal: contingut i objectivitat"
+    },
+    {
+      "startTime": 505.5,
+      "title": "Les pantalles publicitàries: normativa i transparència"
+    },
+    {
+      "startTime": 681.4,
+      "title": "Connexions i patrons entre els tres casos"
+    },
+    {
+      "startTime": 857.2,
+      "title": "Impacte en la opinió pública local"
+    },
+    {
+      "startTime": 989.1,
+      "title": "Reflexió final"
+    }
+  ]
+}

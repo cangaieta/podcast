@@ -1,0 +1,29 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "Introducció: escola bressol, IBI i deute"
+    },
+    {
+      "startTime": 95.7,
+      "title": "Debat sobre l'escola bressol Les Tres Bessones"
+    },
+    {
+      "startTime": 268.0,
+      "title": "La qüestió del IBI i la pressió fiscal"
+    },
+    {
+      "startTime": 430.7,
+      "title": "El deute municipal i la gestió financera"
+    },
+    {
+      "startTime": 593.3,
+      "title": "Posicions de l'oposició"
+    },
+    {
+      "startTime": 746.5,
+      "title": "Conclusions del ple i reflexió"
+    }
+  ]
+}

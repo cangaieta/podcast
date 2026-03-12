@@ -1,0 +1,37 @@
+{
+  "version": "1.2.0",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "Introducció: el projecte de pisos de Can Gaietà"
+    },
+    {
+      "startTime": 60.9,
+      "title": "Presentació del projecte al CAUT"
+    },
+    {
+      "startTime": 152.2,
+      "title": "Intervenció de David Ródenas: cessió del sòl a l'AMB"
+    },
+    {
+      "startTime": 266.3,
+      "title": "Dubtes tècnics: confort, calor i aire condicionat"
+    },
+    {
+      "startTime": 380.5,
+      "title": "El barri dormitori: manca de vida i comerç"
+    },
+    {
+      "startTime": 494.7,
+      "title": "Anàlisi de l'article de la revista local"
+    },
+    {
+      "startTime": 593.6,
+      "title": "Simplificació mediàtica vs. crítica real"
+    },
+    {
+      "startTime": 669.7,
+      "title": "Reflexió final: participació i transparència"
+    }
+  ]
+}

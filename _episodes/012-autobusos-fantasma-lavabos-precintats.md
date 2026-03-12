@@ -22,6 +22,11 @@ sources:
   url: "/podcast/sources/012-autobusos-fantasma-lavabos-precintats-transcripcio.txt"
   description: "Transcripció completa generada amb OpenAI Whisper (model large-v3)"
 title: "Episodi 012: Autobusos fantasma i lavabos precintats"
+
+chapters_file: "012-autobusos-fantasma-lavabos-precintats-chapters.json"
+soundbite_start: 92.5
+soundbite_duration: 48
+soundbite_title: "Autobusos que no passen i lavabos que no s'obren"
 ---
 
 ## Introducció
