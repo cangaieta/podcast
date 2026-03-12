@@ -77,6 +77,9 @@ layout: null
       <podcast:soundbite startTime="{{ episode.soundbite_start }}" duration="{{ episode.soundbite_duration }}">{{ episode.soundbite_title | xml_escape }}</podcast:soundbite>
       {% endif %}
       <podcast:location rel="subject" geo="geo:41.4835612,2.2717428" osm="R343671" country="ES">Can Gaietà, Tiana</podcast:location>
+      {% if episode.thumbnail %}
+      <itunes:image href="{{ site.url }}{{ site.baseurl }}{{ episode.thumbnail }}" />
+      {% endif %}
       {% endif %}
 
       <content:encoded><![CDATA[
