@@ -241,6 +241,31 @@ def create_transcription_file(episode_info, transcript, output_dir="sources"):
 
     return transcript_path
 
+
+def format_srt_timestamp(seconds):
+    """Converteix un valor en segons (float) al format de timestamp SRT HH:MM:SS,mmm."""
+    hours = int(seconds // 3600)
+    minutes = int((seconds % 3600) // 60)
+    secs = int(seconds % 60)
+    millis = int(round((seconds - int(seconds)) * 1000))
+    return f"{hours:02d}:{minutes:02d}:{secs:02d},{millis:03d}"
+
+
+def create_srt_file(episode_info, segments, output_dir="sources"):
+    """Crea fitxer SRT de subtítols (podcast:transcript) a sources/ a partir dels segments de Whisper."""
+    os.makedirs(output_dir, exist_ok=True)
+    srt_path = os.path.join(output_dir, f"{episode_info['filename']}-transcripcio.srt")
+
+    with open(srt_path, 'w', encoding='utf-8') as f:
+        for i, segment in enumerate(segments, start=1):
+            start_ts = format_srt_timestamp(segment['start'])
+            end_ts = format_srt_timestamp(segment['end'])
+            text = segment['text'].strip()
+            f.write(f"{i}\n{start_ts} --> {end_ts}\n{text}\n\n")
+
+    return srt_path
+
+
 def main():
     parser = argparse.ArgumentParser(description='Transcriu episodi de podcast')
     parser.add_argument('audio_file', help='Fitxer MP3 a transcriure')
@@ -254,6 +279,8 @@ def main():
                        help='Directori per al fitxer markdown')
     parser.add_argument('--output-transcript', default='sources',
                        help='Directori per al fitxer de transcripció')
+    parser.add_argument('--srt-only', action='store_true',
+                       help='Només genera el fitxer SRT amb timestamps (no crea ni sobreescriu el markdown ni el .txt)')
 
     args = parser.parse_args()
 
@@ -273,6 +300,15 @@ def main():
     # Transcriure
     result = transcribe_audio(args.audio_file, args.model, args.backend)
     transcript = result["text"]
+    segments = result.get("segments", [])
+
+    # Generar SRT sempre (necessari per a podcast:transcript al RSS)
+    srt_path = create_srt_file(episode_info, segments, args.output_transcript)
+    print(f"🎬 SRT generat: {srt_path} ({len(segments)} segments)")
+
+    if args.srt_only:
+        print(f"✅ Mode --srt-only: fitxer SRT creat, markdown no modificat.")
+        return
 
     # Generar descripció
     description = generate_description(transcript)
@@ -284,11 +320,14 @@ def main():
     print(f"✅ Transcripció completada!")
     print(f"📄 Episodi: {markdown_path}")
     print(f"📝 Transcripció: {transcript_path}")
+    print(f"🎬 SRT (subtítols): {srt_path}")
     print(f"\n🔧 Pròxims passos:")
-    print(f"1. Revisa i edita {markdown_path}")
-    print(f"2. Actualitza les fonts reals utilitzades")
-    print(f"3. Ajusta la durada i altres metadades")
-    print(f"4. Fes git add, commit i push")
+    print(f"1. Demana a Copilot que generi capítols llegint: {srt_path}")
+    print(f"2. Demana a Copilot que seleccioni un soundbite de: {srt_path}")
+    print(f"3. Genera thumbnail: python scripts/generate_thumbnail.py --episodi {episode_info['number']} --nom {episode_info['filename']} --prompt-suffix 'element visual específic'")
+    print(f"4. Revisa i edita {markdown_path}")
+    print(f"5. Actualitza les fonts reals i la durada")
+    print(f"6. Fes git add, commit i push")
 
 if __name__ == "__main__":
     main()

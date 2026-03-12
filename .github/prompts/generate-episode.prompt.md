@@ -95,7 +95,8 @@ source .venv/bin/activate && python scripts/transcribe_episode.py episodes/XXX-n
 
 Això crea automàticament:
 - `_episodes/XXX-nom-episodi.md` (markdown amb metadades inicials)
-- `sources/XXX-nom-episodi-transcripcio.txt` (transcripció completa)
+- `sources/XXX-nom-episodi-transcripcio.txt` (transcripció completa en text pla)
+- `sources/XXX-nom-episodi-transcripcio.srt` (subtítols amb timestamps per a podcast:transcript)
 
 **Si el backend `mlx` falla**, provar amb `auto` o `whisper --model small`.
 
@@ -129,19 +130,103 @@ stat -f%z episodes/XXX-nom-episodi.mp3
 
 ---
 
+### PAS 5b: Generar capítols JSON (podcast:chapters)
+
+Llegir el fitxer SRT `sources/XXX-nom-episodi-transcripcio.srt` i identificar les transicions de tema principals.
+
+Crear `sources/XXX-nom-episodi-chapters.json` amb el format Podcast 2.0:
+
+```json
+{
+  "version": "1.2.0",
+  "podcastName": "Podcast Associació Veïnal Can Gaietà",
+  "title": "Episodi XXX: Títol",
+  "chapters": [
+    { "startTime": 0, "title": "Introducció i disclaimer" },
+    { "startTime": NN, "title": "Tema 1: ..." },
+    { "startTime": NN, "title": "Tema 2: ..." },
+    { "startTime": NN, "title": "Reflexió final" }
+  ]
+}
+```
+
+**Criteris per als capítols:**
+- Mínim 3 capítols, màxim 10
+- El primer sempre és "Introducció i disclaimer" (startTime: 0)
+- El darrer sempre és "Conclusions" o "Reflexió final"
+- Els capítols del mig corresponen als temes principals de la secció "Temes tractats" del markdown
+- `startTime` en segons (float), derivat dels timestamps del SRT
+
+**Anotar al frontmatter del markdown:**
+```yaml
+chapters_file: "XXX-nom-episodi-chapters.json"
+```
+
+---
+
+### PAS 5c: Seleccionar soundbite (podcast:soundbite)
+
+Llegir el SRT i identificar un fragment impactant de **15 a 120 segons** que representi bé l'episodi.
+
+Criteris per un bon soundbite:
+- Una afirmació contundent, una dada sorprenent o una pregunta retòrica memorable
+- Autònom: s'entén sense context previ
+- Representatiu del tema central de l'episodi
+- Preferentment entre 30 i 90 segons
+
+**Anotar al frontmatter del markdown:**
+```yaml
+soundbite_start: NN.N   # en segons (float)
+soundbite_duration: NN.N
+soundbite_title: "Títol curt del soundbite (màx 128 caràcters)"
+```
+
+---
+
+### PAS 5d: Generar thumbnail
+
+Decidir un element visual específic per a l'episodi (en anglès, per millors resultats).
+Exemples: `"a PlayStation controller as an excuse"`, `"a ghost bus floating down a road"`.
+
+**Prerequisit:** ollama instal·lat i model disponible:
+```bash
+ollama pull x/z-image-turbo
+```
+
+Executar:
+```bash
+python scripts/generate_thumbnail.py \
+  --episodi XXX \
+  --nom XXX-nom-episodi \
+  --prompt-suffix "element visual específic en anglès"
+```
+
+L'script crea `assets/thumbnails/XXX-nom-episodi.png` i mostra la línia per afegir al frontmatter.
+
+**Anotar al frontmatter del markdown:**
+```yaml
+thumbnail: "/assets/thumbnails/XXX-nom-episodi.png"
+```
+
+---
+
 ### PAS 6: Personalitzar el markdown de l'episodi
 
 Editar `_episodes/XXX-nom-episodi.md` amb el format definitiu:
 
 ```yaml
 ---
-audio_file: ""  # Es completarà al PAS 7 (upload a archive.org)
+audio_file: ""  # Es completarà al PAS 8 (upload a archive.org)
 audio_size: MIDA_BYTES
+chapters_file: "XXX-nom-episodi-chapters.json"  # creat al PAS 5b
 date: 'YYYY-MM-DD'
 description: "Descripció rica i detallada basada en la transcripció"
 duration: 'MM:SS'
 episode_number: N
 season: 1
+soundbite_duration: NN.N
+soundbite_start: NN.N
+soundbite_title: "Títol del soundbite"
 sources:
 - title: "Acta del Ple Municipal de MES ANY"
   url: "URL_ACTA"
@@ -152,6 +237,7 @@ sources:
 - title: "Transcripció automàtica de l'episodi"
   url: "/podcast/sources/XXX-nom-episodi-transcripcio.txt"
   description: "Transcripció completa generada amb OpenAI Whisper (model large-v3)"
+thumbnail: "/assets/thumbnails/XXX-nom-episodi.png"  # creat al PAS 5d
 title: "Episodi XXX: Títol descriptiu i enganxós"
 ---
 
@@ -234,9 +320,13 @@ Abans de fer deploy, comprovar:
 3. ✅ `audio_size` conté la mida en bytes
 4. ✅ `duration` té el format `MM:SS` correcte
 5. ✅ `sources` inclou totes les fonts (acta, videoacta, transcripció)
-6. ✅ La transcripció existeix a `sources/`
-7. ✅ El contingut del body és correcte (introducció, temes, fonts, disclaimer)
-8. ✅ `scripts/upload_to_archive.py` conté el nou episodi a la llista
+6. ✅ La transcripció `.txt` existeix a `sources/`
+7. ✅ El fitxer SRT `.srt` existeix a `sources/`
+8. ✅ El JSON de capítols existeix a `sources/` i `chapters_file` coincideix
+9. ✅ `soundbite_start`, `soundbite_duration` i `soundbite_title` estan definits
+10. ✅ El thumbnail existeix a `assets/thumbnails/` i `thumbnail` coincideix
+11. ✅ El contingut del body és correcte (introducció, temes, fonts, disclaimer)
+12. ✅ `scripts/upload_to_archive.py` conté el nou episodi a la llista
 
 Mostrar un resum a l'usuari per confirmar.
 
@@ -247,7 +337,12 @@ Mostrar un resum a l'usuari per confirmar.
 **Demanar confirmació a l'usuari** abans de fer push.
 
 ```bash
-git add _episodes/XXX-nom-episodi.md sources/XXX-nom-episodi-transcripcio.txt scripts/upload_to_archive.py
+git add _episodes/XXX-nom-episodi.md \
+        sources/XXX-nom-episodi-transcripcio.txt \
+        sources/XXX-nom-episodi-transcripcio.srt \
+        sources/XXX-nom-episodi-chapters.json \
+        assets/thumbnails/XXX-nom-episodi.* \
+        scripts/upload_to_archive.py
 git commit -m "Add episode XXX: [títol]"
 git push
 ```
@@ -268,3 +363,7 @@ git push
 - **Format de noms**: `XXX-nom-descriptiu` (3 dígits amb zeros)
 - **Transcripció al body**: NO incloure la transcripció sencera al markdown de l'episodi (guardar-la només a `sources/`)
 - **CTA**: No cal tocar-lo — ja s'afegeix automàticament al layout i al feed.xml
+- **SRT**: Sempre es genera automàticament amb la transcripció — no cal acció addicional
+- **Capítols**: Sempre crear `sources/XXX-chapters.json` amb mínim introducció + temes principals + conclusió
+- **Soundbite**: Sempre seleccionar un fragment representatiu de 30-90 segons
+- **Thumbnail**: Sempre generar amb ollama x/z-image-turbo; si ollama no disponible, indicar-ho a l'usuari

@@ -2,7 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>{{ site.podcast.title | xml_escape }}</title>
     <description>{{ site.podcast.description | xml_escape }}</description>
@@ -35,6 +35,9 @@ layout: null
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
 
+    <!-- Podcast 2.0: ubicació del podcast (Can Gaietà, Tiana) -->
+    <podcast:location rel="creator" geo="geo:41.4835612,2.2717428" osm="R343671" country="ES">Can Gaietà, Tiana</podcast:location>
+
     {% for episode in site.episodes reversed %}
     <item>
       <title>{{ episode.title | xml_escape }}</title>
@@ -63,6 +66,17 @@ layout: null
       {% if episode.episode_number %}<itunes:episode>{{ episode.episode_number }}</itunes:episode>{% endif %}
       {% if episode.season %}<itunes:season>{{ episode.season }}</itunes:season>{% endif %}
       <itunes:explicit>false</itunes:explicit>
+
+      <!-- Podcast 2.0 namespace tags -->
+      {% assign ep_slug = episode.path | split: '/' | last | remove: '.md' %}
+      <podcast:transcript url="{{ site.url }}{{ site.baseurl }}/sources/{{ ep_slug }}-transcripcio.srt" type="application/x-subrip" language="ca" rel="captions" />
+      {% if episode.chapters_file %}
+      <podcast:chapters url="{{ site.url }}{{ site.baseurl }}/sources/{{ episode.chapters_file }}" type="application/json+chapters" />
+      {% endif %}
+      {% if episode.soundbite_start %}
+      <podcast:soundbite startTime="{{ episode.soundbite_start }}" duration="{{ episode.soundbite_duration }}">{{ episode.soundbite_title | xml_escape }}</podcast:soundbite>
+      {% endif %}
+      <podcast:location rel="subject" geo="geo:41.4835612,2.2717428" osm="R343671" country="ES">Can Gaietà, Tiana</podcast:location>
       {% endif %}
 
       <content:encoded><![CDATA[
