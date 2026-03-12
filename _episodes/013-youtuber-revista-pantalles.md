@@ -83,65 +83,39 @@ title: "Episodi 013: La contraportada que treballa contra les famílies: pantall
 
 ## Introducció
 
-La revista municipal Plaça de la Vila ha dedicat la contraportada del número de gener i febrer a celebrar que un jove de Tiana va arribar als 100.000 subscriptors a YouTube havent-hi entrat als 12 anys. Sense cap línia sobre riscos, cap veu experta, cap menció al context legal. En el mateix moment, Austràlia prohibia les xarxes per a menors de 16 i Espanya tramitava una llei en la mateixa línia. L'oposició al ple del 3 de març li va dir clar a l'alcalde —com a editor en cap de la revista— que aquella portada és un greu problema de salut pública. Però la polèmica va més lluny: revela un patró comunicatiu del govern que ja vam analitzar a l'[Episodi 001](/podcast/episodi/001-pisos-can-gaieta-caut/).
+La revista municipal Plaça de la Vila ha dedicat la contraportada del número de gener i febrer a celebrar que un jove de Tiana va arribar als 100.000 subscriptors a YouTube havent-hi entrat als 12 anys. Sense cap línia sobre riscos, cap veu experta, cap menció al context legal. En el mateix moment, Austràlia prohibia les xarxes per a menors de 16 anys i Espanya tramitava una llei en la mateixa línia. L'oposició al ple del 3 de març va qualificar aquella contraportada de greu problema de salut pública. Però la polèmica va més lluny: revela un patró comunicatiu del govern que ja vam analitzar a l'[Episodi 001](/podcast/episodi/001-pisos-can-gaieta-caut/).
 
 ## Temes tractats
 
-- **Patró comunicatiu: el precedent de l'Episodi 001**: La mateixa revista va publicar que el president de l'Associació Veïnal de Can Gaietà havia avalat els pisos de Calçfrares al CAUT. La font original —el vídeo de la reunió— mostrava exactament el contrari: una crítica severa al model de governança i dubtes tècnics sobre confort climàtic (57 graus a l'asfalt del carrer Calçfrares). La revista, pagada amb diners públics, 
-## Temes tractats
+- **Patró comunicatiu: el precedent de l'Episodi 001**: La mateixa revista va publicar que el president de l'Associació Veïnal de Can Gaietà havia avalat els pisos de Calçfrares al CAUT. La font original —el vídeo de la reunió— mostrava exactament el contrari: una crítica severa al model de governança i dubtes tècnics sobre confort climàtic (57 graus a l'asfalt del carrer Calçfrares). La revista, pagada amb diners públics, va filtrar les parts incòmodes i va empaquetar la intervenció com una simple col·laboració veïnal satisfeta.
 
-- **Patró comunicatiu: el precedent de l'Episodi 001**: La mateixa revista va publicar que el president de l'Associació Veïnal de Can Gaietà havia avalat els pisos de Calçfrares al CAUT. La font original —el vídeo de la reunió— mostrava exactament el contrari: una crítica severa al model de governança i dubtes tècnics sobre confort climàtic (57 graus a l'asfalt del carrer Calçfrares). La revista, pagada amb diners públics, 
-## Temes tractats
+- **La contraportada de la discòrdia**: Un reportatge acrític celebra que un jove de 16 anys té 100.000 subscriptors a YouTube i 20.000 a Instagram, destacant que va començar als 12 anys i que vol rendibilitzar-ho econòmicament. L'article no inclou cap context mèdic, cap advertència sobre riscos de l'exposició digital ni cap menció a la legislació vigent. Un detall revelador: el noi confessa que YouTube li va tancar el primer canal "sense saber per què" —molt probablement per incomplir les normatives de protecció de menors de 13 anys (RGPD a Europa, llei COPA als EUA).
 
-- **Patró comunicatiu: el precedent de l'Episodi 001**: La mateixaix les xarxes per a me## Temes tractats
+- **El contrast amb el món**: Mentre la revista aplaudeix que un nen de 12 anys s'iniciï a les xarxes, governs de tot el món premen el botó d'emergència. Austràlia ha prohibit les xarxes per a menors de 16 anys, amb 4,7 milions de comptes eliminats; França les restringeix per sota dels 15 anys; Espanya tramita un avantprojecte per elevar l'edat mínima als 16. L'Ajuntament celebra com a model d'èxit allò que els governs volen prohibir per llei.
 
-- **Patró comunicatiu: el precedent de l'Episodi 001**: La mateixa revista va publicar que el president de l'Associació Veïnal de Can Gaietà havia avalat els pisos de Calçfrares al CAUT. La font original —el vídeo de la reunió— mostrava exactament el contrari: una crítica severa al model de governança i dubtes tècnics sobre confort climàtic (57 graus a l'asfalt del carrer Calçfrares). La revista, pagada aca
-- **Patró comuess## Temes tractats
+- **El miratge de l'èxit**: L'article ven una narrativa d'esforç i èxit que les dades desmunten. Només el 0,5% de tots els canals de YouTube arriben als 100.000 subscriptors, i el 88% dels vídeos no arriben a 1.000 visualitzacions. Presentar una anomalia estadística extrema com a model a seguir porta milers d'adolescents a invertir hores davant una pantalla, sovint sense cap resultat.
 
-- **Patró comunicatiu: el precedent de l'Episodi 001**: La mateixaix les xarxes per a me## Temes tractats
+- **Dark patterns i salut mental**: YouTube i Instagram estan dissenyades amb mecanismes —scroll infinit, autoplay, notificacions push, feed de recomanació— que exploten el circuit de la dopamina, especialment devastadors en cervells adolescents amb l'escorça prefrontal encara en maduració. El Col·legi de Metges de Barcelona i l'Associació Espanyola de Pediatria lliguen directament aquesta sobreestimulació a trastorns d'atenció, de son i d'ansietat. El COMB recomana que els mòbils no estiguin disponibles ni a la motxilla durant l'horari escolar.
 
-- **Patró comunicatiu: el precedent de l'Episodi 001**: La mateixa revista va publicar que el president de l'Associació Veïnal de Can Gaietà havia avalat els pisos de Calçfrares al CAUT. La font original —el vídeo de la reunió— mostrava exactament el contrari: una crítica severa al model de governança be
-- **Patró comlitz
-- **Patró comunicatiu: el precedent de l'Episodi 001**: La mateixa revista va pgafa una anomalia estadíst- **Patró comuess## Temes tractats
-
-- **Patró comunicatiu: el precedent de l'Episodi 001**: La mateixaix les xarxes per a me## Temes tractats
-
-- **Patró comunicatiu: el precedent de l'Episodi 001**: La mateixa revista va publicar que el president de l'Associació Veïnal de Can Gaietà havia avalat els pisos de Calçfrares al CAUT. La font original —el vídeo de la reunió— mostrava exactament el contrari: una críci
-- **Patró comunicatiu: el preced'es
-- **Patró comunicatiu: el premento, segrestem la capacitat d'autoregulació. L'Associació Espanyola de P- **Patró comlitz
-- **Patró comunicatiu: el precedent de l'Episodi 001**: La mateixa revista va pgafa una anomalia estadíst- **Patró comuess## Temes tractats
-
-- **Patró comunicatiu: el precedent de l'Episodi 001**: La mateixaix les xarxes per a me## Temes tractats
-
-- **Patró comunicatiu: el precedent de l'Epias- **Patró comunita
-- **Patró comunicatiu: el precedent de l'Episodi 001**: La mateixaix les xarxes per a me## Temes traés dura: es descuida la igualtat mentre s'amplifica un entorn que, segons tots els informes internacionals (UNICEF, estudis clínics), danya de manera desproporcionada les noies adolescents —imatge corporal, dismòrfia, ciberassetjament, ansietat.
+- **La dimensió de gènere**: Tots els informes internacionals —UNICEF, estudis clínics de salut mental— apunten que les noies adolescents són les principals perjudicades pels algoritmes d'aquestes xarxes: imatge corporal, dismòrfia, trastorns alimentaris, ansietat disparada, ciberassetjament. Al mateix ple del 3 de març, una veïna va denunciar la manca d'actes per al Dia de la Dona (8 de març): el govern descuida la igualtat mentre amplifica un entorn que danya de manera desproporcionada les noies.
 
 - **Les crítiques de l'oposició al ple**:
-  - **ERC (Àlex Van Boven)**: Va agafar l'eslògan del govern («treballem sense soroll») i el va girar: «Potser no fan soroll perquè no es treballa». Va assenyalar l'a- **Patró comunicatiu: el precedent de l'Episodi 00responsable d'haver validat un article que ignora les recomanacions mèdiques. Ho va qualificar de **greu problema de salut pública**.
-  - **Junts per Catalunya (Montse Torres)**: Va denunciar censura i desigualtat de tracte. A l'oposició li retallen articles per «falta d'espai», però la revista troba forat per a grans fotos de l'alcalde en actes celebrats *després* del límit d'ent
-- **Les crítiques de l'oposició al ple**:
-  - **ERC (Àlex Van Boven)**: Va agafar l'eslògan del govern («treballem senigualitaris.
-  - **PP (Diego Parra)**: Va assenyalar l'opacitat informativa del govern —anunci de projectes importants per xarxes socials abans d'explicar-los al ple— com a part del mateix patró.
+  - **ERC (Àlex Van Boven)**: Va girar l'eslògan del govern («treballem sense soroll») per dir que potser no fan soroll perquè no es treballa. Va assenyalar l'alcalde com a editor en cap de la revista i el va fer responsable d'haver validat un article que ignora les recomanacions mèdiques. Ho va qualificar de **greu problema de salut pública**.
+  - **Junts per Catalunya (Montse Torres)**: Va denunciar censura i desigualtat de tracte. A l'oposició li retallen articles per «falta d'espai», però la revista troba forat per a grans fotos de l'alcalde en actes celebrats *després* del límit d'entrega que els exigeixen a ells. Va demanar la creació d'un Consell de Redacció amb criteris igualitaris.
+  - **PP (Diego Parra)**: Va assenyalar l'opacitat informativa del govern —anunci de projectes importants per xarxes socials de manera informal, abans d'explicar-los al ple— com a part del mateix patró comunicatiu.
 
 - **La reflexió final**: El 62% de les famílies catalanes voldrien endarrerir el mòbil fins als 16 anys, però el 82% reconeix haver-lo donat als 12 o abans, principalment per pressió social. Que el propi ajuntament publiqui que començar les xarxes als 12 és sinònim d'èxit **fa la feina d'aquestes famílies més difícil, no més fàcil**. I si cap ajuntament acceptaria celebrar a la seva portada que un nen de 12 anys treballa hores en una fàbrica, per què és un model a aplaudir si les mateixes hores les dedica a produir contingut que enriqueix una plataforma tecnològica? L'economia de l'atenció podria ser l'última frontera on els menors encara no estan protegits.
 
 ## Fonts
 
-- [Videoacta del Ple Municipal del 3 de març de 2026](https://www.youtube.com/live/AG9qYugT0HA) - Enregistrament complet de la sessió plenària
-- [Acta del Ple Municipal de març 2026](https://actes.tiana.cat/session/sessionDetail/8a8180859c884e80019c9a3a101d0001) - Acta oficial
-- [Revista Plaça de la Vila](https://t
-## Fonts
-
-- [Videoacta del Ple Municipal del 3 de març de 2026](https://www.youtube.com/live/AG9qYugT0HA) - Enregistrament complet de la sessió plenària
-- [Acta del Ple Municipal de març 2026](https://actes.tiana.cat/session/sessionDetail/8a8180859c884e80019c9a3a101d0001) - Acta oficial
-- [Revista Plaça de la Vila](https://t
-## Fonts
-
--ció mèdica específica per a Tiana
+- [Videoacta del Ple Municipal del 3 de març de 2026](https://www.youtube.com/live/AG9qYugT0HA) — Enregistrament complet de la sessió plenària
+- [Acta del Ple Municipal de març 2026](https://actes.tiana.cat/session/sessionDetail/8a8180859c884e80019c9a3a101d0001) — Acta oficial
+- [Revista municipal Plaça de la Vila](https://tiana.cat/ajuntament/comunicacio/placa-de-la-vila/) — Número de gener-febrer 2026
+- [Carta d'Aixeca el Cap sobre la revista](/podcast/sources/013-carta-aixeca-el-cap.txt) — Comunicat de l'associació de famílies
+- [Correspondència COMB — Escola Lola Anglada de Tiana](/podcast/sources/013-comb-carta-escola-lola-anglada.pdf) — Recomanació mèdica específica per a Tiana
 - [Informe de referència amb 35 fonts científiques i legislatives](/podcast/sources/013-informe-youtuber-revista-pantalles.md)
-- [Transcripció automàtica de l'episodi](/podcast/sources/013-youtuber-revista-pantalles-transcripcio.txt) - Generada amb OpenAI Whisper (model large-v3)
+- [Transcripció automàtica de l'episodi](/podcast/sources/013-youtuber-revista-pantalles-transcripcio.txt) — Generada amb OpenAI Whisper (model large-v3)
 
 ---
 
-**Important:** Aquest episodi - [Acta del Ple Municipal de març 2026](https://actes.tiana.cat/session/sessionDetail/8a8180859c884e80019c9a3a101d0001) - Acta oficial
-- [Revisge- [Revista Plaçempre les fonts originals per obtenir la informació completa.
+**Important:** Aquest episodi ha estat generat íntegrament amb Google NotebookLM a partir de les fonts indicades. El contingut pot contenir errors o al·lucinacions. Consulta sempre les fonts originals per obtenir la informació completa.
