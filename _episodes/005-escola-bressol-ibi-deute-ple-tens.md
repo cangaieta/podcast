@@ -19,6 +19,7 @@ chapters_file: "005-escola-bressol-ibi-deute-ple-tens-chapters.json"
 soundbite_start: 268.7
 soundbite_duration: 40
 soundbite_title: "L'escola bressol i el deute: servei bàsic vs. finances"
+thumbnail: "/assets/thumbnails/005-escola-bressol-ibi-deute-ple-tens.png"
 ---
 
 ## Introducció

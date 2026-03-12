@@ -22,6 +22,7 @@ chapters_file: "007-tiana-triplica-deute-municipal-chapters.json"
 soundbite_start: 111.9
 soundbite_duration: 48
 soundbite_title: "El deute que triplica: d'on ve i qui en paga les conseqüències"
+thumbnail: "/assets/thumbnails/007-tiana-triplica-deute-municipal.png"
 ---
 
 ## Introducció

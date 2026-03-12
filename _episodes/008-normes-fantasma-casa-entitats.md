@@ -43,6 +43,7 @@ chapters_file: "008-normes-fantasma-casa-entitats-chapters.json"
 soundbite_start: 239.7
 soundbite_duration: 42
 soundbite_title: "Les normes que existien però ningú coneixia"
+thumbnail: "/assets/thumbnails/008-normes-fantasma-casa-entitats.png"
 ---
 
 ## Introducció

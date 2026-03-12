@@ -84,6 +84,7 @@ chapters_file: "013-youtuber-revista-pantalles-chapters.json"
 soundbite_start: 307.9
 soundbite_duration: 45
 soundbite_title: "La revista municipal: informació o relacions públiques?"
+thumbnail: "/assets/thumbnails/013-youtuber-revista-pantalles.png"
 ---
 
 ## Introducció

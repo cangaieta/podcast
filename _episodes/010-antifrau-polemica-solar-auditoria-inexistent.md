@@ -27,6 +27,7 @@ chapters_file: "010-antifrau-polemica-solar-auditoria-inexistent-chapters.json"
 soundbite_start: 82.9
 soundbite_duration: 45
 soundbite_title: "La denúncia a l'Antifrau: fets que demanen explicació"
+thumbnail: "/assets/thumbnails/010-antifrau-polemica-solar-auditoria-inexistent.png"
 ---
 
 ## Introducció

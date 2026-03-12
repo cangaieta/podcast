@@ -27,6 +27,7 @@ chapters_file: "002-el-laberint-burocratic-chapters.json"
 soundbite_start: 265.1
 soundbite_duration: 38
 soundbite_title: "Dues justificacions oficials que no existeixen documentalment"
+thumbnail: "/assets/thumbnails/002-el-laberint-burocratic.png"
 ---
 
 ## Introducció

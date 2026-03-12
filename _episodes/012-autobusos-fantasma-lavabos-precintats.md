@@ -27,6 +27,7 @@ chapters_file: "012-autobusos-fantasma-lavabos-precintats-chapters.json"
 soundbite_start: 92.1
 soundbite_duration: 48
 soundbite_title: "Autobusos que no passen i lavabos que no s'obren"
+thumbnail: "/assets/thumbnails/012-autobusos-fantasma-lavabos-precintats.png"
 ---
 
 ## Introducció

@@ -25,6 +25,7 @@ chapters_file: "004-puja-fiscal-taxa-residus-chapters.json"
 soundbite_start: 123.3
 soundbite_duration: 42
 soundbite_title: "Pagar més per un servei que no millora: el nuc del debat"
+thumbnail: "/assets/thumbnails/004-puja-fiscal-taxa-residus.png"
 ---
 
 ## Introducció
