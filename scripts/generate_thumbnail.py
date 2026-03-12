@@ -28,7 +28,7 @@ import tempfile
 # Prompt base — escena del barri de Can Gaietà amb els headphones icònics
 BASE_PROMPT = (
     "The Can Gaietà neighborhood of Tiana. The design features the traditional white Catalan masía "
-    "with terracotta roof on one side, and multiple modern red brick apartment buildings of different "
+    "with terracotta roof on one side, and multiple modern red brick duplex, triples and walk-up buildings of different "
     "heights clustered together on the other side going uphill. Mediterranean umbrella pines (Pinus pinea) "
     "with their distinctive flat tops and umbrella-like canopies appear on the hill in the background, "
     "NOT Christmas-like fir or spruce trees. Use a clean, minimalist style with flat colors and defined "
@@ -49,6 +49,7 @@ def generate_thumbnail(episodi, nom, prompt_suffix, output_dir="assets/thumbnail
         full_prompt = f"{BASE_PROMPT}. In the foreground or as a visual element: {prompt_suffix}"
 
     print(f"🎨 Generant thumbnail per episodi {episodi} ({nom})")
+    print(f"🖼️ Suffix: {prompt_suffix}")
     print(f"📝 Prompt (primeres 150 chars): {full_prompt[:150]}...")
 
     # Executar ollama en directori temporal — escriu la imatge al seu cwd
@@ -60,10 +61,10 @@ def generate_thumbnail(episodi, nom, prompt_suffix, output_dir="assets/thumbnail
                 ["ollama", "run", "x/z-image-turbo", full_prompt],
                 cwd=tmpdir,
                 check=True,
-                timeout=300,
+                timeout=900,
             )
         except subprocess.TimeoutExpired:
-            print("❌ Error: ollama ha superat el temps límit (300s)")
+            print("❌ Error: ollama ha superat el temps límit (900s)")
             sys.exit(1)
         except subprocess.CalledProcessError as e:
             print(f"❌ Error d'ollama (codi {e.returncode})")

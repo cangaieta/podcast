@@ -317,6 +317,7 @@ python scripts/generate_all_thumbnails.py 014 --force
 
 **Prompt base del thumbnail:** Escena del barri de Can Gaietà (masía blanca + blocs de maons + pins mediterranis) amb uns grans headphones futurstes a la masía. Cada episodi afegeix un element visual específic del seu tema.
 
+
 ### Workflow retroactiu (13 episodis existents)
 
 ```bash
