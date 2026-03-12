@@ -21,7 +21,7 @@ sources:
     description: "Transcripció completa generada amb OpenAI Whisper"
 
 chapters_file: "001-pisos-can-gaieta-caut-chapters.json"
-soundbite_start: 471.8
+soundbite_start: 473.2
 soundbite_duration: 45
 soundbite_title: "La comunicació postreunió distorsiona la veu crítica de Ródenas"
 ---

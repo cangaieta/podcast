@@ -24,7 +24,7 @@ sources:
     description: "Transcripció completa generada amb OpenAI Whisper"
 
 chapters_file: "002-el-laberint-burocratic-chapters.json"
-soundbite_start: 249.6
+soundbite_start: 265.1
 soundbite_duration: 38
 soundbite_title: "Dues justificacions oficials que no existeixen documentalment"
 ---

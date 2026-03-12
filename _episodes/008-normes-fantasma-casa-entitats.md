@@ -40,7 +40,7 @@ sources:
 title: 'Episodi 008: Normes Fantasma i el Caos de la Casa d''Entitats'
 
 chapters_file: "008-normes-fantasma-casa-entitats-chapters.json"
-soundbite_start: 239.4
+soundbite_start: 239.7
 soundbite_duration: 42
 soundbite_title: "Les normes que existien però ningú coneixia"
 ---

@@ -22,7 +22,7 @@ sources:
 title: 'Episodi 004: La Puja Fiscal a Tiana - Per Què Pagarem un 60% Més de Taxa de Residus?'
 
 chapters_file: "004-puja-fiscal-taxa-residus-chapters.json"
-soundbite_start: 123.0
+soundbite_start: 123.3
 soundbite_duration: 42
 soundbite_title: "Pagar més per un servei que no millora: el nuc del debat"
 ---

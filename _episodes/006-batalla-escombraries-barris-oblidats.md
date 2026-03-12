@@ -22,7 +22,7 @@ sources:
 title: 'Episodi 006: La Batalla de les Escombraries i els Barris Oblidats'
 
 chapters_file: "006-batalla-escombraries-barris-oblidats-chapters.json"
-soundbite_start: 267.8
+soundbite_start: 268.2
 soundbite_duration: 45
 soundbite_title: "Barris que paguen el mateix però reben menys servei"
 ---

@@ -19,7 +19,7 @@ sources:
 title: "Episodi 009: Festa a dit, bar irregular i ridícul solar"
 
 chapters_file: "009-festa-a-dit-bar-irregular-ridicul-solar-chapters.json"
-soundbite_start: 136.4
+soundbite_start: 137.0
 soundbite_duration: 50
 soundbite_title: "Contractes a dit: quan la transparència brilla per la seva absència"
 ---

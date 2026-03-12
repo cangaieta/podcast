@@ -16,7 +16,7 @@ sources:
 title: 'Episodi 005: Escola Bressol, IBI i Deute - El Ple Tens del 4 de Novembre'
 
 chapters_file: "005-escola-bressol-ibi-deute-ple-tens-chapters.json"
-soundbite_start: 268.0
+soundbite_start: 268.7
 soundbite_duration: 40
 soundbite_title: "L'escola bressol i el deute: servei bàsic vs. finances"
 ---

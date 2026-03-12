@@ -28,7 +28,7 @@ sources:
 title: "Episodi 011: La PlayStation com a excusa"
 
 chapters_file: "011-playstation-excusa-can-gaieta-chapters.json"
-soundbite_start: 262.1
+soundbite_start: 264.3
 soundbite_duration: 40
 soundbite_title: "La PlayStation: una excusa per negar l'accés al local veïnal"
 ---

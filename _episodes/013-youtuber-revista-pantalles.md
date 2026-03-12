@@ -81,7 +81,7 @@ title: "Episodi 013: La contraportada que treballa contra les famílies: pantall
   menors i el problema de salut pública que amplifica"
 
 chapters_file: "013-youtuber-revista-pantalles-chapters.json"
-soundbite_start: 307.7
+soundbite_start: 307.9
 soundbite_duration: 45
 soundbite_title: "La revista municipal: informació o relacions públiques?"
 ---

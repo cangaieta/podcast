@@ -22,7 +22,7 @@ sources:
 title: 'Episodi 003: Ple Octubre 2025'
 
 chapters_file: "003-ple-octubre-2025-chapters.json"
-soundbite_start: 379.0
+soundbite_start: 380.5
 soundbite_duration: 50
 soundbite_title: "El 60% de pujada sense saber el cost real del nou contracte"
 ---
