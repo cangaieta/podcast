@@ -1,0 +1,1592 @@
+1
+00:00:00,220 --> 00:00:02,580
+Salutacions des de Ràdio Can Galletà,
+
+2
+00:00:03,020 --> 00:00:05,520
+una salutació molt especial a la nostra gent del barri
+
+3
+00:00:05,520 --> 00:00:09,320
+i també a tots els veïns i veïnes que ens escolten des de Tiana.
+
+4
+00:00:09,900 --> 00:00:13,260
+Abans de començar, però, fem un advertiment que creiem que és important.
+
+5
+00:00:13,680 --> 00:00:13,900
+Sí.
+
+6
+00:00:14,400 --> 00:00:18,160
+Aquesta anàlisi que sentireu està generada amb intel·ligència artificial.
+
+7
+00:00:18,800 --> 00:00:20,540
+Bodrit, tant el guió com les veus.
+
+8
+00:00:21,140 --> 00:00:23,260
+I, per tant, és possible que contingui errors.
+
+9
+00:00:23,680 --> 00:00:24,200
+Exactament.
+
+10
+00:00:24,840 --> 00:00:28,500
+L'objectiu aquí no és actual com a notaris del ple.
+
+11
+00:00:28,500 --> 00:00:30,700
+No volem transcriure cada paraula.
+
+12
+00:00:31,100 --> 00:00:33,560
+No. La nostra missió és una altra.
+
+13
+00:00:34,040 --> 00:00:35,580
+Volem fomentar l'espírit crític.
+
+14
+00:00:36,240 --> 00:00:38,720
+Per això, animem sempre a anar a les fonts originals,
+
+15
+00:00:39,040 --> 00:00:41,100
+com l'enregistrament del ple, que és públic.
+
+16
+00:00:41,660 --> 00:00:43,940
+Nosaltres donem les eines per, diguem-ne,
+
+17
+00:00:44,000 --> 00:00:45,320
+agratar una mica la superfície.
+
+18
+00:00:45,840 --> 00:00:49,240
+I la superfície que agratarem avui té la marinera.
+
+19
+00:00:49,720 --> 00:00:53,760
+És la del ple de l'Ajuntament de Tiana del 2 de desembre de 2025.
+
+20
+00:00:54,140 --> 00:00:57,460
+Una sessió que, sobre el paper, podia semblar de tràmit,
+
+21
+00:00:57,460 --> 00:00:58,460
+però que, de seguida,
+
+22
+00:00:58,500 --> 00:00:59,600
+vam veure que no.
+
+23
+00:01:00,080 --> 00:01:02,260
+Que es va convertir en un camp de proves.
+
+24
+00:01:02,820 --> 00:01:03,300
+Totalment.
+
+25
+00:01:03,840 --> 00:01:05,560
+Es nota que les eleccions s'acosten.
+
+26
+00:01:05,840 --> 00:01:06,120
+Molt.
+
+27
+00:01:06,680 --> 00:01:07,860
+Vam veure tensions,
+
+28
+00:01:08,520 --> 00:01:10,500
+jocs de paraules calculats al mil·límetre...
+
+29
+00:01:11,440 --> 00:01:14,520
+I decisions que afecten la nostra butxaca directament,
+
+30
+00:01:14,840 --> 00:01:15,780
+el nostre dia a dia.
+
+31
+00:01:16,300 --> 00:01:19,840
+Així que, prepareu-vos perquè ens submergim en el que es va dir.
+
+32
+00:01:20,300 --> 00:01:22,160
+I, sobretot, en el que es va voler dir.
+
+33
+00:01:22,660 --> 00:01:23,840
+Comencem pel plat fort.
+
+34
+00:01:24,220 --> 00:01:25,120
+Què n'hi ha per estona?
+
+35
+00:01:25,520 --> 00:01:27,560
+La gran batalla per les escombràries.
+
+36
+00:01:27,560 --> 00:01:27,620
+Sí.
+
+37
+00:01:27,620 --> 00:01:27,660
+Sí.
+
+38
+00:01:27,660 --> 00:01:27,680
+Sí.
+
+39
+00:01:27,680 --> 00:01:27,700
+Sí.
+
+40
+00:01:27,700 --> 00:01:27,760
+Sí.
+
+41
+00:01:27,760 --> 00:01:27,780
+Sí.
+
+42
+00:01:27,780 --> 00:01:27,800
+Sí.
+
+43
+00:01:27,800 --> 00:01:27,820
+Sí.
+
+44
+00:01:27,820 --> 00:01:27,840
+Sí.
+
+45
+00:01:27,840 --> 00:01:27,840
+
+
+46
+00:01:27,840 --> 00:01:27,860
+Sí.
+
+47
+00:01:27,860 --> 00:01:27,880
+Sí.
+
+48
+00:01:27,880 --> 00:01:27,880
+
+
+49
+00:01:27,880 --> 00:01:27,900
+Sí.
+
+50
+00:01:27,900 --> 00:01:27,980
+Sí.
+
+51
+00:01:28,240 --> 00:01:28,760
+Uf!
+
+52
+00:01:29,020 --> 00:01:31,500
+Vinga, desempaquetem això perquè té molta tela.
+
+53
+00:01:32,220 --> 00:01:35,420
+El punt més calent del ple va ser, sense cap mena de dubte,
+
+54
+00:01:35,840 --> 00:01:39,020
+la revisió de preus del contracte de recollida de residus.
+
+55
+00:01:39,300 --> 00:01:41,160
+El govern proposava una pujada.
+
+56
+00:01:41,440 --> 00:01:43,460
+Una pujada significativa, de fet.
+
+57
+00:01:44,080 --> 00:01:47,560
+I l'argument oficial, a primera vista, semblava impecable.
+
+58
+00:01:48,200 --> 00:01:50,520
+Calia actualitzar salaris dels treballadors.
+
+59
+00:01:50,740 --> 00:01:53,200
+Clar, per equiparar-los a la mitjana comarcal.
+
+60
+00:01:53,600 --> 00:01:55,420
+Vam parlar de dignitat laboral.
+
+61
+00:01:55,720 --> 00:01:56,560
+Un concepte potent.
+
+62
+00:01:56,940 --> 00:01:57,380
+Molt.
+
+63
+00:01:57,380 --> 00:02:01,120
+A més, afegien que s'havien de cobrir costos imprevistos.
+
+64
+00:02:01,380 --> 00:02:03,780
+Van parlar del lloguer d'una escombradora nova.
+
+65
+00:02:04,340 --> 00:02:06,500
+Sí, perquè l'antiga es va incendiar, pel que sembla.
+
+66
+00:02:07,160 --> 00:02:11,080
+Llavors, fins aquí, tot sembla una simple actualització de costos.
+
+67
+00:02:11,500 --> 00:02:12,500
+Necessària, fins i tot.
+
+68
+00:02:12,880 --> 00:02:16,140
+Però aquí és on l'oposició no va comprar l'argument, oi?
+
+69
+00:02:16,480 --> 00:02:16,960
+Gens.
+
+70
+00:02:17,340 --> 00:02:20,260
+No van qüestionar la pujada de sou als treballadors, o què, a ment?
+
+71
+00:02:20,380 --> 00:02:22,220
+Això seria un suïcidi polític.
+
+72
+00:02:22,380 --> 00:02:22,620
+Clar.
+
+73
+00:02:22,980 --> 00:02:25,880
+El que van fer va ser girar el focus 180 graus
+
+74
+00:02:25,880 --> 00:02:27,360
+i apuntar directament a la pujada de sou als treballadors.
+
+75
+00:02:27,360 --> 00:02:29,560
+Aquí està la clau.
+
+76
+00:02:29,640 --> 00:02:30,200
+Exacte.
+
+77
+00:02:30,760 --> 00:02:32,680
+El seu contraatac va ser demolidor.
+
+78
+00:02:33,240 --> 00:02:35,580
+Van argumentar que tot això no és mala sort,
+
+79
+00:02:35,700 --> 00:02:38,720
+sinó la conseqüència directa de tenir un contracte...
+
+80
+00:02:38,720 --> 00:02:39,220
+Caducat.
+
+81
+00:02:39,300 --> 00:02:40,740
+...de l'any 2023.
+
+82
+00:02:41,420 --> 00:02:43,440
+Un contracte que s'ha anat prorrogant,
+
+83
+00:02:43,760 --> 00:02:49,000
+van utilitzar paraules com improvisació, mala gestió, falta de rigor...
+
+84
+00:02:49,000 --> 00:02:52,580
+I la regidora de Junts per Catalunya, la Montserrat Torres,
+
+85
+00:02:52,760 --> 00:02:54,360
+va ser especialment dura, eh?
+
+86
+00:02:54,860 --> 00:02:55,420
+Duríssima.
+
+87
+00:02:55,420 --> 00:02:57,240
+Va fer un repàs cronològic,
+
+88
+00:02:57,360 --> 00:02:59,940
+que deixava l'alcalde en una posició molt incòmoda,
+
+89
+00:03:00,300 --> 00:03:03,520
+recordant que el contracte ja va vèncer amb ell el carro.
+
+90
+00:03:03,620 --> 00:03:03,820
+Clar.
+
+91
+00:03:04,200 --> 00:03:06,180
+I aquí és on es posa interessant.
+
+92
+00:03:06,660 --> 00:03:11,320
+Com es defensa l'alcalde Isaac Salvatierra d'una acusació tan directa?
+
+93
+00:03:11,660 --> 00:03:14,080
+Perquè admetre mala gestió no és una opció.
+
+94
+00:03:14,280 --> 00:03:17,740
+Bé, la seva defensa va ser una peça duratòria fascinant.
+
+95
+00:03:18,100 --> 00:03:20,160
+Va intentar donar-li la volta a l'argument.
+
+96
+00:03:20,440 --> 00:03:20,680
+Com?
+
+97
+00:03:20,920 --> 00:03:23,440
+Va afirmar que les pròrrogues, de fet,
+
+98
+00:03:23,440 --> 00:03:25,780
+havien estat beneficioses per al poble.
+
+99
+00:03:25,860 --> 00:03:26,180
+Perdona?
+
+100
+00:03:26,180 --> 00:03:27,680
+Beneficioses?
+
+101
+00:03:27,680 --> 00:03:31,880
+Sí, perquè deia que s'estaven pagant preus de l'any 2013,
+
+102
+00:03:32,320 --> 00:03:33,440
+que eren molt més baixos,
+
+103
+00:03:33,820 --> 00:03:37,000
+però al mateix temps va culpar l'oposició de la lentitud.
+
+104
+00:03:37,120 --> 00:03:39,520
+Un moment, un moment. Això no té cap sentit.
+
+105
+00:03:39,720 --> 00:03:40,920
+És una contradicció.
+
+106
+00:03:41,120 --> 00:03:44,660
+O sigui, diu que les pròrrogues eren bones perquè estalviavem diners,
+
+107
+00:03:45,120 --> 00:03:47,600
+però alhora culpa l'oposició de la lentitud
+
+108
+00:03:47,600 --> 00:03:49,720
+que provocava aquestes mateixes pròrrogues.
+
+109
+00:03:49,880 --> 00:03:51,160
+Aquesta és la qüestió.
+
+110
+00:03:51,340 --> 00:03:53,380
+No pots defensar una cosa i la contrària.
+
+111
+00:03:53,800 --> 00:03:56,160
+O l'estalvi era un efecte secundari d'una gestió.
+
+112
+00:03:56,180 --> 00:03:57,620
+O era un pla.
+
+113
+00:03:58,300 --> 00:03:59,740
+Però les dues coses, alhora...
+
+114
+00:03:59,740 --> 00:04:01,560
+És una línia argumental molt feble,
+
+115
+00:04:02,080 --> 00:04:03,600
+però revela el fons de la qüestió.
+
+116
+00:04:03,940 --> 00:04:05,880
+Aquest debat no anava sobre el passat.
+
+117
+00:04:06,260 --> 00:04:07,120
+Anava sobre el futur.
+
+118
+00:04:07,380 --> 00:04:10,380
+L'alcalde va aprofitar per posar les cartes sobre la taula
+
+119
+00:04:10,380 --> 00:04:11,580
+i anunciar el seu pla.
+
+120
+00:04:12,280 --> 00:04:14,600
+Implementar un sistema de recollida porta a porta
+
+121
+00:04:14,600 --> 00:04:16,680
+de cinc fraccions a tot el poble.
+
+122
+00:04:17,220 --> 00:04:18,100
+A tot el poble.
+
+123
+00:04:18,660 --> 00:04:19,500
+Sense seccions.
+
+124
+00:04:20,020 --> 00:04:20,940
+I aquí lliguem caps.
+
+125
+00:04:21,320 --> 00:04:23,800
+La famosa falta de col·laboració de l'oposició.
+
+126
+00:04:23,800 --> 00:04:25,800
+Es converteix en la justificació perfecta.
+
+127
+00:04:26,780 --> 00:04:27,740
+Per tirar pel dret.
+
+128
+00:04:28,240 --> 00:04:29,080
+El missatge és
+
+129
+00:04:29,080 --> 00:04:31,300
+com que no us poseu d'acord amb mi,
+
+130
+00:04:31,600 --> 00:04:32,480
+ho faré a la meva manera.
+
+131
+00:04:33,400 --> 00:04:33,920
+Precisament.
+
+132
+00:04:34,200 --> 00:04:36,760
+I el regidor de ERC, l'Alejandro Van Boven,
+
+133
+00:04:37,180 --> 00:04:38,220
+ho va veure de seguida.
+
+134
+00:04:38,900 --> 00:04:40,540
+Va criticar que un canvi tan radical
+
+135
+00:04:40,540 --> 00:04:42,800
+es plantejés sense cap consulta ciutadana
+
+136
+00:04:43,360 --> 00:04:44,860
+ni tan sols pedagogia.
+
+137
+00:04:45,040 --> 00:04:48,000
+Una decisió de despatx, aprofitar la majoria absoluta.
+
+138
+00:04:48,260 --> 00:04:48,760
+Totalment.
+
+139
+00:04:49,280 --> 00:04:51,240
+Però la jugada més trencada havia d'arribar.
+
+140
+00:04:51,440 --> 00:04:52,280
+Encara n'hi ha més.
+
+141
+00:04:52,820 --> 00:04:53,060
+Sí.
+
+142
+00:04:53,800 --> 00:04:55,480
+Més tard es debatia una moció
+
+143
+00:04:55,480 --> 00:04:55,920
+per implantar-la.
+
+144
+00:04:55,920 --> 00:04:55,980
+I això és el que es va fer.
+
+145
+00:04:55,980 --> 00:04:56,000
+I això és el que es va fer.
+
+146
+00:04:56,000 --> 00:04:56,040
+I això és el que es va fer.
+
+147
+00:04:56,040 --> 00:04:58,200
+Per implantar una taxa justa de residus.
+
+148
+00:04:58,780 --> 00:05:00,680
+La idea és simple i popular.
+
+149
+00:05:01,280 --> 00:05:03,220
+Qui més recicla, menys paga.
+
+150
+00:05:03,420 --> 00:05:04,040
+Això sona bé.
+
+151
+00:05:04,620 --> 00:05:05,440
+Qui no voldria això?
+
+152
+00:05:05,720 --> 00:05:06,060
+Ningú.
+
+153
+00:05:06,540 --> 00:05:08,700
+I efectivament el govern hi va votar a favor.
+
+154
+00:05:09,280 --> 00:05:11,120
+Però amb un petit matís.
+
+155
+00:05:11,560 --> 00:05:13,340
+Una postilla que ho canvia tot.
+
+156
+00:05:13,520 --> 00:05:13,820
+A veure.
+
+157
+00:05:14,200 --> 00:05:16,520
+Van especificar que aquesta taxa justa
+
+158
+00:05:16,520 --> 00:05:18,860
+només seria tècnicament possible
+
+159
+00:05:18,860 --> 00:05:20,700
+amb el seu model de porta a porta.
+
+160
+00:05:20,780 --> 00:05:21,660
+Ah, quina jugada.
+
+161
+00:05:22,080 --> 00:05:23,620
+És brillant, políticament parlant.
+
+162
+00:05:23,700 --> 00:05:23,880
+Clar.
+
+163
+00:05:24,160 --> 00:05:25,840
+Vincules una idea que a tothom vol,
+
+164
+00:05:25,840 --> 00:05:27,200
+com pagar menys,
+
+165
+00:05:27,520 --> 00:05:29,020
+a la implementació del teu model,
+
+166
+00:05:29,200 --> 00:05:30,160
+que és controvertit.
+
+167
+00:05:30,500 --> 00:05:33,340
+D'aquesta manera, si algú critica el porta a porta,
+
+168
+00:05:33,800 --> 00:05:35,580
+el govern pot dir que està en contra
+
+169
+00:05:35,580 --> 00:05:36,640
+de la taxa justa.
+
+170
+00:05:37,180 --> 00:05:39,020
+Els posa entre l'espasa i la paret.
+
+171
+00:05:39,140 --> 00:05:40,320
+És un exemple de manual.
+
+172
+00:05:40,840 --> 00:05:42,960
+I mentre l'alcalde parlava de posar Tiana
+
+173
+00:05:42,960 --> 00:05:45,420
+a la zona Champions del reciclatge...
+
+174
+00:05:45,420 --> 00:05:47,560
+Una altra vegada el regidor d'ERC
+
+175
+00:05:47,560 --> 00:05:49,180
+va posar els peus a terra.
+
+176
+00:05:49,480 --> 00:05:52,140
+Exacte. Va portar el debat a la realitat del carrer.
+
+177
+00:05:52,580 --> 00:05:53,580
+Va parlar dels senglars.
+
+178
+00:05:53,580 --> 00:05:55,480
+Un tema que Can Gaità,
+
+179
+00:05:55,480 --> 00:05:58,080
+per desgràcia, coneixeu molt i molt bé.
+
+180
+00:05:58,700 --> 00:06:00,840
+Els cobelis penjats que acaben a terra,
+
+181
+00:06:01,320 --> 00:06:02,640
+les bosses d'orgànica...
+
+182
+00:06:02,640 --> 00:06:04,860
+Doncs Van Boven va explicar exactament això.
+
+183
+00:06:05,320 --> 00:06:07,820
+Com els senglars ja saben quin dia toca l'orgànica
+
+184
+00:06:07,820 --> 00:06:10,900
+i fan el seu fastí, deixant els carrers fets un desastre.
+
+185
+00:06:11,040 --> 00:06:13,440
+És un detall que sembla petit però que ho diu tot.
+
+186
+00:06:13,820 --> 00:06:16,480
+L'abisme entre la teoria de la zona Champions
+
+187
+00:06:16,480 --> 00:06:18,700
+i els problemes reals dels veïns.
+
+188
+00:06:18,940 --> 00:06:21,880
+Vim a la Liga Regional i després ja parlarem de la Champions.
+
+189
+00:06:22,360 --> 00:06:24,560
+Exacte. I parlant de coherència.
+
+190
+00:06:24,560 --> 00:06:24,800
+O de la Champions.
+
+191
+00:06:24,800 --> 00:06:24,840
+O de la Champions.
+
+192
+00:06:24,840 --> 00:06:24,880
+O de la Champions.
+
+193
+00:06:24,880 --> 00:06:24,940
+O de la Champions.
+
+194
+00:06:24,940 --> 00:06:25,020
+O de la Champions.
+
+195
+00:06:25,020 --> 00:06:25,040
+O de la Champions.
+
+196
+00:06:25,040 --> 00:06:25,080
+O de la Champions.
+
+197
+00:06:25,080 --> 00:06:25,140
+O de la Champions.
+
+198
+00:06:25,140 --> 00:06:26,140
+O de la falta d'ella.
+
+199
+00:06:26,660 --> 00:06:29,680
+El que va passar just després és gairebé còmic.
+
+200
+00:06:30,040 --> 00:06:33,740
+Sí, va ser un d'aquells moments que si parpelleies, te'l perds.
+
+201
+00:06:34,140 --> 00:06:37,360
+Recordem l'argument estrella per apujar la taixa de la brossa.
+
+202
+00:06:37,960 --> 00:06:40,320
+La dignitat laboral dels treballadors.
+
+203
+00:06:40,880 --> 00:06:41,740
+Ho van repetir molt.
+
+204
+00:06:42,120 --> 00:06:44,060
+Un argument just, potent.
+
+205
+00:06:44,400 --> 00:06:44,920
+Totalment.
+
+206
+00:06:45,440 --> 00:06:47,080
+Doncs bé, uns punts més tard,
+
+207
+00:06:47,480 --> 00:06:50,660
+es debatia l'actualització de preus de la piscina municipal.
+
+208
+00:06:50,940 --> 00:06:53,420
+La concessionària demanava una pujada.
+
+209
+00:06:53,420 --> 00:06:54,960
+I un dels motius,
+
+210
+00:06:54,960 --> 00:06:59,020
+era precisament l'increment dels costos laborals del seu personal.
+
+211
+00:06:59,260 --> 00:07:01,000
+Sembla una situació idèntica, oi?
+
+212
+00:07:01,300 --> 00:07:01,860
+Paral·lela.
+
+213
+00:07:02,340 --> 00:07:05,400
+Doncs la resposta del govern va ser un no rotund.
+
+214
+00:07:05,820 --> 00:07:06,400
+I el motiu?
+
+215
+00:07:06,640 --> 00:07:09,740
+El motiu va ser que aquests costos laborals que alegava l'empresa
+
+216
+00:07:09,740 --> 00:07:10,960
+no estaven acreditats.
+
+217
+00:07:11,820 --> 00:07:12,380
+Increïble.
+
+218
+00:07:12,840 --> 00:07:16,680
+I aquí és on el regidor d'RC, de nou, va estar molt hàbil.
+
+219
+00:07:16,980 --> 00:07:19,820
+Sí, Alejandro Van Boven no ho va deixar passar.
+
+220
+00:07:20,180 --> 00:07:23,680
+Amb una frase curta i directa va posar el govern davant del mirall.
+
+221
+00:07:23,680 --> 00:07:24,500
+Va dir,
+
+222
+00:07:24,960 --> 00:07:26,360
+Són treballadors igual.
+
+223
+00:07:26,960 --> 00:07:27,280
+Ja està.
+
+224
+00:07:27,820 --> 00:07:28,740
+Amb això ho diu tot.
+
+225
+00:07:29,180 --> 00:07:30,800
+Destapa una contradicció enorme.
+
+226
+00:07:31,160 --> 00:07:33,080
+Planteja una pregunta fonamental.
+
+227
+00:07:33,920 --> 00:07:38,840
+La dignitat laboral és un principi universal o un argument de conveniència?
+
+228
+00:07:39,040 --> 00:07:42,060
+S'utilitza només quan serveix per justificar pujar una taxa.
+
+229
+00:07:42,280 --> 00:07:43,640
+Aquesta és la impressió que fa.
+
+230
+00:07:44,580 --> 00:07:47,820
+Que la dignitat dels treballadors de la neteja és una prioritat,
+
+231
+00:07:48,380 --> 00:07:51,920
+però la dels de la piscina és un tema que no està acreditat.
+
+232
+00:07:51,920 --> 00:07:54,160
+La vara de mesurar no sembla la mateixa?
+
+233
+00:07:54,420 --> 00:07:54,880
+Gens.
+
+234
+00:07:54,960 --> 00:08:00,120
+I això, en un ambient preelectoral, és un error no forçat que pot costar car.
+
+235
+00:08:00,460 --> 00:08:05,020
+I com a veu de Can Galletà, hi va haver un altre tema que ens va posar a les orelles ties.
+
+236
+00:08:05,580 --> 00:08:07,580
+La percepció que es té dels barris.
+
+237
+00:08:07,880 --> 00:08:10,880
+O més aviat, la negació de la seva existència.
+
+238
+00:08:11,360 --> 00:08:11,840
+Exacte.
+
+239
+00:08:12,300 --> 00:08:14,740
+Vam detectar senyals preocupants.
+
+240
+00:08:15,100 --> 00:08:17,460
+Sí, el tema va sortir en diversos moments.
+
+241
+00:08:17,900 --> 00:08:21,320
+El primer avís va ser durant l'aprovació d'un conveni del parc del Tramvia.
+
+242
+00:08:21,500 --> 00:08:22,040
+Què va passar?
+
+243
+00:08:22,040 --> 00:08:24,200
+El regidor del PP, Diego Parra,
+
+244
+00:08:24,200 --> 00:08:27,900
+va dir que els veïns d'aquella zona se senten exclosos de Tiana.
+
+245
+00:08:28,400 --> 00:08:30,380
+Va reclamar descentralitzar activitats.
+
+246
+00:08:30,620 --> 00:08:32,720
+Fins i tot va posar un exemple molt visual.
+
+247
+00:08:33,180 --> 00:08:35,780
+Va dir que allà no havien arribat els llums de Nadal.
+
+248
+00:08:35,940 --> 00:08:38,160
+És un detall petit, però molt simbòlic.
+
+249
+00:08:38,400 --> 00:08:40,580
+Sí, parla d'una frontera invisible.
+
+250
+00:08:41,340 --> 00:08:45,260
+Però el moment més directe, el que ens interpel·la, va arribar més tard.
+
+251
+00:08:45,740 --> 00:08:49,460
+Al torn de prems i preguntes, el regidor tercer, Alejandro Van Boven,
+
+252
+00:08:49,840 --> 00:08:52,200
+va fer una petició explícita a l'alcalde.
+
+253
+00:08:52,480 --> 00:08:53,220
+Què li va demanar?
+
+254
+00:08:53,220 --> 00:08:57,240
+Li va demanar que no s'oblidés, constantment, del barri de Can Galletà
+
+255
+00:08:57,240 --> 00:08:59,640
+quan parlava del Passatge del Robot,
+
+256
+00:08:59,940 --> 00:09:02,220
+que és un vial que ens dona servei a tota la zona.
+
+257
+00:09:02,520 --> 00:09:04,560
+La petició ja és significativa.
+
+258
+00:09:05,100 --> 00:09:09,440
+Implica que hi ha una percepció que el nostre barri cau del mapa mental del govern.
+
+259
+00:09:10,260 --> 00:09:10,780
+Significatiu.
+
+260
+00:09:11,320 --> 00:09:12,140
+La resposta.
+
+261
+00:09:12,640 --> 00:09:14,820
+La resposta va ser el més revelador.
+
+262
+00:09:15,120 --> 00:09:18,860
+La resposta va venir de la portaveu del govern, Eulàlia Serrat.
+
+263
+00:09:19,620 --> 00:09:21,580
+Va ser una declaració de principis.
+
+264
+00:09:21,580 --> 00:09:22,580
+Va afirmar...
+
+265
+00:09:23,220 --> 00:09:24,300
+I cito...
+
+266
+00:09:24,300 --> 00:09:27,340
+Uau.
+
+267
+00:09:27,720 --> 00:09:31,820
+Que no hi ha barris i que intentar segmentar el municipi és perillós.
+
+268
+00:09:32,000 --> 00:09:33,900
+Aquesta frase és potentíssima.
+
+269
+00:09:34,320 --> 00:09:36,400
+Des de l'Ajuntament pot sonar a unitat,
+
+270
+00:09:36,940 --> 00:09:39,720
+però, escoltada des d'un barri perifèmic com el nostre,
+
+271
+00:09:40,260 --> 00:09:41,880
+sona a invisibilització.
+
+272
+00:09:42,060 --> 00:09:42,600
+Totalment.
+
+273
+00:09:43,240 --> 00:09:48,200
+Dir que no hi ha barris és negar les realitats i les necessitats específiques de cada zona.
+
+274
+00:09:48,200 --> 00:09:49,560
+Aquí xoquen dues visions.
+
+275
+00:09:50,060 --> 00:09:52,260
+Un model centralista, homogeni...
+
+276
+00:09:52,260 --> 00:09:54,360
+Contra la realitat d'un territori divers,
+
+277
+00:09:54,700 --> 00:09:57,200
+amb nuclis amb vida pròpia i problemes propis.
+
+278
+00:09:57,740 --> 00:09:59,080
+Sangles a Can Gaiteta,
+
+279
+00:09:59,480 --> 00:10:01,340
+falta de llums al parc del Tràmbia...
+
+280
+00:10:01,340 --> 00:10:05,280
+És que l'argument que segmentar és perillós és una fal·làcia.
+
+281
+00:10:05,940 --> 00:10:08,340
+Reconeixer la diversitat no és dividir,
+
+282
+00:10:08,780 --> 00:10:09,680
+és governar millor.
+
+283
+00:10:10,300 --> 00:10:13,800
+El perill és ignorar les necessitats d'una part de la població
+
+284
+00:10:13,800 --> 00:10:15,500
+amb l'excusa de la unitat.
+
+285
+00:10:16,060 --> 00:10:16,660
+Exactament.
+
+286
+00:10:17,280 --> 00:10:21,320
+És una manera molt elegant de desestimar les queixes particulars.
+
+287
+00:10:21,320 --> 00:10:23,400
+I arribem al final del ple.
+
+288
+00:10:23,920 --> 00:10:25,960
+El torn de premsa i preguntes del públic.
+
+289
+00:10:26,340 --> 00:10:27,580
+El meu moment preferit.
+
+290
+00:10:27,900 --> 00:10:30,120
+La veu dels veïns sense filtres.
+
+291
+00:10:30,680 --> 00:10:32,960
+I en aquest ple la veu va arribar amb força.
+
+292
+00:10:33,520 --> 00:10:36,360
+Primer una veïna preocupada per la falta de comunicació
+
+293
+00:10:36,360 --> 00:10:38,540
+sobre els canvis de trànsit al nucli antic.
+
+294
+00:10:38,960 --> 00:10:39,580
+Un clàssic.
+
+295
+00:10:39,660 --> 00:10:41,320
+Sí, una queixa molt habitual.
+
+296
+00:10:41,920 --> 00:10:44,020
+Però el plat fort va venir després,
+
+297
+00:10:44,220 --> 00:10:47,160
+amb la intervenció d'un exregidor, Miguel Santiago.
+
+298
+00:10:47,500 --> 00:10:48,820
+No es va mossegar la llengua.
+
+299
+00:10:49,000 --> 00:10:49,320
+Gens.
+
+300
+00:10:49,320 --> 00:10:51,320
+Va fer una intervenció duríssima.
+
+301
+00:10:51,320 --> 00:10:55,960
+Va començar dient que el pressupost de 2026 era irreal.
+
+302
+00:10:56,300 --> 00:10:58,080
+Però això només era l'escalfament.
+
+303
+00:10:58,300 --> 00:10:58,520
+Clar.
+
+304
+00:10:59,740 --> 00:11:02,380
+L'acusació principal va ser molt més greu.
+
+305
+00:11:02,960 --> 00:11:06,140
+Va afirmar que l'Ajuntament està cobrant dues vegades
+
+306
+00:11:06,140 --> 00:11:07,480
+per la taxa de residus.
+
+307
+00:11:07,700 --> 00:11:07,900
+Com?
+
+308
+00:11:08,400 --> 00:11:10,740
+Segons ell, a més de la taxa que paguem,
+
+309
+00:11:11,020 --> 00:11:14,500
+una part del cost encara està amagada dins de l'IBI,
+
+310
+00:11:14,960 --> 00:11:15,800
+des de fa anys.
+
+311
+00:11:16,080 --> 00:11:18,020
+Això és una acusació de doble imposició.
+
+312
+00:11:18,240 --> 00:11:18,760
+És molt greu.
+
+313
+00:11:19,600 --> 00:11:20,800
+Davant d'una bomba així,
+
+314
+00:11:20,800 --> 00:11:22,840
+esperaries una resposta detallada.
+
+315
+00:11:23,300 --> 00:11:23,660
+Dades.
+
+316
+00:11:23,880 --> 00:11:26,560
+Doncs la reacció de l'alcalde va ser just la contrària.
+
+317
+00:11:26,820 --> 00:11:27,420
+No em diguis.
+
+318
+00:11:27,660 --> 00:11:28,980
+Va tallar el debat en sec.
+
+319
+00:11:29,620 --> 00:11:32,160
+La seva justificació va ser que no pensava
+
+320
+00:11:32,160 --> 00:11:34,460
+fer un ple paral·lel amb un exregidor.
+
+321
+00:11:34,580 --> 00:11:35,200
+I punt final.
+
+322
+00:11:35,360 --> 00:11:36,580
+Això és molt problemàtic.
+
+323
+00:11:37,220 --> 00:11:40,420
+Perquè, independentment de si l'acusació és certa o no,
+
+324
+00:11:40,820 --> 00:11:43,600
+la resposta tanca la porta a la transparència.
+
+325
+00:11:43,780 --> 00:11:43,960
+Clar.
+
+326
+00:11:44,560 --> 00:11:47,780
+En lloc d'aclarir, ataca la legitimitat de qui pregunta.
+
+327
+00:11:48,280 --> 00:11:49,180
+El missatge és
+
+328
+00:11:49,180 --> 00:11:50,780
+la teva pregunta no és la teva.
+
+329
+00:11:50,780 --> 00:11:52,280
+No és una preocupació ciutadana.
+
+330
+00:11:52,460 --> 00:11:53,780
+És una maniobra política.
+
+331
+00:11:54,360 --> 00:11:55,640
+I, per tant, no mereix resposta.
+
+332
+00:11:56,240 --> 00:11:57,580
+Això obre un altre maló.
+
+333
+00:11:58,040 --> 00:11:59,780
+El valor real de la participació ciutadana.
+
+334
+00:12:00,480 --> 00:12:02,780
+Sembla que la participació s'accepta
+
+335
+00:12:03,360 --> 00:12:05,980
+si no qüestiona el nucli de la gestió.
+
+336
+00:12:06,440 --> 00:12:08,200
+Però quan arriba una crítica directa,
+
+337
+00:12:08,520 --> 00:12:10,180
+la reacció és defensiva.
+
+338
+00:12:10,800 --> 00:12:13,340
+És una manera de no respondre preguntes incòmodes.
+
+339
+00:12:13,900 --> 00:12:15,580
+Però deixa un ombre de sospita.
+
+340
+00:12:16,160 --> 00:12:17,460
+Si l'acusació és falsa,
+
+341
+00:12:17,600 --> 00:12:19,060
+el més fàcil és desmuntar-la.
+
+342
+00:12:19,060 --> 00:12:20,220
+El silenci,
+
+343
+00:12:20,220 --> 00:12:21,080
+en política,
+
+344
+00:12:21,240 --> 00:12:22,680
+no sol generar confiança.
+
+345
+00:12:23,080 --> 00:12:24,380
+Llavors, si fem un pas enrere,
+
+346
+00:12:24,960 --> 00:12:25,880
+què ens diu tot això?
+
+347
+00:12:26,500 --> 00:12:28,660
+Aquest ple no va ser només una llista de punts.
+
+348
+00:12:29,080 --> 00:12:30,920
+Va ser una fotografia molt nítida.
+
+349
+00:12:31,180 --> 00:12:33,500
+Una fotografia de les dinàmiques de poder
+
+350
+00:12:33,500 --> 00:12:35,980
+a Tiana en un ambient clarament preelectoral.
+
+351
+00:12:36,440 --> 00:12:38,780
+Hem vist un govern amb majoria absoluta,
+
+352
+00:12:38,900 --> 00:12:40,260
+que utilitza la seva força.
+
+353
+00:12:40,600 --> 00:12:42,620
+Una oposició que intenta fiscalitzar
+
+354
+00:12:42,620 --> 00:12:44,040
+buscant les contradiccions.
+
+355
+00:12:44,540 --> 00:12:46,600
+I uns ciutadans que prenen la paraula
+
+356
+00:12:46,600 --> 00:12:48,800
+i, de vegades, topen amb un mur.
+
+357
+00:12:48,800 --> 00:12:49,660
+La clau,
+
+358
+00:12:49,660 --> 00:12:50,460
+com dèiem,
+
+359
+00:12:50,860 --> 00:12:52,760
+és aprendre a llegir entre línies.
+
+360
+00:12:53,400 --> 00:12:54,540
+Un debat sobre escombraries
+
+361
+00:12:54,540 --> 00:12:56,300
+és un debat sobre el model de poble.
+
+362
+00:12:56,540 --> 00:12:58,440
+I el llenguatge és fonamental.
+
+363
+00:12:59,140 --> 00:12:59,720
+Paraules com
+
+364
+00:12:59,720 --> 00:13:00,960
+dignitat laboral
+
+365
+00:13:00,960 --> 00:13:03,020
+o Tiana és un sol poble
+
+366
+00:13:03,020 --> 00:13:05,600
+expliquen una història molt més profunda.
+
+367
+00:13:06,260 --> 00:13:08,860
+I tot això ens deixa amb un pensament final
+
+368
+00:13:08,860 --> 00:13:09,820
+per reflexionar.
+
+369
+00:13:10,420 --> 00:13:12,460
+Una pregunta que queda flotant.
+
+370
+00:13:13,080 --> 00:13:15,140
+La portaveu del govern va defensar
+
+371
+00:13:15,140 --> 00:13:16,660
+que Tiana és un sol poble.
+
+372
+00:13:17,200 --> 00:13:17,780
+Però alhora,
+
+373
+00:13:17,780 --> 00:13:19,640
+hem sentit veus que parlen
+
+374
+00:13:19,640 --> 00:13:20,620
+de zones oblidades.
+
+375
+00:13:20,940 --> 00:13:22,760
+Això ens porta a la pregunta final
+
+376
+00:13:22,760 --> 00:13:24,100
+que deixem oberta.
+
+377
+00:13:24,700 --> 00:13:25,900
+Què vol dir, realment,
+
+378
+00:13:26,200 --> 00:13:27,280
+ser un sol poble?
+
+379
+00:13:27,800 --> 00:13:30,480
+Significa aplicar solucions uniformes
+
+380
+00:13:30,480 --> 00:13:31,200
+per a tothom,
+
+381
+00:13:31,640 --> 00:13:33,120
+ignorant les particularitats
+
+382
+00:13:33,120 --> 00:13:33,880
+de cada racó?
+
+383
+00:13:34,400 --> 00:13:35,060
+O, per contra,
+
+384
+00:13:35,620 --> 00:13:36,900
+significa reconèixer,
+
+385
+00:13:37,260 --> 00:13:38,480
+escoltar i atendre
+
+386
+00:13:38,480 --> 00:13:39,980
+les necessitats úniques
+
+387
+00:13:39,980 --> 00:13:40,740
+de cada barri,
+
+388
+00:13:41,040 --> 00:13:42,280
+com el nostre, Can Galleta,
+
+389
+00:13:42,620 --> 00:13:44,000
+per construir un projecte
+
+390
+00:13:44,000 --> 00:13:45,980
+que sigui de veritat comú?
+
+391
+00:13:46,500 --> 00:13:47,360
+Una bona pregunta
+
+392
+00:13:47,360 --> 00:13:48,600
+per continuar la conversa.
+
+393
+00:13:48,600 --> 00:13:49,540
+Si voleu,
+
+394
+00:13:49,640 --> 00:13:51,200
+seguir explorant aquests temes,
+
+395
+00:13:51,500 --> 00:13:52,960
+subscriviu-vos al podcast.
+
+396
+00:13:53,640 --> 00:13:54,940
+Gràcies per escoltar-nos
+
+397
+00:13:54,940 --> 00:13:56,320
+des de Ràdio Can Galleta.
+
+398
+00:13:56,780 --> 00:13:57,420
+Fins la propera!
+

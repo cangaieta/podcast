@@ -1,0 +1,3112 @@
+1
+00:00:00,000 --> 00:00:02,200
+Hola i benvinguts des de Ràdio Cangelletà.
+
+2
+00:00:02,660 --> 00:00:05,340
+Una saludació molt especial a la nostra gent del barri
+
+3
+00:00:05,340 --> 00:00:08,220
+i també a tots els veïns i veïnes que ens escolteu
+
+4
+00:00:08,220 --> 00:00:10,020
+des de qualsevol racó de Tiana.
+
+5
+00:00:10,280 --> 00:00:13,740
+Hola, som aquí un altre cop per analitzar què passa al poble.
+
+6
+00:00:14,220 --> 00:00:17,600
+Exacte, i ho fem com sempre, mirant les fonts,
+
+7
+00:00:18,000 --> 00:00:21,060
+els vídeos dels plens municipals, intentant ser transparents.
+
+8
+00:00:21,180 --> 00:00:24,880
+Ara, una cosa molt i molt important abans de començar.
+
+9
+00:00:25,240 --> 00:00:26,060
+Ho hem de dir ben clar.
+
+10
+00:00:26,160 --> 00:00:26,300
+Sí.
+
+11
+00:00:26,300 --> 00:00:28,920
+Tot això que sentiu, el guió, les veus,
+
+12
+00:00:28,920 --> 00:00:31,240
+està fet amb intel·ligència artificial.
+
+13
+00:00:31,920 --> 00:00:33,960
+Ho diem perquè el nostre objectiu principal
+
+14
+00:00:33,960 --> 00:00:36,920
+no és ser periodistes d'investigació, sinó més aviat...
+
+15
+00:00:37,500 --> 00:00:40,540
+Fomentar l'esperit crític, oi? Que la gent vagi de les fonts.
+
+16
+00:00:41,000 --> 00:00:44,040
+Exactament, que cadascú es formi la seva opinió
+
+17
+00:00:44,040 --> 00:00:45,840
+mirant els vídeos originals del ple.
+
+18
+00:00:46,260 --> 00:00:47,200
+És la millor manera.
+
+19
+00:00:47,500 --> 00:00:48,060
+Perfecte.
+
+20
+00:00:48,600 --> 00:00:52,820
+Doncs avui ens submergim en el ple municipal del 7 d'octubre de 2025.
+
+21
+00:00:53,480 --> 00:00:57,320
+A veure, seguir un ple pot semblar pesat, de vegades...
+
+22
+00:00:57,320 --> 00:01:00,440
+Però és que és on es decideixen coses clau, eh?
+
+23
+00:01:00,840 --> 00:01:02,100
+Que ens afecten cada dia.
+
+24
+00:01:03,000 --> 00:01:05,680
+Impostos, obres, polítiques locals...
+
+25
+00:01:05,680 --> 00:01:08,460
+I veus com actuen els polítics que hem votat.
+
+26
+00:01:09,080 --> 00:01:10,460
+És una finestra directa, vaja.
+
+27
+00:01:10,880 --> 00:01:12,860
+Una finestra a la democràcia local.
+
+28
+00:01:13,420 --> 00:01:14,800
+I el context actual, uf.
+
+29
+00:01:15,360 --> 00:01:16,400
+Té la seva amiga, oi?
+
+30
+00:01:16,980 --> 00:01:19,420
+Govern de Junts partiana amb majoria absoluta.
+
+31
+00:01:19,680 --> 00:01:21,740
+L'alcalde Isaac Salvatierra al capdavant.
+
+32
+00:01:22,220 --> 00:01:23,360
+I les eleccions a tocar.
+
+33
+00:01:23,780 --> 00:01:24,440
+Gairebé aquí.
+
+34
+00:01:24,440 --> 00:01:26,940
+I es nota, eh? Vaja si es nota.
+
+35
+00:01:27,320 --> 00:01:29,640
+L'ambient al ple. Ja hi ha tensió.
+
+36
+00:01:30,160 --> 00:01:34,280
+Sí. Comencen les picabaralles, allò de passar-se la pilota...
+
+37
+00:01:34,280 --> 00:01:35,560
+Ja es veu venir la campanya.
+
+38
+00:01:35,780 --> 00:01:39,440
+I sembla que hi ha una certa tendència a, diguem-ne,
+
+39
+00:01:39,600 --> 00:01:41,560
+desviar culpes cap als altres equips, no?
+
+40
+00:01:42,020 --> 00:01:45,400
+Sí. I potser una mica de pell fina quan arriben crítiques.
+
+41
+00:01:45,760 --> 00:01:47,860
+Doncs intentarem desgranar tot això,
+
+42
+00:01:48,120 --> 00:01:50,780
+fixant-nos sobretot en el que ens pot afectar més aquí,
+
+43
+00:01:51,180 --> 00:01:52,920
+a Can Galleta i a la resta del poble.
+
+44
+00:01:53,320 --> 00:01:53,800
+Preparats?
+
+45
+00:01:53,800 --> 00:01:54,380
+Som-hi.
+
+46
+00:01:55,040 --> 00:01:56,720
+Comencem per les formalitats,
+
+47
+00:01:57,320 --> 00:01:57,880
+Sí.
+
+48
+00:01:58,200 --> 00:02:00,240
+La felicitació a Nou Pins per cop de roc,
+
+49
+00:02:00,600 --> 00:02:02,020
+aprovar l'acte anterior...
+
+50
+00:02:02,020 --> 00:02:02,860
+I les absències.
+
+51
+00:02:03,120 --> 00:02:05,620
+Diego Parra del PP, excusat.
+
+52
+00:02:05,760 --> 00:02:06,800
+Ja fa temps que passa, oi?
+
+53
+00:02:06,860 --> 00:02:08,700
+Sí. Per motius personals, diuen.
+
+54
+00:02:09,060 --> 00:02:10,960
+I el tema del PSC, que continua igual.
+
+55
+00:02:11,460 --> 00:02:14,180
+La número 3, Mercè Serrano, sense prendre posició.
+
+56
+00:02:14,280 --> 00:02:16,780
+Deixant el grup sense veu al ple, efectivament.
+
+57
+00:02:16,980 --> 00:02:17,640
+Fa temps que dura.
+
+58
+00:02:17,820 --> 00:02:19,540
+La novetat va ser la presa de posició
+
+59
+00:02:19,540 --> 00:02:22,180
+d'un nou regidor de Juts Partiana, Francesc Comés.
+
+60
+00:02:22,340 --> 00:02:22,680
+Ah, sí?
+
+61
+00:02:23,280 --> 00:02:25,260
+Va jurar per imperatiu legal.
+
+62
+00:02:25,260 --> 00:02:27,280
+Una fórmula que sempre té el seu què.
+
+63
+00:02:27,320 --> 00:02:30,320
+El seu discurs va anar cap a la justícia social,
+
+64
+00:02:30,620 --> 00:02:31,180
+als drets.
+
+65
+00:02:31,860 --> 00:02:33,860
+El regidor independent, Albert Sales,
+
+66
+00:02:34,340 --> 00:02:37,320
+va preguntar per una possible incompatibilitat laboral.
+
+67
+00:02:37,760 --> 00:02:40,620
+I l'alcalde va aclarir que ja no tenia aquella feina
+
+68
+00:02:40,620 --> 00:02:41,960
+des del 2024,
+
+69
+00:02:42,700 --> 00:02:45,140
+que només cobraria dietes per assistir als plens.
+
+70
+00:02:45,600 --> 00:02:48,060
+Menys, va dir, que els regidors de l'oposició.
+
+71
+00:02:48,700 --> 00:02:49,580
+Un detall curiós.
+
+72
+00:02:49,900 --> 00:02:50,080
+Sí.
+
+73
+00:02:50,780 --> 00:02:52,280
+Bé, li van donar la benvinguda.
+
+74
+00:02:52,840 --> 00:02:54,640
+La Susana Capel, del mateix partit,
+
+75
+00:02:55,100 --> 00:02:56,880
+va destacar que era educador social.
+
+76
+00:02:56,880 --> 00:02:57,300
+I va dir que era educador social.
+
+77
+00:02:57,320 --> 00:03:00,320
+I li van assignar la regidoria de poble cuidador i solitarietat.
+
+78
+00:03:01,520 --> 00:03:02,000
+Exacte.
+
+79
+00:03:02,260 --> 00:03:04,020
+Vinga, anem als temes econòmics,
+
+80
+00:03:04,340 --> 00:03:05,320
+que sempre porten cua.
+
+81
+00:03:06,080 --> 00:03:09,200
+Es va aprovar una liquidació d'un contracte de parcs i jardins.
+
+82
+00:03:09,620 --> 00:03:11,400
+Sí, amb l'empresa Amitec.
+
+83
+00:03:12,020 --> 00:03:13,520
+Eren uns 95.000 euros.
+
+84
+00:03:14,280 --> 00:03:16,280
+Coses pendents de revisions de preus.
+
+85
+00:03:16,400 --> 00:03:17,420
+Però no va ser un ànim, oi?
+
+86
+00:03:17,740 --> 00:03:18,480
+No, no.
+
+87
+00:03:18,960 --> 00:03:20,620
+ERC, a través de Van Boven,
+
+88
+00:03:21,040 --> 00:03:23,040
+va criticar la lentitud a l'hora de pagar.
+
+89
+00:03:23,380 --> 00:03:26,580
+I com la manca de claritat en els càlculs de l'IPC.
+
+90
+00:03:26,580 --> 00:03:27,300
+I, juntament,
+
+91
+00:03:27,320 --> 00:03:28,920
+la Montse Torres,
+
+92
+00:03:29,200 --> 00:03:31,260
+ella hi va votar a favor,
+
+93
+00:03:31,460 --> 00:03:33,880
+però va lamentar que no s'haguessin fet
+
+94
+00:03:33,880 --> 00:03:35,960
+reserves anuals per l'IPC,
+
+95
+00:03:36,700 --> 00:03:38,820
+que s'havia acumulat el deute pel 2025.
+
+96
+00:03:39,380 --> 00:03:40,020
+Ah, vaja.
+
+97
+00:03:40,340 --> 00:03:41,640
+Des del govern van dir que sí,
+
+98
+00:03:41,740 --> 00:03:43,640
+que hi havia hagut reserves parcials cada any,
+
+99
+00:03:44,220 --> 00:03:46,120
+15.000, 12.000, 16.000,
+
+100
+00:03:46,540 --> 00:03:49,160
+i que es va fer una modificació de crèdit el 2025.
+
+101
+00:03:49,700 --> 00:03:52,180
+O sigui que hi havia versions diferents.
+
+102
+00:03:52,280 --> 00:03:52,860
+Com sempre.
+
+103
+00:03:53,460 --> 00:03:54,400
+Al final es va aprovar,
+
+104
+00:03:54,400 --> 00:03:56,880
+però amb les abstencions d'ERC i del Versales.
+
+105
+00:03:57,320 --> 00:04:00,420
+I més coses amb la mateixa empresa, Amitec, oi?
+
+106
+00:04:00,600 --> 00:04:01,920
+Sí, un altre punt.
+
+107
+00:04:02,440 --> 00:04:06,060
+Incloure partides alçades al contracte de neteja i arbrat.
+
+108
+00:04:06,420 --> 00:04:08,480
+Uns 145.000 euros per 4 anys.
+
+109
+00:04:08,900 --> 00:04:09,760
+Partides alçades.
+
+110
+00:04:09,880 --> 00:04:10,900
+Què vol dir exactament?
+
+111
+00:04:11,640 --> 00:04:14,380
+Bàsicament, és com tenir uns diners reservats
+
+112
+00:04:14,380 --> 00:04:16,300
+per si calen servis extra
+
+113
+00:04:16,300 --> 00:04:18,360
+que ja estan previstos al contracte,
+
+114
+00:04:18,720 --> 00:04:19,780
+però que són eventuals,
+
+115
+00:04:20,100 --> 00:04:22,280
+com plantacions, neteja de grafits
+
+116
+00:04:22,280 --> 00:04:24,800
+o netejar franges per provenir incendis.
+
+117
+00:04:24,800 --> 00:04:26,260
+El secretari ho ha explicat.
+
+118
+00:04:26,600 --> 00:04:26,940
+Ah, val.
+
+119
+00:04:27,320 --> 00:04:30,520
+Una mena de fons per imprevistos controlats.
+
+120
+00:04:30,740 --> 00:04:31,440
+Més o menys.
+
+121
+00:04:31,520 --> 00:04:33,800
+Però aquí el debat va ser més fort.
+
+122
+00:04:33,960 --> 00:04:34,820
+Qui va votar en contra?
+
+123
+00:04:35,220 --> 00:04:36,680
+L'Albert Sales i ERC.
+
+124
+00:04:37,540 --> 00:04:39,940
+Sales va argumentar que la reposició d'arbres
+
+125
+00:04:39,940 --> 00:04:41,700
+ja estava al contracte original
+
+126
+00:04:41,700 --> 00:04:44,620
+i que, a més, es duplicava amb uns diners
+
+127
+00:04:44,620 --> 00:04:46,220
+dels pressupostos participatius
+
+128
+00:04:46,220 --> 00:04:47,660
+que també eren per al brat.
+
+129
+00:04:47,800 --> 00:04:49,840
+Ostres, duplicitat. Això és greu.
+
+130
+00:04:50,140 --> 00:04:50,860
+Segons ell, sí.
+
+131
+00:04:51,360 --> 00:04:53,420
+I també deia que faltava concreció
+
+132
+00:04:53,420 --> 00:04:54,640
+en el tema dels grafits.
+
+133
+00:04:54,820 --> 00:04:56,840
+I ERC? Què deia Van Boven?
+
+134
+00:04:57,320 --> 00:04:59,360
+És que li semblava una revisió de preu amagada
+
+135
+00:04:59,360 --> 00:05:01,700
+i criticava aprovar una despesa tan gran
+
+136
+00:05:01,700 --> 00:05:04,280
+per quatre anys per feines eventuals
+
+137
+00:05:04,280 --> 00:05:06,400
+que ni tan sols s'havien encarregat encara.
+
+138
+00:05:06,720 --> 00:05:08,140
+Home, té una certa lògica, no?
+
+139
+00:05:08,300 --> 00:05:10,180
+Sí. En canvi, Montse Torres,
+
+140
+00:05:10,280 --> 00:05:11,700
+desonscat, hi va votar a favor.
+
+141
+00:05:12,300 --> 00:05:14,160
+Deia que la reserva era necessària.
+
+142
+00:05:14,560 --> 00:05:16,960
+L'alcalde va defensar que donava flexibilitat
+
+143
+00:05:16,960 --> 00:05:19,260
+en comptes de fer contractes menors cada cop.
+
+144
+00:05:19,420 --> 00:05:20,760
+Però Sales va insistir
+
+145
+00:05:20,760 --> 00:05:22,160
+en la duplicitat de l'arbrat.
+
+146
+00:05:22,160 --> 00:05:23,920
+Sí, sí. I Van Boven
+
+147
+00:05:23,920 --> 00:05:26,640
+també va preguntar per què es feia ara.
+
+148
+00:05:27,320 --> 00:05:28,480
+El contracte era de febrer.
+
+149
+00:05:29,300 --> 00:05:30,820
+I hi hava un petit embòlic
+
+150
+00:05:30,820 --> 00:05:33,080
+sobre si s'havien fet contractes
+
+151
+00:05:33,080 --> 00:05:34,700
+a tercers. Mentrestant,
+
+152
+00:05:35,120 --> 00:05:36,560
+l'alcalde va dir que es referia
+
+153
+00:05:36,560 --> 00:05:37,920
+a contractes anteriors.
+
+154
+00:05:38,280 --> 00:05:39,860
+Bueno, un punt complicat.
+
+155
+00:05:40,400 --> 00:05:41,420
+Es va aprovar al final?
+
+156
+00:05:41,740 --> 00:05:45,200
+Sí, però amb aquests dos vots en contra de Sales i ERC.
+
+157
+00:05:45,440 --> 00:05:46,800
+I arribem al plat fort.
+
+158
+00:05:47,460 --> 00:05:48,340
+Les escombraries.
+
+159
+00:05:48,860 --> 00:05:49,860
+La pujada de taxes.
+
+160
+00:05:50,100 --> 00:05:50,980
+Uf, sí.
+
+161
+00:05:51,500 --> 00:05:53,860
+Taxes de residus domèstics i comercials.
+
+162
+00:05:54,160 --> 00:05:56,100
+A partir de l'1 de gener de 2026.
+
+163
+00:05:56,100 --> 00:05:58,360
+Aquí la temperatura va pujar.
+
+164
+00:05:59,000 --> 00:05:59,480
+Bastant.
+
+165
+00:05:59,800 --> 00:06:01,560
+M'ho imagino. Què va passar?
+
+166
+00:06:01,900 --> 00:06:04,160
+A veure, tothom semblava estar d'acord en el fons.
+
+167
+00:06:04,440 --> 00:06:05,660
+Hi ha una directiva europea
+
+168
+00:06:05,660 --> 00:06:07,660
+que obliga a cobrir una part important
+
+169
+00:06:07,660 --> 00:06:09,020
+del cor real del servei.
+
+170
+00:06:09,460 --> 00:06:11,760
+Això, vaja, era el punt de partida.
+
+171
+00:06:11,960 --> 00:06:13,780
+Clar, això és llei. Però...
+
+172
+00:06:13,780 --> 00:06:15,240
+Però les formes i el quan.
+
+173
+00:06:15,580 --> 00:06:16,620
+Aquí va venir el xoc.
+
+174
+00:06:17,100 --> 00:06:20,300
+L'oposició en bloc, pràcticament, va criticar molt durament.
+
+175
+00:06:20,460 --> 00:06:21,580
+Quins arguments donaven?
+
+176
+00:06:21,920 --> 00:06:23,660
+Doncs, per exemple, el Versalles
+
+177
+00:06:23,660 --> 00:06:25,680
+deia que no es podia pujar
+
+178
+00:06:25,680 --> 00:06:27,960
+la taxa basant-se en una memòria
+
+179
+00:06:27,960 --> 00:06:29,780
+tècnica que encara era provisional.
+
+180
+00:06:30,480 --> 00:06:31,820
+Que no s'havia el cos real
+
+181
+00:06:31,820 --> 00:06:33,600
+perquè la nova licitació del servei
+
+182
+00:06:33,600 --> 00:06:34,460
+encara no està feta.
+
+183
+00:06:34,620 --> 00:06:36,080
+O sigui, pujar cegues, una mica.
+
+184
+00:06:36,720 --> 00:06:39,440
+Exacte. De fet, va proposar una esmena
+
+185
+00:06:39,440 --> 00:06:42,060
+que si després el cos real era més baix
+
+186
+00:06:42,060 --> 00:06:44,000
+se revisés la taxa a la baixa.
+
+187
+00:06:44,220 --> 00:06:45,560
+I ERC, Juntscat?
+
+188
+00:06:45,700 --> 00:06:46,920
+En una línia molt similar.
+
+189
+00:06:47,440 --> 00:06:49,500
+Van bovent ERC i Torres Juntscat
+
+190
+00:06:49,500 --> 00:06:52,180
+van dir, reconeixem l'obligació legal
+
+191
+00:06:52,180 --> 00:06:54,160
+però no pots fer una pujada
+
+192
+00:06:54,160 --> 00:06:55,580
+tan bèstia. Es parlava d'un servei.
+
+193
+00:06:55,580 --> 00:06:56,980
+Amb 60% de mitjana, eh?
+
+194
+00:06:56,980 --> 00:06:58,320
+60%? Uau.
+
+195
+00:06:58,500 --> 00:07:01,080
+Sí. Doncs, això, que no pots pujar tant
+
+196
+00:07:01,080 --> 00:07:03,000
+sense que hi hagi una millora del servei.
+
+197
+00:07:03,640 --> 00:07:05,640
+I el servei actual va amb un contracte vell,
+
+198
+00:07:06,000 --> 00:07:08,100
+obsolet, i la nova licitació
+
+199
+00:07:08,100 --> 00:07:09,760
+ningú sap quan arribarà.
+
+200
+00:07:09,940 --> 00:07:11,820
+Montse Torres, a més, va afegir
+
+201
+00:07:11,820 --> 00:07:13,600
+un punt que em sembla clau per Tiana.
+
+202
+00:07:13,960 --> 00:07:14,140
+Quin?
+
+203
+00:07:14,320 --> 00:07:17,500
+Que Tiana ja està per sobre de la mitjana comarcal
+
+204
+00:07:17,500 --> 00:07:18,780
+en impostos i taxes.
+
+205
+00:07:19,400 --> 00:07:21,360
+Però que els serveis sovint no estan
+
+206
+00:07:21,360 --> 00:07:23,180
+a la mateixa alçada. Llavors,
+
+207
+00:07:23,180 --> 00:07:25,340
+a pujar més per rebre el mateix.
+
+208
+00:07:25,580 --> 00:07:27,180
+Fa mal, eh? Totalment.
+
+209
+00:07:27,760 --> 00:07:29,260
+És el moll de l'os de la crítica.
+
+210
+00:07:29,580 --> 00:07:30,640
+I la defensa del govern?
+
+211
+00:07:31,360 --> 00:07:33,460
+Què van dir, l'alcalde o la regidora Serrat?
+
+212
+00:07:33,660 --> 00:07:35,480
+Doncs es van escudar en l'obligació
+
+213
+00:07:35,480 --> 00:07:37,280
+legal, la directiva europea,
+
+214
+00:07:37,740 --> 00:07:39,420
+i en la necessitat de fer pedagogia
+
+215
+00:07:39,420 --> 00:07:41,280
+ambiental, de conscienciar.
+
+216
+00:07:41,300 --> 00:07:42,900
+Que la gent recicli més. Sí.
+
+217
+00:07:43,340 --> 00:07:45,580
+Van justificar la posada també per l'IPC,
+
+218
+00:07:45,760 --> 00:07:47,640
+per millores salarials, es treballadors,
+
+219
+00:07:47,860 --> 00:07:48,720
+arguments tècnics.
+
+220
+00:07:49,260 --> 00:07:51,760
+Però llavors va venir el punt clau, el més polític.
+
+221
+00:07:51,760 --> 00:07:53,840
+Va veure. L'alcalde va acusar
+
+222
+00:07:53,840 --> 00:07:55,120
+directament l'oposició.
+
+223
+00:07:55,580 --> 00:07:57,520
+Va dir que eren ells que estaven bloquejant
+
+224
+00:07:57,520 --> 00:07:59,420
+la nova licitació del servei de neteja
+
+225
+00:07:59,420 --> 00:08:01,300
+amb dilacions. Ostres.
+
+226
+00:08:01,960 --> 00:08:03,540
+Això és. Passar la pilota
+
+227
+00:08:03,540 --> 00:08:06,080
+totalment. Es nota la precampanya, eh?
+
+228
+00:08:06,500 --> 00:08:07,060
+Claríssimament.
+
+229
+00:08:07,420 --> 00:08:09,720
+Traspassar la culpa. I aquí l'oposició
+
+230
+00:08:09,720 --> 00:08:11,100
+en va assaltar, com és lògic.
+
+231
+00:08:11,280 --> 00:08:13,500
+Què van respondre? Sales van
+
+232
+00:08:13,500 --> 00:08:15,420
+boen. Sales va negar
+
+233
+00:08:15,420 --> 00:08:17,560
+el bloqueig. Va recordar que l'Ajuntament
+
+234
+00:08:17,560 --> 00:08:19,800
+havia tingut problemes abans amb els càlculs
+
+235
+00:08:19,800 --> 00:08:21,720
+per la licitació que havien hagut de
+
+236
+00:08:21,720 --> 00:08:23,020
+contractar una segona empresa.
+
+237
+00:08:23,660 --> 00:08:25,420
+Va criticar la lentitud del govern,
+
+238
+00:08:25,580 --> 00:08:26,860
+tenint majoria absoluta.
+
+239
+00:08:27,220 --> 00:08:29,760
+Clar. És que tenen majoria. No necessiten
+
+240
+00:08:29,760 --> 00:08:31,420
+l'oposició per aprovar la licitació.
+
+241
+00:08:31,860 --> 00:08:33,880
+Exacte. Sales va comparar
+
+242
+00:08:33,880 --> 00:08:35,580
+amb Santa Coloma, on deia
+
+243
+00:08:35,580 --> 00:08:37,540
+que havien licitat primer i ha pujat
+
+244
+00:08:37,540 --> 00:08:39,600
+la taxa després, ja amb els costos
+
+245
+00:08:39,600 --> 00:08:41,660
+reals sobre la taula. I va acusar
+
+246
+00:08:41,660 --> 00:08:43,460
+l'alcalde de lentitud també amb
+
+247
+00:08:43,460 --> 00:08:45,700
+altres licitacions, com l'Escola Brassol
+
+248
+00:08:45,700 --> 00:08:46,780
+o l'Escola de Música.
+
+249
+00:08:47,100 --> 00:08:49,540
+I van boen. ERC què va dir?
+
+250
+00:08:49,540 --> 00:08:51,500
+Va insistir. Acceptem
+
+251
+00:08:51,500 --> 00:08:53,460
+que cal apujar la taxa, però no així,
+
+252
+00:08:53,880 --> 00:08:55,040
+sense millorar el servei.
+
+253
+00:08:55,040 --> 00:08:56,520
+I per culpa, deia,
+
+254
+00:08:56,880 --> 00:08:59,260
+de la inacció de l'alcalde durant 3 anys.
+
+255
+00:08:59,700 --> 00:09:00,880
+Va negar també el bloqueig.
+
+256
+00:09:01,420 --> 00:09:03,040
+Fins i tot va preguntar per què s'havia
+
+257
+00:09:03,040 --> 00:09:04,880
+variat la màquina de neteja viària.
+
+258
+00:09:05,220 --> 00:09:07,200
+Vaja, que la cosa es va posar tensa.
+
+259
+00:09:07,340 --> 00:09:09,000
+Molt tensa. Acusacions
+
+260
+00:09:09,000 --> 00:09:11,460
+cruades de populisme, de falsetats,
+
+261
+00:09:11,580 --> 00:09:13,100
+d'inoperància...
+
+262
+00:09:13,100 --> 00:09:15,000
+L'alcalde va prometre millores futures,
+
+263
+00:09:15,220 --> 00:09:17,080
+eh? Nova màquina, campanyes
+
+264
+00:09:17,080 --> 00:09:19,240
+cíviques, més sancions per incivisme.
+
+265
+00:09:19,480 --> 00:09:20,960
+Però la qüestió de fons
+
+266
+00:09:20,960 --> 00:09:22,880
+és que s'apuja la taxa ara,
+
+267
+00:09:23,060 --> 00:09:24,900
+sense saber el cos real del
+
+268
+00:09:24,900 --> 00:09:26,840
+nou contracte i sense millorar
+
+269
+00:09:26,840 --> 00:09:28,740
+del servei actual. Exacte.
+
+270
+00:09:28,900 --> 00:09:31,060
+I un detall important que vas comentar abans
+
+271
+00:09:31,060 --> 00:09:33,020
+i que allà no va sortir. El de l'IBI?
+
+272
+00:09:33,300 --> 00:09:35,200
+Sí. Si ara l'Ajuntament
+
+273
+00:09:35,200 --> 00:09:36,920
+ingressarà més per la taxa
+
+274
+00:09:36,920 --> 00:09:38,860
+de residus perquè la llei obliga
+
+275
+00:09:38,860 --> 00:09:40,940
+a cobrir més cost, no es podia
+
+276
+00:09:40,940 --> 00:09:42,940
+compensar abaixant una mica l'IBI,
+
+277
+00:09:43,060 --> 00:09:44,920
+per exemple? Ningú ho va mencionar?
+
+278
+00:09:45,180 --> 00:09:46,920
+És una bona pregunta que va quedar a l'aire.
+
+279
+00:09:47,380 --> 00:09:49,160
+Molt interessant. Al final,
+
+280
+00:09:49,600 --> 00:09:50,740
+es van aprovar les taxes.
+
+281
+00:09:51,300 --> 00:09:52,860
+Sí, amb els vots del govern,
+
+282
+00:09:53,740 --> 00:09:54,860
+però amb els vots en contra,
+
+283
+00:09:54,900 --> 00:09:57,040
+de Sales, ERC i Junts per Cat.
+
+284
+00:09:57,440 --> 00:09:59,060
+Tres vots en contra importants.
+
+285
+00:09:59,220 --> 00:10:00,900
+I just després d'això, curiosament,
+
+286
+00:10:01,260 --> 00:10:03,080
+van aprovar una modificació tècnica
+
+287
+00:10:03,080 --> 00:10:04,580
+de l'IBI per a les plaques solars.
+
+288
+00:10:04,840 --> 00:10:07,040
+Sí, per donar seguretat jurídica
+
+289
+00:10:07,040 --> 00:10:09,000
+a les bonificacions. Aquí,
+
+290
+00:10:09,460 --> 00:10:10,440
+sí, unanimitat.
+
+291
+00:10:11,300 --> 00:10:12,840
+Tot i que Torres va recordar que
+
+292
+00:10:12,840 --> 00:10:14,920
+la moció original feia més d'un any
+
+293
+00:10:14,920 --> 00:10:16,760
+que esperava i que el retard havia
+
+294
+00:10:16,760 --> 00:10:19,120
+creat problemes. Bé, passem
+
+295
+00:10:19,120 --> 00:10:21,120
+a les mocions. La política
+
+296
+00:10:21,120 --> 00:10:22,680
+més ideològica, potser.
+
+297
+00:10:23,160 --> 00:10:24,780
+La primera, sobre
+
+298
+00:10:24,780 --> 00:10:26,280
+l'impuls del català. Sí.
+
+299
+00:10:26,860 --> 00:10:28,780
+Presentada conjuntament per juntes
+
+300
+00:10:28,780 --> 00:10:30,740
+barratianes, Junts per Cat i ERC.
+
+301
+00:10:31,640 --> 00:10:32,840
+Reafirmar compromís,
+
+302
+00:10:32,940 --> 00:10:35,160
+us preferent, garantir drets lingüístics,
+
+303
+00:10:35,280 --> 00:10:36,840
+clausules als contractes,
+
+304
+00:10:36,840 --> 00:10:38,720
+coses força estàndard i amb ampli
+
+305
+00:10:38,720 --> 00:10:40,660
+consens, en principi. Però el debat
+
+306
+00:10:40,660 --> 00:10:42,000
+no va anar per aquí, oi? No.
+
+307
+00:10:42,620 --> 00:10:44,860
+El debat es va centrar en qui signava la moció
+
+308
+00:10:44,860 --> 00:10:47,060
+i qui no. Com? L'Albert Sales
+
+309
+00:10:47,060 --> 00:10:48,860
+va agafar la paraula molt molest.
+
+310
+00:10:49,400 --> 00:10:50,860
+Va criticar duríssimament
+
+311
+00:10:50,860 --> 00:10:52,760
+que se l'hagués exclòs a ell, com a
+
+312
+00:10:52,760 --> 00:10:54,460
+independent, i també al PP,
+
+313
+00:10:54,780 --> 00:10:56,440
+de l'assignatura de la moció. Vaja.
+
+314
+00:10:56,720 --> 00:10:58,920
+Va qualificar l'actitud de Junts per Tiana
+
+315
+00:10:58,920 --> 00:11:00,800
+i va assenyalar directament la
+
+316
+00:11:00,800 --> 00:11:02,840
+regidora Serrat d'excloent.
+
+317
+00:11:03,380 --> 00:11:05,060
+Va dir que ell ja hauria donat suport,
+
+318
+00:11:05,060 --> 00:11:07,380
+però que les formes. I fins i tot
+
+319
+00:11:07,380 --> 00:11:09,260
+va qüestionar la coherència del govern
+
+320
+00:11:09,260 --> 00:11:10,980
+per no haver organitzat cap acte
+
+321
+00:11:10,980 --> 00:11:13,060
+per l'1 d'octubre. Uf, directa a la
+
+322
+00:11:13,060 --> 00:11:15,080
+línia de frutació. I com va reaccionar
+
+323
+00:11:15,080 --> 00:11:17,360
+als altres? Doncs, Van Boven
+
+324
+00:11:17,360 --> 00:11:19,080
+d'ERC va lamentar
+
+325
+00:11:19,080 --> 00:11:20,500
+que no s'hagués convidat al PP.
+
+326
+00:11:21,180 --> 00:11:22,940
+Va dir que calia sumar i no excloure
+
+327
+00:11:22,940 --> 00:11:25,020
+i ho va atribuir a un possible
+
+328
+00:11:25,020 --> 00:11:26,700
+descuit. Un descuit?
+
+329
+00:11:27,020 --> 00:11:29,100
+Amb una moció així? Bé, és el que
+
+330
+00:11:29,100 --> 00:11:31,280
+va dir. L'alcalde va intervenir
+
+331
+00:11:31,280 --> 00:11:33,280
+i va repartir una mica la culpa
+
+332
+00:11:33,280 --> 00:11:34,980
+entre els tres grups promotors
+
+333
+00:11:34,980 --> 00:11:37,000
+dient que no s'havien coordinat bé
+
+334
+00:11:37,000 --> 00:11:38,640
+entre ells per convidar els altres.
+
+335
+00:11:39,160 --> 00:11:41,200
+Rentant-se les mans una mica, potser.
+
+336
+00:11:41,500 --> 00:11:43,320
+Pot ser. Llavors va parlar
+
+337
+00:11:43,320 --> 00:11:45,320
+la regidora Serrat. Va demanar
+
+338
+00:11:45,320 --> 00:11:47,000
+disculpes per la descoordinació
+
+339
+00:11:47,000 --> 00:11:49,120
+a l'hora de convidar, però va dir que el tema
+
+340
+00:11:49,120 --> 00:11:51,160
+s'havia parlat a la Junta de Portaveus.
+
+341
+00:11:51,160 --> 00:11:52,980
+I aquí va ser on va fer
+
+342
+00:11:52,980 --> 00:11:54,920
+aquell comentari. Sí, exacte.
+
+343
+00:11:55,220 --> 00:11:57,040
+Responent a Sales, va dir a Ioda
+
+344
+00:11:57,040 --> 00:11:59,500
+jo pensava que avui parlàvem del català.
+
+345
+00:12:00,200 --> 00:12:01,180
+Com volent dir
+
+346
+00:12:01,180 --> 00:12:03,420
+que la queixa de Sales sobre l'exclusió
+
+347
+00:12:03,420 --> 00:12:05,000
+estava fora de lloc
+
+348
+00:12:05,000 --> 00:12:07,280
+o desviava el tema important. Va sonar una mica
+
+349
+00:12:07,280 --> 00:12:08,860
+tallant. Sí, com traient
+
+350
+00:12:08,860 --> 00:12:11,160
+la importància a la queixa. Exacte.
+
+351
+00:12:12,220 --> 00:12:12,720
+Malgrat
+
+352
+00:12:12,720 --> 00:12:15,340
+tota aquesta tensió inicial per les formes
+
+353
+00:12:15,340 --> 00:12:16,980
+i l'exclusió, al final
+
+354
+00:12:16,980 --> 00:12:18,920
+la moció es va provar per unanimitat.
+
+355
+00:12:19,020 --> 00:12:21,140
+Bé, almenys en el fons hi va haver
+
+356
+00:12:21,140 --> 00:12:23,200
+acord. Després una moció sobre
+
+357
+00:12:23,200 --> 00:12:25,120
+els vessants, oi? Important
+
+358
+00:12:25,120 --> 00:12:27,260
+pels barris. Sí. Presentada
+
+359
+00:12:27,260 --> 00:12:29,280
+per ERC, recollia demandes
+
+360
+00:12:29,280 --> 00:12:31,000
+de l'Associació de Veïns dels Vessants.
+
+361
+00:12:31,200 --> 00:12:33,160
+Coses que fa temps que demanen. Com o què?
+
+362
+00:12:33,360 --> 00:12:35,540
+Doncs un calendari per actuacions pendents,
+
+363
+00:12:36,160 --> 00:12:37,460
+sobretot un carril bici
+
+364
+00:12:37,460 --> 00:12:39,340
+que tenen allà i que és molt conflictiu
+
+365
+00:12:39,340 --> 00:12:41,240
+i la connexió entre els carrers
+
+366
+00:12:41,240 --> 00:12:43,240
+aigües i vessants. També
+
+367
+00:12:43,240 --> 00:12:45,480
+demanàvem diners del pressupost del 2026
+
+368
+00:12:45,480 --> 00:12:47,600
+i un seguiment periòdic. I va intervenir
+
+369
+00:12:47,600 --> 00:12:49,320
+algú de l'associació? Sí,
+
+370
+00:12:49,440 --> 00:12:51,120
+el president Carles Campos,
+
+371
+00:12:51,140 --> 00:12:52,920
+i la seva intervenció va ser
+
+372
+00:12:52,920 --> 00:12:55,420
+molt contundent. Va explicar
+
+373
+00:12:55,420 --> 00:12:57,220
+la llarga història de reivindicacions
+
+374
+00:12:57,220 --> 00:12:59,640
+sense resposta. Va parlar de seguretat?
+
+375
+00:13:00,140 --> 00:13:01,180
+Robatoris? Sí.
+
+376
+00:13:01,620 --> 00:13:03,300
+Va recordar els 71 robatoris
+
+377
+00:13:03,300 --> 00:13:04,740
+que van patir el 2018.
+
+378
+00:13:05,320 --> 00:13:07,420
+Va parlar del carril bici, que es va implantar
+
+379
+00:13:07,420 --> 00:13:09,320
+en fons europeus, però que diu que
+
+380
+00:13:09,320 --> 00:13:11,180
+estrenya el carrer i és perillós.
+
+381
+00:13:11,400 --> 00:13:13,160
+Vaja. Va detallar converses
+
+382
+00:13:13,160 --> 00:13:14,880
+amb diferents regidors al llarg dels anys,
+
+383
+00:13:15,280 --> 00:13:17,340
+promeses incomplertes, fons anunciats
+
+384
+00:13:17,340 --> 00:13:19,100
+que van desaparèixer després de la moció
+
+385
+00:13:19,100 --> 00:13:20,980
+de censura. Fins i tot va parlar
+
+386
+00:13:20,980 --> 00:13:23,020
+de resistències tècniques a la connexió
+
+387
+00:13:23,020 --> 00:13:25,500
+de carrers, insinuant interessos personals.
+
+388
+00:13:25,980 --> 00:13:27,360
+Va ser un testimoni de frustració
+
+389
+00:13:27,360 --> 00:13:28,680
+acumulada molt potent.
+
+390
+00:13:28,900 --> 00:13:31,120
+I la reacció dels polítics? L'oposició, que va dir?
+
+391
+00:13:31,220 --> 00:13:33,140
+L'oposició? REC,
+
+392
+00:13:33,480 --> 00:13:34,620
+Sales, Juntscat,
+
+393
+00:13:35,080 --> 00:13:36,980
+van donar suport total a la moció.
+
+394
+00:13:37,440 --> 00:13:39,260
+Van criticar la inacció del govern
+
+395
+00:13:39,260 --> 00:13:41,220
+actual, tenim majoria absoluta
+
+396
+00:13:41,220 --> 00:13:42,680
+i pressupostos alts.
+
+397
+00:13:43,020 --> 00:13:45,080
+Van recordar que l'alcalde havia fet promeses
+
+398
+00:13:45,080 --> 00:13:46,260
+per escrit als veïns.
+
+399
+00:13:46,900 --> 00:13:49,060
+I l'alcalde? Com va respondre això?
+
+400
+00:13:49,520 --> 00:13:50,960
+Doncs va defensar la gestió.
+
+401
+00:13:50,980 --> 00:13:53,060
+Va parlar de prioritzar
+
+402
+00:13:53,060 --> 00:13:54,840
+dins del pla d'actuació municipal,
+
+403
+00:13:55,360 --> 00:13:57,160
+de la lentitud de la burocràcia,
+
+404
+00:13:57,640 --> 00:13:59,440
+va destacar millores en seguretat.
+
+405
+00:13:59,840 --> 00:14:00,280
+Ah, sí?
+
+406
+00:14:00,820 --> 00:14:02,920
+Va donar xifres? Sí, va dir que
+
+407
+00:14:02,920 --> 00:14:05,420
+els robatoris havien baixat a 19 el 2024.
+
+408
+00:14:05,880 --> 00:14:06,260
+19?
+
+409
+00:14:06,820 --> 00:14:09,040
+Comparat amb el 71 del 2018
+
+410
+00:14:09,040 --> 00:14:10,460
+que deia el veí? Exacte.
+
+411
+00:14:10,800 --> 00:14:12,680
+Aquí es veu l'ús selectiu de dades, oi?
+
+412
+00:14:13,020 --> 00:14:15,020
+Compara el mínim recent amb el pic
+
+413
+00:14:15,020 --> 00:14:17,000
+màxim, sense explicar tota l'evolució.
+
+414
+00:14:17,380 --> 00:14:18,500
+Un clàssic. Clar.
+
+415
+00:14:18,500 --> 00:14:20,500
+Va dir que s'havia invertit en policia.
+
+416
+00:14:20,980 --> 00:14:22,680
+Que el pla de mobilitat
+
+417
+00:14:22,680 --> 00:14:24,400
+inclou accions als vessants.
+
+418
+00:14:24,680 --> 00:14:26,640
+Va justificar els irs instal·lats
+
+419
+00:14:26,640 --> 00:14:28,840
+per seguretat. Va dir que el parc
+
+420
+00:14:28,840 --> 00:14:30,660
+infantil dels vessants s'havia
+
+421
+00:14:30,660 --> 00:14:33,180
+finançat per pressupostos participatius
+
+422
+00:14:33,180 --> 00:14:34,580
+i que va guanyar
+
+423
+00:14:34,580 --> 00:14:36,340
+a la connexió de carrers amb bots.
+
+424
+00:14:36,920 --> 00:14:38,760
+O sigui que la gent va preferir el parc.
+
+425
+00:14:39,240 --> 00:14:40,280
+Segons l'alcalde, sí.
+
+426
+00:14:41,040 --> 00:14:42,760
+Sobre el carril bici, va dir que era
+
+427
+00:14:42,760 --> 00:14:44,780
+complex, una herència del govern
+
+428
+00:14:44,780 --> 00:14:46,860
+PSCRC, i que havien
+
+429
+00:14:46,860 --> 00:14:48,720
+contractat una enginyeria externa
+
+430
+00:14:48,720 --> 00:14:49,840
+per buscar solucions.
+
+431
+00:14:49,840 --> 00:14:51,640
+I la connexió de carrers
+
+432
+00:14:51,640 --> 00:14:53,940
+també complexa legalment, va dir.
+
+433
+00:14:54,600 --> 00:14:56,120
+Però es va comprometre a alguna cosa?
+
+434
+00:14:56,560 --> 00:14:57,720
+Es va comprometre a millorar
+
+435
+00:14:57,720 --> 00:14:59,000
+la comunicació amb els veïns.
+
+436
+00:14:59,560 --> 00:15:01,840
+Va defensar que hi ha un equilibri territorial,
+
+437
+00:15:02,260 --> 00:15:03,840
+mencionant obres a les costes,
+
+438
+00:15:04,120 --> 00:15:05,680
+la Virreina, la Ciutadella.
+
+439
+00:15:06,340 --> 00:15:07,740
+Va admetre la lentitud
+
+440
+00:15:07,740 --> 00:15:10,260
+a mallor de sang, suor i llàgrimes.
+
+441
+00:15:10,940 --> 00:15:11,680
+I el més important,
+
+442
+00:15:12,140 --> 00:15:13,180
+va votar a favor de l'emoció.
+
+443
+00:15:13,380 --> 00:15:15,300
+Sí. Aquí va estar la sorpresa.
+
+444
+00:15:15,900 --> 00:15:17,380
+Tot el ple va votar a favor
+
+445
+00:15:17,380 --> 00:15:19,340
+de l'emoció dels veïns dels vessants.
+
+446
+00:15:19,840 --> 00:15:20,520
+Una animitat.
+
+447
+00:15:20,640 --> 00:15:23,380
+Un gest cap a una associació d'un barri
+
+448
+00:15:23,380 --> 00:15:25,620
+considerat perifèric. No està malament?
+
+449
+00:15:25,900 --> 00:15:27,540
+No, però hi va haver un moment
+
+450
+00:15:27,540 --> 00:15:28,860
+de tensió just després.
+
+451
+00:15:29,560 --> 00:15:31,380
+ERC i Sales van intentar
+
+452
+00:15:31,380 --> 00:15:33,620
+replicar l'alcàldia després de la intervenció
+
+453
+00:15:33,620 --> 00:15:35,400
+del veí, però el mateix alcalde
+
+454
+00:15:35,400 --> 00:15:37,480
+va aplicar el reglament de participació
+
+455
+00:15:37,480 --> 00:15:39,240
+ciutadana de forma molt estricta
+
+456
+00:15:39,240 --> 00:15:41,380
+i els va impedir. No hi havia dret
+
+457
+00:15:41,380 --> 00:15:43,540
+a rèplica després de la resposta de l'alcalde,
+
+458
+00:15:43,660 --> 00:15:45,280
+segons el reglament. Això
+
+459
+00:15:45,280 --> 00:15:46,500
+va generar malamaró.
+
+460
+00:15:46,920 --> 00:15:48,820
+Bé, una altra moció.
+
+461
+00:15:48,820 --> 00:15:50,960
+La de les ombres a l'escola
+
+462
+00:15:50,960 --> 00:15:52,660
+a l'Eura a l'Olivera. Això
+
+463
+00:15:52,660 --> 00:15:55,100
+afecta a moltes famílies, també a Can Galleta.
+
+464
+00:15:55,400 --> 00:15:56,960
+Sí, també ERC.
+
+465
+00:15:57,440 --> 00:15:59,080
+Exigien instal·lar les ombres
+
+466
+00:15:59,080 --> 00:16:00,960
+ja, abans que torni la calor
+
+467
+00:16:00,960 --> 00:16:02,640
+forta. Recordaven
+
+468
+00:16:02,640 --> 00:16:04,640
+que ja hi havia una moció aprovada abans
+
+469
+00:16:04,640 --> 00:16:06,720
+amb un termini i que s'havia incomplit.
+
+470
+00:16:06,900 --> 00:16:08,420
+La necessitat és evident
+
+471
+00:16:08,420 --> 00:16:10,660
+amb la calor que fa. Suposo
+
+472
+00:16:10,660 --> 00:16:12,200
+que tothom hi estava d'acord.
+
+473
+00:16:12,720 --> 00:16:14,540
+Sí. Sales i Torres
+
+474
+00:16:14,540 --> 00:16:16,160
+hi van donar suport de seguida.
+
+475
+00:16:16,160 --> 00:16:18,540
+La regidora Serrat de Junts
+
+476
+00:16:18,540 --> 00:16:20,600
+per Tiana també hi va votar a favor.
+
+477
+00:16:21,000 --> 00:16:21,820
+Però... Però?
+
+478
+00:16:22,360 --> 00:16:23,980
+Va posar molts matisos.
+
+479
+00:16:24,620 --> 00:16:26,260
+Va dir que era tècnicament complex,
+
+480
+00:16:26,800 --> 00:16:28,660
+que havien après coses amb un projecte
+
+481
+00:16:28,660 --> 00:16:30,160
+similar a l'escola tisiana,
+
+482
+00:16:30,880 --> 00:16:32,600
+que per seguretat no es podien
+
+483
+00:16:32,600 --> 00:16:34,320
+fer obres amb maquinària pesada
+
+484
+00:16:34,320 --> 00:16:36,360
+durant el curs escolar, i va dir
+
+485
+00:16:36,360 --> 00:16:38,200
+que el termini abans de la calor
+
+486
+00:16:38,200 --> 00:16:40,160
+era textualment irrealitzable.
+
+487
+00:16:41,240 --> 00:16:42,940
+Vaja. Un sí, però no.
+
+488
+00:16:43,340 --> 00:16:44,320
+Més o menys.
+
+489
+00:16:45,060 --> 00:16:46,300
+Va mencionar que l'edifici
+
+490
+00:16:46,300 --> 00:16:48,500
+és de la Generalitat, que hi ha normatives
+
+491
+00:16:48,500 --> 00:16:50,220
+d'adaptació climàtica pendents.
+
+492
+00:16:50,480 --> 00:16:51,560
+Va demanar paciència.
+
+493
+00:16:51,860 --> 00:16:53,900
+I ERC com va reaccionar a això?
+
+494
+00:16:54,100 --> 00:16:56,300
+Van Boven va criticar el govern per,
+
+495
+00:16:56,620 --> 00:16:58,660
+deia, aprendre sobre la marxa.
+
+496
+00:16:59,240 --> 00:17:01,040
+Per improvisar i prometre coses
+
+497
+00:17:01,040 --> 00:17:02,860
+sense saber ben bé com fer-les.
+
+498
+00:17:03,200 --> 00:17:04,460
+I Serrat va respondre?
+
+499
+00:17:04,740 --> 00:17:06,320
+Realment. Exacte.
+
+500
+00:17:06,780 --> 00:17:08,920
+I arribem al final. El torn de pregs
+
+501
+00:17:08,920 --> 00:17:10,920
+i preguntes. Que sovint és un surt
+
+502
+00:17:10,920 --> 00:17:12,880
+una mica de tot. Sí, és com
+
+503
+00:17:12,880 --> 00:17:15,040
+un calaix de sastre, però surten coses
+
+504
+00:17:15,040 --> 00:17:16,600
+molt concretes del dia a dia
+
+505
+00:17:16,600 --> 00:17:18,460
+i es veu la tensió acumulada.
+
+506
+00:17:18,500 --> 00:17:19,840
+Qui va preguntar?
+
+507
+00:17:20,040 --> 00:17:21,780
+Montse Torres.
+
+508
+00:17:22,120 --> 00:17:24,280
+Va preguntar pel pla de poda d'arbres,
+
+509
+00:17:24,560 --> 00:17:26,180
+un tema que sempre preocupa.
+
+510
+00:17:26,600 --> 00:17:28,340
+Quan es publicaria el pla anual?
+
+511
+00:17:28,820 --> 00:17:29,560
+I la resposta?
+
+512
+00:17:30,040 --> 00:17:31,000
+Doncs, genèrica.
+
+513
+00:17:31,980 --> 00:17:34,440
+La regidora Serrat va dir que el pla es publica
+
+514
+00:17:34,440 --> 00:17:36,460
+cada any, que s'estava planificant
+
+515
+00:17:36,460 --> 00:17:37,980
+la poda de tardor-hivern
+
+516
+00:17:37,980 --> 00:17:40,420
+i que el calendari sortiria aviat,
+
+517
+00:17:41,220 --> 00:17:42,240
+sense data concreta.
+
+518
+00:17:42,620 --> 00:17:44,740
+Típic. Alguna cosa més
+
+519
+00:17:44,740 --> 00:17:45,520
+de Junzecat?
+
+520
+00:17:45,520 --> 00:17:47,540
+Si Torres va insistir amb els errors
+
+521
+00:17:47,540 --> 00:17:49,800
+que deia que hi havia el visor de pressupostos
+
+522
+00:17:49,800 --> 00:17:50,800
+de la web municipal,
+
+523
+00:17:51,180 --> 00:17:53,440
+que encara era accessible i tenia
+
+524
+00:17:53,440 --> 00:17:55,580
+dades errònies. I l'alcalde?
+
+525
+00:17:55,800 --> 00:17:57,880
+L'alcalde va insistir que el visor
+
+526
+00:17:57,880 --> 00:17:59,800
+ja estava retirat de la web principal
+
+527
+00:17:59,800 --> 00:18:01,640
+i que les dades correctes eren
+
+528
+00:18:01,640 --> 00:18:03,020
+al portal de transparència.
+
+529
+00:18:03,720 --> 00:18:05,000
+Vaja, una estira i arronça
+
+530
+00:18:05,000 --> 00:18:07,280
+sobre si allò estava accessible o no
+
+531
+00:18:07,280 --> 00:18:08,860
+i si era correcte o no.
+
+532
+00:18:09,280 --> 00:18:10,900
+No es van posar d'acord. D'acord.
+
+533
+00:18:11,420 --> 00:18:13,300
+I ERC? Van bovent?
+
+534
+00:18:13,300 --> 00:18:15,240
+Va preguntar per un tema sensible,
+
+535
+00:18:15,380 --> 00:18:16,560
+especialment a Can Galletà.
+
+536
+00:18:16,560 --> 00:18:18,540
+L'escola Bressol Municipal,
+
+537
+00:18:18,600 --> 00:18:20,940
+les Tres Bessones. Ah, sí? Què va preguntar?
+
+538
+00:18:21,080 --> 00:18:23,020
+Per la continuïtat del contracte actual,
+
+539
+00:18:23,160 --> 00:18:24,800
+que sembla que s'acaba o s'havia
+
+540
+00:18:24,800 --> 00:18:26,620
+d'acabar, i també pels costos
+
+541
+00:18:26,620 --> 00:18:28,460
+de manteniment. Va preguntar
+
+542
+00:18:28,460 --> 00:18:30,560
+qui havia pagat unes reparacions, com la
+
+543
+00:18:30,560 --> 00:18:32,520
+del terra de vinil, si l'empresa o
+
+544
+00:18:32,520 --> 00:18:34,500
+l'Ajuntament. I què van respondre?
+
+545
+00:18:34,740 --> 00:18:36,880
+La regidora Serrat va explicar
+
+546
+00:18:36,880 --> 00:18:38,680
+les actuacions que havia fet
+
+547
+00:18:38,680 --> 00:18:41,780
+l'empresa, uns 16.800 euros,
+
+548
+00:18:42,300 --> 00:18:43,180
+i va justificar
+
+549
+00:18:43,180 --> 00:18:44,560
+que l'Ajuntament pagués
+
+550
+00:18:44,560 --> 00:18:46,400
+el terra nou com una
+
+551
+00:18:46,400 --> 00:18:48,500
+millora estructural de l'edifici.
+
+552
+00:18:49,100 --> 00:18:50,440
+I van bovent s'ho va creure?
+
+553
+00:18:50,940 --> 00:18:52,860
+No gaire. Va qüestionar
+
+554
+00:18:52,860 --> 00:18:54,320
+que un terra de vinil
+
+555
+00:18:54,320 --> 00:18:56,320
+fos una millora estructural
+
+556
+00:18:56,320 --> 00:18:58,380
+i si era legal que ho pagués
+
+557
+00:18:58,380 --> 00:19:00,360
+l'Ajuntament en comptes de l'empresa
+
+558
+00:19:00,360 --> 00:19:02,740
+concessionària. Això va portar
+
+559
+00:19:02,740 --> 00:19:04,280
+a un altre intercanvi tens
+
+560
+00:19:04,280 --> 00:19:06,480
+amb l'alcalde sobre qui tenia
+
+561
+00:19:06,480 --> 00:19:08,800
+la responsabilitat de seguir el contracte,
+
+562
+00:19:09,160 --> 00:19:10,420
+si els governs passats
+
+563
+00:19:10,420 --> 00:19:12,100
+o l'actual. Ja veig.
+
+564
+00:19:12,720 --> 00:19:14,160
+Més lenya al foc. Sí.
+
+565
+00:19:14,660 --> 00:19:16,220
+I encara un altre punt calent,
+
+566
+00:19:16,400 --> 00:19:17,520
+que va treure Van Bogen.
+
+567
+00:19:18,080 --> 00:19:20,660
+El brot del Lijonela al camp de futbol.
+
+568
+00:19:20,920 --> 00:19:22,300
+Uf, tema delicat.
+
+569
+00:19:22,760 --> 00:19:23,520
+Què volia saber?
+
+570
+00:19:24,100 --> 00:19:25,560
+Doncs tota la cronologia.
+
+571
+00:19:26,240 --> 00:19:28,400
+Quan es va detectar, quins controls
+
+572
+00:19:28,400 --> 00:19:30,660
+s'havien fet, si hi haurà sancions,
+
+573
+00:19:30,960 --> 00:19:31,840
+quan es reobriria.
+
+574
+00:19:32,340 --> 00:19:33,560
+I qui va respondre?
+
+575
+00:19:33,820 --> 00:19:36,460
+La regidora d'Esports, Jèssica Herrando,
+
+576
+00:19:37,020 --> 00:19:38,320
+va detallar la inspecció,
+
+577
+00:19:38,540 --> 00:19:40,520
+les mesures que havien pres a les dutxes
+
+578
+00:19:40,520 --> 00:19:42,480
+i al Pou de Rec, que estaven esperant
+
+579
+00:19:42,480 --> 00:19:43,820
+resultats de noves mostres.
+
+580
+00:19:44,440 --> 00:19:46,380
+També les gestiones amb la Federació Catalana de Fons.
+
+581
+00:19:46,400 --> 00:19:48,660
+Les probables sancions econòmiques.
+
+582
+00:19:49,060 --> 00:19:50,740
+I va mencionar un projecte futur
+
+583
+00:19:50,740 --> 00:19:53,040
+de reforma i millora energètica
+
+584
+00:19:53,040 --> 00:19:53,480
+del camp.
+
+585
+00:19:54,040 --> 00:19:56,000
+Semblava una resposta completa, no?
+
+586
+00:19:56,380 --> 00:19:58,220
+Sí. Però la cosa es va torçar
+
+587
+00:19:58,220 --> 00:19:59,440
+moltíssim. Com?
+
+588
+00:20:00,040 --> 00:20:02,500
+Perquè Herrando va acabar la seva intervenció
+
+589
+00:20:02,500 --> 00:20:04,220
+criticant directament Van Bogen
+
+590
+00:20:04,220 --> 00:20:06,200
+per comentaris que havia fet sobre el tema
+
+591
+00:20:06,200 --> 00:20:07,740
+a les xarxes socials. Ah, sí?
+
+592
+00:20:08,180 --> 00:20:10,100
+I Van Bogen? Es va defensar,
+
+593
+00:20:10,260 --> 00:20:12,760
+òbviament. Va reivindicar el seu dret a la crítica
+
+594
+00:20:12,760 --> 00:20:14,220
+i va acusar l'equip de govern
+
+595
+00:20:14,220 --> 00:20:16,300
+de fer campanyes de descrèdit contra qui,
+
+596
+00:20:16,300 --> 00:20:18,160
+i els critica, mencionant aquest cas
+
+597
+00:20:18,160 --> 00:20:20,180
+del camp de futbol i altres acusacions
+
+598
+00:20:20,180 --> 00:20:22,280
+que li havien fet. Vaja, que va
+
+599
+00:20:22,280 --> 00:20:24,080
+acabar molt malament. Fatal.
+
+600
+00:20:24,620 --> 00:20:26,720
+Acusacions mútues de manipulació,
+
+601
+00:20:26,960 --> 00:20:28,140
+de falta de respecte,
+
+602
+00:20:28,260 --> 00:20:30,420
+d'autoritarisme, un final de ple
+
+603
+00:20:30,420 --> 00:20:32,140
+molt, molt aspre.
+
+604
+00:20:32,960 --> 00:20:33,760
+Quina tensió.
+
+605
+00:20:34,560 --> 00:20:36,200
+I va haver alguna pregunta més
+
+606
+00:20:36,200 --> 00:20:38,060
+tranquil·la? Albert Sales?
+
+607
+00:20:38,940 --> 00:20:40,460
+Sí. Albert Sales
+
+608
+00:20:40,460 --> 00:20:42,480
+va preguntar per una cosa més amable.
+
+609
+00:20:42,920 --> 00:20:44,380
+Els resultats de la plantació
+
+610
+00:20:44,380 --> 00:20:46,240
+d'òrberes que s'havia fet amb els pressupostos
+
+611
+00:20:46,240 --> 00:20:48,260
+participatius. Quants s'havien
+
+612
+00:20:48,260 --> 00:20:50,360
+plantat, quants s'havien sobreviscut,
+
+613
+00:20:50,520 --> 00:20:52,420
+de quines espècies, on, quin cost?
+
+614
+00:20:53,060 --> 00:20:54,860
+Interessant. I van donar dades?
+
+615
+00:20:55,680 --> 00:20:56,900
+Sí. Va respondre
+
+616
+00:20:56,900 --> 00:20:57,940
+el regidor Pau Seda.
+
+617
+00:20:58,420 --> 00:21:00,460
+Va dir que s'havien plantat 84
+
+618
+00:21:00,460 --> 00:21:02,520
+arbres i que la supervivència
+
+619
+00:21:02,520 --> 00:21:04,380
+global era del 70%.
+
+620
+00:21:04,380 --> 00:21:06,040
+70%.
+
+621
+00:21:06,040 --> 00:21:08,400
+No està malament, però tampoc és per
+
+622
+00:21:08,400 --> 00:21:10,600
+tirar cuets, no? Un de cada
+
+623
+00:21:10,600 --> 00:21:11,360
+tres s'ha mort.
+
+624
+00:21:12,440 --> 00:21:13,940
+Bé, va detallar per espècies.
+
+625
+00:21:14,440 --> 00:21:16,060
+Va dir que els plàtans tenien una supervivència
+
+626
+00:21:16,240 --> 00:21:18,300
+baixa, però que d'altres tenien
+
+627
+00:21:18,300 --> 00:21:20,200
+supervivència alta, com l'així Grandes,
+
+628
+00:21:20,280 --> 00:21:22,560
+que va dir que tenien un 100% de supervivència.
+
+629
+00:21:22,920 --> 00:21:23,680
+Sí, Grandes.
+
+630
+00:21:25,000 --> 00:21:26,300
+Aquí potser hi hauria
+
+631
+00:21:26,300 --> 00:21:28,700
+debat, no? Tot i que sobrevisquin,
+
+632
+00:21:29,040 --> 00:21:30,600
+són l'espècie més adequada
+
+633
+00:21:30,600 --> 00:21:32,440
+pel nostre clima mediterrani?
+
+634
+00:21:33,000 --> 00:21:34,360
+No hi ha preocupació
+
+635
+00:21:34,360 --> 00:21:36,440
+per si són invasores o generen
+
+636
+00:21:36,440 --> 00:21:37,620
+problemes a la llarga?
+
+637
+00:21:37,960 --> 00:21:39,580
+És un debat molt pertinent, sí.
+
+638
+00:21:40,260 --> 00:21:41,820
+La dada del ple va ser aquesta.
+
+639
+00:21:42,200 --> 00:21:44,420
+100% de supervivència en aquella plantació
+
+640
+00:21:44,420 --> 00:21:46,180
+concreta. Però és cert que
+
+641
+00:21:46,180 --> 00:21:48,100
+hi ha aquest debat general sobre quines espècies
+
+642
+00:21:48,100 --> 00:21:50,040
+plantar. L'alcalde va agir
+
+643
+00:21:50,040 --> 00:21:51,720
+que un nou pla director d'Arabrat,
+
+644
+00:21:52,020 --> 00:21:54,240
+fet amb la Diputació, ajudaria a definir
+
+645
+00:21:54,240 --> 00:21:55,820
+criteris per a futures plantacions.
+
+646
+00:21:56,040 --> 00:21:58,720
+Quines espècies, com fer els escosells,
+
+647
+00:21:58,880 --> 00:22:00,460
+protegir arbres singulars...
+
+648
+00:22:00,460 --> 00:22:01,980
+Va dir que compartirien l'informe.
+
+649
+00:22:02,200 --> 00:22:04,260
+Bé, esperem que aquest pla ajudi
+
+650
+00:22:04,260 --> 00:22:05,460
+a triar millor en el futur.
+
+651
+00:22:06,100 --> 00:22:08,000
+Quant van costar els arbres perduts?
+
+652
+00:22:08,340 --> 00:22:10,620
+Uns 2.650 euros, va dir el regidor.
+
+653
+00:22:10,980 --> 00:22:11,380
+D'acord.
+
+654
+00:22:12,060 --> 00:22:14,440
+I precs orals? O preguntes
+
+655
+00:22:14,440 --> 00:22:16,140
+del públic? Sí, van boven,
+
+656
+00:22:16,180 --> 00:22:17,980
+va fer un prec demanant
+
+657
+00:22:17,980 --> 00:22:20,260
+una rectificació o el cessament
+
+658
+00:22:20,260 --> 00:22:22,080
+de qui va escriure un article
+
+659
+00:22:22,080 --> 00:22:24,040
+a la revista municipal sobre
+
+660
+00:22:24,040 --> 00:22:25,740
+l'associació Le Veïns de Can Galletà
+
+661
+00:22:25,740 --> 00:22:27,300
+que considerava manipulador.
+
+662
+00:22:27,960 --> 00:22:29,880
+L'alcalde va defensar l'empresa externa
+
+663
+00:22:29,880 --> 00:22:32,440
+que fa la revista i el dret a rectificació.
+
+664
+00:22:32,980 --> 00:22:34,060
+I Torres va insistir
+
+665
+00:22:34,060 --> 00:22:35,760
+en el visó de pressupostos. Sí,
+
+666
+00:22:35,920 --> 00:22:38,240
+va tornar a dir que era accessible i erroni
+
+667
+00:22:38,240 --> 00:22:40,180
+des de la web i l'alcalde va tornar
+
+668
+00:22:40,180 --> 00:22:42,260
+a negar que fos accessible des de la web
+
+669
+00:22:42,260 --> 00:22:43,980
+oficial. No hi va haver manera.
+
+670
+00:22:43,980 --> 00:22:44,940
+I el públic?
+
+671
+00:22:46,180 --> 00:22:48,300
+Pregunta la gent. Sempre és interessant, això.
+
+672
+00:22:48,580 --> 00:22:50,480
+Doncs sí. Va preguntar
+
+673
+00:22:50,480 --> 00:22:51,880
+un veí, Ramon Codina,
+
+674
+00:22:52,300 --> 00:22:54,360
+sobre les obres de mates en castellà.
+
+675
+00:22:54,900 --> 00:22:56,300
+Si es mourà un punt de recarga
+
+676
+00:22:56,300 --> 00:22:58,200
+elèctrica, si queda pendent un tram
+
+677
+00:22:58,200 --> 00:23:00,200
+de mates i queixes sobre la
+
+678
+00:23:00,200 --> 00:23:02,060
+senyalització. L'alcalde va prendre
+
+679
+00:23:02,060 --> 00:23:03,220
+nota, suposo. Sí.
+
+680
+00:23:04,000 --> 00:23:06,140
+Despares, la propietària d'una botiga
+
+681
+00:23:06,140 --> 00:23:08,360
+del centre va queixar-se de la manca
+
+682
+00:23:08,360 --> 00:23:10,220
+d'il·luminació a l'hivern per la
+
+683
+00:23:10,220 --> 00:23:12,220
+zona de la farmàcia. Deia que havia
+
+684
+00:23:12,220 --> 00:23:14,180
+presentat una instància feia un any
+
+685
+00:23:14,180 --> 00:23:15,840
+i no havia tingut resposta.
+
+686
+00:23:16,180 --> 00:23:18,480
+Un any sense resposta. Malament?
+
+687
+00:23:18,840 --> 00:23:20,180
+Un altre resident va
+
+688
+00:23:20,180 --> 00:23:22,060
+criticar la gestió del concurs de paelles
+
+689
+00:23:22,060 --> 00:23:24,320
+de l'11 de setembre, que es va suspendre
+
+690
+00:23:24,320 --> 00:23:26,440
+per poca pluja, segons ell.
+
+691
+00:23:26,780 --> 00:23:28,060
+I també va dir que el problema
+
+692
+00:23:28,060 --> 00:23:29,660
+de les rates persisteix.
+
+693
+00:23:30,280 --> 00:23:32,380
+Paelles suspeses per poca pluja.
+
+694
+00:23:32,760 --> 00:23:33,860
+Curiosa decisió.
+
+695
+00:23:34,400 --> 00:23:35,940
+L'alcalde va demanar disculpes.
+
+696
+00:23:36,260 --> 00:23:38,160
+Sí. Per les paelles va dir que
+
+697
+00:23:38,160 --> 00:23:40,200
+potser havien tingut un excés de vel.
+
+698
+00:23:40,640 --> 00:23:41,960
+Va prendre nota de les rates.
+
+699
+00:23:42,500 --> 00:23:44,280
+I alguna cosa més del públic?
+
+700
+00:23:44,660 --> 00:23:45,860
+Sí. Una veïna,
+
+701
+00:23:46,180 --> 00:23:48,120
+la Montsa, va exposar problemes
+
+702
+00:23:48,120 --> 00:23:50,220
+de trànsit i aparcament per als nous
+
+703
+00:23:50,220 --> 00:23:52,360
+canvis de direcció al carrer Josep París
+
+704
+00:23:52,360 --> 00:23:54,680
+i Vistalegre. Parlava d'infraccions
+
+705
+00:23:54,680 --> 00:23:56,520
+constants, manca de vigilància
+
+706
+00:23:56,520 --> 00:23:58,680
+i una sensació de multes selectives.
+
+707
+00:23:59,160 --> 00:24:00,220
+Vaja, problemes
+
+708
+00:24:00,220 --> 00:24:02,200
+múdels dia a dia. L'alcalde
+
+709
+00:24:02,200 --> 00:24:04,260
+va prendre nota de tot. Això va semblar.
+
+710
+00:24:04,840 --> 00:24:06,240
+Són les queixes directes
+
+711
+00:24:06,240 --> 00:24:08,100
+que mostren què preocupa la gent
+
+712
+00:24:08,100 --> 00:24:10,360
+al carrer. Bé, fem un resum
+
+713
+00:24:10,360 --> 00:24:11,840
+ràpid de tot plegat.
+
+714
+00:24:12,080 --> 00:24:13,920
+Vinga. Hem vist un ple
+
+715
+00:24:13,920 --> 00:24:16,120
+amb decisions econòmiques importants.
+
+716
+00:24:16,180 --> 00:24:18,100
+Com la pujada de la taxa
+
+717
+00:24:18,100 --> 00:24:20,040
+de residus, que ha generat molta
+
+718
+00:24:20,040 --> 00:24:22,160
+polèmica per fer-se sense millora
+
+719
+00:24:22,160 --> 00:24:23,940
+del servei i amb acusacions
+
+720
+00:24:23,940 --> 00:24:26,000
+creuades sobre qui té la culpa del
+
+721
+00:24:26,000 --> 00:24:27,420
+retard de la nova licitació.
+
+722
+00:24:28,420 --> 00:24:30,040
+Clarament, un tema marcat
+
+723
+00:24:30,040 --> 00:24:31,400
+per la proximitat electoral.
+
+724
+00:24:32,100 --> 00:24:33,940
+Hem vist també com les demandes
+
+725
+00:24:33,940 --> 00:24:35,620
+veïnals, com les dels vessants,
+
+726
+00:24:36,040 --> 00:24:38,220
+encara que vinguin de lluny i amb frustració,
+
+727
+00:24:38,720 --> 00:24:39,900
+poden arribar al ple i
+
+728
+00:24:39,900 --> 00:24:41,820
+obtenir suport unànim. Això
+
+729
+00:24:41,820 --> 00:24:43,300
+és positiu. Sí.
+
+730
+00:24:43,300 --> 00:24:44,800
+Però també hem vist
+
+731
+00:24:44,800 --> 00:24:46,440
+molta atenció política.
+
+732
+00:24:47,120 --> 00:24:49,380
+En l'emoció del català per l'exclusió
+
+733
+00:24:49,380 --> 00:24:51,720
+d'alguns grups i les reaccions defensives.
+
+734
+00:24:52,360 --> 00:24:53,560
+I sobretot en les
+
+735
+00:24:53,560 --> 00:24:55,400
+picabaralles finals sobre la gestió
+
+736
+00:24:55,400 --> 00:24:57,200
+de serveis com l'escola Brassol de
+
+737
+00:24:57,200 --> 00:24:58,840
+Can Galleta o el camp de futbol.
+
+738
+00:24:59,400 --> 00:25:01,340
+Molta espror. I tot,
+
+739
+00:25:01,500 --> 00:25:03,660
+com dèiem, amb l'ombra de les eleccions
+
+740
+00:25:03,660 --> 00:25:05,080
+a sobre. Exacte.
+
+741
+00:25:05,800 --> 00:25:07,260
+Tot i així, sopta que
+
+742
+00:25:07,260 --> 00:25:09,560
+encara hi hagi espai per unanimitats
+
+743
+00:25:09,560 --> 00:25:11,720
+en temes com la llengua, en el fons,
+
+744
+00:25:11,720 --> 00:25:13,880
+les demandes veïnals o les millores
+
+745
+00:25:13,880 --> 00:25:14,640
+a les escoles.
+
+746
+00:25:15,160 --> 00:25:17,580
+Ara recordem el que dèiem al principi.
+
+747
+00:25:18,060 --> 00:25:19,400
+Això és una anàlisi feta
+
+748
+00:25:19,400 --> 00:25:21,180
+a partir de les fonts disponibles,
+
+749
+00:25:21,660 --> 00:25:23,860
+però és continu generat per intel·ligència
+
+750
+00:25:23,860 --> 00:25:25,620
+artificial. Cal mantenir
+
+751
+00:25:25,620 --> 00:25:27,120
+l'esperit crític. Sempre.
+
+752
+00:25:27,700 --> 00:25:29,580
+Anar als vídeos originals, contrastar
+
+753
+00:25:29,580 --> 00:25:31,620
+informació, sobretot ara que
+
+754
+00:25:31,620 --> 00:25:33,420
+els discursos poden estar mestanyits
+
+755
+00:25:33,420 --> 00:25:35,380
+per la campanya electoral que s'acosta.
+
+756
+00:25:35,820 --> 00:25:37,680
+I per acabar, us deixem amb una
+
+757
+00:25:37,680 --> 00:25:39,980
+reflexió, una pregunta per pensar-hi.
+
+758
+00:25:40,240 --> 00:25:42,020
+Amb les eleccions tan a prop
+
+759
+00:25:42,020 --> 00:25:43,900
+i veient tants temes que semblen
+
+760
+00:25:43,900 --> 00:25:46,160
+encallats, licitacions que no arriben,
+
+761
+00:25:46,580 --> 00:25:48,640
+promeses que els veïns senten incompletes,
+
+762
+00:25:48,980 --> 00:25:50,280
+queixes sobre serveis bàsics
+
+763
+00:25:50,280 --> 00:25:51,720
+com la neteja o el trànsit...
+
+764
+00:25:52,300 --> 00:25:53,740
+Quines garanties tenim que
+
+765
+00:25:53,740 --> 00:25:55,920
+les paraules i els compromisos que sentim
+
+766
+00:25:55,920 --> 00:25:57,760
+al ple es traduiran finalment
+
+767
+00:25:57,760 --> 00:25:59,760
+en fets, en solucions reals
+
+768
+00:25:59,760 --> 00:26:01,460
+per Tiana i per als nostres barris,
+
+769
+00:26:01,580 --> 00:26:02,280
+com Can Galletà?
+
+770
+00:26:02,580 --> 00:26:04,760
+Què podem esperar, missanyer, de les discussions,
+
+771
+00:26:05,180 --> 00:26:06,900
+dels vots i de les acusacions?
+
+772
+00:26:07,220 --> 00:26:09,260
+Una pregunta que queda sobre la taula,
+
+773
+00:26:09,380 --> 00:26:09,980
+ben pertinent.
+
+774
+00:26:10,280 --> 00:26:12,600
+Doncs fins aquí aquesta immersió en el ple municipal
+
+775
+00:26:12,600 --> 00:26:13,840
+d'octubre de 2020.
+
+776
+00:26:13,900 --> 00:26:15,960
+Des de Ràdio Can Galletà
+
+777
+00:26:15,960 --> 00:26:18,080
+ens acomiadem fins a la propera.
+
+778
+00:26:18,280 --> 00:26:18,900
+Cuideu-vos molt.
+

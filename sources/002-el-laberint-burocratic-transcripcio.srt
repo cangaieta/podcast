@@ -1,0 +1,852 @@
+1
+00:00:00,000 --> 00:00:03,060
+Alguna vegada una petició que semblava d'allò més senzilla
+
+2
+00:00:03,060 --> 00:00:06,020
+s'ha convertit en un autèntic mal de cap burocràtic?
+
+3
+00:00:06,440 --> 00:00:09,080
+Doncs la història d'avui va precisament d'això.
+
+4
+00:00:09,560 --> 00:00:11,420
+Una sol·licitud per arreglar uns bancs
+
+5
+00:00:11,420 --> 00:00:13,620
+que va acabar sent tota una investigació
+
+6
+00:00:13,620 --> 00:00:15,820
+sobre la transparència de l'administració.
+
+7
+00:00:16,400 --> 00:00:17,760
+Anem a veure com va anar tot plegat.
+
+8
+00:00:18,540 --> 00:00:20,760
+I aquesta és, de fet, la pregunta clau.
+
+9
+00:00:21,060 --> 00:00:23,100
+Què passa quan una proposta ciutadana,
+
+10
+00:00:23,300 --> 00:00:24,660
+una idea clara i directa,
+
+11
+00:00:25,000 --> 00:00:27,180
+xoca de ple contra un mur de procediments
+
+12
+00:00:27,180 --> 00:00:29,800
+i de justificacions que no paren de canviar?
+
+13
+00:00:30,000 --> 00:00:32,840
+Doncs seguirem el fil d'un cas ben real per descobrir-ho.
+
+14
+00:00:33,600 --> 00:00:34,760
+Tot comença aquí,
+
+15
+00:00:35,160 --> 00:00:37,200
+amb una petició que no podia ser més simple,
+
+16
+00:00:37,480 --> 00:00:39,800
+presentada als pressupostos participatius de Tiana.
+
+17
+00:00:40,500 --> 00:00:42,220
+L'objectiu llegit textualment era
+
+18
+00:00:42,220 --> 00:00:45,080
+arreglar o reemplazar els bancs d'aquesta placeta
+
+19
+00:00:45,080 --> 00:00:46,200
+que estan en molt mal estat.
+
+20
+00:00:46,740 --> 00:00:47,480
+Sembla fàcil, oi?
+
+21
+00:00:48,100 --> 00:00:50,560
+Doncs justament aquí és on comença el laberint.
+
+22
+00:00:51,340 --> 00:00:54,640
+Però, sorpresa, la proposta va ser rellotjada.
+
+23
+00:00:55,160 --> 00:00:57,840
+I és en aquest punt on la història es comença a complicar.
+
+24
+00:00:58,240 --> 00:00:59,580
+Perquè el no
+
+25
+00:00:59,580 --> 00:01:00,600
+no va ser el final,
+
+26
+00:01:00,860 --> 00:01:04,420
+sinó el tret de sortida a una llarga cadena de comunicacions
+
+27
+00:01:04,420 --> 00:01:06,040
+per intentar entendre el per què.
+
+28
+00:01:06,780 --> 00:01:09,920
+A veure, aquí tenim la primera resposta oficial,
+
+29
+00:01:10,340 --> 00:01:11,180
+del 9 de maig.
+
+30
+00:01:11,760 --> 00:01:14,900
+La proposta s'ha rellotjat per l'anomenat requisit 11.
+
+31
+00:01:15,520 --> 00:01:16,860
+Això, en paraules planeres,
+
+32
+00:01:17,280 --> 00:01:19,080
+vol dir que no es pot proposar una cosa
+
+33
+00:01:19,080 --> 00:01:21,580
+que l'Ajuntament, en teoria, ja té previst fer.
+
+34
+00:01:22,100 --> 00:01:23,480
+I el motiu concret que donen?
+
+35
+00:01:23,880 --> 00:01:25,820
+Que l'Ajuntament ja ha aprovat un projecte
+
+36
+00:01:25,820 --> 00:01:26,880
+per arreglar aquests bancs
+
+37
+00:01:26,880 --> 00:01:29,020
+i que està lligat al projecte dels nous habitatges socials.
+
+38
+00:01:29,020 --> 00:01:29,560
+I que està lligat al projecte dels nous habitatges socials.
+
+39
+00:01:29,580 --> 00:01:31,880
+Cal que ens quedem amb aquest detall.
+
+40
+00:01:32,420 --> 00:01:33,580
+El projecte dels habitatges socials.
+
+41
+00:01:34,560 --> 00:01:35,100
+Serà clau.
+
+42
+00:01:35,820 --> 00:01:36,840
+Per no perdre'ns,
+
+43
+00:01:37,120 --> 00:01:39,080
+fem un cop d'ull ràpid a la cronologia.
+
+44
+00:01:39,880 --> 00:01:42,180
+El 9 de maig rellotgen la proposta.
+
+45
+00:01:42,640 --> 00:01:44,140
+Un mes més tard, el 9 de juny,
+
+46
+00:01:44,480 --> 00:01:47,260
+el ciutadà demana veure aquest suposat projecte.
+
+47
+00:01:47,940 --> 00:01:49,720
+La resposta arriba el 3 de juliol.
+
+48
+00:01:50,040 --> 00:01:52,020
+Però, atenció, amb sorpresa.
+
+49
+00:01:52,780 --> 00:01:55,240
+I tot plegat culmina el 26 d'agost
+
+50
+00:01:55,240 --> 00:01:58,480
+amb una reclamació formal a la Comissió de Transparència.
+
+51
+00:01:58,480 --> 00:01:59,560
+I el 9 de maig, el 9 de juny,
+
+52
+00:01:59,560 --> 00:02:02,340
+aquí és on la trama fa un gir inesperat.
+
+53
+00:02:02,800 --> 00:02:05,160
+Perquè la resposta de l'Ajuntament del juliol
+
+54
+00:02:05,160 --> 00:02:07,760
+no només no confirma la primera versió,
+
+55
+00:02:08,160 --> 00:02:11,060
+sinó que n'ofereix una de completament diferent.
+
+56
+00:02:11,540 --> 00:02:12,800
+La història canvia.
+
+57
+00:02:13,760 --> 00:02:15,720
+I aquí la contradicció és flagrant.
+
+58
+00:02:16,200 --> 00:02:18,980
+Al maig, la raó era el projecte dels habitatges socials.
+
+59
+00:02:19,240 --> 00:02:21,900
+Però al juliol, la justificació canvia com un millor,
+
+60
+00:02:22,300 --> 00:02:25,000
+ara dient que és una actuació prevista dins del pla de carrers.
+
+61
+00:02:25,580 --> 00:02:27,780
+Dues respostes oficials per al mateix no
+
+62
+00:02:27,780 --> 00:02:29,440
+i dues raons que no tenen res a veure amb el projecte.
+
+63
+00:02:29,440 --> 00:02:29,440
+
+
+64
+00:02:29,440 --> 00:02:29,540
+la resposta de l'Ajuntament del juliol
+
+65
+00:02:29,560 --> 00:02:33,200
+Això, clar, ens porta a la pregunta del millor,
+
+66
+00:02:33,660 --> 00:02:35,220
+la mateixa que es va fer el Ciutadà.
+
+67
+00:02:35,720 --> 00:02:36,840
+Per què va canviar el motiu?
+
+68
+00:02:37,520 --> 00:02:39,980
+Si al maig ja hi havia un projecte aprovat,
+
+69
+00:02:40,300 --> 00:02:42,720
+per què dos mesos després se n'inventen un altre?
+
+70
+00:02:43,340 --> 00:02:46,860
+Aquesta inconsistència és el que va fer saltar totes les alarmes
+
+71
+00:02:46,860 --> 00:02:49,380
+i va motivar una investigació més a fons.
+
+72
+00:02:50,080 --> 00:02:51,480
+Davant d'aquesta confusió,
+
+73
+00:02:51,820 --> 00:02:54,360
+el Ciutadà decideix fer el que és més lògic,
+
+74
+00:02:54,800 --> 00:02:55,600
+comprovar les fonts.
+
+75
+00:02:56,200 --> 00:02:58,320
+Va posar-se a investigar els dos projectes
+
+76
+00:02:58,320 --> 00:02:59,440
+que havia mencionat l'Ajuntament del juliol.
+
+77
+00:02:59,440 --> 00:03:01,700
+Per veure si, efectivament,
+
+78
+00:03:02,060 --> 00:03:04,740
+l'arranjament dels bancs de la placeta Fonoll-Ginester
+
+79
+00:03:04,740 --> 00:03:06,280
+hi sortia per algun lloc.
+
+80
+00:03:07,060 --> 00:03:08,980
+Vinga, anem a investigar la primera pista,
+
+81
+00:03:09,300 --> 00:03:11,260
+el projecte dels habitatges socials.
+
+82
+00:03:11,900 --> 00:03:14,240
+Recordem que va ser el motiu original del rebús.
+
+83
+00:03:14,860 --> 00:03:17,240
+Però existeix algun document oficial que ho confirmi?
+
+84
+00:03:18,000 --> 00:03:18,860
+Doncs sembla que no.
+
+85
+00:03:19,160 --> 00:03:20,660
+De fet, el document oficial,
+
+86
+00:03:20,800 --> 00:03:23,760
+el plec de condicions tècniques del concurs per aquests pisos,
+
+87
+00:03:24,140 --> 00:03:26,440
+diu ben clarament que el concurs no contempla
+
+88
+00:03:26,440 --> 00:03:29,320
+cap arrenxament de cap espai exterior,
+
+89
+00:03:29,440 --> 00:03:30,240
+a la parcel·la.
+
+90
+00:03:30,760 --> 00:03:33,660
+Això contradiu d'aple la primera justificació de l'Ajuntament.
+
+91
+00:03:34,420 --> 00:03:36,840
+Llavors, d'on podia venir tota aquesta confusió?
+
+92
+00:03:37,300 --> 00:03:40,720
+Doncs una possible pista la trobem en unes paraules de l'alcalde.
+
+93
+00:03:41,140 --> 00:03:43,900
+En un acte públic va anunciar la intenció de treballar
+
+94
+00:03:43,900 --> 00:03:45,620
+a l'espai de davant dels habitatges,
+
+95
+00:03:46,020 --> 00:03:48,380
+referint-s'hi com a aquesta plaça desangelada.
+
+96
+00:03:48,920 --> 00:03:51,520
+Podria ser que parlés de la mateixa plaça de la proposta?
+
+97
+00:03:52,220 --> 00:03:54,640
+Doncs la resposta és un no retorn.
+
+98
+00:03:55,120 --> 00:03:58,040
+La plaça desangelada a la qual s'ha referit l'alcalde
+
+99
+00:03:58,040 --> 00:03:59,060
+és la plaça Lluís Maria Sánchez,
+
+100
+00:03:59,060 --> 00:04:00,000
+o Lluís Maria Xirinax.
+
+101
+00:04:00,480 --> 00:04:03,200
+La placeta de la proposta ciutadana, la de Fonol Ginesta,
+
+102
+00:04:03,560 --> 00:04:04,900
+és a 200 metres d'allà.
+
+103
+00:04:05,200 --> 00:04:07,220
+Són dos llocs completament diferents.
+
+104
+00:04:07,840 --> 00:04:09,300
+Tot fa pensar que l'Ajuntament
+
+105
+00:04:09,300 --> 00:04:12,340
+simplement va confondre una plaça amb l'altra.
+
+106
+00:04:13,080 --> 00:04:13,560
+D'acord.
+
+107
+00:04:13,980 --> 00:04:16,600
+Sembla que la primera justificació queda descartada.
+
+108
+00:04:17,040 --> 00:04:17,820
+Passem a la segona.
+
+109
+00:04:18,240 --> 00:04:19,240
+El pla de carrers.
+
+110
+00:04:19,720 --> 00:04:22,020
+Aquesta va ser la nova raó que van donar al juliol.
+
+111
+00:04:22,520 --> 00:04:24,460
+Potser l'arranjament dels bancs estava inclòs aquí?
+
+112
+00:04:25,140 --> 00:04:27,740
+Si fem una ullada a la pàgina web oficial de l'Ajuntament,
+
+113
+00:04:27,740 --> 00:04:29,040
+on s'ha de tallar aquest pla,
+
+114
+00:04:29,060 --> 00:04:31,300
+veiem la llista d'actuacions.
+
+115
+00:04:31,580 --> 00:04:33,520
+Millores en diversos carrers, en places,
+
+116
+00:04:33,920 --> 00:04:35,340
+i fins i tot una partida genèrica
+
+117
+00:04:35,340 --> 00:04:37,060
+per a renovació de bancs i papereres.
+
+118
+00:04:37,480 --> 00:04:41,000
+Però el punt clau és que no hi ha ni una sola menció específica
+
+119
+00:04:41,000 --> 00:04:43,240
+a la placeta Fonol barra Ginesta.
+
+120
+00:04:43,800 --> 00:04:45,060
+Així que la segona justificació
+
+121
+00:04:45,640 --> 00:04:47,840
+tampoc sembla tenir cap suport documental.
+
+122
+00:04:48,580 --> 00:04:51,100
+Després d'arribar a dues justificacions oficials
+
+123
+00:04:51,100 --> 00:04:52,840
+que no es podien comprovar enlloc,
+
+124
+00:04:53,100 --> 00:04:54,820
+el ciutadà decideix que ja n'hi ha prou
+
+125
+00:04:54,820 --> 00:04:57,420
+i fa un últim pas per intentar obtenir d'una vegada
+
+126
+00:04:57,420 --> 00:04:58,920
+una resposta definitiva
+
+127
+00:04:58,920 --> 00:04:59,040
+i sencera.
+
+128
+00:04:59,060 --> 00:04:59,660
+Sense excuses.
+
+129
+00:05:00,540 --> 00:05:02,460
+Perquè al final de tot aquest periple,
+
+130
+00:05:02,800 --> 00:05:05,160
+la pregunta fonamental és molt, molt simple.
+
+131
+00:05:05,700 --> 00:05:07,220
+El famós projecte aprovat
+
+132
+00:05:07,220 --> 00:05:09,160
+que es va fer servir com a motiu oficial
+
+133
+00:05:09,160 --> 00:05:10,520
+per rugeixar la proposta,
+
+134
+00:05:11,100 --> 00:05:12,120
+existeix de veritat?
+
+135
+00:05:12,680 --> 00:05:14,640
+I aquí és on arriba la reclamació final
+
+136
+00:05:14,640 --> 00:05:16,760
+a la Comissió de Transparència, la GAIP.
+
+137
+00:05:17,040 --> 00:05:19,240
+I la petició és brillant per la seva simplicitat.
+
+138
+00:05:19,780 --> 00:05:20,980
+Ja no demana explicacions,
+
+139
+00:05:21,180 --> 00:05:22,800
+sinó una resposta de sí o no.
+
+140
+00:05:23,280 --> 00:05:24,620
+Bàsicament diu, pas un,
+
+141
+00:05:24,920 --> 00:05:27,480
+si el projecte existeix, que es presenti el document oficial
+
+142
+00:05:27,480 --> 00:05:28,540
+on surti la placeta.
+
+143
+00:05:28,540 --> 00:05:30,220
+I amb data anterior el rejouig.
+
+144
+00:05:30,580 --> 00:05:32,780
+Pas dos, i si no existeix, que es digui clarament
+
+145
+00:05:32,780 --> 00:05:35,020
+i per escrit que aquesta documentació no existeix.
+
+146
+00:05:35,380 --> 00:05:36,380
+Una jugada que, ara sí,
+
+147
+00:05:36,680 --> 00:05:38,240
+no deixa cap marge a l'ambigüitat.
+
+148
+00:05:38,980 --> 00:05:40,500
+Aquesta història, que comença
+
+149
+00:05:40,500 --> 00:05:42,500
+amb una cosa tan quotidiana com uns bancs,
+
+150
+00:05:42,920 --> 00:05:45,220
+acaba plantejant una qüestió molt més profunda.
+
+151
+00:05:45,840 --> 00:05:47,060
+Fins a quin punt és essencial
+
+152
+00:05:47,060 --> 00:05:48,800
+que hi hagi un rastre documental clar,
+
+153
+00:05:48,980 --> 00:05:50,200
+un paper per a cada decisió,
+
+154
+00:05:50,560 --> 00:05:52,940
+per garantir que les administracions rendessen comptes
+
+155
+00:05:52,940 --> 00:05:55,180
+i per mantenir la confiança de la ciutadania.
+
+156
+00:05:55,800 --> 00:05:56,540
+Perquè aquest cas
+
+157
+00:05:56,540 --> 00:05:57,800
+ho il·lustra perfectament.
+
+158
+00:05:58,540 --> 00:06:01,260
+A proves documentals, les decisions poden semblar arbitràries
+
+159
+00:06:01,260 --> 00:06:03,240
+i la participació ciutadana, al final,
+
+160
+00:06:03,360 --> 00:06:04,140
+pot quedar en no res.
+
+161
+00:06:04,140 --> 00:06:08,840
+Una llegenda del Ministeri de Hu Hu
+
+162
+00:06:08,840 --> 00:06:08,840
+
+
+163
+00:06:08,840 --> 00:06:08,840
+
+
+164
+00:06:08,840 --> 00:06:08,840
+
+
+165
+00:06:08,840 --> 00:06:08,840
+
+
+166
+00:06:08,840 --> 00:06:08,840
+
+
+167
+00:06:08,840 --> 00:06:08,840
+
+
+168
+00:06:08,840 --> 00:06:08,840
+
+
+169
+00:06:08,840 --> 00:06:08,840
+
+
+170
+00:06:08,840 --> 00:06:08,840
+
+
+171
+00:06:08,840 --> 00:06:08,840
+
+
+172
+00:06:08,840 --> 00:06:08,840
+
+
+173
+00:06:08,840 --> 00:06:08,840
+
+
+174
+00:06:08,840 --> 00:06:08,840
+
+
+175
+00:06:08,840 --> 00:06:08,840
+
+
+176
+00:06:08,840 --> 00:06:08,840
+
+
+177
+00:06:08,840 --> 00:06:08,840
+
+
+178
+00:06:08,840 --> 00:06:08,840
+
+
+179
+00:06:08,840 --> 00:06:08,840
+
+
+180
+00:06:08,840 --> 00:06:08,840
+
+
+181
+00:06:08,840 --> 00:06:08,840
+
+
+182
+00:06:08,840 --> 00:06:08,840
+
+
+183
+00:06:08,840 --> 00:06:08,840
+
+
+184
+00:06:08,840 --> 00:06:08,840
+
+
+185
+00:06:08,840 --> 00:06:08,840
+
+
+186
+00:06:08,840 --> 00:06:08,840
+
+
+187
+00:06:08,840 --> 00:06:08,840
+
+
+188
+00:06:08,840 --> 00:06:08,840
+
+
+189
+00:06:08,840 --> 00:06:08,840
+
+
+190
+00:06:08,840 --> 00:06:08,840
+
+
+191
+00:06:08,840 --> 00:06:08,840
+
+
+192
+00:06:08,840 --> 00:06:08,840
+
+
+193
+00:06:08,840 --> 00:06:08,840
+
+
+194
+00:06:08,840 --> 00:06:08,840
+
+
+195
+00:06:08,840 --> 00:06:08,840
+
+
+196
+00:06:08,840 --> 00:06:08,840
+
+
+197
+00:06:08,840 --> 00:06:08,840
+
+
+198
+00:06:08,840 --> 00:06:08,840
+
+
+199
+00:06:08,840 --> 00:06:08,840
+
+
+200
+00:06:08,840 --> 00:06:08,840
+
+
+201
+00:06:08,840 --> 00:06:08,840
+
+
+202
+00:06:08,840 --> 00:06:08,840
+
+
+203
+00:06:08,840 --> 00:06:08,840
+
+
+204
+00:06:08,840 --> 00:06:08,840
+
+
+205
+00:06:08,840 --> 00:06:08,840
+
+
+206
+00:06:08,840 --> 00:06:08,840
+
+
+207
+00:06:08,840 --> 00:06:08,840
+
+
+208
+00:06:08,840 --> 00:06:08,840
+
+
+209
+00:06:08,840 --> 00:06:26,280
+Hu Hu
+
+210
+00:06:26,280 --> 00:06:28,240
+Hu Hu
+
+211
+00:06:28,240 --> 00:06:28,240
+
+
+212
+00:06:28,240 --> 00:06:28,240
+
+
+213
+00:06:28,240 --> 00:06:28,240
+
+

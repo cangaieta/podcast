@@ -1,0 +1,776 @@
+1
+00:00:00,500 --> 00:00:03,540
+Benvinguts i benvingudes a Ràdio Can Galletà,
+
+2
+00:00:04,020 --> 00:00:07,040
+una salutació molt especial a la nostra gent del barri
+
+3
+00:00:07,040 --> 00:00:10,320
+i també a tots els veïns i veïnes de Tiana que ens escolteu.
+
+4
+00:00:10,540 --> 00:00:11,280
+Hola a tothom.
+
+5
+00:00:11,600 --> 00:00:16,920
+Avui posem la lupa sobre un tema que va portar cua al darrer ple municipal.
+
+6
+00:00:17,280 --> 00:00:19,220
+I que toca directament la butxaca.
+
+7
+00:00:20,060 --> 00:00:23,260
+Sí, però abans d'entrar-hi recordem una cosa important.
+
+8
+00:00:23,560 --> 00:00:24,480
+Ah sí, és veritat?
+
+9
+00:00:24,560 --> 00:00:26,700
+Que aquesta anàlisi que farem, tot plegat,
+
+10
+00:00:27,080 --> 00:00:29,000
+està generada amb intel·ligència artificial.
+
+11
+00:00:29,000 --> 00:00:31,540
+Tant el guió com les veus que sentiu.
+
+12
+00:00:31,900 --> 00:00:32,420
+Exacte.
+
+13
+00:00:33,020 --> 00:00:36,200
+L'objectiu no és tant fer una crònica al peu de la lletra, oi?
+
+14
+00:00:36,460 --> 00:00:37,080
+No, gens.
+
+15
+00:00:37,360 --> 00:00:39,440
+És més aviat fomentar l'esperit crític.
+
+16
+00:00:39,940 --> 00:00:42,380
+Per això sempre animem-ho a anar a les fonts originals,
+
+17
+00:00:42,820 --> 00:00:44,760
+les actes del ple, en aquest cas.
+
+18
+00:00:45,420 --> 00:00:45,940
+Precisament.
+
+19
+00:00:46,400 --> 00:00:51,220
+Doncs ens centrem en la sessió ordinària del ple de Tiana del 7 d'octubre de 2025.
+
+20
+00:00:51,920 --> 00:00:55,300
+Concretament, en la modificació de dues ordenances fiscals,
+
+21
+00:00:55,620 --> 00:00:56,980
+la 28 i la 30.
+
+22
+00:00:56,980 --> 00:00:58,420
+Les de residus, vaja.
+
+23
+00:00:58,420 --> 00:01:00,540
+La domèstica i la comercial.
+
+24
+00:01:00,920 --> 00:01:05,560
+Justament, el govern municipal proposa una pujada B, notable.
+
+25
+00:01:06,400 --> 00:01:07,620
+Però, per què ara?
+
+26
+00:01:08,100 --> 00:01:09,140
+Aquesta és la pregunta.
+
+27
+00:01:09,920 --> 00:01:13,180
+Està justificada si el servei sembla que no millora?
+
+28
+00:01:13,680 --> 00:01:14,720
+Anem a veure els arguments.
+
+29
+00:01:15,560 --> 00:01:19,340
+Doncs el govern, que és de Junts per Tiana i té majoria absoluta,
+
+30
+00:01:19,860 --> 00:01:21,360
+va plantejar aquest increment.
+
+31
+00:01:22,200 --> 00:01:26,420
+I la seva justificació principal és que no tenen gaire opció.
+
+32
+00:01:26,860 --> 00:01:27,980
+Com que no tenen opció?
+
+33
+00:01:27,980 --> 00:01:30,980
+Argumenten que hi ha directives europees i lleis estatals
+
+34
+00:01:31,520 --> 00:01:34,740
+que obliguen els ajuntaments a cobrir una part molt gran
+
+35
+00:01:34,740 --> 00:01:36,960
+del cost del servei de recollida i tractament,
+
+36
+00:01:37,680 --> 00:01:38,980
+entre el 80 i el 90%.
+
+37
+00:01:39,620 --> 00:01:42,180
+Ah, o sigui que ho presenten com una obligació,
+
+38
+00:01:42,620 --> 00:01:44,660
+com un hem de pujar sí o sí.
+
+39
+00:01:45,360 --> 00:01:45,880
+Exacte.
+
+40
+00:01:46,000 --> 00:01:49,060
+Diuen que no és una tria política, sinó una imposició legal.
+
+41
+00:01:49,740 --> 00:01:52,080
+A més, van comparar-me en altres llocs.
+
+42
+00:01:52,180 --> 00:01:53,520
+Ah, sí? Què van dir?
+
+43
+00:01:53,680 --> 00:01:54,980
+Van assenyalar que altres municipis,
+
+44
+00:01:54,980 --> 00:01:57,960
+fins i tot governats per partits que aquí,
+
+45
+00:01:57,980 --> 00:02:00,360
+que són a l'oposició, estan fent el mateix.
+
+46
+00:02:00,540 --> 00:02:00,780
+Ja.
+
+47
+00:02:01,260 --> 00:02:02,980
+I que alguns casos són més dràstics,
+
+48
+00:02:03,320 --> 00:02:06,120
+perquè començaven amb taxes zero o molt baixes.
+
+49
+00:02:06,640 --> 00:02:09,000
+També van mencionar l'objectiu medioambiental, no?
+
+50
+00:02:09,620 --> 00:02:11,960
+Conscienciar sobre el cost real de generar porqueria.
+
+51
+00:02:12,220 --> 00:02:14,380
+I alguna cosa dels treballadors, em sembla.
+
+52
+00:02:14,840 --> 00:02:15,280
+Sí, també.
+
+53
+00:02:16,020 --> 00:02:18,900
+Que part de l'increment dels costos ve de millores laborals
+
+54
+00:02:18,900 --> 00:02:21,420
+justes per a la gent que treballa al servei de recollida.
+
+55
+00:02:21,780 --> 00:02:22,300
+Entesos.
+
+56
+00:02:22,720 --> 00:02:25,800
+El marc legal, la comparativa, la consciència ambiental
+
+57
+00:02:25,800 --> 00:02:27,080
+i els costos laborals.
+
+58
+00:02:27,080 --> 00:02:28,940
+Aquests són els arguments del govern.
+
+59
+00:02:29,360 --> 00:02:30,200
+Bàsicament, sí.
+
+60
+00:02:30,660 --> 00:02:32,940
+Però, esclar, la cosa no va ser un camí de roses.
+
+61
+00:02:33,600 --> 00:02:36,700
+L'oposició, ERC, Junts per Catalunya, Tiana
+
+62
+00:02:36,700 --> 00:02:39,640
+i el regidor no ha escrit i van estar molt en contra.
+
+63
+00:02:40,240 --> 00:02:41,960
+Quin era el seu principal cavall de batalla?
+
+64
+00:02:42,500 --> 00:02:44,320
+El punt clau de la crítica és el moment.
+
+65
+00:02:44,660 --> 00:02:45,100
+El quan.
+
+66
+00:02:45,340 --> 00:02:45,820
+El moment.
+
+67
+00:02:46,080 --> 00:02:46,260
+Sí.
+
+68
+00:02:46,820 --> 00:02:49,120
+Critiquen que s'aprovi un augment tan fort.
+
+69
+00:02:49,580 --> 00:02:52,120
+ERC va calcular una mitjana del 60%
+
+70
+00:02:52,120 --> 00:02:55,260
+abans de tenir adjudicat el nou contracte del servei.
+
+71
+00:02:55,260 --> 00:02:55,660
+Clar.
+
+72
+00:02:56,120 --> 00:02:56,460
+O sigui,
+
+73
+00:02:56,460 --> 00:03:00,400
+pagar més per un servei que, segons ells, és obsolet
+
+74
+00:03:00,400 --> 00:03:03,440
+o que, com a mínim, no té millores garantides ara mateix.
+
+75
+00:03:03,620 --> 00:03:04,140
+Exactament.
+
+76
+00:03:04,560 --> 00:03:05,800
+Pagar més per...
+
+77
+00:03:05,800 --> 00:03:07,380
+bé, pel mateix servei, de moment.
+
+78
+00:03:08,020 --> 00:03:10,200
+Això genera desconfiança, lògicament.
+
+79
+00:03:10,720 --> 00:03:13,780
+A més, sembla que els números tampoc eren definitius.
+
+80
+00:03:14,000 --> 00:03:14,280
+Ah, no?
+
+81
+00:03:14,760 --> 00:03:15,320
+Com és això?
+
+82
+00:03:15,760 --> 00:03:18,660
+Les cuetes noves es basen en una memòria tècnica
+
+83
+00:03:18,660 --> 00:03:19,460
+que és provisional.
+
+84
+00:03:20,140 --> 00:03:22,700
+De fet, el regidor no escrit va proposar una esmena.
+
+85
+00:03:22,860 --> 00:03:23,540
+Una esmena.
+
+86
+00:03:23,780 --> 00:03:24,120
+Per a què?
+
+87
+00:03:24,420 --> 00:03:26,440
+Perquè, un cop se sàpiga el cos real,
+
+88
+00:03:26,460 --> 00:03:27,840
+amb la nova licitació,
+
+89
+00:03:28,340 --> 00:03:29,620
+si resulta ser més baix,
+
+90
+00:03:29,980 --> 00:03:32,480
+les cuetes es revisen automàticament a la baixa.
+
+91
+00:03:32,600 --> 00:03:34,120
+Té sentit. I què va passar?
+
+92
+00:03:34,520 --> 00:03:36,200
+Doncs el govern no la va acceptar.
+
+93
+00:03:36,480 --> 00:03:38,260
+I l'oposició també va criticar molt
+
+94
+00:03:38,260 --> 00:03:40,420
+la retarda en treure aquesta nova licitació.
+
+95
+00:03:40,720 --> 00:03:42,380
+La del servei de recollida, vols dir?
+
+96
+00:03:42,540 --> 00:03:45,280
+Sí, que és considerada la més important de l'Ajuntament.
+
+97
+00:03:45,820 --> 00:03:47,680
+Van parlar de paràlisi institucional.
+
+98
+00:03:47,960 --> 00:03:49,040
+Paraules fortes.
+
+99
+00:03:49,640 --> 00:03:50,600
+I Junts per Catalunya,
+
+100
+00:03:50,940 --> 00:03:52,700
+Tiana va afegir una comparativa, oi?
+
+101
+00:03:53,000 --> 00:03:53,340
+Sí.
+
+102
+00:03:53,800 --> 00:03:56,140
+Una que no deixava Tiana gaire bé.
+
+103
+00:03:56,460 --> 00:03:58,500
+Van dir que el poble ja està per sobre
+
+104
+00:03:58,500 --> 00:03:59,740
+de la mitjana del maresme,
+
+105
+00:03:59,960 --> 00:04:01,200
+en impostos i taxes.
+
+106
+00:04:01,740 --> 00:04:02,100
+Vaja.
+
+107
+00:04:03,020 --> 00:04:05,840
+Mentre que els serveis rebuts, segons la seva opinió,
+
+108
+00:04:06,220 --> 00:04:07,440
+estan molt per sota.
+
+109
+00:04:08,200 --> 00:04:10,420
+Això, clar, va encendre bastant el debat.
+
+110
+00:04:10,540 --> 00:04:11,140
+M'ho imagino.
+
+111
+00:04:11,660 --> 00:04:13,980
+I aquí la tensió política va pujar de nivell.
+
+112
+00:04:14,100 --> 00:04:16,460
+Sí. L'alcalde va arribar a acusar l'oposició
+
+113
+00:04:16,460 --> 00:04:18,720
+de bloquejar i retardar la nova licitació
+
+114
+00:04:18,720 --> 00:04:19,980
+per interessos polítics.
+
+115
+00:04:20,240 --> 00:04:21,620
+I què va respondre l'oposició?
+
+116
+00:04:21,900 --> 00:04:24,880
+Doncs van replicar que el govern té majoria absoluta
+
+117
+00:04:24,880 --> 00:04:25,680
+i que, per tant,
+
+118
+00:04:25,680 --> 00:04:27,800
+la responsabilitat dels retards
+
+119
+00:04:27,800 --> 00:04:30,460
+i de, com van dir, no fer els deures,
+
+120
+00:04:30,920 --> 00:04:31,640
+és només seva.
+
+121
+00:04:32,180 --> 00:04:34,100
+El clàssic intercanvi d'acusacions.
+
+122
+00:04:34,440 --> 00:04:34,600
+Ja.
+
+123
+00:04:35,300 --> 00:04:37,640
+Tot aquest emboli amb la taxa de residus
+
+124
+00:04:37,640 --> 00:04:40,140
+ens porta a una pregunta més general,
+
+125
+00:04:40,260 --> 00:04:40,720
+no creus?
+
+126
+00:04:41,180 --> 00:04:42,880
+Sobre la pressió fiscal global.
+
+127
+00:04:43,180 --> 00:04:44,800
+A què et refereixes exactament?
+
+128
+00:04:45,020 --> 00:04:47,380
+Vull dir, si una taxa puja tant
+
+129
+00:04:47,380 --> 00:04:49,700
+per cobrir un servei concret com aquest,
+
+130
+00:04:50,440 --> 00:04:52,200
+seria lògic pensar en ajustar
+
+131
+00:04:52,200 --> 00:04:53,840
+altres impostos més generals,
+
+132
+00:04:53,840 --> 00:04:55,300
+com l'IBI, per exemple.
+
+133
+00:04:55,680 --> 00:04:58,660
+Per equilibrar una mica la càrrega als ciutadans.
+
+134
+00:04:59,180 --> 00:05:01,060
+Aquesta és una qüestió fonamental
+
+135
+00:05:01,060 --> 00:05:03,360
+en les finances municipals, sí.
+
+136
+00:05:03,980 --> 00:05:05,440
+Si els costos de serveis
+
+137
+00:05:05,440 --> 00:05:07,160
+s'han de repercutir directament
+
+138
+00:05:07,160 --> 00:05:08,820
+en taxes específiques
+
+139
+00:05:08,820 --> 00:05:10,420
+o si s'han d'equilibrar
+
+140
+00:05:10,420 --> 00:05:12,460
+dins del conjunt dels impostos.
+
+141
+00:05:12,800 --> 00:05:14,400
+I es va parlar d'això al ple?
+
+142
+00:05:14,600 --> 00:05:16,380
+D'aquesta possible compensació
+
+143
+00:05:16,380 --> 00:05:17,600
+amb l'IBI o altres?
+
+144
+00:05:17,920 --> 00:05:19,160
+En aquest punt del debat,
+
+145
+00:05:19,520 --> 00:05:20,420
+que jo recordi,
+
+146
+00:05:20,720 --> 00:05:23,140
+no es va abordar directament aquesta connexió.
+
+147
+00:05:23,140 --> 00:05:25,600
+La pregunta va quedar una mica a l'aire.
+
+148
+00:05:25,680 --> 00:05:27,060
+Bé, doncs al final,
+
+149
+00:05:27,280 --> 00:05:28,360
+malgrat tot el debat,
+
+150
+00:05:28,540 --> 00:05:31,300
+la pujada de les taxes de residus es va aprovar.
+
+151
+00:05:31,600 --> 00:05:32,920
+Amb els vots del govern
+
+152
+00:05:32,920 --> 00:05:35,040
+i el rebuig de tota l'oposició.
+
+153
+00:05:35,240 --> 00:05:35,880
+Exacte.
+
+154
+00:05:36,360 --> 00:05:38,680
+REC, Junts per Catalunya Tiana
+
+155
+00:05:38,680 --> 00:05:40,260
+i el regidor no adscrit
+
+156
+00:05:40,260 --> 00:05:41,660
+hi van votar en contra.
+
+157
+00:05:41,840 --> 00:05:43,680
+El resum sembla un xoc.
+
+158
+00:05:44,300 --> 00:05:46,720
+Entre la necessitat legal que argumenta el govern
+
+159
+00:05:46,720 --> 00:05:48,680
+i la percepció de pagar més
+
+160
+00:05:48,680 --> 00:05:49,940
+sense veure, de moment,
+
+161
+00:05:50,340 --> 00:05:51,840
+una millora clara del servei.
+
+162
+00:05:51,840 --> 00:05:54,680
+Sí, l'atenció és justament aquí.
+
+163
+00:05:54,680 --> 00:05:56,740
+Entre complir la normativa,
+
+164
+00:05:56,960 --> 00:05:58,140
+que sembla obligatori,
+
+165
+00:05:58,700 --> 00:05:59,940
+i l'expectativa de la gent
+
+166
+00:05:59,940 --> 00:06:02,360
+de rebre un millor servei si paga més.
+
+167
+00:06:02,800 --> 00:06:04,960
+Sobretot quan els càlculs són provisionals.
+
+168
+00:06:05,480 --> 00:06:07,660
+Això ens deixa amb una pregunta de fons,
+
+169
+00:06:07,780 --> 00:06:09,120
+potser per reflexionar.
+
+170
+00:06:09,780 --> 00:06:11,620
+Més enllà de la política i les lleis,
+
+171
+00:06:12,240 --> 00:06:15,180
+quin nivell de servei justifica realment pagar més?
+
+172
+00:06:15,360 --> 00:06:16,300
+És una bona pregunta.
+
+173
+00:06:16,860 --> 00:06:18,600
+I també com podem assegurar
+
+174
+00:06:18,600 --> 00:06:20,880
+que hi hagi transparència i eficiència
+
+175
+00:06:20,880 --> 00:06:23,700
+en com es gestionen aquests diners públics,
+
+176
+00:06:23,760 --> 00:06:24,400
+especialment en serveis de pagament.
+
+177
+00:06:24,400 --> 00:06:24,400
+
+
+178
+00:06:24,400 --> 00:06:24,400
+
+
+179
+00:06:24,400 --> 00:06:24,480
+en com es gestionen
+
+180
+00:06:24,480 --> 00:06:24,660
+en com es gestionen
+
+181
+00:06:24,680 --> 00:06:26,680
+en serveis tan bàsics com la recollida d'escombraries.
+
+182
+00:06:27,840 --> 00:06:29,320
+Preguntes claus, sens dubtar.
+
+183
+00:06:30,000 --> 00:06:30,480
+Com sempre,
+
+184
+00:06:30,620 --> 00:06:32,500
+convidem a tothom a consultar les actes
+
+185
+00:06:32,500 --> 00:06:34,620
+completes del ple al web de l'Ajuntament
+
+186
+00:06:34,620 --> 00:06:36,660
+per formar-se la seva pròpia opinió
+
+187
+00:06:36,660 --> 00:06:37,860
+amb tots els detalls.
+
+188
+00:06:38,340 --> 00:06:40,680
+I per descomptat us animem a subscriure's
+
+189
+00:06:41,280 --> 00:06:42,600
+a Ràdio Can Galletà.
+
+190
+00:06:43,000 --> 00:06:45,300
+Així no us perdereu les properes anàlisis
+
+191
+00:06:45,300 --> 00:06:47,320
+dels assumptes que ens afecten aquí.
+
+192
+00:06:47,720 --> 00:06:48,020
+Etiana.
+
+193
+00:06:48,660 --> 00:06:49,180
+Fins aviat.
+
+194
+00:06:49,660 --> 00:06:50,320
+Fins la propera.
+
