@@ -22,7 +22,22 @@ layout: landing
 
   {% if page.audio_file %}
   <div class="audio-player">
-    <audio controls preload="metadata">
+    {% if page.thumbnail %}
+    <div class="player-with-thumb">
+      <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}" class="player-thumb" loading="lazy">
+      <div class="player-controls">
+        <audio id="episode-audio" controls preload="metadata">
+          {% if page.audio_file contains "http" %}
+          <source src="{{ page.audio_file }}" type="audio/mpeg">
+          {% else %}
+          <source src="{{ '/episodes/' | append: page.audio_file | relative_url }}" type="audio/mpeg">
+          {% endif %}
+          El teu navegador no suporta l'element d'audio.
+        </audio>
+      </div>
+    </div>
+    {% else %}
+    <audio id="episode-audio" controls preload="metadata">
       {% if page.audio_file contains "http" %}
       <source src="{{ page.audio_file }}" type="audio/mpeg">
       {% else %}
@@ -30,7 +45,65 @@ layout: landing
       {% endif %}
       El teu navegador no suporta l'element d'audio.
     </audio>
+    {% endif %}
   </div>
+  {% endif %}
+
+  {% if page.chapters_file %}
+  <section class="episode-chapters" id="episode-chapters">
+    <h2>🎯 Capítols</h2>
+    <div class="chapters-list" id="chapters-list">
+      <p class="chapters-loading">Carregant capítols…</p>
+    </div>
+  </section>
+  <script>
+  (function() {
+    var chaptersUrl = '{{ "/sources/" | append: page.chapters_file | relative_url }}';
+    var audio = document.getElementById('episode-audio');
+    var section = document.getElementById('episode-chapters');
+    var list = document.getElementById('chapters-list');
+    if (!list) return;
+
+    fetch(chaptersUrl)
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        if (!data.chapters || !data.chapters.length) { section.style.display = 'none'; return; }
+        var chapters = data.chapters;
+        list.innerHTML = chapters.map(function(ch, i) {
+          var m = Math.floor(ch.startTime / 60);
+          var s = Math.floor(ch.startTime % 60);
+          var t = m + ':' + (s < 10 ? '0' : '') + s;
+          return '<button class="chapter-item" data-time="' + ch.startTime + '" data-idx="' + i + '">'
+            + '<span class="chapter-time">' + t + '</span>'
+            + '<span class="chapter-title">' + ch.title + '</span>'
+            + '<span class="chapter-play-icon">▶</span>'
+            + '</button>';
+        }).join('');
+
+        list.addEventListener('click', function(e) {
+          var btn = e.target.closest('.chapter-item');
+          if (!btn || !audio) return;
+          audio.currentTime = parseFloat(btn.dataset.time);
+          audio.play();
+        });
+
+        function updateActive() {
+          var t = audio ? audio.currentTime : 0;
+          var active = 0;
+          chapters.forEach(function(ch, i) { if (t >= ch.startTime) active = i; });
+          list.querySelectorAll('.chapter-item').forEach(function(btn, i) {
+            btn.classList.toggle('active', i === active);
+          });
+        }
+
+        if (audio) {
+          audio.addEventListener('timeupdate', updateActive);
+          audio.addEventListener('seeked', updateActive);
+        }
+      })
+      .catch(function() { section.style.display = 'none'; });
+  })();
+  </script>
   {% endif %}
 
   <div class="episode-content">
@@ -192,6 +265,139 @@ layout: landing
   width: 100%;
   max-width: 600px;
   border-radius: 10px;
+}
+
+/* Reproductor amb miniatura */
+.player-with-thumb {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.player-thumb {
+  width: 130px;
+  height: 130px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.player-controls {
+  flex: 1;
+  min-width: 0;
+}
+
+.player-controls audio {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Capítols */
+.episode-chapters {
+  background: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 15px;
+  margin: 2rem 0;
+  border-left: 5px solid var(--verd-natura);
+}
+
+.episode-chapters h2 {
+  margin-top: 0;
+  color: var(--verd-natura);
+  font-size: 1.4rem;
+}
+
+.chapters-loading {
+  color: var(--text-tertiary);
+  font-style: italic;
+}
+
+.chapters-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.chapter-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  transition: all 0.2s ease;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.chapter-item:hover {
+  background: var(--overlay-lighter);
+  transform: translateX(5px);
+  border-color: var(--verd-natura);
+}
+
+.chapter-item.active {
+  background: var(--verd-natura);
+  border-color: var(--verd-natura);
+  color: white;
+  transform: translateX(5px);
+}
+
+.chapter-time {
+  font-family: monospace;
+  font-size: 0.82rem;
+  color: var(--terra-cuita);
+  min-width: 3.2rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.chapter-item.active .chapter-time {
+  color: rgba(255,255,255,0.85);
+}
+
+.chapter-title {
+  flex: 1;
+  line-height: 1.4;
+}
+
+.chapter-play-icon {
+  font-size: 0.75rem;
+  opacity: 0;
+  color: var(--terra-cuita);
+  transition: opacity 0.2s;
+  flex-shrink: 0;
+}
+
+.chapter-item:hover .chapter-play-icon {
+  opacity: 1;
+}
+
+.chapter-item.active .chapter-play-icon {
+  opacity: 1;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .player-with-thumb {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .player-thumb {
+    width: 160px;
+    height: 160px;
+  }
+  .episode-chapters {
+    padding: 1.2rem;
+  }
 }
 
 .episode-content {
