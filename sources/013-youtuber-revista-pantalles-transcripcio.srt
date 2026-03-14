@@ -1,2008 +1,2496 @@
 1
-00:00:00,000 --> 00:00:07,060
-Hola a tothom i una benvinguda molt i molt càlida des de Radio Can Galleta.
+00:00:00,000 --> 00:00:01,740
+Benvinguts a El Debat.
 
 2
-00:00:07,380 --> 00:00:09,800
-Molt bones a tothom, un plaer ser aquí.
+00:00:02,600 --> 00:00:07,900
+Imagineu per un moment una paradoxa que voreja el cinisme pur i dur.
 
 3
-00:00:10,200 --> 00:00:13,740
-Una salutació ben especial a tota la nostra gent del barri, clar,
+00:00:08,240 --> 00:00:09,740
+A veure, sorprèn-me.
 
 4
-00:00:14,220 --> 00:00:18,720
-i per descomptat a tots els veïns i veïnes que s'intonitzen des de qualsevol racó de Tiana
+00:00:10,120 --> 00:00:14,680
+Fa molt poc vam commemorar el 8 de març, el Dia de la Dona,
 
 5
-00:00:18,720 --> 00:00:21,320
-per acompanyar-nos en aquesta nova exploració.
+00:00:15,200 --> 00:00:19,260
+i en el darrer ple municipal diversos veïns van recriminar el govern
 
 6
-00:00:21,680 --> 00:00:27,100
-Sí, i abans de posar fil a l'agulla, crec que acabo fent el nostre avís habitual, oi?
+00:00:19,260 --> 00:00:21,720
+no haver celebrat aquesta data el mateix dia,
 
 7
-00:00:27,100 --> 00:00:31,980
-Exacte, filosòfic, que és absolutament fonamental per a la transparència d'aquest espai.
+00:00:22,320 --> 00:00:24,480
+posposant així les reivindicacions feministes.
 
 8
-00:00:32,240 --> 00:00:33,140
-Tota la raó.
+00:00:25,140 --> 00:00:26,820
+Recordo la polèmica, sí.
 
 9
-00:00:33,200 --> 00:00:35,020
-La qüestió és que tot aquest programa,
+00:00:26,820 --> 00:00:31,560
+Doncs, irònicament, mentre s'aparca tota aquesta sensibilitat als carrers,
 
 10
-00:00:35,360 --> 00:00:40,060
-incluint i el guió que estructura la nostra conversa i les mateixes veus que s'estan sentint,
+00:00:32,100 --> 00:00:35,620
+la revista oficial del poble dedica tota la seva contraportada
 
 11
-00:00:40,580 --> 00:00:43,180
-doncs està generat completament amb intel·ligència artificial.
+00:00:35,620 --> 00:00:38,520
+a promocionar l'ús de les xarxes socials des dels 12 anys.
 
 12
-00:00:43,580 --> 00:00:47,440
-O sigui que la tecnologia pot tenir al·lucinacions o cometre errors.
+00:00:39,000 --> 00:00:42,320
+O sigui, ignorant completament que les nenes i les noies joves
 
 13
-00:00:47,840 --> 00:00:53,600
-I tant. Per aquest motiu, animem sempre tota l'audiència a tenir una actitud proactiva.
+00:00:42,320 --> 00:00:46,740
+són, estadísticament parlant, les víctimes principals de l'ansietat,
 
 14
-00:00:53,820 --> 00:00:56,460
-Cal anar a consultar les fonts originals,
+00:00:46,960 --> 00:00:52,180
+la depressió i els trastorns d'imatge que deliven d'aquestes mateixes pantalles.
 
 15
-00:00:56,460 --> 00:00:57,560
-que s'esmenten aquí.
+00:00:52,500 --> 00:00:55,220
+És una contradicció fascinant, realment,
 
 16
-00:00:58,260 --> 00:01:03,240
-Perquè l'objectiu d'aquesta anàlisi a fons no és pas dictar la veritat absoluta sobre res,
+00:00:55,220 --> 00:00:58,240
+i, de fet, crec que il·lustra perfectament
 
 17
-00:01:03,480 --> 00:01:04,520
-ni allisonar ningú.
+00:00:58,240 --> 00:01:02,000
+el cor d'aquesta desconexió institucional que explorarem avui.
 
 18
-00:01:04,740 --> 00:01:08,780
-No, en absolut. El que es busca és fomentar l'espírit crític,
+00:01:02,600 --> 00:01:05,520
+Vull dir, tenim un govern que és incapaç de veure
 
 19
-00:01:09,240 --> 00:01:11,380
-oferir un context ampli i, sobretot,
+00:01:05,520 --> 00:01:08,100
+com les seves pròpies accions de màrqueting
 
 20
-00:01:11,780 --> 00:01:15,200
-fer partícips tots els ciutadans dels esdeveniments del poble.
+00:01:08,100 --> 00:01:11,520
+xoquen de ple amb la realitat social i sanitària.
 
 21
-00:01:15,560 --> 00:01:18,840
-Clar, donar les eines perquè cadascú tregui les seves conclusions.
+00:01:11,940 --> 00:01:12,760
+Així és, totalment.
 
 22
-00:01:19,300 --> 00:01:22,720
-Dit això, doncs avui tenim una missió molt concreta
+00:01:13,020 --> 00:01:14,180
+Però abans d'entrar en matèria,
 
 23
-00:01:22,720 --> 00:01:26,440
-i crec que plena de matisos.
+00:01:14,520 --> 00:01:16,540
+us volem saludar amb una abraçada molt especial,
 
 24
-00:01:26,460 --> 00:01:30,940
-Farem una immersió profunda sobre la revista municipal de Tiana,
+00:01:16,680 --> 00:01:18,360
+des d'aquí, des de Ràdio Can Galletà,
 
 25
-00:01:31,240 --> 00:01:32,080
-plaça de la Vila.
+00:01:18,760 --> 00:01:20,380
+a tota la nostra gent del barri
 
 26
-00:01:32,380 --> 00:01:33,760
-Déu-n'hi-do, el tema d'avui.
+00:01:20,380 --> 00:01:23,900
+i, esclar, a tots els veïns i veïnes que ens escolten des de Tiana.
 
 27
-00:01:34,020 --> 00:01:39,480
-Sobretot posant el focus en la polèmica que ha generat la contraportada del número de gener i febrer.
+00:01:24,040 --> 00:01:25,000
+Hola a tothom.
 
 28
-00:01:39,920 --> 00:01:42,820
-I ja avanço que hi ha molta tela per tallar.
+00:01:25,000 --> 00:01:26,920
+Un plaer ser aquí un dia més.
 
 29
-00:01:42,980 --> 00:01:45,060
-Sens dubte, és un tema ple d'arestes.
+00:01:27,280 --> 00:01:29,380
+I, com sempre fem en aquest espai,
 
 30
-00:01:45,160 --> 00:01:46,080
-Com ho emmarquem això?
+00:01:29,840 --> 00:01:31,740
+un breu incís molt important, eh?
 
 31
-00:01:46,340 --> 00:01:50,780
-Doncs per emmarcar-li aquesta conversa i assegurar que l'anàlisi sigui rigorosa,
+00:01:32,220 --> 00:01:34,460
+Us recordem que aquest programa està generat
 
 32
-00:01:51,500 --> 00:01:54,020
-s'ha treballat amb un recull de fons molt divers.
+00:01:34,460 --> 00:01:36,640
+completament amb intel·ligència artificial.
 
 33
-00:01:54,300 --> 00:01:55,160
-Això és vital.
+00:01:37,100 --> 00:01:39,420
+Exacte. Tant les nostres veus com el guió.
 
 34
-00:01:55,580 --> 00:01:56,020
-Sí.
+00:01:39,720 --> 00:01:40,420
+Això mateix.
 
 35
-00:01:56,460 --> 00:01:59,660
-Perquè ens permet contrastar diferents versions de la realitat.
+00:01:41,060 --> 00:01:42,700
+I, per tant, pot contenir errors.
 
 36
-00:02:00,420 --> 00:02:03,760
-D'una banda, hem analitzat els articles de la mateixa revista municipal.
+00:01:43,260 --> 00:01:45,160
+Així que us animem vivament
 
 37
-00:02:04,480 --> 00:02:07,020
-Allò que seria la comunicació oficial, vaja.
+00:01:45,160 --> 00:01:47,660
+a contrastar sempre les informacions
 
 38
-00:02:07,260 --> 00:02:08,600
-La versió de l'Ajuntament.
+00:01:47,660 --> 00:01:49,600
+i anar a les fonts originals.
 
 39
-00:02:08,780 --> 00:02:09,220
-Exacte.
+00:01:50,360 --> 00:01:52,420
+L'objectiu d'aquest espai no és
 
 40
-00:02:09,680 --> 00:02:15,500
-I de l'altra, s'ha revisat minuciosament l'acte amb vídeo del ple municipal del 3 de març.
+00:01:52,420 --> 00:01:54,940
+ser un noticiari escèptic
 
 41
-00:02:15,640 --> 00:02:18,760
-Un document clau. Allà s'escolta el debat polític real.
+00:01:54,940 --> 00:01:54,980
+que no es pot fer.
 
 42
-00:02:18,980 --> 00:02:23,060
-I a tot això hi hem sumat les cartes i comunicats d'associacions de famílies,
+00:01:54,980 --> 00:01:55,060
+No és ser un noticiari escèptic
 
 43
-00:02:23,060 --> 00:02:24,120
-com Aixeca el cap,
+00:01:55,060 --> 00:01:56,520
+informant dels fets i prou,
 
 44
-00:02:24,120 --> 00:02:28,480
-i una sèrie d'informes i posicionaments de salut pública.
+00:01:57,000 --> 00:01:59,260
+sinó fomentar el vostre esperit crític
 
 45
-00:02:28,640 --> 00:02:29,920
-Metges i pediatres, oi?
+00:01:59,260 --> 00:02:02,100
+i fer-vos partícips dels esdeveniments del poble.
 
 46
-00:02:30,020 --> 00:02:33,760
-Sí. Documentació del Col·legi de Metges de Barcelona, el COMP,
+00:02:02,340 --> 00:02:05,420
+Desgranar el per què i el com de les coses, oi?
 
 47
-00:02:34,160 --> 00:02:36,140
-i de l'Associació Espanyola de Pediatria.
+00:02:05,700 --> 00:02:06,360
+No només el què.
 
 48
-00:02:36,680 --> 00:02:41,240
-Tenir totes aquestes peces sobre la taula és l'única manera d'entendre la magnitud del debat.
+00:02:07,000 --> 00:02:07,520
+Exactament.
 
 49
-00:02:41,480 --> 00:02:45,000
-Doncs anem a desgranar tot això pas a pas.
+00:02:08,080 --> 00:02:09,620
+I avui, doncs, posem el focus
 
 50
-00:02:45,660 --> 00:02:49,160
-Perquè, per entendre d'on ve la polèmica actual,
+00:02:09,620 --> 00:02:11,300
+sobre la revista municipal
 
 51
-00:02:49,520 --> 00:02:51,920
-potser primer cal fer una petita mirada enrere.
+00:02:11,300 --> 00:02:12,280
+Plaça de la Vila.
 
 52
-00:02:52,180 --> 00:02:53,560
-Clar, posar una mica de context.
+00:02:12,460 --> 00:02:14,600
+Sí, específicament sobre la polèmica
 
 53
-00:02:53,560 --> 00:02:54,080
-Sí.
+00:02:14,600 --> 00:02:16,980
+d'aquesta contraportada del número de gener i febrer.
 
 54
-00:02:54,120 --> 00:02:57,700
-Sí, de fet, connecta directament amb una de les primeres exploracions
+00:02:17,640 --> 00:02:19,100
+L'Ajuntament hi ha en el test un noi,
 
 55
-00:02:57,700 --> 00:02:59,840
-que vam fer en aquest mateix espai.
+00:02:19,220 --> 00:02:20,660
+un adolescent de sete anys,
 
 56
-00:03:00,080 --> 00:03:01,080
-Ho recordo perfectament.
+00:02:20,920 --> 00:02:22,820
+que va començar a ser creador de continuot a YouTube
 
 57
-00:03:01,380 --> 00:03:04,460
-Llavors, ja vam analitzar com una publicació institucional
+00:02:22,820 --> 00:02:23,520
+als dotze.
 
 58
-00:03:04,460 --> 00:03:09,200
-pot acabar funcionant com una eina per construir un relat molt específic
+00:02:24,020 --> 00:02:24,820
+Des de la meva perspectiva,
 
 59
-00:03:09,200 --> 00:03:10,640
-sobre la realitat del poble.
+00:02:24,980 --> 00:02:26,420
+com a analista d'avui,
 
 60
-00:03:11,320 --> 00:03:15,740
-És un precedent que ajuda molt a entendre com flueix l'informació al municipi.
+00:02:26,740 --> 00:02:28,440
+argumentaré que aquesta revista està actuant
 
 61
-00:03:16,640 --> 00:03:19,040
-Llavors vam posar sota la lupa aquell article titulat
+00:02:28,440 --> 00:02:30,080
+com un instrument de propaganda política
 
 62
-00:03:19,040 --> 00:03:21,420
-Així seran les pisos de Can Galleta.
+00:02:30,080 --> 00:02:32,280
+profundament irresponsable,
 
 63
-00:03:21,680 --> 00:03:23,500
-Mare meva, quin article aquell.
+00:02:32,760 --> 00:02:34,820
+que ignora directament
 
 64
-00:03:23,500 --> 00:03:27,940
-El text resumia la intervenció del president de l'associació veïnal de Can Galleta
+00:02:34,820 --> 00:02:37,140
+les alertes de salut pública globals
 
 65
-00:03:27,940 --> 00:03:31,380
-durant el Consell Assessor Urbanístic de Tiana, el cau.
+00:02:37,140 --> 00:02:38,920
+simplement per vendre una narrativa
 
 66
-00:03:31,880 --> 00:03:34,740
-I segons la revista, tot eren flors i violes, oi?
+00:02:38,920 --> 00:02:41,260
+d'èxit superficial i moderna.
 
 67
-00:03:35,480 --> 00:03:36,080
-Totalment.
+00:02:41,440 --> 00:02:42,880
+Clar, i jo,
 
 68
-00:03:36,560 --> 00:03:40,500
-Segons la lectura de la revista, l'associació pràcticament va anellar el projecte.
+00:02:43,920 --> 00:02:45,220
+tot i reconèixer la gravetat
 
 69
-00:03:41,420 --> 00:03:45,840
-Destacaven únicament que des del veïnat es demanaven equipaments públics i comerç.
+00:02:45,220 --> 00:02:46,680
+brutal de les dades mèdiques,
 
 70
-00:03:46,320 --> 00:03:49,540
-O sigui, qualsevol persona que llegís només aquella pàgina
+00:02:47,360 --> 00:02:48,780
+defensaré des de la meva posició
 
 71
-00:03:49,540 --> 00:03:53,460
-es quedava amb la clara impressió que hi havia un consens veïnal absolut,
+00:02:48,780 --> 00:02:50,980
+que el problema real no és una decisió maliciosa
 
 72
-00:03:53,500 --> 00:03:54,440
-amb el govern local.
+00:02:51,500 --> 00:02:53,400
+aïllada sobre salut pública.
 
 73
-00:03:55,120 --> 00:03:55,600
-Exacte.
+00:02:53,400 --> 00:02:54,800
+Jo crec que és una fallida,
 
 74
-00:03:55,880 --> 00:03:58,540
-Però el contrast brutal va arribar en anar a buscar la font original,
+00:02:54,980 --> 00:02:57,020
+fallida estructural de governança.
 
 75
-00:03:58,960 --> 00:04:00,440
-el vídeo de la reunió del caut.
+00:02:57,300 --> 00:02:58,520
+A què et refereixes, exactament?
 
 76
-00:04:00,740 --> 00:04:02,100
-Que la realitat era una altra.
+00:02:58,900 --> 00:03:00,880
+Doncs que l'error d'aquesta contraportada
 
 77
-00:04:02,340 --> 00:04:03,340
-Una de molt diferent.
+00:03:00,880 --> 00:03:03,420
+és el símptoma evident d'una majoria absoluta
 
 78
-00:04:03,660 --> 00:04:07,660
-L'associació veïnal no s'havia limitat a demanar uns quants bancs i botigues,
+00:03:03,420 --> 00:03:05,500
+que actua sense cap mecanisme de control,
 
 79
-00:04:08,000 --> 00:04:08,580
-ni de bon tros.
+00:03:06,020 --> 00:03:08,020
+sense cap consell de redacció independent.
 
 80
-00:04:08,760 --> 00:04:10,580
-Va ser molt més crític, el discurs.
+00:03:08,440 --> 00:03:09,740
+Bueno, entre mi de ple, doncs.
 
 81
-00:04:10,900 --> 00:04:11,060
-Sí.
+00:03:10,220 --> 00:03:11,800
+Anem al fons d'aquesta negligència,
 
 82
-00:04:11,680 --> 00:04:15,940
-Tal com va quedar registrat, va exposar una crítica molt severa al model de governança,
+00:03:12,300 --> 00:03:13,880
+perquè estem parlant d'un article central
 
 83
-00:04:16,400 --> 00:04:20,240
-mostrant el seu desacord amb la decisió de cedir terrenys municipals
+00:03:13,880 --> 00:03:15,540
+a tota pàgina que celebra
 
 84
-00:04:20,240 --> 00:04:22,100
-a l'àrea metropolitana de Barcelona.
+00:03:15,540 --> 00:03:17,440
+com menor va començar a pujar vídeos
 
 85
-00:04:22,180 --> 00:04:23,360
-I a nivell tècnic?
+00:03:17,440 --> 00:03:18,660
+als dotze anys, saps?
 
 86
-00:04:23,500 --> 00:04:24,560
-També hi havia dubtes, no?
+00:03:18,780 --> 00:03:20,100
+Sí, sí, amb foto i tot.
 
 87
-00:04:24,800 --> 00:04:25,160
-I tant.
+00:03:20,100 --> 00:03:22,100
+I que ara presumeix de cent mil subscriptors
 
 88
-00:04:25,880 --> 00:04:30,200
-Dubtes de gran calat sobre el confort climàtic d'aquells futurs pisos.
+00:03:22,880 --> 00:03:24,100
+i l'Ajuntament ens ho empaqueta
 
 89
-00:04:30,760 --> 00:04:36,080
-Va recordar que a l'estiu s'havien mesurat fins a 57 graus de temperatura
+00:03:24,980 --> 00:03:26,600
+el gran triomf de la joventut.
 
 90
-00:04:36,080 --> 00:04:37,800
-a l'asfalt del carrer Calçfrares.
+00:03:27,140 --> 00:03:29,600
+No hi ha ni una sola paraula
 
 91
-00:04:38,460 --> 00:04:39,680
-57 graus.
+00:03:29,600 --> 00:03:31,820
+sobre els riscos associats a les pantalles.
 
 92
-00:04:40,380 --> 00:04:40,760
-Déu-n'hi-do.
+00:03:32,480 --> 00:03:32,800
+Ni una.
 
 93
-00:04:41,580 --> 00:04:45,200
-57 graus, qüestionant tot allò del disseny bioclimàtic que venien.
+00:03:33,780 --> 00:03:34,820
+I el que és més greu
 
 94
-00:04:45,660 --> 00:04:48,140
-I d'això a la revista, evidentment, ni rastre.
+00:03:34,820 --> 00:03:37,340
+contradiu tota la legislació internacional
 
 95
-00:04:48,660 --> 00:04:48,860
-Clar.
+00:03:37,340 --> 00:03:38,800
+que s'està aprovant ara mateix.
 
 96
-00:04:49,380 --> 00:04:52,180
-I tot això no apareixia a la revista.
-
-97
-00:04:52,620 --> 00:04:53,100
-Llavors,
-
-98
-00:04:53,100 --> 00:04:57,400
-el que reflecteix aquest episodi és un patró comunicatiu de fons.
-
-99
-00:04:57,860 --> 00:05:00,540
-Un patró que denuncia molt sovint l'oposició.
-
-100
-00:05:00,620 --> 00:05:01,220
-Això mateix.
-
-101
-00:05:01,640 --> 00:05:04,100
-Quan un consistori opera amb una majoria absoluta,
-
-102
-00:05:04,860 --> 00:05:07,100
-hi ha el risc que les eines de comunicació institucionals,
-
-103
-00:05:07,860 --> 00:05:10,100
-que es paguen amb diners públics, no ho oblidem,
-
-104
-00:05:10,560 --> 00:05:14,140
-s'utilitzin per projectar una realitat sense cap esquerda.
-
-105
-00:05:14,180 --> 00:05:15,720
-Es filtren les parts incòmodes.
-
-106
-00:05:16,140 --> 00:05:16,700
-Exacte.
-
-107
-00:05:17,440 --> 00:05:20,240
-S'agafa una intervenció plena d'esmenes,
-
-108
-00:05:20,240 --> 00:05:22,600
-s'hi passa el filtro i s'empaqueta,
-
-109
-00:05:22,600 --> 00:05:26,540
-com si fos una simple col·laboració ciutadana superfel·lís.
-
-110
-00:05:27,040 --> 00:05:30,260
-I justament aquest concepte de relat construït a mida
-
-111
-00:05:30,260 --> 00:05:32,900
-és el pont perfecte cap al tema central d'avui.
-
-112
-00:05:33,260 --> 00:05:36,020
-La famosa contraportada de la discòrdia.
-
-113
-00:05:36,280 --> 00:05:38,980
-Aquí és on la cosa es posa realment interessant.
-
-114
-00:05:39,220 --> 00:05:39,380
-Sí.
-
-115
-00:05:40,240 --> 00:05:42,200
-En el número de gener i febrer,
-
-116
-00:05:42,480 --> 00:05:44,880
-la revista dedica tota de l'arrera pàgina,
-
-117
-00:05:45,160 --> 00:05:46,300
-tota la contraportada,
-
-118
-00:05:46,760 --> 00:05:49,420
-a fer un reportatge sobre un jove del poble.
-
-119
-00:05:49,740 --> 00:05:50,840
-Un noi de 16 anys.
-
-120
-00:05:51,280 --> 00:05:51,800
-Exacte.
-
-121
-00:05:51,800 --> 00:05:52,580
-Un noi que,
-
-122
-00:05:52,600 --> 00:05:53,280
-amb 7 anys,
-
-123
-00:05:53,400 --> 00:05:55,580
-ha aconseguit 100.000 subscriptors a YouTube
-
-124
-00:05:55,580 --> 00:05:57,240
-i uns 20.000 a Instagram.
-
-125
-00:05:57,720 --> 00:05:59,320
-El to de l'article, suposo,
-
-126
-00:05:59,580 --> 00:06:00,800
-de celebració total.
-
-127
-00:06:01,280 --> 00:06:03,020
-De celebració absoluta.
-
-128
-00:06:03,520 --> 00:06:05,960
-Destaca que el noi va començar a crear contingut
-
-129
-00:06:05,960 --> 00:06:07,340
-quan tenia només 12 anys,
-
-130
-00:06:07,820 --> 00:06:10,540
-s'esmanta el seu desig de rentabilitzar-ho econòmicament
-
-131
-00:06:10,540 --> 00:06:11,720
-i conclou dient
-
-132
-00:06:11,720 --> 00:06:13,100
-que com que ha començat tan petit,
-
-133
-00:06:13,360 --> 00:06:15,640
-doncs té tota la vida per davant per triomfar.
-
-134
-00:06:15,680 --> 00:06:16,940
-Així, sense més.
-
-135
-00:06:17,200 --> 00:06:19,080
-Sense cap context mèdic.
-
-136
-00:06:19,860 --> 00:06:21,420
-Sense cap advertència
-
-137
-00:06:21,420 --> 00:06:23,940
-sobre els riscos de l'exposició digital.
-
-138
-00:06:24,360 --> 00:06:26,200
-El que resulta fascinant d'aquest cas
-
-139
-00:06:26,200 --> 00:06:28,440
-és com xoca aquesta publicació
-
-140
-00:06:28,440 --> 00:06:31,140
-amb el que s'està debatent a la resta del món.
-
-141
-00:06:31,520 --> 00:06:33,540
-És que és el món a l'inrevés.
-
-142
-00:06:33,940 --> 00:06:34,460
+00:03:39,100 --> 00:03:39,580
 Totalment.
 
+97
+00:03:39,820 --> 00:03:42,620
+Els països estan posant el fre de mà amb això.
+
+98
+00:03:42,760 --> 00:03:43,080
+I tant.
+
+99
+00:03:43,520 --> 00:03:44,980
+Austràlia està legislant
+
+100
+00:03:44,980 --> 00:03:47,160
+per prohibir l'accés a minors de setze anys.
+
+101
+00:03:47,640 --> 00:03:50,500
+França estableix límits superestrictes als quinze.
+
+102
+00:03:50,740 --> 00:03:52,000
+I aquí a casa nostra
+
+103
+00:03:52,000 --> 00:03:54,440
+contradiu frontalment les recomanacions
+
+104
+00:03:54,440 --> 00:03:54,960
+de l'associació.
+
+105
+00:03:54,980 --> 00:03:56,300
+L'associació espanyola de pediatria.
+
+106
+00:03:56,900 --> 00:03:58,820
+Però l'Ajuntament, amb fons públics,
+
+107
+00:03:59,100 --> 00:04:01,380
+empenya els nostres joves a aquest model de negoci
+
+108
+00:04:01,380 --> 00:04:02,140
+tan nociu.
+
+109
+00:04:02,460 --> 00:04:04,980
+A veure, és evident que el missatge de la contraportada
+
+110
+00:04:05,740 --> 00:04:07,780
+és un despropòsit sanitari enorme.
+
+111
+00:04:08,060 --> 00:04:09,040
+Això no t'ho negaré pas.
+
+112
+00:04:09,560 --> 00:04:11,320
+Però m'agradaria arrebatre
+
+113
+00:04:11,320 --> 00:04:12,740
+una mica el focus d'aquesta idea.
+
+114
+00:04:12,980 --> 00:04:13,400
+Endavant.
+
+115
+00:04:13,580 --> 00:04:14,620
+Pren-te i es publiqui.
+
+116
+00:04:15,280 --> 00:04:18,280
+Vull dir, com funciona realment una institució
+
+117
+00:04:18,280 --> 00:04:19,660
+quan té majoria absoluta?
+
+118
+00:04:20,360 --> 00:04:23,060
+Doncs que es trenca el bucle de retroalimentació, saps?
+
+119
+00:04:23,060 --> 00:04:24,040
+Sí, clar.
+
+120
+00:04:24,980 --> 00:04:26,380
+No hi ha ningú que els freni.
+
+121
+00:04:26,880 --> 00:04:29,100
+Exacte. En una democràcia sana,
+
+122
+00:04:29,340 --> 00:04:31,320
+un consell de redacció independent actua
+
+123
+00:04:31,320 --> 00:04:33,540
+com un tallacircuits per a les males idees.
+
+124
+00:04:34,200 --> 00:04:36,120
+Quan governa sense oposició real
+
+125
+00:04:36,120 --> 00:04:38,040
+el desig del Departament
+
+126
+00:04:38,040 --> 00:04:39,400
+de Comunicació de, bueno,
+
+127
+00:04:39,560 --> 00:04:40,820
+de semblar enrotllat i modern,
+
+128
+00:04:41,320 --> 00:04:43,740
+promocionant un youtuber, no troba cap fricció.
+
+129
+00:04:44,380 --> 00:04:45,680
+Ningú a dins de l'Ajuntament
+
+130
+00:04:45,680 --> 00:04:46,960
+s'atreveix a aixecar la mà i dir
+
+131
+00:04:46,960 --> 00:04:49,260
+escolteu, potser no hauríem de fer això.
+
+132
+00:04:49,580 --> 00:04:51,300
+Entenc perfectament com funciona
+
+133
+00:04:51,300 --> 00:04:53,580
+aquesta mecànica del poder sec que descrius.
+
+134
+00:04:54,020 --> 00:04:54,440
+Estic d'acord.
+
+135
+00:04:54,980 --> 00:04:57,880
+Però no podem diluir l'impacte d'allò que s'està promocionant.
+
+136
+00:04:58,380 --> 00:04:59,820
+No és només una mala idea.
+
+137
+00:05:00,340 --> 00:05:02,280
+És una temeritat científica brutal.
+
+138
+00:05:02,560 --> 00:05:04,180
+Ja, el famós miratge
+
+139
+00:05:04,180 --> 00:05:05,620
+de l'èxit a les xarxes.
+
+140
+00:05:05,620 --> 00:05:07,680
+Això mateix. Aquest article
+
+141
+00:05:07,680 --> 00:05:09,440
+no explica a les famílies de Tiana
+
+142
+00:05:09,440 --> 00:05:11,920
+com funcionen realment aquestes plataformes.
+
 143
-00:06:35,040 --> 00:06:35,560
-D'una banda,
+00:05:12,500 --> 00:05:13,860
+La realitat estadística,
 
 144
-00:06:35,940 --> 00:06:37,340
-tenim una revista municipal
+00:05:14,020 --> 00:05:14,960
+si mirem els números,
 
 145
-00:06:37,340 --> 00:06:39,380
-aplaudint que un nen de 12 anys
+00:05:15,460 --> 00:05:17,480
+és demolidora. Menys
 
 146
-00:06:39,380 --> 00:06:41,100
-s'inicii a les xarxes.
+00:05:17,480 --> 00:05:19,720
+d'un 0,5% dels canals
 
 147
-00:06:41,640 --> 00:06:42,160
-I de l'altra,
+00:05:19,720 --> 00:05:21,580
+arriben a aquests 100.000 subscriptors.
 
 148
-00:06:42,640 --> 00:06:43,960
-la comunitat internacional
+00:05:21,840 --> 00:05:23,620
+Déu-n'hi-do, eh? 0,5?
 
 149
-00:06:43,960 --> 00:06:45,820
-està prement el botó d'emergència.
-
-150
-00:06:46,140 --> 00:06:47,100
-Ja ho pots ben dir.
-
-151
-00:06:47,500 --> 00:06:50,280
-Alguns països ho estan prohibint directament, oi?
-
-152
-00:06:50,280 --> 00:06:50,620
+00:05:24,280 --> 00:05:24,480
 Sí.
 
+150
+00:05:24,980 --> 00:05:27,420
+Estem agafant una anomalia estadística extrema
+
+151
+00:05:27,420 --> 00:05:29,760
+i l'estem presentant en una revista municipal
+
+152
+00:05:29,760 --> 00:05:31,620
+com una carrera professional viable
+
 153
-00:06:51,420 --> 00:06:54,380
-A Austràlia han tirat endavant una llei pionera
+00:05:31,620 --> 00:05:32,920
+i desitjable. Sí.
 
 154
-00:06:54,380 --> 00:06:56,160
-que prohibeix l'accés a les xarxes
+00:05:33,680 --> 00:05:35,740
+L'anomenat viatge de supervivència.
 
 155
-00:06:56,160 --> 00:06:57,680
-als menors de 16 anys.
+00:05:36,300 --> 00:05:37,580
+O sigui, t'ensenyen
 
 156
-00:06:57,920 --> 00:06:58,800
-16 anys.
+00:05:37,580 --> 00:05:39,560
+el que guanya la loteria i t'amaguen
 
 157
-00:06:59,280 --> 00:07:01,040
-I multen les plataformes, no?
+00:05:39,560 --> 00:05:42,100
+a los milions de persones que s'hi han arruïnat.
 
 158
-00:07:01,200 --> 00:07:02,580
-Amb multes milionàries.
+00:05:42,500 --> 00:05:43,740
+O, en aquest cas concret,
 
 159
-00:07:03,120 --> 00:07:05,480
-França ho ha restringit per sota dels 15 anys
+00:05:43,840 --> 00:05:45,300
+que han perdut la salut mental.
 
 160
-00:07:05,480 --> 00:07:08,080
-amb consentiment patern obligatori
+00:05:45,600 --> 00:05:47,200
+Exactament. I el que amaguen
 
 161
-00:07:08,080 --> 00:07:09,820
-que entra en vigor aquest setembre.
+00:05:47,200 --> 00:05:49,220
+és el com ho fan. Perquè YouTube
 
 162
-00:07:09,940 --> 00:07:11,240
-I aquí a l'estat espanyol?
+00:05:49,220 --> 00:05:51,360
+o Instagram no són un pati d'escola
 
 163
-00:07:11,340 --> 00:07:13,260
-S'està tramitant un avantprojecte de llei
+00:05:51,360 --> 00:05:53,280
+digital innocent. Són motors
 
 164
-00:07:13,260 --> 00:07:15,960
-precisament per elevar l'edat mínima fins als 16 anys.
+00:05:53,280 --> 00:05:54,700
+d'enginyeria del comportament.
 
 165
-00:07:16,080 --> 00:07:17,720
-O sigui, l'Ajuntament
+00:05:54,980 --> 00:05:56,520
+Totalment dissenyats per enganxar-te.
 
 166
-00:07:17,720 --> 00:07:19,760
-loa com un model d'èxit
+00:05:56,760 --> 00:06:00,040
+Clar. L'arquitectura d'aquestes xarxes
 
 167
-00:07:19,760 --> 00:07:20,760
-allò que els governs
+00:06:00,040 --> 00:06:01,760
+utilitza mecanismes com
 
 168
-00:07:21,420 --> 00:07:23,280
-volen prohibir per llei
+00:06:01,760 --> 00:06:03,460
+la reproducció automàtica,
 
 169
-00:07:23,280 --> 00:07:24,920
-perquè ho consideren un perill.
+00:06:03,980 --> 00:06:05,160
+l'escroll infinit,
 
 170
-00:07:25,320 --> 00:07:26,880
-És una paradoxa brutal.
+00:06:05,440 --> 00:06:07,480
+les recompenses variables...
 
 171
-00:07:27,320 --> 00:07:29,240
-I atenció, perquè hi ha un detall
+00:06:07,480 --> 00:06:09,420
+És exactament la mateixa lògica
 
 172
-00:07:29,240 --> 00:07:31,820
-d'aquesta entrevista que crida moltíssim l'atenció
+00:06:09,420 --> 00:06:11,460
+neurològica que una màquina a escurabutxaques.
 
 173
-00:07:31,820 --> 00:07:34,120
-i que sembla que se'ls va passar per alt
+00:06:11,600 --> 00:06:13,540
+I un nen de 12 anys té l'escorça
 
 174
-00:07:34,120 --> 00:07:35,260
-l'equip de la revista.
+00:06:13,540 --> 00:06:15,200
+prefrontal en ple desenvolupament.
 
 175
-00:07:35,880 --> 00:07:36,420
-Quin detall?
+00:06:15,320 --> 00:06:17,200
+Que és la part del cervell que controla
 
 176
-00:07:36,960 --> 00:07:39,080
-En un moment donat, el noi explica
+00:06:17,200 --> 00:06:19,320
+la impulsivitat, oi? Exacte.
 
 177
-00:07:39,080 --> 00:07:41,160
-que YouTube li va tancar el seu primer canal
+00:06:19,420 --> 00:06:20,340
+La presa de decisions.
 
 178
-00:07:41,160 --> 00:07:43,000
-i confessa literalment
+00:06:21,020 --> 00:06:22,700
+No tenen la capacitat biològica
 
 179
-00:07:43,000 --> 00:07:44,460
-que no sap per què.
+00:06:22,700 --> 00:06:24,380
+d'aturar aquest estímul constant.
 
 180
-00:07:44,820 --> 00:07:47,380
-Ostres, això està publicat tal qual?
+00:06:24,980 --> 00:06:27,260
+I l'Ajuntament, en lloc de protegir-los,
 
 181
-00:07:47,700 --> 00:07:48,260
-Tal qual.
+00:06:27,420 --> 00:06:28,740
+els posa com a exemple a seguir.
 
 182
-00:07:48,260 --> 00:07:51,380
-I clar, si analitzem això amb legislació actual,
+00:06:29,640 --> 00:06:31,560
+I, esperar, deixa'm afegir una cosa
 
 183
-00:07:51,420 --> 00:07:52,760
-la resposta és més que evident.
+00:06:31,560 --> 00:06:33,720
+perquè per a mi la ironia suprema d'aquest cas
 
 184
-00:07:52,920 --> 00:07:54,560
-La llei de protecció de dades.
+00:06:33,720 --> 00:06:34,860
+és legal.
 
 185
-00:07:54,820 --> 00:07:55,420
-Exacte.
+00:06:35,760 --> 00:06:37,700
+Coneixes la carta que va enviar la plataforma
 
 186
-00:07:55,840 --> 00:07:58,200
-Les normatives, com l'RGPD a Europa
+00:06:37,700 --> 00:06:39,260
+a Xecalcap sobre això?
 
 187
-00:07:58,200 --> 00:08:00,420
-o la llei COPA als Estats Units,
+00:06:39,400 --> 00:06:41,320
+Ostres, sí. És un dels punts
 
 188
-00:08:00,940 --> 00:08:02,240
-prohibeixen les contes
+00:06:41,320 --> 00:06:43,400
+més reveladors i gairebé còmics
 
 189
-00:08:02,240 --> 00:08:04,020
-a menors de 13 o 14 anys
+00:06:43,400 --> 00:06:44,540
+de tota aquesta història.
 
 190
-00:08:04,020 --> 00:08:05,620
-sense consentiment patern.
+00:06:44,960 --> 00:06:47,480
+Doncs en aquesta denúncia assenyalen un detall
 
 191
-00:08:05,700 --> 00:08:07,640
-Si el noi va començar als 12 anys?
+00:06:47,480 --> 00:06:49,040
+que surt escrit al mateix article.
 
 192
-00:08:07,980 --> 00:08:10,240
-Doncs és altament probable que YouTube
+00:06:49,560 --> 00:06:51,560
+El noi explica que YouTube li va tancar
 
 193
-00:08:10,240 --> 00:08:12,200
-li tanqués el conte per vulnerar
+00:06:51,560 --> 00:06:53,820
+el compte original i diu literalment
 
 194
-00:08:12,200 --> 00:08:14,360
-les normes i la llei infantil.
+00:06:53,820 --> 00:06:54,740
+que no sap per què.
 
 195
-00:08:14,920 --> 00:08:17,000
-És sorprenent que la publicació oficial
+00:06:54,980 --> 00:06:55,820
+Increïble.
 
 196
-00:08:17,000 --> 00:08:18,660
-reprodueixi aquesta anècdota
+00:06:56,280 --> 00:06:57,720
+La resposta és cristal·lina
 
 197
-00:08:18,660 --> 00:08:20,160
-sense aportar el context legal.
+00:06:57,720 --> 00:06:59,060
+per a qualsevol que hagi llegit
 
 198
-00:08:20,160 --> 00:08:21,220
-De nota,
+00:06:59,060 --> 00:07:00,940
+les condicions d'ús de la plataforma.
 
 199
-00:08:21,220 --> 00:08:23,220
-hi ha una falta de profunditat bastant greu.
+00:07:01,740 --> 00:07:03,780
+Les lleis internacionals prohibeixen
 
 200
-00:08:23,700 --> 00:08:26,020
-Però, a més d'això,
+00:07:03,780 --> 00:07:05,420
+que els menors de 13 anys tinguin
 
 201
-00:08:26,460 --> 00:08:28,140
-hi ha un altre element molt nociu
+00:07:05,420 --> 00:07:07,020
+un compte de xarxes socials
 
 202
-00:08:28,140 --> 00:08:29,040
-en aquest article.
+00:07:07,020 --> 00:07:08,560
+per a protegir les seves dates.
 
 203
-00:08:29,280 --> 00:08:30,560
-A quin et refereixes?
+00:07:09,380 --> 00:07:11,520
+Ni tan sols amb el consentiment dels pares.
 
 204
-00:08:30,760 --> 00:08:32,580
-A la validació del migatge de l'èxit.
+00:07:11,920 --> 00:07:13,800
+Clar, YouTube li va tancar el compte
 
 205
-00:08:32,800 --> 00:08:34,660
-Clar, vendre que tothom hi pot arribar.
+00:07:13,800 --> 00:07:15,540
+simplement per complir la llei.
 
 206
-00:08:34,840 --> 00:08:35,500
-Això mateix.
+00:07:15,880 --> 00:07:17,320
+I aquí tenim l'alcalde de Tiana
 
 207
-00:08:36,240 --> 00:08:37,940
-L'article construeix una narrativa
+00:07:17,320 --> 00:07:19,620
+actuant com a editora en cap d'una revista
 
 208
-00:08:37,940 --> 00:08:39,960
-on sembla que l'esforç de les xarxes
+00:07:19,620 --> 00:07:21,380
+que paguem amb els nostres impostos,
 
 209
-00:08:39,960 --> 00:08:41,820
-porta directament a la fama
+00:07:21,760 --> 00:07:23,940
+aplaudint i fent promoció d'una il·legalitat.
 
 210
-00:08:41,820 --> 00:08:43,000
-i als 100.000 seguidors.
+00:07:24,400 --> 00:07:24,940
+És fort, eh?
 
 211
-00:08:43,520 --> 00:08:45,320
-Però les dades reals de la indústria
+00:07:24,980 --> 00:07:27,580
+La meva tesi sobre la governança estructural.
 
 212
-00:08:45,320 --> 00:08:47,600
-desmunten aquesta il·lusió per complet.
+00:07:27,860 --> 00:07:29,380
+A veure, elabora això.
 
 213
-00:08:47,600 --> 00:08:49,840
-Com de difícil són aquestes xifres?
+00:07:29,600 --> 00:07:31,320
+Això no és només incompetència
 
 214
-00:08:50,000 --> 00:08:50,360
-Molt.
+00:07:31,320 --> 00:07:33,600
+de qui revisa els textos abans d'imprimir,
 
 215
-00:08:50,360 --> 00:08:54,200
-Només un 0,5% de tots els canals de YouTube
+00:07:33,960 --> 00:07:34,340
+que també.
 
 216
-00:08:54,200 --> 00:08:54,980
-a nivell global
+00:07:35,140 --> 00:07:36,920
+És un reflex d'una administració
 
 217
-00:08:54,980 --> 00:08:57,060
-arriben als 100.000 subscriptors.
+00:07:36,920 --> 00:07:38,700
+que opera en sitges aïllades,
 
 218
-00:08:57,620 --> 00:08:58,160
-I atenció,
+00:07:39,040 --> 00:07:41,560
+on la mà esquerra no sap què fa la dreta.
 
 219
-00:08:58,520 --> 00:09:00,180
-el 88% dels vídeos
+00:07:42,300 --> 00:07:44,020
+Fixa't en l'esforç titànic
 
 220
-00:09:00,180 --> 00:09:02,460
-no arriben ni a 1.000 visualitzacions.
+00:07:44,020 --> 00:07:45,880
+que està fent el mateix municipi
 
 221
-00:09:02,580 --> 00:09:03,460
-L'article està agafant
+00:07:45,880 --> 00:07:47,420
+en altres àmbits educatius.
 
 222
-00:09:03,460 --> 00:09:05,460
-una anomalia estadística extrema
+00:07:47,980 --> 00:07:50,120
+Pensa en l'escola Lola Anglada de Tiana.
 
 223
-00:09:05,460 --> 00:09:07,740
-i la ven gairebé com un model a seguir.
+00:07:50,260 --> 00:07:52,320
+Ah, cert, el tema dels mòbils a l'escola.
 
 224
-00:09:08,440 --> 00:09:09,820
-Per cada cas que funciona,
-
-225
-00:09:10,200 --> 00:09:11,620
-hi ha milers d'adolescents
-
-226
-00:09:11,620 --> 00:09:13,700
-invertint hores i hores davant d'una pantalla.
-
-227
-00:09:14,180 --> 00:09:16,000
-Hores que no dediquen a estudiar,
-
-228
-00:09:16,000 --> 00:09:18,280
-a dormir o estar a l'aire lliure.
-
-229
-00:09:18,840 --> 00:09:19,740
-I moltes vegades,
-
-230
-00:09:19,740 --> 00:09:21,680
-acaben xocant contra un mur
-
-231
-00:09:21,680 --> 00:09:23,100
-i no obtenen res.
-
-232
-00:09:23,560 --> 00:09:25,100
-Això és justament el que assenyalen
-
-233
-00:09:25,100 --> 00:09:26,560
-des d'associacions de famílies,
-
-234
-00:09:26,720 --> 00:09:27,980
-com a AG Calcap, oi?
-
-235
-00:09:28,200 --> 00:09:30,960
-Sí. Ells han reaccionat posant sobre la taula
-
-236
-00:09:30,960 --> 00:09:33,800
-els costos ocults d'aquesta exposició digital.
-
-237
-00:09:34,460 --> 00:09:35,660
-I els col·lectius mèdics
-
-238
-00:09:35,660 --> 00:09:37,340
-encara són més contundents.
-
-239
-00:09:37,540 --> 00:09:39,040
-El Col·legi de Metges, per exemple.
-
-240
-00:09:39,380 --> 00:09:41,060
-El COM fa temps que avisa,
-
-241
-00:09:41,600 --> 00:09:43,600
-enviant recomanacions a escoles de tot arreu,
-
-242
-00:09:43,940 --> 00:09:44,860
-també aquí a Tiana.
-
-243
-00:09:45,360 --> 00:09:46,840
-El missatge és que els mòbils
-
-244
-00:09:46,840 --> 00:09:49,580
-no haurien de tenir cap presència primària,
-
-245
-00:09:49,740 --> 00:09:51,040
-ni amagats a la motxilla.
-
-246
-00:09:51,280 --> 00:09:52,140
-Cap ni una.
-
-247
-00:09:52,640 --> 00:09:55,240
-I el motiu científic d'això són els anomenats
-
-248
-00:09:55,240 --> 00:09:57,680
-patrons foscos, els dark patterns.
-
-249
-00:09:58,240 --> 00:09:58,800
+00:07:52,700 --> 00:07:53,220
 Exacte.
 
+225
+00:07:53,680 --> 00:07:54,960
+El Col·legi de Metges de Barcelona,
+
+226
+00:07:54,980 --> 00:07:56,280
+el COMP,
+
+227
+00:07:56,720 --> 00:07:59,120
+ha enviat recomanacions específiques
+
+228
+00:07:59,120 --> 00:08:01,140
+molt dures a la comunitat educativa
+
+229
+00:08:01,140 --> 00:08:02,740
+advertint que els mòbils
+
+230
+00:08:02,740 --> 00:08:05,060
+ni tan sols haurien d'estar desats
+
+231
+00:08:05,060 --> 00:08:06,740
+dins les motxilles dels alumnes.
+
+232
+00:08:07,000 --> 00:08:09,240
+Una recomanació super estricta, la veritat.
+
+233
+00:08:09,400 --> 00:08:11,320
+Però cal entendre per què és tan estricta.
+
+234
+00:08:11,760 --> 00:08:13,380
+Els neuròlegs adverteixen
+
+235
+00:08:13,380 --> 00:08:15,060
+que la simple presència física
+
+236
+00:08:15,060 --> 00:08:16,380
+del telèfon a la motxilla
+
+237
+00:08:16,380 --> 00:08:18,980
+ja genera allò que anomenen fatiga cognitiva.
+
+238
+00:08:19,940 --> 00:08:21,580
+Perquè el cervell sap
+
+239
+00:08:21,580 --> 00:08:22,140
+que és allà.
+
+240
+00:08:22,140 --> 00:08:23,140
+Això mateix.
+
+241
+00:08:23,560 --> 00:08:24,640
+L'infant sap que el distrusitivisme
+
+242
+00:08:24,980 --> 00:08:26,500
+és allà i ha de gastar
+
+243
+00:08:26,500 --> 00:08:28,540
+energia mental constantment
+
+244
+00:08:28,540 --> 00:08:30,460
+per resistir l'impuls de mirar-lo,
+
+245
+00:08:30,960 --> 00:08:32,320
+de veure si té modificacions.
+
+246
+00:08:32,780 --> 00:08:35,080
+I això redueix la capacitat de concentració
+
+247
+00:08:35,080 --> 00:08:36,220
+encara que el mòbil
+
+248
+00:08:36,220 --> 00:08:37,900
+estigui apagat i guardat.
+
+249
+00:08:38,460 --> 00:08:40,340
+Llavors tenim metges, mestres
+
 250
-00:09:59,020 --> 00:10:00,940
-Aquest és el cor del problema mèdic.
+00:08:40,340 --> 00:08:42,640
+i famílies de Tiana fent mans
 
 251
-00:10:01,200 --> 00:10:03,780
-Podries explicar una mica què són aquests patrons?
+00:08:42,640 --> 00:08:44,700
+i mànigues per crear entorns lliures
 
 252
-00:10:04,380 --> 00:10:05,680
-Perquè de vegades pensem
+00:08:44,700 --> 00:08:46,960
+de pantalles. I què fa l'Ajuntament?
 
 253
-00:10:05,680 --> 00:10:07,600
-en les pantalles com si fos veure la tele
+00:08:47,140 --> 00:08:48,540
+Publicar una contraportada
 
 254
-00:10:07,600 --> 00:10:09,460
-de tota la vida, i no té res a veure.
+00:08:48,540 --> 00:08:49,240
+glorificando.
 
 255
-00:10:09,740 --> 00:10:11,400
-És completament diferent.
+00:08:49,240 --> 00:08:51,960
+Exacte. Gastes els recursos públics
 
 256
-00:10:11,820 --> 00:10:13,260
-Per entendre-ho, hem d'imaginar
+00:08:51,960 --> 00:08:53,520
+en una revista que dinamita
 
 257
-00:10:13,260 --> 00:10:15,040
-una màquina escorrebotxaques.
+00:08:53,520 --> 00:08:54,520
+tot aquest esforç.
 
 258
-00:10:15,240 --> 00:10:15,920
-D'un casino.
+00:08:54,980 --> 00:08:57,140
+I això passa perquè la revista és un òrgan
 
 259
-00:10:16,120 --> 00:10:19,680
-A l'Scroll Infinite a Instagram o a l'Autoplay de YouTube,
+00:08:57,140 --> 00:08:58,620
+de propaganda aïllat del govern,
 
 260
-00:10:19,740 --> 00:10:21,060
-no són casualitats,
+00:08:59,060 --> 00:09:01,180
+no un servei d'informació connectat
 
 261
-00:10:21,540 --> 00:10:24,020
-són dissenys creats per mantenir-te connectat.
+00:09:01,180 --> 00:09:02,960
+a les polítiques de salut o educació
 
 262
-00:10:24,800 --> 00:10:26,260
-Cada vegada que apareix un vídeo nou,
+00:09:02,960 --> 00:09:04,260
+del propi poble.
 
 263
-00:10:26,580 --> 00:10:27,800
-el teu cervell allibera
+00:09:04,480 --> 00:09:07,420
+Aquest mini-estimament del consens mèdic i educatiu
 
 264
-00:10:27,800 --> 00:10:29,060
-un petit pic de dopamina.
+00:09:07,420 --> 00:09:09,560
+no és un accident aïllat, jo hi veig un patró.
 
 265
-00:10:29,520 --> 00:10:31,100
-Espera en una recompensa, clar.
+00:09:10,100 --> 00:09:11,840
+És exactament del mateix filtratge
 
 266
-00:10:31,260 --> 00:10:33,680
-Sí. En un adult ja genera dependència,
+00:09:11,840 --> 00:09:13,580
+editorial que fa servir el govern
 
 267
-00:10:33,900 --> 00:10:35,320
-imagina't en un nen de 12 anys
+00:09:13,580 --> 00:09:15,820
+per manipular la realitat social
 
 268
-00:10:35,320 --> 00:10:37,280
-que encara té l'escorça prefrontal
+00:09:15,820 --> 00:09:17,960
+i silenciar qualsevol veu dissident.
 
 269
-00:10:37,280 --> 00:10:38,740
-en ple procés de maduració.
+00:09:17,960 --> 00:09:20,200
+Sí, sí. Alterar la realitat
 
 270
-00:10:39,300 --> 00:10:41,060
-És la part del cervell de l'autocontrol.
+00:09:20,200 --> 00:09:21,980
+per fer-la encaixar en el seu relat.
 
 271
-00:10:41,300 --> 00:10:44,100
-O sigui, se'l segresta a capacitat de regular l'impuls.
+00:09:22,340 --> 00:09:24,460
+I això ens porta de ple al nostre següent
 
 272
-00:10:44,400 --> 00:10:46,120
-L'Associació Espanyola de Pediatria
+00:09:24,460 --> 00:09:24,960
+gran punt.
 
 273
-00:10:46,120 --> 00:10:47,740
-lliga directament aquesta sobreestimulació
+00:09:24,980 --> 00:09:25,740
+Un punt de debat, eh?
 
 274
-00:10:47,740 --> 00:10:49,720
-a increments de la seva capacitat
+00:09:26,100 --> 00:09:28,120
+L'historial de manipulació de la revista
 
 275
-00:10:49,720 --> 00:10:51,600
-de trastorns d'atenció, de son
+00:09:28,120 --> 00:09:30,320
+Plaça de la Vila. Si recordes,
 
 276
-00:10:51,600 --> 00:10:53,000
-i d'ansietat infantil.
+00:09:30,500 --> 00:09:32,360
+en el primer programa que vam fer aquí al debat,
 
 277
-00:10:53,260 --> 00:10:55,760
-Amb totes aquestes dades mèdiques a l'abast,
+00:09:32,740 --> 00:09:35,140
+ja vam analitzar el cas dels pisos de Calç Frares.
 
 278
-00:10:56,160 --> 00:10:58,200
-resulta desconcertant que una eina municipal
+00:09:35,760 --> 00:09:37,200
+Allà vam veure com operava
 
 279
-00:10:58,200 --> 00:11:00,020
-no difongui campanyes de prevenció,
+00:09:37,200 --> 00:09:38,480
+realment aquesta màquina.
 
 280
-00:11:00,160 --> 00:11:01,500
-sinó que allogui l'èxit
+00:09:38,960 --> 00:09:41,340
+Un exemple de manual, certament,
 
 281
-00:11:01,500 --> 00:11:02,840
-dins d'aquesta maquinària.
+00:09:41,700 --> 00:09:43,260
+de com s'utilitza la premsa
 
 282
-00:11:03,280 --> 00:11:05,240
-I aquesta manca de protecció en cal això que més
+00:09:43,260 --> 00:09:44,920
+institucional per crear
 
 283
-00:11:05,240 --> 00:11:07,180
-quan ho lliguem amb el que passava a l'Ajuntament
+00:09:44,920 --> 00:09:46,480
+la falsa sensació de consens.
 
 284
-00:11:07,180 --> 00:11:08,180
-aquells mateixos dies.
+00:09:46,820 --> 00:09:49,300
+Un escàndol en totes regles, si m'ho preguntes a mi.
 
 285
-00:11:08,720 --> 00:11:10,600
-Això ens porta al ple del 3 de març.
+00:09:49,700 --> 00:09:50,260
+Recordem-ho.
 
 286
-00:11:10,800 --> 00:11:13,160
-Ostres, sí, aquí hi ha una connexió crucial
+00:09:50,640 --> 00:09:52,840
+El president de l'associació veïnal de Can Galleta
 
 287
-00:11:13,160 --> 00:11:15,280
-amb el Dia de la Dona, el 8 de març.
+00:09:52,840 --> 00:09:54,620
+va fer una intervenció al CAUT,
 
 288
-00:11:15,520 --> 00:11:17,300
-Durant aquell ple, el torn obert,
+00:09:54,980 --> 00:09:55,840
+Consell d'Urbanisme.
 
 289
-00:11:17,300 --> 00:11:18,820
-una veïna va demanar la paraula.
+00:09:56,300 --> 00:09:58,680
+Va fer una exposició supertècnica i articulada.
 
 290
-00:11:19,120 --> 00:11:19,640
-Per expressar
+00:09:59,160 --> 00:10:00,520
+Va qüestionar frontalment
 
 291
-00:11:19,640 --> 00:11:20,800
-una queixa, oi? Sí.
+00:10:00,520 --> 00:10:02,620
+la cessió de terrenys a l'àrea metropolitana.
 
 292
-00:11:21,320 --> 00:11:23,280
-Va recriminar l'equip de govern que no s'hagués
+00:10:03,140 --> 00:10:04,580
+Va portar dades sobre l'efecte
 
 293
-00:11:23,280 --> 00:11:24,920
-programat cap acte institucional
+00:10:04,580 --> 00:10:06,880
+illa de calor. Va alertar que l'asfalt
 
 294
-00:11:24,920 --> 00:11:27,220
-per commemorar el 8 de març precisament
+00:10:06,880 --> 00:10:08,840
+podria arribar a 57 graus.
 
 295
-00:11:27,220 --> 00:11:29,160
-del mateix dia 8. Ho deia
+00:10:09,380 --> 00:10:11,240
+I advertia del perill de convertir
 
 296
-00:11:29,160 --> 00:11:30,580
-com un compromís ineludible.
+00:10:11,240 --> 00:10:12,660
+Tiana en un barri dormitori,
 
 297
-00:11:30,940 --> 00:11:33,600
-I aquí col·lidieixen les dues coses.
+00:10:12,780 --> 00:10:13,740
+que no és poca cosa.
 
 298
-00:11:34,240 --> 00:11:35,640
-Se denuncia que el govern
+00:10:14,060 --> 00:10:16,700
+Exacte. Era una esmena a la totalitat
 
 299
-00:11:35,640 --> 00:11:37,080
-descuida el Dia de la Dona
+00:10:16,700 --> 00:10:18,880
+del model de governança i del projecte.
 
 300
-00:11:37,080 --> 00:11:39,140
-a l'hora que promou les xarxes socials
+00:10:19,840 --> 00:10:21,000
+I què va publicar la revista?
 
 301
-00:11:39,140 --> 00:11:41,620
-a la seva revista. I quin és l'enllaç
+00:10:21,300 --> 00:10:23,020
+Bueno, agafant el seu discurs,
 
 302
-00:11:41,620 --> 00:11:43,320
-aquí? Doncs que tots els
+00:10:23,020 --> 00:10:24,140
+l'esmicolent,
 
 303
-00:11:43,320 --> 00:11:44,800
-informes internacionals,
+00:10:24,980 --> 00:10:27,320
+textualitzen completament i publiquen
 
 304
-00:11:44,800 --> 00:11:47,120
-des d'UNICEF fins als estudis
+00:10:27,320 --> 00:10:29,460
+que el president només demanava incorporar
 
 305
-00:11:47,120 --> 00:11:48,520
-clínics de salut mental,
+00:10:29,460 --> 00:10:31,580
+equipaments per donar vida a l'àrea.
 
 306
-00:11:49,040 --> 00:11:49,520
-apunten
+00:10:31,900 --> 00:10:34,180
+Clar. Un rentat d'imatge absolut.
 
 307
-00:11:49,520 --> 00:11:51,380
-sistemàticament que les noies
+00:10:34,520 --> 00:10:35,920
+Van transformar una crítica
 
 308
-00:11:51,380 --> 00:11:53,820
-adolescents són les principals perjudicades
+00:10:35,920 --> 00:10:37,220
+estructural profunda
 
 309
-00:11:53,820 --> 00:11:55,620
-pels algoritmes d'aquestes xarxes.
+00:10:37,220 --> 00:10:39,640
+en un suposat aplaudiment
 
 310
-00:11:55,940 --> 00:11:57,560
-Totalment. Estem parlant
+00:10:39,640 --> 00:10:41,740
+veïnal amb quatre suggeriments menors.
 
 311
-00:11:57,560 --> 00:11:59,600
-d'epidèmies de falsa imatge corporal,
+00:10:42,340 --> 00:10:43,280
+És que és fortíssim.
 
 312
-00:11:59,820 --> 00:12:02,140
-dismòrfia, trastorns alimentaris,
+00:10:43,420 --> 00:10:45,500
+I jo et dono tota la raó sobre els fets.
 
 313
-00:12:02,400 --> 00:12:04,040
-nivells disparats d'ansietat,
+00:10:45,700 --> 00:10:46,540
+Són innegables.
 
 314
-00:12:04,460 --> 00:12:05,660
-ciberassetjament...
+00:10:47,180 --> 00:10:49,520
+Però torno a insistir en la causa de fons.
 
 315
-00:12:05,660 --> 00:12:07,600
-I tot això afecta d'una manera
+00:10:49,900 --> 00:10:51,980
+Aquesta alteració de les paraules del president
 
 316
-00:12:07,600 --> 00:12:09,820
-absolutament desproporcionada a les nenes
+00:10:51,980 --> 00:10:53,400
+il·lustra exactament
 
 317
-00:12:09,820 --> 00:12:11,600
-i les joves. El contrast és
+00:10:53,400 --> 00:10:54,980
+per què una majoria absoluta
 
 318
-00:12:11,600 --> 00:12:13,840
-duríssim. Es qüestiona la visibilitat
+00:10:54,980 --> 00:10:56,540
+sense control editorial
 
 319
-00:12:13,840 --> 00:12:15,780
-cap a la dona mentre s'aplaudís
+00:10:56,540 --> 00:10:58,360
+és tan tòxica per a un poble.
 
 320
-00:12:15,780 --> 00:12:17,920
-un entorn que està danyant la salut mental
+00:10:59,520 --> 00:11:01,460
+Comences a tractar l'eina de comunicació
 
 321
-00:12:17,920 --> 00:12:19,580
-de les noves generacions de noies.
+00:11:01,460 --> 00:11:02,520
+de tots els ciutadans
 
 322
-00:12:20,100 --> 00:12:22,020
-Aquesta reflexió sobre la coherència
+00:11:02,520 --> 00:11:05,500
+com si fos un simple butlletí intern al teu partit.
 
 323
-00:12:22,020 --> 00:12:23,860
-política va estar molt present
+00:11:06,200 --> 00:11:07,740
+El problema d'agafar la intervenció
 
 324
-00:12:23,860 --> 00:12:25,880
-al ple, de fet. La revista va deixar
+00:11:07,740 --> 00:11:09,600
+de calçfrares i retallar-la
 
 325
-00:12:25,880 --> 00:12:27,700
-de ser un tema de disseny per ser
+00:11:09,600 --> 00:11:11,340
+per fer veure que us dona suport
 
 326
-00:12:27,700 --> 00:12:29,340
-un camp de batalla. Això
+00:11:11,340 --> 00:11:14,580
+no és un simple error periodístic.
 
 327
-00:12:29,340 --> 00:12:31,960
-m'interessa. Entrem en el
+00:11:15,060 --> 00:11:16,300
+És un acte calculat
 
 328
-00:12:31,960 --> 00:12:34,040
-ple, perquè en política local
+00:11:16,300 --> 00:11:17,800
+d'autoconservació política.
 
 329
-00:12:34,040 --> 00:12:36,320
-escoltar l'oposició
+00:11:18,080 --> 00:11:19,340
+Sí. Saben perfectament
 
 330
-00:12:36,320 --> 00:12:38,040
-és sovint la millor manera
+00:11:19,340 --> 00:11:20,840
+que la gent no llegeix les actes.
 
 331
-00:12:38,040 --> 00:12:39,960
-de detectar els punts secs d'un govern.
+00:11:21,320 --> 00:11:23,440
+Saben que la immensa majoria de ciutadanes
 
 332
-00:12:40,320 --> 00:12:41,840
-I més en majories absolutes.
+00:11:23,440 --> 00:11:24,960
+no llegiran les actes del cap.
 
 333
-00:12:42,120 --> 00:12:43,960
-Exacte. Què van dir
+00:11:24,980 --> 00:11:27,120
+Així que la revista es converteix
 
 334
-00:12:43,960 --> 00:12:46,080
-exactament sobre aquest assumpte de la revista?
+00:11:27,120 --> 00:11:28,780
+en l'única veritat oficial.
 
 335
-00:12:46,440 --> 00:12:47,800
-Doncs el malestar era
+00:11:29,020 --> 00:11:30,680
+Una veritat oficial construïda
 
 336
-00:12:47,920 --> 00:12:49,740
-generalitzat. Començant per
+00:11:30,680 --> 00:11:32,060
+a base de pura impunitat.
 
 337
-00:12:49,740 --> 00:12:51,840
-ERC, l'Àlex Van Boven va anar
+00:11:32,240 --> 00:11:34,420
+I va quedar meridianament clara
 
 338
-00:12:51,840 --> 00:12:54,040
-molt fort. Què va argumentar?
+00:11:34,420 --> 00:11:36,680
+en molt pocs dies en el ple municipal
 
 339
-00:12:54,220 --> 00:12:55,800
-Va agafar el mateix eslògan del govern.
+00:11:36,680 --> 00:11:37,580
+del 3 de març.
 
 340
-00:12:56,200 --> 00:12:57,100
-Aquell que diuen de
+00:11:38,180 --> 00:11:39,920
+Crec que hauríem d'analitzar què s'hi va dir
 
 341
-00:12:57,100 --> 00:12:59,680
-treballem sense soroll. I els
+00:11:39,920 --> 00:11:43,240
+perquè poques vegades es veu tan cruament
 
 342
-00:12:59,680 --> 00:13:01,760
-el va girar, dient que potser
+00:11:43,240 --> 00:11:44,980
+com funciona aquest mur institucional
 
 343
-00:13:01,760 --> 00:13:03,920
-no fan soroll perquè no es treballa.
+00:11:45,720 --> 00:11:46,520
+des de dins.
 
 344
-00:13:04,120 --> 00:13:05,860
-Caram! Però el més dur
+00:11:47,020 --> 00:11:48,160
+Doncs analitzem-ho
 
 345
-00:13:05,860 --> 00:13:07,960
-va ser quan va assenyalar directament l'alcalde.
+00:11:48,160 --> 00:11:50,060
+perquè els representants de l'oposició
 
 346
-00:13:08,640 --> 00:13:09,660
-Li va recordar que ell
+00:11:50,060 --> 00:11:51,360
+no es van mossegar la llengua
 
 347
-00:13:09,660 --> 00:13:11,520
-és l'editor en cap de la revista.
+00:11:51,360 --> 00:11:53,080
+i van destapar les vergonyes
 
 348
-00:13:12,100 --> 00:13:13,740
-I el va fer responsable d'haver
+00:11:53,080 --> 00:11:53,920
+d'aquesta dinàmica.
 
 349
-00:13:13,740 --> 00:13:15,480
-validat un article que ignora
+00:11:54,980 --> 00:12:02,860
+El que va denunciar la regidora Torres
 
 350
-00:13:15,480 --> 00:13:17,700
-les recomanacions mèdiques. I ho va
+00:12:02,860 --> 00:12:04,720
+és la mecànica clàssica
 
 351
-00:13:17,700 --> 00:13:19,780
-qualificar de greu problema de salut
+00:12:04,720 --> 00:12:06,560
+de la censura de baixa intensitat.
 
 352
-00:13:19,780 --> 00:13:21,900
-pública. Una crítica molt frontal.
+00:12:07,200 --> 00:12:08,540
+Va explicar com els articles
 
 353
-00:13:22,140 --> 00:13:23,760
-Vull dir, va directament als valors de la
+00:12:08,540 --> 00:12:10,400
+de l'oposició són retallats
 
 354
-00:13:23,760 --> 00:13:25,860
-publicació. I les queixes no van
+00:12:10,400 --> 00:12:12,220
+sistemàticament i censurats.
 
 355
-00:13:25,860 --> 00:13:27,760
-acabar aquí. El grup de Junts
+00:12:12,880 --> 00:12:14,360
+I saps quina és l'excusa oficial
 
 356
-00:13:27,760 --> 00:13:29,760
-per Catalunya va destapar pràctiques
+00:12:14,360 --> 00:12:16,080
+del govern? La maquetació.
 
 357
-00:13:29,760 --> 00:13:31,720
-internes molt qüestionables.
+00:12:16,420 --> 00:12:18,460
+Els diuen literalment que no hi caben
 
 358
-00:13:32,260 --> 00:13:33,580
-Manca de transparència.
+00:12:18,460 --> 00:12:19,100
+les lletres.
 
 359
-00:13:34,120 --> 00:13:35,440
-La regidora Montse Torres
+00:12:19,100 --> 00:12:21,420
+Sí, home, quina casualitat més oportuna.
 
 360
-00:13:35,440 --> 00:13:37,400
-va denunciar clarament censura
+00:12:21,620 --> 00:12:23,360
+Qualsevol que entengui mínimament
 
 361
-00:13:37,400 --> 00:13:39,880
-i desigualtat en el tracte. Va explicar
+00:12:23,360 --> 00:12:24,960
+com es dissenya una publicació,
 
 362
-00:13:39,880 --> 00:13:41,480
-que els grups de l'oposició
+00:12:24,980 --> 00:12:27,420
+sap que això és una excusa barata.
 
 363
-00:13:41,480 --> 00:13:43,620
-els retallen els articles amb l'excusa
+00:12:28,240 --> 00:12:28,980
+Com és possible
 
 364
-00:13:43,620 --> 00:13:45,780
-que falta espai. I realment
+00:12:28,980 --> 00:12:30,640
+que mai hi hagi espai
 
 365
-00:13:45,780 --> 00:13:47,520
-falta espai? Doncs la paradoxa
+00:12:30,640 --> 00:12:32,700
+per als textos crítics de l'oposició
 
 366
-00:13:47,700 --> 00:13:49,820
-és que, malgrat aquesta falta d'espai,
+00:12:32,700 --> 00:12:35,240
+però sempre apareguin
 
 367
-00:13:50,120 --> 00:13:51,780
-la revista troba forat per incloure
+00:12:35,240 --> 00:12:36,720
+gairebé per art de màgia
 
 368
-00:13:51,780 --> 00:13:53,480
-grans fotografies de l'alcalde
+00:12:36,720 --> 00:12:39,200
+espais immensos per a fotografies
 
 369
-00:13:53,480 --> 00:13:55,660
-en esdeveniments que s'han celebrat molt
+00:12:39,200 --> 00:12:41,460
+a tota pàgina de l'alcalde?
 
 370
-00:13:55,660 --> 00:13:58,000
-després del límit d'entrega que els exigeixen
+00:12:41,500 --> 00:12:43,100
+I compta, fotografies d'actes
 
 371
-00:13:58,000 --> 00:13:59,660
-a ells. O sigui, un ús
+00:12:43,100 --> 00:12:44,380
+que de vegades s'han celebrat
 
 372
-00:13:59,660 --> 00:14:01,820
-dels tèrminis asimètric total.
+00:12:44,380 --> 00:12:46,080
+després de la data límit d'entrega
 
 373
-00:14:02,360 --> 00:14:03,540
-I crec que també hi havia
+00:12:46,080 --> 00:12:47,260
+que s'exigeixen els altres.
 
 374
-00:14:03,540 --> 00:14:05,940
-un tema de colors en la maquetació,
+00:12:47,400 --> 00:12:49,980
+Aquesta és la prova de foc.
 
 375
-00:14:06,040 --> 00:14:07,860
-no? Sí, sí. Es queixaven
+00:12:50,540 --> 00:12:51,980
+Si a l'oposició sí que li exigeix
 
 376
-00:14:07,860 --> 00:14:09,840
-que els destacaven frases en color vermell
+00:12:51,980 --> 00:12:53,300
+una data límit estricta,
 
 377
-00:14:09,840 --> 00:14:12,060
-als seus textos sense consultar-lo
+00:12:53,620 --> 00:12:54,960
+però la maquinària de l'Ajuntament,
 
 378
-00:14:12,060 --> 00:14:13,940
-i de manera totalment arbitrària.
+00:12:54,980 --> 00:12:56,600
+pot introduir fotos pròpies
 
 379
-00:14:14,260 --> 00:14:15,920
-Déu-n'hi-do. Per això, Junts
+00:12:56,600 --> 00:12:58,880
+dies més tard redissenyant l'espai
 
 380
-00:14:15,920 --> 00:14:17,420
-va demanar la creació d'un
+00:12:58,880 --> 00:13:00,680
+i eliminant el text dels altres,
 
 381
-00:14:17,420 --> 00:14:19,360
-Consell de Redacció per tenir
+00:13:01,180 --> 00:13:01,880
+això té un nom.
 
 382
-00:14:19,360 --> 00:14:21,760
-criteris igualitaris i recordar
+00:13:02,400 --> 00:13:04,180
+Es diu desigualtat de condicions
 
 383
-00:14:21,760 --> 00:14:23,920
-que les revistes paguen fons públics.
+00:13:04,180 --> 00:13:05,660
+i falta de transparència.
 
 384
-00:14:24,060 --> 00:14:25,480
-I l'altre grup, el PP,
+00:13:06,280 --> 00:13:08,500
+Per això, la regidora Torres va exigir
 
 385
-00:14:25,860 --> 00:14:27,340
-també va dir-li la seva, suposo.
+00:13:08,500 --> 00:13:10,720
+la creació d'un consell de redacció independent.
 
 386
-00:14:27,640 --> 00:14:29,900
-El portaveu del PP, el Diego Parra,
+00:13:11,360 --> 00:13:12,980
+És l'única eina per garantir
 
 387
-00:14:30,840 --> 00:14:31,760
-a banda de queixar-se
+00:13:12,980 --> 00:13:14,980
+que l'espai públic no sigui segrestat.
 
 388
-00:14:31,760 --> 00:14:33,760
-de plagues de rosegadors a Can Mates,
+00:13:15,620 --> 00:13:16,000
+I tant.
 
 389
-00:14:34,180 --> 00:14:35,600
-es va sumar a assenyalar la
+00:13:16,640 --> 00:13:17,940
+I aquest segrest informatiu
 
 390
-00:14:35,600 --> 00:14:37,840
-gran opacitat informativa de l'Ajuntament.
+00:13:17,940 --> 00:13:20,340
+té una conseqüència directa en el dia a dia,
 
 391
-00:14:38,120 --> 00:14:39,340
-Opacitat en quin sentit?
+00:13:20,620 --> 00:13:22,200
+que és la paràlisi de gestió.
 
 392
-00:14:39,460 --> 00:14:41,420
-Amb informacions contradictòries,
+00:13:22,500 --> 00:13:24,340
+Això és precisament el que va denunciar
 
 393
-00:14:41,660 --> 00:14:43,640
-com anunciar projectes importants de nous
+00:13:24,340 --> 00:13:26,400
+el mateix ple al regidor Alejandro Van Bochent.
 
 394
-00:14:43,640 --> 00:14:45,820
-mercats de manera informal per xarxes
+00:13:26,540 --> 00:13:27,900
+El tema de l'eslògan, oi?
 
 395
-00:14:45,820 --> 00:14:48,020
-socials, abans d'explicar-ho bé al ple.
+00:13:28,140 --> 00:13:29,240
+Va ser molt hàbil.
 
 396
-00:14:48,260 --> 00:14:49,700
-Tot això fa una radiografia
+00:13:29,800 --> 00:13:32,440
+Molt. Va agrafar l'eslògan estrella del govern.
 
 397
-00:14:49,700 --> 00:14:51,960
-molt clara de la dinàmica al poble, oi?
+00:13:32,680 --> 00:13:34,480
+Aquesta frase que repeteixen constantment
 
 398
-00:14:52,120 --> 00:14:53,420
-Clar, si suma tot,
+00:13:34,480 --> 00:13:36,840
+a la revista dient que treballen sense soroll.
 
 399
-00:14:53,840 --> 00:14:55,220
-Esquerra, Junts i el PP,
+00:13:37,320 --> 00:13:39,000
+I li va donar la volta completament.
 
 400
-00:14:55,640 --> 00:14:57,360
-apuntant cap a la mateixa direcció,
+00:13:39,640 --> 00:13:40,900
+Ell va descriure la sensació
 
 401
-00:14:57,820 --> 00:14:59,340
-una gestió opaca de la informació.
+00:13:40,900 --> 00:13:43,100
+que s'aspira al carrer, va dir, literalment,
 
 402
-00:14:59,580 --> 00:15:02,080
-És la temptació estructural de qualsevol
+00:13:43,460 --> 00:13:45,380
+que no fan soroll perquè no es treballa.
 
 403
-00:15:02,080 --> 00:15:03,800
-majoria absoluta que no té
+00:13:45,480 --> 00:13:48,020
+Uf, una crítica directa a l'acció del govern.
 
 404
-00:15:03,800 --> 00:15:05,160
-la necessitat d'apectar res.
+00:13:48,220 --> 00:13:48,660
+Totalment.
 
 405
-00:15:05,780 --> 00:15:07,720
-Les revistes i xarxes municipals
+00:13:49,340 --> 00:13:51,060
+Sota tota aquesta estètica impecable
 
 406
-00:15:07,720 --> 00:15:10,220
-passen a ser un altaveu d'una sola direcció.
+00:13:51,060 --> 00:13:51,820
+del paper coixer,
 
 407
-00:15:10,380 --> 00:15:11,940
-I el perill, com veiem
+00:13:51,820 --> 00:13:53,620
+hi ha un buit de gestió enorme.
 
 408
-00:15:11,940 --> 00:15:13,140
-en l'article del Minor,
+00:13:54,340 --> 00:13:55,980
+I el més relevant per al nostre tema d'avui,
 
 409
-00:15:13,140 --> 00:15:15,140
-és que acaben validant missatges
+00:13:56,440 --> 00:13:58,500
+Van Bochent va apuntar directament a l'alcalde.
 
 410
-00:15:15,820 --> 00:15:17,700
-que topen contra els consensos
+00:13:58,900 --> 00:14:00,480
+El va responsabilitzar personalment,
 
 411
-00:15:17,700 --> 00:15:19,020
-mèdics i científics.
+00:14:00,820 --> 00:14:01,900
+com a editor de la revista,
 
 412
-00:15:19,320 --> 00:15:21,600
-Perquè l'Ajuntament té una responsabilitat
+00:14:02,360 --> 00:14:04,100
+de crear un problema de salut pública
 
 413
-00:15:21,600 --> 00:15:22,960
-pedagògica enorme.
+00:14:04,100 --> 00:14:06,000
+promocionant aquest youtuber menor d'edat
 
 414
-00:15:23,540 --> 00:15:25,720
-El que poses a la portada de la teva revista
+00:14:06,000 --> 00:14:07,200
+a partir dels 12 anys.
 
 415
-00:15:25,720 --> 00:15:27,900
-és el que consideres un model d'èxit
+00:14:07,580 --> 00:14:10,460
+Predictòries del govern i la seva enorme opacitat.
 
 416
-00:15:27,900 --> 00:15:29,100
-per a la teva comunitat.
+00:14:11,020 --> 00:14:12,560
+Vull dir, tens tots els espectres
 
 417
-00:15:29,460 --> 00:15:31,920
-Exacte. Llavors, arribats a aquest punt,
+00:14:12,560 --> 00:14:14,480
+de l'oposició assenyalant-ho exactament
 
 418
-00:15:32,140 --> 00:15:33,560
-la conclusió per a qui ens escolti
+00:14:14,480 --> 00:14:15,900
+al mateix patró de funcionament.
 
 419
-00:15:33,560 --> 00:15:35,680
-és molt clara. Cal posar la informació
+00:14:16,400 --> 00:14:18,600
+Quan la teva única eina de comunicació
 
 420
-00:15:35,680 --> 00:15:37,000
-oficial en quarantena.
+00:14:18,600 --> 00:14:20,760
+institucional no admet el contrast
 
 421
-00:15:37,400 --> 00:15:38,800
-Toca contrastar-la sempre.
+00:14:20,760 --> 00:14:22,120
+ni la rectificació,
 
 422
-00:15:39,200 --> 00:15:41,160
-Tant si és sobre uns pisos a Calçfrares
+00:14:22,560 --> 00:14:24,140
+t'acabes creient les teves pròpies
 
 423
-00:15:41,160 --> 00:15:43,460
-com si és una entrevista a un jove youtuber.
+00:14:24,340 --> 00:14:25,740
+campanyes de relacions públiques.
 
 424
-00:15:44,020 --> 00:15:45,260
-Sovint, rere peces
+00:14:26,260 --> 00:14:28,460
+Es tanquen el despatx, publicen la revista
 
 425
-00:15:45,260 --> 00:15:46,560
-que semblen inofensives,
+00:14:28,460 --> 00:14:30,120
+i es pensen que Tiana és exactament
 
 426
-00:15:47,040 --> 00:15:48,880
-s'hi amaguen narratives que silenciaran
+00:14:30,120 --> 00:14:31,180
+com ells l'han dibuixada.
 
 427
-00:15:48,880 --> 00:15:50,760
-les reivindicacions veïnals reals
+00:14:31,440 --> 00:14:33,240
+Però, i aquí volia arribar jo,
 
 428
-00:15:50,760 --> 00:15:52,480
-o les alertes de salut pública.
+00:14:33,720 --> 00:14:35,420
+la realitat fora d'aquest despatx
 
 429
-00:15:52,820 --> 00:15:55,080
-Sí, i fixant-nos en això de les
+00:14:35,420 --> 00:14:37,380
+és molt més complexa i punyent.
 
 430
-00:15:55,080 --> 00:15:57,460
-leis mundials i l'article de la revista,
+00:14:37,860 --> 00:14:39,500
+I aquí és on crec que hem de fer connectar
 
 431
-00:15:58,040 --> 00:15:59,280
-en ve una reflexió final
+00:14:39,500 --> 00:14:41,960
+tots aquests arguments de governança i negligència
 
 432
-00:15:59,280 --> 00:16:01,140
-molt potent. A veure, digues.
+00:14:41,960 --> 00:14:44,480
+amb allò que plantejàvem just al principi,
 
 433
-00:16:01,320 --> 00:16:03,180
-Sent això, segons dades
+00:14:44,720 --> 00:14:46,460
+amb la paradoxa del 8 de març.
 
 434
-00:16:03,180 --> 00:16:05,500
-recents, gairebé el 62%
+00:14:46,940 --> 00:14:48,000
+Desenvalupa això, perquè
 
 435
-00:16:05,500 --> 00:16:07,060
-de les famílies voldrien
+00:14:48,000 --> 00:14:50,260
+crec que és el punt d'inflexió del debat d'avui.
 
 436
-00:16:07,060 --> 00:16:09,220
-endarrerir l'entrega del mòbil fins als
+00:14:50,440 --> 00:14:52,420
+Fixa-te, el ple municipal
 
 437
-00:16:09,220 --> 00:16:10,920
-16 anys. És una majoria
+00:14:52,420 --> 00:14:54,320
+van veure com, des del mateix
 
 438
-00:16:10,920 --> 00:16:13,280
-aclaparadora. Llavors, quin efecte
+00:14:54,340 --> 00:14:56,260
+públic, algun veí va retreure
 
 439
-00:16:13,280 --> 00:16:15,080
-psicològic i social té per a aquestes famílies?
+00:14:56,260 --> 00:14:58,180
+el govern que no hagués celebrat
 
 440
-00:16:15,260 --> 00:16:16,940
-Que el seu propi ajuntament
+00:14:58,180 --> 00:15:00,480
+els actes del Dia de la Dona en el seu dia,
 
 441
-00:16:16,940 --> 00:16:18,880
-publiqui que començar les xarxes
+00:15:00,620 --> 00:15:02,120
+el dia 8. El govern,
 
 442
-00:16:18,880 --> 00:16:20,800
-als 12 anys és sinònim d'èxit.
+00:15:02,400 --> 00:15:04,260
+com sempre, s'hi va excusar dient
 
 443
-00:16:21,140 --> 00:16:22,940
-Buf, és demolidor per a les famílies
+00:15:04,260 --> 00:15:06,640
+que no volia contraprogramar les grans manifestacions.
 
 444
-00:16:22,940 --> 00:16:24,360
-que intenten posar límits.
+00:15:07,060 --> 00:15:08,740
+Una excusa, burocràtica més.
 
 445
-00:16:24,880 --> 00:16:26,700
-I això m'obre la porta a una idea
+00:15:09,360 --> 00:15:09,800
+Exacte.
 
 446
-00:16:26,700 --> 00:16:28,900
-una mica provocadora per tancar el tema
+00:15:10,160 --> 00:15:12,320
+Però mirem la hipocresia de les
 
 447
-00:16:28,900 --> 00:16:31,220
-d'avui. T'escolto. Històricament,
+00:15:12,320 --> 00:15:13,440
+seves accions globals.
 
 448
-00:16:31,600 --> 00:16:33,260
-hem trigat dècades a regular
+00:15:14,100 --> 00:15:16,340
+D'una banda, perquè és les reivindicacions d'igualtat
 
 449
-00:16:33,260 --> 00:16:34,780
-i prohibir el treball infantil.
+00:15:16,340 --> 00:15:17,700
+als carrers amb aquestes excuses,
 
 450
-00:16:35,200 --> 00:16:36,800
-Avui, absolutament ningú
+00:15:17,700 --> 00:15:19,700
+i de l'altra, utilitzes
 
 451
-00:16:36,800 --> 00:16:38,540
-acceptaria que un ajuntament
+00:15:19,700 --> 00:15:21,320
+tots els teus recursos mediàtics,
 
 452
-00:16:38,540 --> 00:16:41,040
-dediqués una portada a celebrar
+00:15:21,660 --> 00:15:23,480
+tota la potència de la revista de la Vila,
 
 453
-00:16:41,040 --> 00:16:43,160
-que un nen de 12 anys treballa
+00:15:23,480 --> 00:15:25,460
+per empènyer els adolescents cap a
 
 454
-00:16:43,160 --> 00:16:44,880
-hores i hores en una fàbrica.
+00:15:25,460 --> 00:15:26,580
+Instagram i YouTube.
 
 455
-00:16:45,260 --> 00:16:47,560
-Esclar que no, seria un escàndal majúscul.
+00:15:26,920 --> 00:15:29,480
+I què ens es diu la comunitat científica sobre aquestes
 
 456
-00:16:47,860 --> 00:16:49,280
-Però, si aquest mateix
+00:15:29,480 --> 00:15:31,740
+plataformes? Doncs ens diu molt clarament
 
 457
-00:16:49,280 --> 00:16:51,380
-nen dedica aquestes
+00:15:31,740 --> 00:15:33,080
+qui en surt pitjor parat.
 
 458
-00:16:51,380 --> 00:16:53,360
-mateixes hores a produir
+00:15:33,220 --> 00:15:35,000
+Les estadístiques són alarmants.
 
 459
-00:16:53,360 --> 00:16:55,080
-contingut per enriquir
+00:15:35,260 --> 00:15:37,340
+N'hi ha debat en això. Les nenes
 
 460
-00:16:55,080 --> 00:16:57,040
-una plataforma tecnològica,
+00:15:37,340 --> 00:15:39,600
+i les noies adolescents s'emporten la pitjor
 
 461
-00:16:58,100 --> 00:16:59,520
-li aplaudim a la revista?
+00:15:39,600 --> 00:15:41,720
+part, de l'arc. Sens dubte.
 
 462
-00:17:00,560 --> 00:17:01,780
-La pregunta és,
+00:15:42,340 --> 00:15:43,620
+Les xarxes socials
 
 463
-00:17:02,740 --> 00:17:03,680
-estem redefinint
+00:15:43,620 --> 00:15:45,520
+funcionen com una sala de miralles
 
 464
-00:17:03,680 --> 00:17:05,660
-del que considerem treball infantil
+00:15:45,520 --> 00:15:47,140
+de formants per als joves.
 
 465
-00:17:05,660 --> 00:17:08,120
-al segle XXI sense adonar-nos-no?
+00:15:48,120 --> 00:15:49,780
+Distorsionen intencionadament
 
 466
-00:17:08,340 --> 00:17:09,100
-Ostres!
+00:15:49,780 --> 00:15:51,960
+el seu reflex per mantenir-los
 
 467
-00:17:09,600 --> 00:17:11,500
-Potser l'economia de l'atenció
+00:15:51,960 --> 00:15:53,460
+enganxats just a l'edat
 
 468
-00:17:11,500 --> 00:17:13,260
-és l'última frontera legal
+00:15:53,480 --> 00:15:55,120
+en què la seva identitat i el seu
 
 469
-00:17:13,260 --> 00:17:15,140
-on els menors encara no
+00:15:55,120 --> 00:15:56,480
+cor estan canviant.
 
 470
-00:17:15,140 --> 00:17:17,680
-estan protegits dels interessos comercials.
+00:15:57,060 --> 00:15:59,240
+Les noies pateixen les taxes més altes
 
 471
-00:17:18,020 --> 00:17:19,240
-És un pensament
+00:15:59,240 --> 00:16:01,380
+d'idiació en suïcida, d'anorexia,
 
 472
-00:17:19,240 --> 00:17:20,820
-profundíssim d'aquests que
+00:16:01,380 --> 00:16:02,920
+de dismòrfia corporal,
 
 473
-00:17:20,820 --> 00:17:22,840
-et deixen rumiant molta estona.
+00:16:03,260 --> 00:16:05,680
+induïdes directament pels filtres de vellesa
 
 474
-00:17:23,520 --> 00:17:25,040
-I és el punt perfecte per deixar-ho
+00:16:05,680 --> 00:16:07,500
+i la hipersexualització
 
 475
-00:17:25,040 --> 00:17:27,000
-en l'aire perquè cadascú hi reflexioni.
+00:16:07,500 --> 00:16:08,900
+que premien aquests algoritmes.
 
 476
-00:17:27,380 --> 00:17:28,280
-Per això val la pena
+00:16:09,200 --> 00:16:11,520
+És esgarrifós. L'Ajuntament els falla
 
 477
-00:17:28,280 --> 00:17:29,860
-capbussar-se en aquests temes,
+00:16:11,520 --> 00:16:13,400
+el 8 de març, els carrers retarden
 
 478
-00:17:30,280 --> 00:17:32,300
-per no quedar-nos nombres amb el titular fàcil.
+00:16:13,400 --> 00:16:15,440
+actes, sí, però em sembla que els falla
 
 479
-00:17:32,720 --> 00:17:34,660
-Exactament. I per això mateix
+00:16:15,440 --> 00:16:17,140
+d'una manera molt més profunda,
 
 480
-00:17:34,660 --> 00:17:36,300
-tornem al missatge del principi.
+00:16:17,500 --> 00:16:19,000
+silenciosa i perillosa,
 
 481
-00:17:36,860 --> 00:17:38,540
-Us animem a no creure res
+00:16:19,500 --> 00:16:21,540
+encoratjant-les des d'una contraportada
 
 482
-00:17:38,540 --> 00:17:40,600
-del que s'ha exposat aquí de manera cega.
+00:16:21,540 --> 00:16:23,360
+a buscar l'èxit, entrant
 
 483
-00:17:40,720 --> 00:17:43,200
-Aneu a les fonts, busqueu el vídeo del ple,
+00:16:23,360 --> 00:16:25,100
+en una arquitectura digital que està
 
 484
-00:17:43,700 --> 00:17:45,120
-llegiu els manifestos mèdics,
+00:16:25,100 --> 00:16:27,280
+dissenyada per destruir la seva autoestima.
 
 485
-00:17:45,140 --> 00:17:47,580
-i construïu el vostre propi criteri.
+00:16:27,980 --> 00:16:29,060
+És el retrat d'un govern
 
 486
-00:17:47,840 --> 00:17:49,540
-I, evidentment, convidem tothom
+00:16:29,060 --> 00:16:30,980
+atrapat en el seu propi personatge,
 
 487
-00:17:49,540 --> 00:17:51,220
-a subscriure's a aquest espai
+00:16:31,420 --> 00:16:33,100
+que, per semblar modern, ignora
 
 488
-00:17:51,220 --> 00:17:52,780
-d'iPodcast per no perdre's
+00:16:33,100 --> 00:16:35,160
+completament el dolor real de les famílies.
 
 489
-00:17:52,780 --> 00:17:54,580
-els pròxims debats i anàlisis.
+00:16:35,480 --> 00:16:37,400
+És una reflexió molt potent,
 
 490
-00:17:55,040 --> 00:17:56,820
-I hi haurà més tela per tallar, segur!
+00:16:37,620 --> 00:16:39,180
+però jo hi afegeixo que
 
 491
-00:17:57,300 --> 00:17:58,840
-I tant! I, finalment,
+00:16:39,180 --> 00:16:41,380
+més que una decisió conscient
 
 492
-00:17:59,000 --> 00:18:01,020
-fem una crida a la participació activa
+00:16:41,380 --> 00:16:43,280
+i maliciosa contra les joves,
 
 493
-00:18:01,020 --> 00:18:03,000
-per fer barri. Animem tothom
+00:16:43,440 --> 00:16:45,260
+crec que estem davant de l'exemple definitiu
 
 494
-00:18:03,000 --> 00:18:04,980
-que ho vulgui a fer un pas endavant
+00:16:45,800 --> 00:16:46,920
+del que passa
 
 495
-00:18:04,980 --> 00:18:07,520
-i apuntar-se a l'associació binal de Can Galleta.
+00:16:46,920 --> 00:16:49,400
+quan l'estètica política passa per sobre
 
 496
-00:18:08,100 --> 00:18:09,520
-Hi ha l'enllaç directe a la descripció
+00:16:49,400 --> 00:16:51,280
+de l'ètica de la governança.
 
 497
-00:18:09,520 --> 00:18:10,280
-d'aquest programa.
+00:16:51,980 --> 00:16:53,340
+La fe d'aquesta contraportada
 
 498
-00:18:10,680 --> 00:18:12,440
-Un plaer haver compartit aquesta estona.
+00:16:53,340 --> 00:16:55,220
+demostra com la incomunicació
 
 499
-00:18:12,440 --> 00:18:13,520
-El plaer és meu.
+00:16:55,220 --> 00:16:57,340
+interna permet que la ignorància
 
 500
-00:18:13,520 --> 00:18:16,440
-Ens retrobem en la pròxima Anàlisi a Fonts.
+00:16:57,340 --> 00:16:58,500
+es disfressi d'innovació.
 
 501
-00:18:16,540 --> 00:18:17,200
-Fins ben aviat!
+00:16:59,100 --> 00:17:00,980
+Clar, volen ser els més moderns, eh?
 
 502
-00:18:17,500 --> 00:18:18,100
-Fins aviat!
+00:17:01,220 --> 00:17:03,440
+Exacte, però posar un noi de 12 anys
+
+503
+00:17:03,440 --> 00:17:05,000
+a l'aparador no et fa un govern
+
+504
+00:17:05,000 --> 00:17:06,440
+connectat amb la joventut,
+
+505
+00:17:06,920 --> 00:17:08,840
+et fa un govern indocumentat
+
+506
+00:17:08,840 --> 00:17:11,360
+sobre l'epidèmia de salut mental del nostre segle.
+
+507
+00:17:11,760 --> 00:17:13,120
+I per això torno a la meva
+
+508
+00:17:13,120 --> 00:17:14,340
+premissa inicial, eh?
+
+509
+00:17:14,840 --> 00:17:16,840
+Tot això només pot passar perquè
+
+510
+00:17:16,840 --> 00:17:18,960
+l'eina de comunicació ha esdevingut una joguina
+
+511
+00:17:18,960 --> 00:17:20,840
+en mans de la majoria absoluta.
+
+512
+00:17:21,440 --> 00:17:23,220
+Sense un Consell de Redacció Independent,
+
+513
+00:17:23,340 --> 00:17:25,440
+que ho filtri, els viajos de gènere,
+
+514
+00:17:25,600 --> 00:17:27,760
+els riscos sanitaris i la realitat social
+
+515
+00:17:27,760 --> 00:17:29,900
+passen completament desapercebuts.
+
+516
+00:17:30,120 --> 00:17:31,820
+Vull dir que ni s'ho van plantejar?
+
+517
+00:17:32,260 --> 00:17:33,860
+Simplement, a qui redacta
+
+518
+00:17:33,860 --> 00:17:35,700
+i aprova això des de l'Ajuntament,
+
+519
+00:17:36,120 --> 00:17:37,180
+no li va passar pel cap
+
+520
+00:17:37,180 --> 00:17:39,320
+preguntar-se pels efectes col·laterals.
+
+521
+00:17:39,960 --> 00:17:41,980
+I com que no tenen controls
+
+522
+00:17:41,980 --> 00:17:43,280
+ni volen tenir-ne,
+
+523
+00:17:43,660 --> 00:17:46,280
+ningú més ho va poder aturar abans d'anar a imprenta.
+
+524
+00:17:46,880 --> 00:17:47,160
+Bueno,
+
+525
+00:17:47,840 --> 00:17:50,020
+arribats a aquest punt de la nostra anàlisi
+
+526
+00:17:50,020 --> 00:17:50,960
+per anar tancant,
+
+527
+00:17:51,480 --> 00:17:53,180
+si haguéssim de sintetitzar
+
+528
+00:17:53,180 --> 00:17:54,300
+les nostres posicions.
+
+529
+00:17:55,020 --> 00:17:57,160
+Des de la meva perspectiva, estic convençut
+
+530
+00:17:57,160 --> 00:17:59,200
+que l'assumpte de la revista a plaça de la Vila
+
+531
+00:17:59,200 --> 00:18:01,460
+transcendeix la simple anècdota comunicativa.
+
+532
+00:18:01,900 --> 00:18:03,980
+Estem parlant d'una temeritat institucional.
+
+533
+00:18:04,440 --> 00:18:05,280
+L'Ajuntament de Tiana,
+
+534
+00:18:05,560 --> 00:18:07,660
+de manera negligent i propagandística,
+
+535
+00:18:07,660 --> 00:18:09,780
+ha passat per sobre de l'esforç silenciós
+
+536
+00:18:09,780 --> 00:18:11,600
+i esgotador de les famílies que intenten
+
+537
+00:18:11,600 --> 00:18:13,640
+endarrerir l'entrega de mòbils als seus fills.
+
+538
+00:18:14,420 --> 00:18:15,960
+Ha suscavat la feina
+
+539
+00:18:15,960 --> 00:18:17,460
+dels mestres de la Lola Anglada
+
+540
+00:18:17,460 --> 00:18:19,520
+i els advertiments del Col·legi de Metges.
+
+541
+00:18:19,920 --> 00:18:21,040
+I quan l'administració,
+
+542
+00:18:21,040 --> 00:18:23,440
+que hauria de ser l'escut protector del ciutadà,
+
+543
+00:18:23,900 --> 00:18:25,700
+actua com l'altaveu dels mateixos riscos
+
+544
+00:18:25,700 --> 00:18:26,960
+que la ciència ens demana evitar,
+
+545
+00:18:27,460 --> 00:18:29,640
+estem davant d'un fracàs profund del deure públic.
+
+546
+00:18:30,080 --> 00:18:30,580
+I jo,
+
+547
+00:18:31,400 --> 00:18:34,060
+tot i coincidir plenament
+
+548
+00:18:34,060 --> 00:18:35,960
+en la periositat dels missatges
+
+549
+00:18:35,960 --> 00:18:37,360
+que s'han enviat a les xarxes
+
+550
+00:18:37,360 --> 00:18:39,260
+i l'impacte en la salut dels menors,
+
+551
+00:18:39,860 --> 00:18:41,920
+estic segura que no podem solucionar-lo
+
+552
+00:18:41,920 --> 00:18:44,300
+demanant simplement més sensibilitat a l'alcalde.
+
+553
+00:18:44,920 --> 00:18:45,800
+La solució ha de ser
+
+554
+00:18:45,800 --> 00:18:47,560
+estructural i negociable.
+
+555
+00:18:48,300 --> 00:18:49,800
+Cal una reforma urgent
+
+556
+00:18:49,800 --> 00:18:51,020
+en la governança dels mitjans.
+
+557
+00:18:51,040 --> 00:18:53,740
+O sigui, el Consell de Redacció
+
+558
+00:18:53,740 --> 00:18:54,820
+que demanava l'oposició?
+
+559
+00:18:55,320 --> 00:18:58,160
+Exactament. Cal transparència absoluta
+
+560
+00:18:58,160 --> 00:19:00,520
+i un Consell de Redacció imparcial
+
+561
+00:19:00,520 --> 00:19:02,120
+que extirpi la revista
+
+562
+00:19:02,120 --> 00:19:04,580
+del control estricte de la majoria absoluta.
+
+563
+00:19:05,060 --> 00:19:06,700
+Si no arreglem l'arrel democràtica
+
+564
+00:19:06,700 --> 00:19:07,520
+d'aquesta eina,
+
+565
+00:19:07,880 --> 00:19:09,360
+és matemàtic que demà tindrem
+
+566
+00:19:09,360 --> 00:19:11,040
+una altra pífia sanitària,
+
+567
+00:19:11,460 --> 00:19:12,800
+un altre retall censor
+
+568
+00:19:12,800 --> 00:19:14,340
+en els articles de l'oposició
+
+569
+00:19:14,340 --> 00:19:16,380
+o una altra manipulació barruera
+
+570
+00:19:16,380 --> 00:19:17,720
+de les paraules dels veïns
+
+571
+00:19:17,720 --> 00:19:19,500
+com va passar amb el tema de Calçfrares.
+
+572
+00:19:20,320 --> 00:19:21,020
+En el que, segons la regla,
+
+573
+00:19:21,040 --> 00:19:22,560
+segur que tots dos convergim
+
+574
+00:19:22,560 --> 00:19:24,700
+i estic segur que qui ens escolta a casa
+
+575
+00:19:24,700 --> 00:19:27,280
+també ho farà, és que la qualitat democràtica
+
+576
+00:19:27,280 --> 00:19:28,800
+i humana del poble de Tiana
+
+577
+00:19:28,800 --> 00:19:30,860
+es mereix molt més. Mereix canals
+
+578
+00:19:30,860 --> 00:19:32,980
+de comunicació que cohesionin la comunitat,
+
+579
+00:19:33,380 --> 00:19:34,440
+que informin amb rigor
+
+580
+00:19:34,440 --> 00:19:36,380
+i que protegeixen els més vulnerables.
+
+581
+00:19:36,820 --> 00:19:38,620
+No pas catàlegs de màrqueting polític
+
+582
+00:19:38,620 --> 00:19:41,040
+dissenyats exclusivament per fugir d'estudi
+
+583
+00:19:41,040 --> 00:19:42,680
+davant dels debats essencials.
+
+584
+00:19:43,100 --> 00:19:45,380
+Absolutament d'acord. El pensament crític
+
+585
+00:19:45,380 --> 00:19:47,200
+necessita llum i contrast
+
+586
+00:19:47,200 --> 00:19:49,180
+i analitzar de prop aquests fets
+
+587
+00:19:49,180 --> 00:19:50,880
+aparentment allats com una
+
+588
+00:19:50,880 --> 00:19:52,800
+contraportada ens ajuda a veure
+
+589
+00:19:52,800 --> 00:19:54,940
+l'engranatge sencer de la política local.
+
+590
+00:19:55,460 --> 00:19:56,840
+Avui hem posat els fets,
+
+591
+00:19:57,060 --> 00:19:58,840
+els mecanismes i els diferents
+
+592
+00:19:58,840 --> 00:20:00,540
+arguments sobre la taula. Ara,
+
+593
+00:20:00,720 --> 00:20:02,520
+l'anàlisi final, com sempre diem,
+
+594
+00:20:02,520 --> 00:20:03,900
+està a les vostres mans.
+
+595
+00:20:04,420 --> 00:20:06,620
+I justament perquè creiem en el poder
+
+596
+00:20:06,620 --> 00:20:08,360
+d'aquest exercici, d'aquest debat,
+
+597
+00:20:08,660 --> 00:20:10,880
+us convidem explícitament a subscriure-vos
+
+598
+00:20:10,880 --> 00:20:12,800
+a aquest canal i a acompanyar-nos
+
+599
+00:20:12,800 --> 00:20:14,800
+en els pròxims espais que anirem publicant.
+
+600
+00:20:15,320 --> 00:20:16,540
+Escoltar diferents perspectives
+
+601
+00:20:16,540 --> 00:20:18,820
+és l'únic antídot contra el conformisme
+
+602
+00:20:18,820 --> 00:20:20,640
+i el pensament únic que intenten
+
+603
+00:20:20,640 --> 00:20:22,300
+imposar les majories absolutes.
+
+604
+00:20:22,640 --> 00:20:24,440
+I per passar del pensament a l'acció,
+
+605
+00:20:24,780 --> 00:20:26,700
+si encara no ho heu fet, us animem
+
+606
+00:20:26,700 --> 00:20:28,660
+vivament a apuntar-vos i fer-vos membres
+
+607
+00:20:28,660 --> 00:20:30,420
+de l'associació veïnal de Can Galleta.
+
+608
+00:20:31,060 --> 00:20:32,620
+Participar-hi activament és la manera
+
+609
+00:20:32,620 --> 00:20:34,700
+més directa de tenir veu pròpia en el model
+
+610
+00:20:34,700 --> 00:20:36,720
+de poble que tots volem construir
+
+611
+00:20:36,720 --> 00:20:38,560
+i defensar. Trobareu l'enllaç
+
+612
+00:20:38,560 --> 00:20:40,380
+per apuntar-vos aquí mateix a la descripció
+
+613
+00:20:40,380 --> 00:20:42,620
+d'aquest programa. Tornant a la nostra idea
+
+614
+00:20:42,620 --> 00:20:43,160
+inicial,
+
+615
+00:20:44,560 --> 00:20:46,660
+esperem que l'Ajuntament sigui qui posa
+
+616
+00:20:46,660 --> 00:20:48,540
+els senyals d'advertença als jocs perillosos,
+
+617
+00:20:49,220 --> 00:20:50,420
+no qui ens dona manuals per
+
+618
+00:20:50,420 --> 00:20:52,260
+conduir amb els ulls tancats cap al precipici.
+
+619
+00:20:53,200 --> 00:20:54,800
+Moltíssimes gràcies per acompanyar-nos
+
+620
+00:20:54,800 --> 00:20:56,880
+en el debat d'avui. Cuidem-nos molt,
+
+621
+00:20:57,180 --> 00:20:58,700
+protegir els nostres joves és cosa
+
+622
+00:20:58,700 --> 00:21:00,760
+de tots. I ens retrobem a la pròxima
+
+623
+00:21:00,760 --> 00:21:02,940
+anàlisi. A reveure. Fins la pròxima.
+
+624
+00:21:03,100 --> 00:21:03,380
+Gràcies.
 

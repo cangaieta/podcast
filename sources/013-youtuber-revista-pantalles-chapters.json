@@ -1,33 +1,35 @@
 {
   "version": "1.2.0",
+  "podcastName": "Podcast Associació Veïnal Can Gaietà",
+  "title": "Episodi 013: La contraportada que treballa contra les famílies: pantalles, menors i el problema de salut pública que amplifica",
   "chapters": [
     {
-      "startTime": 0.0,
-      "title": "Introducció"
+      "startTime": 0,
+      "title": "Introducció i disclaimer"
     },
     {
-      "startTime": 111.5,
-      "title": "El youtuber: influència i polèmica"
+      "startTime": 128,
+      "title": "La contraportada: youtuber des dels 12 anys sense advertències sanitàries"
     },
     {
-      "startTime": 307.9,
-      "title": "La revista municipal: contingut i objectivitat"
+      "startTime": 355,
+      "title": "El disseny addictiu: pantalles, cervells adolescents i la ironia legal"
     },
     {
-      "startTime": 506.5,
-      "title": "Les pantalles publicitàries: normativa i transparència"
+      "startTime": 566,
+      "title": "El patró de manipulació: de Calçfrares a la contraportada"
     },
     {
-      "startTime": 681.3,
-      "title": "Connexions i patrons entre els tres casos"
+      "startTime": 714,
+      "title": "El ple del 3 de març: censura, desigualtat i l'oposició parla clar"
     },
     {
-      "startTime": 855.9,
-      "title": "Impacte en la opinió pública local"
+      "startTime": 872,
+      "title": "La paradoxa del 8-M i l'impacte de gènere"
     },
     {
-      "startTime": 988.9,
-      "title": "Reflexió final"
+      "startTime": 1067,
+      "title": "Reflexió final: reforma estructural o continuïtat del mateix"
     }
   ]
 }

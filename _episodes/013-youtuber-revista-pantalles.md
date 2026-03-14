@@ -1,6 +1,7 @@
 ---
 audio_file: "https://archive.org/download/podcast-cangaieta-013-youtuber-revista-pantalles/013-youtuber-revista-pantalles.mp3"
-audio_size: 8797690
+audio_size: 10109732
+chapters_file: "013-youtuber-revista-pantalles-chapters.json"
 date: '2026-03-11'
 description: "La contraportada de la revista municipal Plaça de la Vila dedica una
   pàgina sencera a celebrar que un jove del poble va començar a crear contingut a
@@ -10,9 +11,12 @@ description: "La contraportada de la revista municipal Plaça de la Vila dedica 
   al ple del 3 de març qualifica l'article d'un greu problema de salut pública i
   denuncia censura i desigualtat de tracte a la revista. Una anàlisi del patró comunicatiu
   del govern i del dany real que fa a les famílies que intenten protegir els seus fills."
-duration: '18:19'
+duration: '21:03'
 episode_number: 13
 season: 1
+soundbite_duration: 68.0
+soundbite_start: 872.0
+soundbite_title: "La paradoxa del 8-M: posposa igualtat als carrers i promou pantalles danyines per a les noies"
 sources:
 - title: "Videoacta del Ple Municipal del 3 de març de 2026"
   url: "https://www.youtube.com/live/AG9qYugT0HA"
@@ -77,14 +81,9 @@ sources:
 - title: "Transcripció automàtica de l'episodi"
   url: "/podcast/sources/013-youtuber-revista-pantalles-transcripcio.txt"
   description: "Transcripció completa generada amb OpenAI Whisper (model large-v3)"
+thumbnail: "/assets/thumbnails/013-youtuber-revista-pantalles.png"
 title: "Episodi 013: La contraportada que treballa contra les famílies: pantalles,
   menors i el problema de salut pública que amplifica"
-
-chapters_file: "013-youtuber-revista-pantalles-chapters.json"
-soundbite_start: 307.9
-soundbite_duration: 45
-soundbite_title: "La revista municipal: informació o relacions públiques?"
-thumbnail: "/assets/thumbnails/013-youtuber-revista-pantalles.png"
 ---
 
 ## Introducció

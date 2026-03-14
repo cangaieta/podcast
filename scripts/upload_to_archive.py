@@ -147,7 +147,7 @@ EPISODIS = [
         "title": "Episodi 013: La contraportada que treballa contra les famílies: pantalles, menors i el problema de salut pública que amplifica",
         "description": "La contraportada de la revista municipal Plaça de la Vila celebra que un jove de Tiana va arribar als 100.000 subscriptors a YouTube havent-hi entrat als 12 anys, sense cap context mèdic ni advertències. En el mateix moment, Austràlia, França i Espanya legislen per prohibir les xarxes per a menors de 16 anys. L'oposició al ple del 3 de març ho qualifica de greu problema de salut pública i denuncia censura i desigualtat de tracte a la revista.",
         "date": "2026-03-11",
-        "duration": "18:19",
+        "duration": "21:03",
         "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "pantalles", "menors", "salut publica", "youtube", "xarxes socials", "revista municipal", "placa de la vila", "pediatria", "dark patterns", "ple municipal"]
     }
 ]
