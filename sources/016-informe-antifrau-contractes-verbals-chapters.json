@@ -1,0 +1,18 @@
+{
+  "version": "1.2.0",
+  "podcastName": "Podcast Associació Veïnal Can Gaietà",
+  "title": "Episodi 016: L'informe d'Antifrau i els contractes verbals",
+  "chapters": [
+    { "startTime": 0, "title": "Introducció i disclaimer" },
+    { "startTime": 130, "title": "Premissa: un govern amb majoria absoluta i les eleccions a tocar" },
+    { "startTime": 165, "title": "Antifrau: fraccionament prohibit a la cavalcada de Reis" },
+    { "startTime": 233, "title": "Contractes verbals de 224.000 € i adjudicació directa" },
+    { "startTime": 302, "title": "La cortina de fum: el 9,4 d'InfoParticipa" },
+    { "startTime": 410, "title": "Escola Bressol: 5,6 M€ blindats a 5 anys (Cavall de Cartró SL)" },
+    { "startTime": 610, "title": "Resum ràpid de la jornada (pluja, Mercè Serrano, energia, patinets)" },
+    { "startTime": 762, "title": "Camp de futbol: el debat semàntic de «l'avantprojecte»" },
+    { "startTime": 872, "title": "Romanent de tresoreria vs crèdit de la Diputació" },
+    { "startTime": 971, "title": "Modificacions de crèdit: armer policial i fons de contingència" },
+    { "startTime": 1089, "title": "Reflexió final: el ple com a escenari teatral" }
+  ]
+}

@@ -159,6 +159,26 @@ EPISODIS = [
         "date": "2026-05-03",
         "duration": "15:23",
         "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "ordenança residus", "neteja viaria", "multes", "taxa justa", "ecocàmeres", "autobus", "b32", "mobilitat", "tertulia politica", "la local radio tiana", "majoria absoluta"]
+    },
+    {
+        "num": "015",
+        "fitxer": "015-b32-cap-fantasma.mp3",
+        "identifier": "podcast-cangaieta-015-b32-cap-fantasma",
+        "title": "Episodi 015: La línia B32 i el CAP fantasma",
+        "description": "Anàlisi de la tertúlia política de La Local Ràdio Tiana sobre la nova línia d'autobús B32, fruit de la fusió de la B34 i la B35. El govern justifica el traçat dient que passa pel futur CAP, un edifici que ni tan sols està en obres i que pot trigar fins a 15 anys a ser una realitat. L'oposició s'assabenta del canvi el mateix divendres de l'anunci, no es coneixen les dades més bàsiques (a quina hora surt el primer bus?), els barris històrics queden aïllats, i el bus directe a Barcelona només el feien servir 35 persones a la setmana.",
+        "date": "2026-05-03",
+        "duration": "13:40",
+        "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "autobus", "b32", "b34", "b35", "mobilitat", "amb", "cap", "centre atencio primaria", "tertulia politica", "la local radio tiana", "majoria absoluta", "competencies", "participacio ciutadana"]
+    },
+    {
+        "num": "016",
+        "fitxer": "016-informe-antifrau-contractes-verbals.mp3",
+        "identifier": "podcast-cangaieta-016-informe-antifrau-contractes-verbals",
+        "title": "Episodi 016: L'informe d'Antifrau i els contractes verbals",
+        "description": "Anàlisi del ple municipal de Tiana del 23 d'abril de 2026 sobre l'informe de l'Oficina Antifrau de Catalunya i la pràctica dels contractes verbals a l'Ajuntament. Episodi pendent de personalització.",
+        "date": "2026-05-03",
+        "duration": "20:08",
+        "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "antifrau", "contractes verbals", "ple municipal", "transparencia", "fiscalitzacio"]
     }
 ]
 

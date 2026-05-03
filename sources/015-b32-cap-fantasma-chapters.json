@@ -1,0 +1,18 @@
+{
+  "version": "1.2.0",
+  "podcastName": "Podcast Associació Veïnal Can Gaietà",
+  "title": "Episodi 015: La línia B32 i el CAP fantasma",
+  "chapters": [
+    { "startTime": 0, "title": "Introducció i disclaimer" },
+    { "startTime": 152, "title": "El detonant: fusió de la B34 i B35 en la nova B32" },
+    { "startTime": 201, "title": "Manca d'informació: l'oposició s'assabenta el mateix divendres" },
+    { "startTime": 233, "title": "El CAP fantasma justifica el traçat (15 anys d'espera)" },
+    { "startTime": 298, "title": "La cortina de fum de les competències de l'AMB" },
+    { "startTime": 391, "title": "Resum: els 7 punts polèmics de la línia" },
+    { "startTime": 527, "title": "Hipocresia de la participació ciutadana" },
+    { "startTime": 576, "title": "La connectivitat de \"totes les Tianes\" i el trajecte d'una hora" },
+    { "startTime": 621, "title": "El semàfor d'Olànglada i la rotonda fantasma" },
+    { "startTime": 670, "title": "El bus directe a Barcelona: només 35 usuaris" },
+    { "startTime": 725, "title": "Reflexió final: polítiques per a la foto del futur" }
+  ]
+}
