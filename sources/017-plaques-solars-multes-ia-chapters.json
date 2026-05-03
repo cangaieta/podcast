@@ -1,0 +1,20 @@
+{
+  "version": "1.2.0",
+  "podcastName": "Podcast Associació Veïnal Can Gaietà",
+  "title": "Episodi 017: Plaques solars ruïnoses i multes amb IA",
+  "chapters": [
+    { "startTime": 0, "title": "Introducció i disclaimer" },
+    { "startTime": 39, "title": "Context: eleccions i majoria absoluta" },
+    { "startTime": 156, "title": "Comunitat Energètica Solar: el radi de 5 km" },
+    { "startTime": 193, "title": "Crítica d'ERC: un decret estatal disfressat de gestió local" },
+    { "startTime": 241, "title": "Crítica del PP: blocs prioritzats vs unifamiliars de la Virreina" },
+    { "startTime": 313, "title": "Ordre del dia del ple: resum ràpid" },
+    { "startTime": 397, "title": "Les matemàtiques impossibles: 30 anys per amortitzar plaques de 15" },
+    { "startTime": 462, "title": "L'alternativa: estalvi als edificis municipals" },
+    { "startTime": 514, "title": "L'escut ideològic: cultura i llars d'infants" },
+    { "startTime": 580, "title": "Punt 4: ordenança de residus i multes de fins a 3.000 €" },
+    { "startTime": 712, "title": "Ecocàmeres amb intel·ligència artificial" },
+    { "startTime": 759, "title": "El doble discurs: pedagogia o vigilància?" },
+    { "startTime": 832, "title": "Reflexió final: societat hipervigilada o cohesió?" }
+  ]
+}

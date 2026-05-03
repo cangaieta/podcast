@@ -179,6 +179,16 @@ EPISODIS = [
         "date": "2026-05-03",
         "duration": "20:08",
         "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "antifrau", "contractes verbals", "ple municipal", "transparencia", "fiscalitzacio"]
+    },
+    {
+        "num": "017",
+        "fitxer": "017-plaques-solars-multes-ia.mp3",
+        "identifier": "podcast-cangaieta-017-plaques-solars-multes-ia",
+        "title": "Episodi 017: Plaques solars ruïnoses i multes amb IA",
+        "description": "Anàlisi del ple municipal extraordinari del 21 d'abril de 2026 a Tiana, on s'aprova una Comunitat Energètica Solar deficitària (372.000 € d'inversió per amortitzar en 30 anys amb plaques que duren 15) i una nova ordenança de residus amb multes de fins a 3.000 € reforçada per ecocàmeres amb intel·ligència artificial. El radi de 5 km del decret estatal es ven com a victòria local, els blocs de pisos prioritzats deixen el barri de la Virreina sense accés real, l'oposició parla de malbaratament i populisme, i el doble discurs «no tenim afany recaptatori» xoca amb un sistema de vigilància algorítmica per a la brossa.",
+        "date": "2026-05-03",
+        "duration": "15:52",
+        "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "plaques solars", "comunitat energetica", "energia renovable", "ordenança residus", "ecocàmeres", "intel·ligencia artificial", "vigilancia", "multes", "ple extraordinari", "majoria absoluta", "virreina"]
     }
 ]
 
