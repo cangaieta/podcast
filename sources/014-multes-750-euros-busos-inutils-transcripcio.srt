@@ -1,0 +1,1444 @@
+1
+00:00:00,000 --> 00:00:07,140
+Imaginem viure en un poble on el simple fet tan quotidià de baixar les escombraries fora d'hora
+
+2
+00:00:07,140 --> 00:00:10,880
+et pugui costar una multa de 750 euros.
+
+3
+00:00:11,300 --> 00:00:11,860
+Déu-n'hi-do.
+
+4
+00:00:12,220 --> 00:00:16,840
+750 euros. És una xifra que, sincerament, fa posar els pèls de punta.
+
+5
+00:00:17,320 --> 00:00:21,040
+Però espera, perquè ara hi hem d'afregir una altra imatge a aquest mateix poble.
+
+6
+00:00:21,600 --> 00:00:25,360
+Resulta que algú decideix estrenar el flamant i nou autobús municipal.
+
+7
+00:00:25,680 --> 00:00:27,160
+Ah, el famós autobús.
+
+8
+00:00:27,160 --> 00:00:34,000
+Exacte. Vol baixar al centre a comprar, però resulta que el viatge s'assembla més a una etapa d'un rali que m'atrevés.
+
+9
+00:00:34,400 --> 00:00:39,240
+O sigui, l'autobús literalment rasca els baixos contra l'asfalt en passar pels sots
+
+10
+00:00:39,240 --> 00:00:43,640
+i el conductor ha de baixar a mirar si ha trencat el vehicle el primer dia d'estrena.
+
+11
+00:00:44,020 --> 00:00:45,760
+És que és surrealista.
+
+12
+00:00:46,140 --> 00:00:52,960
+I com a colofó d'aquest despropòsit, atenció, la ruta ni tan sols et deixa al centre neuràlgic del teu propi poble.
+
+13
+00:00:53,280 --> 00:00:56,960
+Vull dir, sembla l'inici d'una novel·la satírica sobre burocràcia.
+
+14
+00:00:57,160 --> 00:00:59,220
+Sí, sí, totalment.
+
+15
+00:00:59,500 --> 00:01:06,720
+No és ficció. És el debat real, cru i absolutament candent que s'està vivint ara mateix als carrers de Tiana.
+
+16
+00:01:06,880 --> 00:01:15,820
+I de fet, és una radiografia brutal, d'aquell moment en què la teoria de les despatxos topa violentament amb la realitat de les voreres.
+
+17
+00:01:16,380 --> 00:01:21,500
+Clar, el paper ho aguanta tot, però quan aquestes normatives s'han d'aplicar a la vida diària,
+
+18
+00:01:21,860 --> 00:01:25,000
+les esquerdes del sistema queden completament al descobert.
+
+19
+00:01:25,000 --> 00:01:32,540
+I per analitzar totes aquestes esquerdes, donem la benvinguda a tothom a aquesta nova immersió des de Ràdio Can Galletà.
+
+20
+00:01:33,180 --> 00:01:38,060
+Volem enviar una salutació immensament càlida a tota la nostra gent del barri, clar que sí,
+
+21
+00:01:38,600 --> 00:01:43,060
+i per descomptat a tots els deïns i veïnes que ens escolten des de qualsevol racó de Tiana.
+
+22
+00:01:43,740 --> 00:01:45,480
+Avui tenim un material que treu fum.
+
+23
+00:01:45,700 --> 00:01:52,300
+I tant. Però a veure, abans de submergir-nos en multes, contractes i rutes d'autobús accidentades,
+
+24
+00:01:52,300 --> 00:01:54,380
+cal fer un incís molt important.
+
+25
+00:01:55,000 --> 00:01:56,660
+Un avís tècnic i filosòfic, oi?
+
+26
+00:01:56,900 --> 00:02:00,640
+Exacte. Un avís que hauria de ser obligatori avui en dia.
+
+27
+00:02:01,240 --> 00:02:06,840
+Cal deixar molt clar a tothom qui ens acompanya que tota aquesta anàlisi, el guió punt per punt,
+
+28
+00:02:07,240 --> 00:02:10,840
+i fins i tot les nostres pròpies veus que esteu sentint ara mateix,
+
+29
+00:02:11,280 --> 00:02:14,660
+estan generades completament mitjançant intel·ligència artificial.
+
+30
+00:02:15,080 --> 00:02:15,600
+Literalment.
+
+31
+00:02:15,780 --> 00:02:17,260
+I què vol dir això a la pràctica?
+
+32
+00:02:17,960 --> 00:02:21,600
+Doncs que, com passa amb qualsevol tecnologia, podria contenir errors,
+
+33
+00:02:22,900 --> 00:02:24,980
+descontextualitzacions o interpretar de maneres vinculades,
+
+34
+00:02:25,000 --> 00:02:26,600
+per desviaixar de les fonts que hem rebut.
+
+35
+00:02:26,740 --> 00:02:34,300
+Llavors, el pacte que fem avui amb la nostra audiència és no creure absolutament res del que direm de forma cega.
+
+36
+00:02:34,500 --> 00:02:34,780
+Mai.
+
+37
+00:02:34,960 --> 00:02:39,020
+La missió principal d'aquest espai sonor no és dictar sentència,
+
+38
+00:02:39,200 --> 00:02:43,100
+ni establir què és veritat i què no sobre el que passa al poble.
+
+39
+00:02:43,560 --> 00:02:47,140
+L'objectiu és oferir eines per fomentar l'esperit crític.
+
+40
+00:02:47,600 --> 00:02:50,220
+Per això, animem sempre a anar a les fonts originals.
+
+41
+00:02:50,220 --> 00:02:54,820
+I avui, la recomanació és anar a escoltar directament el podcast,
+
+42
+00:02:55,000 --> 00:02:56,600
+la local radiotiana.
+
+43
+00:02:56,820 --> 00:03:02,400
+Allà hi trobareu el debat complet, les veus reals de la tertúlia política.
+
+44
+00:03:02,960 --> 00:03:05,280
+Nosaltres avui llegirem entre línies.
+
+45
+00:03:05,760 --> 00:03:07,560
+Buscarem els dobles sentits,
+
+46
+00:03:08,040 --> 00:03:13,600
+analitzarem com s'utilitzen certes paraules màgiques per desviar l'atenció,
+
+47
+00:03:14,160 --> 00:03:17,620
+tot en un ambient preelectoral de crispació molt evident,
+
+48
+00:03:17,980 --> 00:03:20,320
+on tenim un govern amb majoria absoluta
+
+49
+00:03:20,320 --> 00:03:24,180
+enfrontat a una oposició que l'acusa de viure d'esquenes al carrer.
+
+50
+00:03:24,180 --> 00:03:24,780
+I mira,
+
+51
+00:03:25,000 --> 00:03:28,480
+per entendre com es governa i quines normes s'aproven,
+
+52
+00:03:29,040 --> 00:03:33,760
+de vegades ens hem de fixar en quin i tan sols s'asseu a la taula per debatre.
+
+53
+00:03:34,020 --> 00:03:35,040
+La cadira buida.
+
+54
+00:03:35,560 --> 00:03:36,160
+Exacte.
+
+55
+00:03:36,640 --> 00:03:39,800
+Si visualitzem la tertúlia política a les fonts originals,
+
+56
+00:03:40,220 --> 00:03:42,680
+tenim el micròfon obert i l'oposició a punt.
+
+57
+00:03:43,260 --> 00:03:47,560
+Hi ha el PP, Esquerra Republicana, el PSC i Junts per Catalunya.
+
+58
+00:03:48,240 --> 00:03:49,000
+Però falta algú.
+
+59
+00:03:49,280 --> 00:03:51,380
+Algú força important, diria jo.
+
+60
+00:03:52,040 --> 00:03:53,620
+Doncs sí, Junts per Tiana.
+
+61
+00:03:53,620 --> 00:03:53,700
+Junts per Tiana.
+
+62
+00:03:53,700 --> 00:03:53,720
+Junts per Tiana.
+
+63
+00:03:53,720 --> 00:03:53,760
+Junts per Tiana.
+
+64
+00:03:53,760 --> 00:03:53,820
+Junts per Tiana.
+
+65
+00:03:53,820 --> 00:03:53,860
+Junts per Tiana.
+
+66
+00:03:53,860 --> 00:03:53,960
+Junts per Tiana.
+
+67
+00:03:53,960 --> 00:03:54,020
+Junts per Tiana.
+
+68
+00:03:54,020 --> 00:03:54,080
+Junts per Tiana.
+
+69
+00:03:54,080 --> 00:03:54,980
+Junts per Tiana.
+
+70
+00:03:54,980 --> 00:03:55,160
+Junts per Tiana.
+
+71
+00:03:55,160 --> 00:03:55,200
+Junts per Tiana.
+
+72
+00:03:55,200 --> 00:03:55,260
+Junts per Tiana.
+
+73
+00:03:55,260 --> 00:03:59,920
+Junts per Tiana.
+
+74
+00:03:59,920 --> 00:03:59,940
+Junts per Tiana.
+
+75
+00:03:59,940 --> 00:03:59,940
+
+
+76
+00:03:59,940 --> 00:03:59,980
+Junts per Tiana.
+
+77
+00:03:59,980 --> 00:03:59,980
+
+
+78
+00:03:59,980 --> 00:04:00,280
+Junts per Tiana.
+
+79
+00:04:00,280 --> 00:04:04,420
+I ostres, una cadira buida en un debat ressona moltíssim.
+
+80
+00:04:04,840 --> 00:04:07,860
+Quan qui té el poder absolut decideix no aparèixer,
+
+81
+00:04:08,080 --> 00:04:11,460
+a defensar la seva gestió, envia un missatge molt clar.
+
+82
+00:04:11,940 --> 00:04:13,300
+I clar, l'oposició ho aprofita.
+
+83
+00:04:13,640 --> 00:04:14,320
+Home, i tant.
+
+84
+00:04:15,220 --> 00:04:17,860
+Tot i tenir ideologies teòricament oposades,
+
+85
+00:04:18,320 --> 00:04:20,140
+troben un terreny com un impressionant.
+
+86
+00:04:20,700 --> 00:04:24,280
+S'uneixen en una crítica feroig contra les formes del govern municipal,
+
+87
+00:04:24,740 --> 00:04:26,560
+acusant-los d'aplicar un curró.
+
+88
+00:04:27,140 --> 00:04:28,940
+O estàs amb mi o contra mi.
+
+89
+00:04:29,260 --> 00:04:31,640
+Clar, les majories absolutes sovint porten això,
+
+90
+00:04:32,160 --> 00:04:35,280
+aquesta sensació que qualsevol crítica fa nosa.
+
+91
+00:04:35,920 --> 00:04:38,140
+A les fonts es recullen acusacions greus.
+
+92
+00:04:38,680 --> 00:04:40,620
+Parlen d'una voluntat de l'equip de govern
+
+93
+00:04:40,620 --> 00:04:45,300
+de tancar contractes i projectes estructurals de pressa abans de les eleccions.
+
+94
+00:04:45,520 --> 00:04:47,960
+O volen deixar tot atat i ben atat, no?
+
+95
+00:04:48,280 --> 00:04:49,400
+Exactament això diuen.
+
+96
+00:04:49,880 --> 00:04:53,200
+S'arriba a parlar de menyspreu cap a entitats o comerciants
+
+97
+00:04:53,200 --> 00:04:55,040
+que aixequen la mà per queixar-se.
+
+98
+00:04:55,620 --> 00:04:59,740
+I enmig d'aquest clima de retrets aterra el primer gran tema polèmic,
+
+99
+00:05:00,200 --> 00:05:03,040
+la nova ordenança de residus i niteja viària.
+
+100
+00:05:03,320 --> 00:05:06,540
+Que aquí és on la cartera de la gent comença a tremolar.
+
+101
+00:05:07,140 --> 00:05:09,060
+Les xifres de l'ordenança, francament,
+
+102
+00:05:09,160 --> 00:05:11,560
+sembren dissenyades per espantar més que per educar.
+
+103
+00:05:11,980 --> 00:05:16,460
+Vull dir, multes lleus de 750 euros per deixar el covell fora de l'horari.
+
+104
+00:05:16,700 --> 00:05:17,220
+Inaudit.
+
+105
+00:05:17,740 --> 00:05:19,800
+Imaginem una família on treballen a torns
+
+106
+00:05:19,800 --> 00:05:21,860
+o tenen una urgència al matí amb els nens
+
+107
+00:05:21,860 --> 00:05:22,860
+i deixen el covell cinquena.
+
+108
+00:05:23,200 --> 00:05:25,540
+Un minut tard, 750 euros.
+
+109
+00:05:25,940 --> 00:05:27,420
+I les greus pugen a 1.500,
+
+110
+00:05:27,900 --> 00:05:30,240
+arribant de 3.000 euros per a les molt greus.
+
+111
+00:05:30,480 --> 00:05:33,400
+És un règim sancionador, o sigui, gairebé suís.
+
+112
+00:05:33,560 --> 00:05:35,220
+Sí, per aplicar al Mediterrani.
+
+113
+00:05:35,540 --> 00:05:37,540
+Però és que el problema real no és el preu.
+
+114
+00:05:38,120 --> 00:05:40,060
+És la viabilitat de la norma.
+
+115
+00:05:40,380 --> 00:05:42,940
+Qualsevol persona sap que aprovar una norma duríssima
+
+116
+00:05:42,940 --> 00:05:45,340
+sense tenir els mecanismes per fer-la complir
+
+117
+00:05:45,340 --> 00:05:46,720
+és fer volar coloms.
+
+118
+00:05:47,080 --> 00:05:49,160
+És, mira, és com si a l'escola
+
+119
+00:05:49,160 --> 00:05:52,480
+decideixen posar normes estrictíssimes als passadissos
+
+120
+00:05:52,480 --> 00:05:52,660
+i no es poden fer-les.
+
+121
+00:05:52,660 --> 00:05:52,720
+I això és el que passa.
+
+122
+00:05:52,720 --> 00:05:52,740
+I això és el que passa.
+
+123
+00:05:52,740 --> 00:05:52,780
+I això és el que passa.
+
+124
+00:05:52,780 --> 00:05:52,900
+I això és el que passa.
+
+125
+00:05:52,900 --> 00:05:55,080
+D'aquestes que t'expulsen si fas soroll.
+
+126
+00:05:55,720 --> 00:05:57,320
+Molt contundent sobre el paper.
+
+127
+00:05:57,980 --> 00:06:00,620
+Però resulta que l'escola no contracta cap vigilant.
+
+128
+00:06:01,120 --> 00:06:01,940
+Què passa l'endemà?
+
+129
+00:06:02,520 --> 00:06:03,820
+Que ningú fa cas a la norma.
+
+130
+00:06:04,340 --> 00:06:05,620
+I això és el que denuncien.
+
+131
+00:06:06,160 --> 00:06:08,800
+Si la policia local no té prou personal operatiu,
+
+132
+00:06:09,180 --> 00:06:11,660
+qui farà complir aquestes multes de 3.000 euros?
+
+133
+00:06:12,320 --> 00:06:14,920
+I vigila, perquè aquí hi ha un detall legal crucial
+
+134
+00:06:14,920 --> 00:06:16,460
+que la tertúlia va destacar.
+
+135
+00:06:16,920 --> 00:06:19,040
+Per multar algú per una bossa mal posada
+
+136
+00:06:19,040 --> 00:06:20,660
+has de saber de qui és la bossa.
+
+137
+00:06:21,080 --> 00:06:21,480
+Lògic.
+
+138
+00:06:22,060 --> 00:06:22,720
+I com ho fas?
+
+139
+00:06:22,720 --> 00:06:22,860
+I com ho fas?
+
+140
+00:06:22,900 --> 00:06:24,780
+Doncs normalment s'obre la bossa
+
+141
+00:06:24,780 --> 00:06:27,140
+buscant una factura, una carta amb el nom, oi?
+
+142
+00:06:27,760 --> 00:06:30,260
+Però clar, un operari de neteja viària
+
+143
+00:06:30,260 --> 00:06:31,920
+no és cap agent de l'autoritat.
+
+144
+00:06:32,320 --> 00:06:34,580
+No pot anar obrint pertinències privades de la gent
+
+145
+00:06:34,580 --> 00:06:35,900
+per buscar dades personals.
+
+146
+00:06:36,320 --> 00:06:37,460
+No té cobertura legal.
+
+147
+00:06:37,740 --> 00:06:38,000
+Clar.
+
+148
+00:06:39,060 --> 00:06:40,960
+Qualsevol recurs ho tombaria immediatament
+
+149
+00:06:40,960 --> 00:06:41,900
+per vulneració de privacitat.
+
+150
+00:06:42,660 --> 00:06:43,140
+Exacte.
+
+151
+00:06:43,760 --> 00:06:45,220
+Només ho pot fer la policia local.
+
+152
+00:06:45,800 --> 00:06:46,720
+I com que no n'hi ha prou
+
+153
+00:06:46,720 --> 00:06:48,900
+ni per cobrir els torns de seguretat ciutadana ordinaris,
+
+154
+00:06:49,820 --> 00:06:51,640
+doncs no tindrem agents regirant brossa
+
+155
+00:06:51,640 --> 00:06:52,720
+a les 3 de la matinada.
+
+156
+00:06:53,080 --> 00:06:55,020
+Llavors la conclusió és que tot això
+
+157
+00:06:55,020 --> 00:06:57,300
+és pur aparador, una enorme estètica.
+
+158
+00:06:57,720 --> 00:07:00,820
+O pitjor, una excusa per recaptar de manera aleatòria
+
+159
+00:07:00,820 --> 00:07:02,540
+i crear inseguretat a tothom.
+
+160
+00:07:02,720 --> 00:07:03,180
+Totalment.
+
+161
+00:07:03,560 --> 00:07:06,340
+I aquest tema de la recaptació ens porta perfectament
+
+162
+00:07:06,340 --> 00:07:08,140
+a la segona gran polèmica.
+
+163
+00:07:08,640 --> 00:07:10,840
+Perquè si les multes potser no te les posaran,
+
+164
+00:07:11,220 --> 00:07:13,060
+el que sí que t'arribarà a la bústia cada any
+
+165
+00:07:13,060 --> 00:07:14,520
+és el rebut de les escombraries.
+
+166
+00:07:14,880 --> 00:07:15,220
+Ah, sí.
+
+167
+00:07:15,520 --> 00:07:18,140
+I aquí l'equip de govern ha tret una etiqueta
+
+168
+00:07:18,140 --> 00:07:20,280
+que és pur màrqueting polític.
+
+169
+00:07:20,740 --> 00:07:22,680
+La famosa taxa justa.
+
+170
+00:07:22,900 --> 00:07:26,780
+És clar, qui sortiria al carrer a queixar-se d'una taxa justa
+
+171
+00:07:26,780 --> 00:07:28,480
+és un escut perfecte.
+
+172
+00:07:29,280 --> 00:07:31,940
+Etèricament vol dir que qui recicla més paga menys.
+
+173
+00:07:32,180 --> 00:07:33,320
+Bé, teòricament.
+
+174
+00:07:33,580 --> 00:07:35,980
+Però quan anem als números que aporta l'oposició,
+
+175
+00:07:36,120 --> 00:07:36,800
+la cosa fa por.
+
+176
+00:07:37,340 --> 00:07:40,080
+Estem parlant que el rebut s'ha de ja haver de duplicat.
+
+177
+00:07:40,480 --> 00:07:42,500
+D'uns 180 euros que pagava una llar,
+
+178
+00:07:42,860 --> 00:07:44,700
+la xifra s'enfila fins als 330.
+
+179
+00:07:45,320 --> 00:07:47,820
+Una pujada d'un 60% fa ben poc.
+
+180
+00:07:48,060 --> 00:07:49,920
+Un 60% déu-n'hi-do.
+
+181
+00:07:50,500 --> 00:07:51,700
+I tot això per què?
+
+182
+00:07:52,200 --> 00:07:52,440
+Per què?
+
+183
+00:07:52,440 --> 00:07:52,680
+Per què?
+
+184
+00:07:52,680 --> 00:07:53,620
+Perquè aquí està la trampa.
+
+185
+00:07:54,260 --> 00:07:57,220
+No s'està pagant per tenir camions nous ni un servei de luxe.
+
+186
+00:07:57,600 --> 00:08:01,900
+S'està pagant un sobrecost perquè el contracte està caducat des de fa anys.
+
+187
+00:08:02,340 --> 00:08:04,260
+Aquí hi ha el nucli del problema de gestió.
+
+188
+00:08:05,020 --> 00:08:07,320
+A veure, quan un contracte milionari caduca,
+
+189
+00:08:07,720 --> 00:08:09,840
+l'empresa no deixa de recollir la brossa, clar.
+
+190
+00:08:10,100 --> 00:08:11,420
+Continuen prestando el servei.
+
+191
+00:08:11,840 --> 00:08:14,800
+Però ho fan de forma precària, fora de contracte.
+
+192
+00:08:14,880 --> 00:08:16,880
+I l'empresa, doncs, aprofita, no?
+
+193
+00:08:17,060 --> 00:08:17,540
+Exacte.
+
+194
+00:08:18,020 --> 00:08:21,460
+L'empresa repercuteix l'augment real dels preus d'avui en dia.
+
+195
+00:08:21,460 --> 00:08:24,460
+La inflació, el cost del personal...
+
+196
+00:08:25,160 --> 00:08:27,260
+Sense l'escut legal d'un contracte vigent,
+
+197
+00:08:27,620 --> 00:08:29,920
+l'Ajuntament es menja tota la pujada mensual.
+
+198
+00:08:30,460 --> 00:08:34,300
+L'oposició diu que aquesta deixadesa en redactar un nou contracte a temps
+
+199
+00:08:34,300 --> 00:08:36,320
+ens està costant molts diners.
+
+200
+00:08:36,940 --> 00:08:39,200
+O sigui, se li demana a qui ens escolta
+
+201
+00:08:39,200 --> 00:08:42,040
+que classifiqui cadascuna de les seves escombraies a casa
+
+202
+00:08:42,040 --> 00:08:46,800
+que pagui puntualment 330 euros de taxa justa.
+
+203
+00:08:47,280 --> 00:08:51,240
+Però, mentrestant, l'administració ni tan sols fa la seva feina domèstica
+
+204
+00:08:51,460 --> 00:08:53,140
+de renovar els contractes a temps.
+
+205
+00:08:53,660 --> 00:08:56,160
+És una doble moral, sincerament, flagrant.
+
+206
+00:08:56,740 --> 00:08:59,300
+I com a cirrereta tecnològica a tot aquest desastre,
+
+207
+00:08:59,880 --> 00:09:01,760
+s'anuncien les noves ecocàmeres.
+
+208
+00:09:02,700 --> 00:09:04,980
+Ecocàmeres. Un altre gran joc de paraules.
+
+209
+00:09:05,700 --> 00:09:07,080
+Sublim. Clar que sí.
+
+210
+00:09:07,660 --> 00:09:10,520
+Si poses una càmera al carrer, ets un dictador.
+
+211
+00:09:10,980 --> 00:09:14,640
+Si hi poses eco al davant, ets modern i cívic.
+
+212
+00:09:15,100 --> 00:09:19,460
+Diuen que posaran 5 càmeres als punts negres d'abocaments incontrolats.
+
+213
+00:09:19,960 --> 00:09:21,440
+Però, a veure, tornem a la línia.
+
+214
+00:09:21,460 --> 00:09:22,500
+La logística bàsica.
+
+215
+00:09:23,000 --> 00:09:25,780
+5 càmeres gravant carrers 24 hores al dia.
+
+216
+00:09:26,340 --> 00:09:28,720
+Tindrà l'Ajuntament un agent tancat en un despatx
+
+217
+00:09:28,720 --> 00:09:30,920
+mirant 120 hores diàries de vídeo
+
+218
+00:09:30,920 --> 00:09:33,200
+per veure qui llença un cartó on no toca?
+
+219
+00:09:33,680 --> 00:09:36,320
+I si algun veí es posa una caputxa per llençar la brossa?
+
+220
+00:09:36,620 --> 00:09:37,100
+Què faran?
+
+221
+00:09:37,960 --> 00:09:41,200
+És que, a més, a les fonts ja van recordar
+
+222
+00:09:41,200 --> 00:09:43,080
+que hi havia una prova pilot abans,
+
+223
+00:09:43,560 --> 00:09:45,240
+al carrer de les Flors, concretament.
+
+224
+00:09:45,340 --> 00:09:46,140
+I què va passar allà?
+
+225
+00:09:46,540 --> 00:09:49,460
+Doncs que van posar càmeres, van sortir a la revista municipal
+
+226
+00:09:49,460 --> 00:09:51,460
+i després van desabastar.
+
+227
+00:09:51,460 --> 00:09:53,020
+I no apareixen silenci absolut.
+
+228
+00:09:53,540 --> 00:09:56,440
+Ni dades d'eficiència, ni multes cobrades,
+
+229
+00:09:56,860 --> 00:09:58,340
+ni cap prova que funcionés.
+
+230
+00:09:58,840 --> 00:10:01,500
+És el típic solucionisme tecnològic de manual.
+
+231
+00:10:02,000 --> 00:10:03,460
+Aparentar que fas alguna cosa
+
+232
+00:10:03,460 --> 00:10:05,940
+mentre la institució continua paralitzada.
+
+233
+00:10:06,160 --> 00:10:06,940
+Vaja, tela.
+
+234
+00:10:07,740 --> 00:10:10,880
+Escolta, fem una partita pausa tècnica per endreçar idees,
+
+235
+00:10:11,020 --> 00:10:13,220
+perquè portem una bona llista de coses,
+
+236
+00:10:13,720 --> 00:10:15,520
+i abans de pujar al nou autobús
+
+237
+00:10:15,520 --> 00:10:18,240
+vull que tinguem clar el mapa de la situació.
+
+238
+00:10:18,680 --> 00:10:20,080
+Un resum ràpid de la jornada.
+
+239
+00:10:20,540 --> 00:10:20,900
+Endavant.
+
+240
+00:10:20,900 --> 00:10:21,000
+Endavant.
+
+241
+00:10:21,000 --> 00:10:21,040
+Endavant.
+
+242
+00:10:21,040 --> 00:10:21,060
+Endavant.
+
+243
+00:10:21,060 --> 00:10:21,120
+Endavant.
+
+244
+00:10:21,120 --> 00:10:21,440
+Endavant.
+
+245
+00:10:21,460 --> 00:10:22,920
+Repassem els quatre punts clau.
+
+246
+00:10:23,300 --> 00:10:26,580
+Punt 1. Noves multes astronòmiques de residus.
+
+247
+00:10:26,960 --> 00:10:29,680
+Dels 750 als 3.000 euros.
+
+248
+00:10:30,440 --> 00:10:33,220
+Inaplicables perquè no hi ha policia per controlar-lo.
+
+249
+00:10:33,540 --> 00:10:34,020
+Correcte.
+
+250
+00:10:34,340 --> 00:10:38,040
+Punt 2. La pujada del rebut a uns 330 euros,
+
+251
+00:10:38,420 --> 00:10:40,280
+amb el nom de taxa justa,
+
+252
+00:10:40,680 --> 00:10:43,680
+amagant que paguem més per culpa d'un contracte caducat.
+
+253
+00:10:44,020 --> 00:10:44,900
+Sí, la doble moral.
+
+254
+00:10:45,260 --> 00:10:47,100
+Punt 3. Les ecocàmeres.
+
+255
+00:10:47,480 --> 00:10:49,700
+Una eina de vigilància de dubtosa vialitat
+
+256
+00:10:49,700 --> 00:10:51,120
+de la qual ningú s'ho mirarà.
+
+257
+00:10:51,120 --> 00:10:53,520
+I punt 4. Què és cap on anem ara?
+
+258
+00:10:54,120 --> 00:10:55,200
+El transport públic.
+
+259
+00:10:55,480 --> 00:10:56,380
+El transport públic.
+
+260
+00:10:56,740 --> 00:10:59,300
+Aquí és on agafem tot aquest patrón de màrqueting fallit,
+
+261
+00:10:59,480 --> 00:11:02,300
+li posem quatre rodes i pugem al nou autobús municipal.
+
+262
+00:11:02,700 --> 00:11:03,780
+La línia B32.
+
+263
+00:11:04,460 --> 00:11:05,020
+B32.
+
+264
+00:11:05,560 --> 00:11:08,880
+Clar, tu llegeixes la revista municipal i això és la panacea.
+
+265
+00:11:09,300 --> 00:11:11,920
+Es veu com una línia que, cito textualment,
+
+266
+00:11:12,360 --> 00:11:15,360
+vertebra el poble i connecta totes les cianes.
+
+267
+00:11:15,800 --> 00:11:18,840
+Però, clar, les dades de l'oposició en diuen exactament el contrari.
+
+268
+00:11:19,080 --> 00:11:20,640
+Només cal mirar els números.
+
+269
+00:11:21,120 --> 00:11:25,080
+El municipi ha perdut dues línies, la 34 i la 35,
+
+270
+00:11:25,480 --> 00:11:26,900
+per guanyar-ne només una.
+
+271
+00:11:27,540 --> 00:11:30,880
+I, curiosament, qui surt més beneficiat d'aquesta reducció
+
+272
+00:11:30,880 --> 00:11:33,460
+és el poble del costat, Montgat.
+
+273
+00:11:34,300 --> 00:11:37,320
+Això surt passar quan els despatxos de l'àrea metropolitana
+
+274
+00:11:37,320 --> 00:11:39,440
+planifiquen sense baixar el carrer.
+
+275
+00:11:39,680 --> 00:11:42,780
+És clar, sobreplano potser que era bé, però...
+
+276
+00:11:42,780 --> 00:11:43,980
+I l'experiència física?
+
+277
+00:11:44,560 --> 00:11:47,960
+L'aventura off-road que expliquen a la Tartúlia és de pel·lícula.
+
+278
+00:11:47,960 --> 00:11:50,760
+A veure, un veí explicava que un viatge
+
+279
+00:11:51,120 --> 00:11:54,840
+d'extrena va durar 24 minuts, sense gens de trànsit.
+
+280
+00:11:55,160 --> 00:11:57,600
+24 minuts dins del mateix poble.
+
+281
+00:11:57,920 --> 00:11:58,960
+Sí, sí.
+
+282
+00:11:59,700 --> 00:12:02,540
+Tot per fer una volta incomprensible per Montgat,
+
+283
+00:12:02,940 --> 00:12:05,400
+passant pel cementeri i per sota l'institut.
+
+284
+00:12:05,920 --> 00:12:07,600
+Però el pitjor no és el temps.
+
+285
+00:12:08,060 --> 00:12:11,380
+És quan l'autobús va haver d'entrar per el Camí dels Francesos.
+
+286
+00:12:11,740 --> 00:12:14,920
+Un tram que, òbviament, no estava preparat per aquest tipus de vehicle.
+
+287
+00:12:15,300 --> 00:12:16,040
+En absolut.
+
+288
+00:12:16,040 --> 00:12:20,120
+L'autobús va començar a rascar els baixos contra el terra.
+
+289
+00:12:20,120 --> 00:12:24,220
+Rascava literalment el paviment amb cada ressalt de la carretera.
+
+290
+00:12:24,680 --> 00:12:27,700
+I va ser tan fort que el conductor, el dia de l'estrena,
+
+291
+00:12:28,200 --> 00:12:30,580
+va veure d'encendre els quatre intermitents,
+
+292
+00:12:30,940 --> 00:12:33,580
+clavar frens i baixar espantat per comprovar
+
+293
+00:12:33,580 --> 00:12:35,540
+si havia arrencat el tub d'escapament.
+
+294
+00:12:35,820 --> 00:12:38,340
+És que és d'incompetència sopina.
+
+295
+00:12:38,800 --> 00:12:42,060
+Dissenyar una ruta sense ni tan sols comprovar l'alçada lliure
+
+296
+00:12:42,060 --> 00:12:44,860
+al terra del vehicle respecte als sots del carrer
+
+297
+00:12:44,860 --> 00:12:46,200
+és no fer els deures.
+
+298
+00:12:46,620 --> 00:12:49,560
+Però més enllà del nyap mecànic, hi ha la qüestió social.
+
+299
+00:12:49,560 --> 00:12:52,560
+L'aïllament dels barris. Això és el més crític.
+
+300
+00:12:52,760 --> 00:12:53,320
+Exacte.
+
+301
+00:12:53,920 --> 00:12:59,260
+Barris com Can Galleta, Els Bassans, Les Costes, La Bòbila o La Virreina
+
+302
+00:12:59,260 --> 00:13:03,260
+queden directament aïllats del centre neuràlgic del seu propi poble.
+
+303
+00:13:03,760 --> 00:13:07,880
+O sigui que diuen que vertebren, però a la pràctica t'estan expulsant.
+
+304
+00:13:08,340 --> 00:13:11,420
+A veure, el bus potser et serveix per anar a l'estació de Renfe
+
+305
+00:13:11,420 --> 00:13:12,640
+i marxar a Barcelona.
+
+306
+00:13:12,940 --> 00:13:14,560
+Però si vols anar al centre mèdic de Tiana...
+
+307
+00:13:15,240 --> 00:13:16,120
+O a la farmàcia.
+
+308
+00:13:16,680 --> 00:13:18,960
+O a comprar el pa de tota la vida al comerç local.
+
+309
+00:13:18,960 --> 00:13:20,880
+Doncs ho tens gairebé impossible.
+
+310
+00:13:21,480 --> 00:13:22,960
+Has de fer uns transbordaments absurds
+
+311
+00:13:23,680 --> 00:13:26,580
+o acabar demanant a algun familiar que et baixi amb cotxe privat.
+
+312
+00:13:27,100 --> 00:13:30,000
+Especialment greu per a persones grans o amb mobilitat reduïda.
+
+313
+00:13:30,480 --> 00:13:34,420
+Aleshores, hem arribat al punt en què el transport públic intern d'un poble
+
+314
+00:13:34,420 --> 00:13:37,460
+està dissenyat de tal manera que arribes abans al centre
+
+315
+00:13:37,460 --> 00:13:39,000
+caminant que agafen l'autobús.
+
+316
+00:13:39,240 --> 00:13:39,720
+Exactament.
+
+317
+00:13:40,280 --> 00:13:42,740
+No és vertebrar, és un labirint sobre rodes
+
+318
+00:13:42,740 --> 00:13:44,900
+que favoreix el desplaçament cap enfora,
+
+319
+00:13:45,080 --> 00:13:46,760
+però ofega la vida del propi barri.
+
+320
+00:13:46,760 --> 00:13:47,760
+Vaja, vull dir...
+
+321
+00:13:47,760 --> 00:13:49,080
+Quin panorama!
+
+322
+00:13:49,600 --> 00:13:52,780
+Tot això que hem vist avui conforma un puzle, diguem-ne,
+
+323
+00:13:52,880 --> 00:13:56,220
+fascinant de com funciona aquesta política d'aparador.
+
+324
+00:13:56,720 --> 00:13:59,400
+Cadires buides als debats, rebús que pugen,
+
+325
+00:13:59,660 --> 00:14:01,420
+amenaces de multes irrealistes
+
+326
+00:14:01,420 --> 00:14:05,420
+i màrqueting pur i dur per amagar retallades de serveis.
+
+327
+00:14:06,000 --> 00:14:08,120
+És per això que, arribats a aquest punt,
+
+328
+00:14:08,540 --> 00:14:10,540
+m'agradaria llançar una reflexió final
+
+329
+00:14:10,540 --> 00:14:12,440
+per a tothom qui ens escolta avui.
+
+330
+00:14:12,720 --> 00:14:13,180
+Endavant!
+
+331
+00:14:13,540 --> 00:14:14,860
+Posem les cartes sobre la taula.
+
+332
+00:14:14,860 --> 00:14:16,860
+Quan una administració utilitza i abusa...
+
+333
+00:14:17,760 --> 00:14:19,760
+de conceptes tan impecables,
+
+334
+00:14:19,760 --> 00:14:21,760
+tan bonics com...
+
+335
+00:14:21,760 --> 00:14:22,760
+ecocàmeres,
+
+336
+00:14:22,760 --> 00:14:23,760
+taxa justa
+
+337
+00:14:23,760 --> 00:14:25,760
+o vertebració territorial,
+
+338
+00:14:25,760 --> 00:14:27,760
+ens hem de preguntar...
+
+339
+00:14:27,760 --> 00:14:29,760
+fins a quin punt l'ús d'aquestes paraules màgiques
+
+340
+00:14:29,760 --> 00:14:32,760
+pretén maquillar una gestió defectuosa.
+
+341
+00:14:32,760 --> 00:14:35,760
+Estem dissenyant ciutats i normatives
+
+342
+00:14:35,760 --> 00:14:37,760
+només per quedar bé a la revista municipal,
+
+343
+00:14:37,760 --> 00:14:40,760
+oblidant l'usuari real que rasca els baixos del vehicle
+
+344
+00:14:40,760 --> 00:14:43,760
+o que ja no pot anar a la farmàcia.
+
+345
+00:14:43,760 --> 00:14:46,760
+Mantingueu sempre l'ascepticisme actiu,
+
+346
+00:14:46,760 --> 00:14:48,760
+davant l'eslògan fàcil.
+
+347
+00:14:48,760 --> 00:14:50,760
+Aquesta és la gran lliçó de les fonts d'avui.
+
+348
+00:14:50,760 --> 00:14:54,760
+Gràcies a tothom per ser i escoltar aquesta radiografia
+
+349
+00:14:54,760 --> 00:14:56,760
+d'un debat que porta molta cua.
+
+350
+00:14:56,760 --> 00:14:59,760
+Us animem, com sempre, a subscriure'ls a aquest espai
+
+351
+00:14:59,760 --> 00:15:01,760
+per no perdre'ls als propers debats,
+
+352
+00:15:01,760 --> 00:15:04,760
+que segur que portaran més tela per tallar.
+
+353
+00:15:04,760 --> 00:15:06,760
+I tant! I no us oblideu del barri!
+
+354
+00:15:06,760 --> 00:15:09,760
+Això! Un favor final molt important.
+
+355
+00:15:09,760 --> 00:15:10,760
+Feu pinya.
+
+356
+00:15:10,760 --> 00:15:13,760
+Si encara no ho heu fet, animem a tothom a apuntar-se
+
+357
+00:15:13,760 --> 00:15:15,760
+a l'associació de Can Galletena.
+
+358
+00:15:15,760 --> 00:15:17,760
+Teniu l'enllaç ben visible just aquí,
+
+359
+00:15:17,760 --> 00:15:19,760
+a la descripció d'aquesta immersió.
+
+360
+00:15:19,760 --> 00:15:21,760
+Fins a la pròxima! I ja ho sabeu,
+
+361
+00:15:21,760 --> 00:15:23,760
+mireu bé on deixeu la brossa.
+

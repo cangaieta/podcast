@@ -149,6 +149,16 @@ EPISODIS = [
         "date": "2026-03-11",
         "duration": "21:03",
         "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "pantalles", "menors", "salut publica", "youtube", "xarxes socials", "revista municipal", "placa de la vila", "pediatria", "dark patterns", "ple municipal"]
+    },
+    {
+        "num": "014",
+        "fitxer": "014-multes-750-euros-busos-inutils.mp3",
+        "identifier": "podcast-cangaieta-014-multes-750-euros-busos-inutils",
+        "title": "Episodi 014: Multes de 750 € i autobusos que no caben pel poble",
+        "description": "Anàlisi de la tertúlia política d'abril de 'Ara i aquí' (La Local Ràdio Tiana) sobre la nova ordenança de residus i neteja viària de Tiana, aprovada inicialment el 21 d'abril de 2026. Multes de 750 a 3.000 euros que ningú podrà aplicar perquè no hi ha policia, una 'taxa justa' que duplica el rebut (de 180 a 330 €) per culpa d'un contracte caducat, ecocàmeres com a solucionisme tecnològic d'aparador i una línia d'autobús B32 que el primer dia rascava els baixos contra l'asfalt al Camí dels Francesos. La cadira buida del govern al debat ho diu tot.",
+        "date": "2026-05-03",
+        "duration": "15:23",
+        "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "ordenança residus", "neteja viaria", "multes", "taxa justa", "ecocàmeres", "autobus", "b32", "mobilitat", "tertulia politica", "la local radio tiana", "majoria absoluta"]
     }
 ]
 

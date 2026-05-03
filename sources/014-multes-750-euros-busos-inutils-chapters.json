@@ -1,0 +1,16 @@
+{
+  "version": "1.2.0",
+  "podcastName": "Podcast Associació Veïnal Can Gaietà",
+  "title": "Episodi 014: Multes de 750 euros i autobusos que no caben pel poble",
+  "chapters": [
+    { "startTime": 0, "title": "Introducció i disclaimer" },
+    { "startTime": 204, "title": "La cadira buida: Junts per Tiana absent al debat" },
+    { "startTime": 295, "title": "Multes de fins a 3.000€: ordenança inaplicable sense policia" },
+    { "startTime": 423, "title": "'Taxa justa': el rebut s'enfila a 330€ per un contracte caducat" },
+    { "startTime": 536, "title": "Ecocàmeres: solucionisme tecnològic d'aparador" },
+    { "startTime": 618, "title": "Resum: quatre punts d'una política d'aparador" },
+    { "startTime": 655, "title": "Línia B32: l'autobús que rasca els baixos al Camí dels Francesos" },
+    { "startTime": 766, "title": "Aïllament dels barris: el bus que t'expulsa del centre" },
+    { "startTime": 829, "title": "Reflexió final: paraules màgiques per maquillar gestió defectuosa" }
+  ]
+}
