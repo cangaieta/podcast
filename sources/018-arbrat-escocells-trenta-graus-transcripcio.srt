@@ -1,0 +1,1672 @@
+1
+00:00:00,000 --> 00:00:03,680
+Imaginem dos carrers del mateix poble, al mateix dia,
+
+2
+00:00:04,220 --> 00:00:07,500
+i a la mateixa hora d'un mes de juliol d'aquells vent calorosos.
+
+3
+00:00:08,360 --> 00:00:14,080
+En un carrer, l'asfalt crema literalment a 57,2 graus centígrades.
+
+4
+00:00:14,360 --> 00:00:14,900
+Déu-n'hi-do.
+
+5
+00:00:15,280 --> 00:00:15,600
+I tant.
+
+6
+00:00:16,180 --> 00:00:20,020
+Però a només quatre carrers de distància, just a sota de l'ombra,
+
+7
+00:00:20,440 --> 00:00:22,980
+el termòmetre marca 26,8 graus.
+
+8
+00:00:22,980 --> 00:00:28,880
+O sigui, estem parlant de més de 30 graus de diferència dins del mateix codi postal.
+
+9
+00:00:28,880 --> 00:00:39,080
+És una imatge molt, molt potent.
+
+10
+00:00:39,640 --> 00:00:43,560
+I, a veure, abans d'entrar a disseccionar aquesta xifra tan brutal,
+
+11
+00:00:44,120 --> 00:00:48,500
+cal fer un avís de transparència que és fonamental per a tota la gent que ens escolta avui.
+
+12
+00:00:48,740 --> 00:00:49,480
+Clar, endavant.
+
+13
+00:00:49,480 --> 00:00:54,040
+Aquest programa, incluent i tant el guió com les veus que esteu sentint ara mateix,
+
+14
+00:00:54,580 --> 00:00:57,480
+està generat íntegrament amb intel·ligència artificial.
+
+15
+00:00:57,480 --> 00:01:02,160
+I això vol dir que, tot i basar-nos estrictament en documents reals,
+
+16
+00:01:02,480 --> 00:01:04,400
+el contingut podria contenir errors.
+
+17
+00:01:04,740 --> 00:01:07,080
+Exacte. És important tenir-ho present.
+
+18
+00:01:07,280 --> 00:01:11,800
+Sí, perquè l'objectiu d'aquesta anàlisi no és emetre sentències absolutes,
+
+19
+00:01:12,220 --> 00:01:13,720
+ni dir-li a ningú què ha de pensar.
+
+20
+00:01:14,240 --> 00:01:16,480
+La intenció és fomentar l'espírit crític
+
+21
+00:01:16,480 --> 00:01:19,680
+i convidar tothom a consultar la documentació original
+
+22
+00:01:19,680 --> 00:01:22,060
+que oferim a les fonts d'aquesta immersió.
+
+23
+00:01:22,220 --> 00:01:23,060
+Totalment d'acord.
+
+24
+00:01:23,060 --> 00:01:27,460
+I amb això dit, benvinguts a aquesta nova immersió a fons des de Ràdio Can Gallet.
+
+25
+00:01:27,480 --> 00:01:31,320
+Bé, això és una salutació molt especial a la nostra gent del barri
+
+26
+00:01:31,320 --> 00:01:34,360
+i a tots els veïns i veïnes que ens escolten des de Tiana.
+
+27
+00:01:34,640 --> 00:01:35,760
+Una abraçada a tothom.
+
+28
+00:01:36,200 --> 00:01:40,480
+I reprenent del fil d'aquesta dada demolidora dels 30 graus de diferència,
+
+29
+00:01:40,960 --> 00:01:45,340
+avui tenim sobre la taula un dossier basat en dades oficials de l'Ajuntament
+
+30
+00:01:45,340 --> 00:01:47,820
+i en mesures veïnals que són inèdites.
+
+31
+00:01:48,360 --> 00:01:51,640
+La missió avui és entendre com la gestió del verd urbà
+
+32
+00:01:51,640 --> 00:01:54,340
+ha passat de ser una simple qüestió estètica
+
+33
+00:01:54,340 --> 00:01:56,840
+a un problema crític de salut pública.
+
+34
+00:01:57,080 --> 00:01:57,460
+Exacte.
+
+35
+00:01:57,480 --> 00:01:57,740
+Exactament.
+
+36
+00:01:58,300 --> 00:02:00,140
+Salut pública, amb majúscules.
+
+37
+00:02:00,500 --> 00:02:02,400
+Llavors, la pregunta inicial seria
+
+38
+00:02:02,400 --> 00:02:06,520
+com passem d'aquella sensació genèrica de sortir al carrer i dir
+
+39
+00:02:06,520 --> 00:02:08,200
+uau, quin sol que fa,
+
+40
+00:02:08,800 --> 00:02:13,340
+a una realitat empírica que ens demostra aquest autèntic abisme tèrmic?
+
+41
+00:02:13,520 --> 00:02:18,820
+Doncs aquest salt a l'evidència empírica es produeix justament el 2 de juliol de 2025,
+
+42
+00:02:19,280 --> 00:02:20,640
+gràcies a l'experiment FLIR.
+
+43
+00:02:21,080 --> 00:02:22,480
+O sigui, va ser una iniciativa ciutadana
+
+44
+00:02:23,000 --> 00:02:26,780
+que va consistir a recórrer els carrers amb una càmera tèrmica professional.
+
+45
+00:02:26,780 --> 00:02:29,540
+I aquesta càmera no només llegeix l'aire, oi?
+
+46
+00:02:29,800 --> 00:02:30,440
+Clar, no, no.
+
+47
+00:02:30,680 --> 00:02:33,840
+Aquesta tecnologia visualitza la radiació infrarotxa
+
+48
+00:02:33,840 --> 00:02:35,700
+que emeten les superfícies físiques.
+
+49
+00:02:36,140 --> 00:02:37,860
+Llavors, et pinta un mapa de calor
+
+50
+00:02:37,860 --> 00:02:39,880
+on els extrems salten a la vista a l'instant.
+
+51
+00:02:40,580 --> 00:02:43,940
+Al carrer de Calçfrares van apuntar l'objectiu directament a l'asfalt nu
+
+52
+00:02:43,940 --> 00:02:47,560
+i la màquina va registrar els esferidors 57,2 graus.
+
+53
+00:02:47,680 --> 00:02:48,320
+Mare meva!
+
+54
+00:02:48,620 --> 00:02:50,560
+I simultàniament, al carrer de Can Mates,
+
+55
+00:02:50,700 --> 00:02:53,560
+que està just a prop, a sota de la densa copa d'un arbre madur,
+
+56
+00:02:53,560 --> 00:02:56,660
+la lectura caia fins als 26,8 graus.
+
+57
+00:02:56,780 --> 00:03:00,580
+I aquí hi ha un detall d'aquesta anècdota tèrmica
+
+58
+00:03:00,580 --> 00:03:01,840
+que és sangrant.
+
+59
+00:03:02,620 --> 00:03:05,800
+El motiu pel qual aquest punt exacte del carrer Calçfrares
+
+60
+00:03:05,800 --> 00:03:08,740
+estava tan exposat no és casualitat.
+
+61
+00:03:09,520 --> 00:03:13,320
+Aquests 57 graus coincideixen mil·limètricament
+
+62
+00:03:13,320 --> 00:03:15,400
+i subratllomilimètricament
+
+63
+00:03:15,400 --> 00:03:19,380
+amb el lloc on l'administració va decidir tallar un arbre.
+
+64
+00:03:19,860 --> 00:03:22,900
+Sí, i el motiu de la tala és prellogar i cadires.
+
+65
+00:03:23,460 --> 00:03:23,900
+Sincerament.
+
+66
+00:03:24,320 --> 00:03:25,940
+És que no era cap malaltia terminal
+
+67
+00:03:25,940 --> 00:03:26,760
+ni un risc de malaltia terminal.
+
+68
+00:03:26,760 --> 00:03:28,140
+No és que hagués de caure al cap de ningú.
+
+69
+00:03:28,580 --> 00:03:30,360
+L'arbre es va tallar, ras i curt,
+
+70
+00:03:30,680 --> 00:03:33,060
+per facilitar les maniobres del camió de la fira
+
+71
+00:03:33,060 --> 00:03:34,120
+durant la festa local.
+
+72
+00:03:34,160 --> 00:03:35,260
+Un sol dia de l'any.
+
+73
+00:03:35,660 --> 00:03:36,100
+Exacte.
+
+74
+00:03:36,440 --> 00:03:40,040
+O sigui, se sacrifica una infraestructura biològica permanent
+
+75
+00:03:40,040 --> 00:03:42,600
+per resoldre una logística puntual d'un dia.
+
+76
+00:03:43,140 --> 00:03:45,940
+I la conseqüència és que el terra es converteix
+
+77
+00:03:45,940 --> 00:03:48,280
+en un radiador a 57 graus
+
+78
+00:03:48,280 --> 00:03:49,720
+per tota la gent que hi viu.
+
+79
+00:03:49,920 --> 00:03:51,800
+Clar, la resta de l'any, paellada.
+
+80
+00:03:52,360 --> 00:03:55,240
+Si mirem l'inventari municipal de l'arbrat de Tiana,
+
+81
+00:03:55,240 --> 00:03:58,080
+que el va redactar una empresa externa el 2024
+
+82
+00:03:58,080 --> 00:03:59,680
+a petició del propi ajuntament,
+
+83
+00:04:00,160 --> 00:04:02,180
+la radiografia és demolidora.
+
+84
+00:04:02,580 --> 00:04:03,560
+Què diuen els números?
+
+85
+00:04:04,120 --> 00:04:06,300
+Doncs el document revela que el municipi
+
+86
+00:04:06,300 --> 00:04:09,040
+ha perdut 541 posicions d'arbres.
+
+87
+00:04:09,600 --> 00:04:13,200
+Això és un 10% de la totalitat dels cents d'arbrat de Tiana.
+
+88
+00:04:14,120 --> 00:04:17,060
+Una de cada 10 posicions on hi hauria d'haver un arbre
+
+89
+00:04:17,060 --> 00:04:18,620
+està completament buida.
+
+90
+00:04:18,980 --> 00:04:22,080
+Té-la, però atenció amb el concepte de posició buida,
+
+91
+00:04:22,080 --> 00:04:24,080
+perquè el mateix inventari documenta
+
+92
+00:04:25,240 --> 00:04:27,700
+que en molts casos no és que hi hagi un forat en terra
+
+93
+00:04:27,700 --> 00:04:29,420
+esperant ser replantat.
+
+94
+00:04:30,080 --> 00:04:33,960
+Hi ha 56 escossells, documentats amb fotos i tot,
+
+95
+00:04:34,380 --> 00:04:37,380
+que han estat pavimentats expressament per l'administració.
+
+96
+00:04:37,480 --> 00:04:39,400
+Això és directament esborrar els cents.
+
+97
+00:04:39,960 --> 00:04:43,480
+Sí, sí, el parc dels Tubis, a la zona de l'antic camp de futbol,
+
+98
+00:04:43,820 --> 00:04:46,280
+han agafat el requadre de terra on anava l'arbre
+
+99
+00:04:46,280 --> 00:04:48,520
+i l'han omplet de formigó fins dalt.
+
+100
+00:04:48,880 --> 00:04:50,320
+Si ho haguessin de comparar amb una casa,
+
+101
+00:04:50,560 --> 00:04:54,880
+és com tenir una habitació que s'ofega per falta d'aire
+
+102
+00:04:54,880 --> 00:04:55,060
+i que s'ha de fer amb un arbre.
+
+103
+00:04:55,060 --> 00:04:55,220
+I això és unes coses que no s'han de fer.
+
+104
+00:04:55,240 --> 00:04:57,520
+I, en lloc de reparar la finestra per obrir-la,
+
+105
+00:04:57,900 --> 00:05:00,460
+decideixes tapiar el forat completament amb mons,
+
+106
+00:05:00,760 --> 00:05:03,140
+perquè així t'estalvis netejar els vidres.
+
+107
+00:05:03,500 --> 00:05:04,840
+M'agrada aquesta analogia,
+
+108
+00:05:05,200 --> 00:05:08,220
+perquè il·lustra perfectament què passa al subsol.
+
+109
+00:05:08,920 --> 00:05:12,760
+El propi inventari ja adverteix que, en molts carrers del poble,
+
+110
+00:05:13,260 --> 00:05:15,240
+l'única superfície que no està impermeabilitzada
+
+111
+00:05:15,880 --> 00:05:18,400
+és precisament l'escossell de l'arbre.
+
+112
+00:05:18,680 --> 00:05:20,120
+És per on respira el terra.
+
+113
+00:05:20,640 --> 00:05:23,040
+Exacte. És l'únic punt de drenatge.
+
+114
+00:05:23,460 --> 00:05:25,040
+Llavors, quan hi ha boques formigòries,
+
+115
+00:05:25,040 --> 00:05:27,800
+enules aquesta capacitat de drenatge,
+
+116
+00:05:28,280 --> 00:05:31,420
+acceleres l'escorrentia de l'aigua quan hi ha pluges fortes
+
+117
+00:05:31,420 --> 00:05:34,680
+i, bàsicament, col·lapses l'intercanvi de gasos.
+
+118
+00:05:35,160 --> 00:05:38,100
+O sigui, pavimentar no és només perdre ombra,
+
+119
+00:05:38,540 --> 00:05:41,080
+és desencadenar una reacció en cadena nefasta.
+
+120
+00:05:41,280 --> 00:05:45,000
+Clar. Llavors, si estan cimentant literalment
+
+121
+00:05:45,000 --> 00:05:46,480
+l'espai dels arbres que falten,
+
+122
+00:05:46,980 --> 00:05:48,760
+la gran pregunta que envia al cap és
+
+123
+00:05:48,760 --> 00:05:51,900
+què els està passant als arbres que encara sobreviuen?
+
+124
+00:05:52,540 --> 00:05:54,020
+Què els fa morir abans d'hora?
+
+125
+00:05:54,660 --> 00:05:54,740
+Podríem pensar que, en el cas de les arbres,
+
+126
+00:05:54,740 --> 00:05:54,860
+els arbres que encara sobreviuen,
+
+127
+00:05:54,860 --> 00:05:55,000
+els arbres que encara sobreviuen,
+
+128
+00:05:55,000 --> 00:05:55,020
+els arbres que encara sobreviuen,
+
+129
+00:05:55,020 --> 00:05:58,200
+podrien pensar que és la sequera o plugues noves?
+
+130
+00:05:58,620 --> 00:05:59,460
+Podríem, sí.
+
+131
+00:05:59,840 --> 00:06:03,160
+Però la resposta la trobem al mateix informe de 2024
+
+132
+00:06:03,160 --> 00:06:06,560
+i es llegeix pràcticament com una confessió de negligència.
+
+133
+00:06:06,960 --> 00:06:09,520
+Totalment. El consultor extern és molt clar.
+
+134
+00:06:09,980 --> 00:06:13,320
+Els números mostren que la immensa majoria de les alteracions
+
+135
+00:06:13,320 --> 00:06:16,380
+no són per culpa de la sequera o factors ambientals.
+
+136
+00:06:16,880 --> 00:06:20,700
+Són danys autoinfligits per les pròpies tècniques de manteniment.
+
+137
+00:06:21,320 --> 00:06:24,120
+Parlem que un 76% dels homes de Sibèria
+
+138
+00:06:24,120 --> 00:06:24,840
+i un 50% dels homes de la ciutat de Sibèria
+
+139
+00:06:24,840 --> 00:06:26,320
+i un 49% dels nagundos
+
+140
+00:06:26,320 --> 00:06:29,940
+tenen defectes estructurals greus per, i cito textualment,
+
+141
+00:06:30,300 --> 00:06:32,700
+podes recurrents de reducció de capsada.
+
+142
+00:06:32,980 --> 00:06:33,880
+Una barbaritat.
+
+143
+00:06:34,200 --> 00:06:37,500
+Un dels casos més senyants són els tilles del Camí de l'Alegria.
+
+144
+00:06:38,000 --> 00:06:40,060
+L'auditor escriu que han estat destrossats
+
+145
+00:06:40,060 --> 00:06:42,560
+per podes dràstiques i innecessàries.
+
+146
+00:06:42,820 --> 00:06:45,840
+A veure, aquí m'agradaria fer una mica d'advocada del diable
+
+147
+00:06:45,840 --> 00:06:48,000
+perquè sé que molta gent ho pensa.
+
+148
+00:06:48,820 --> 00:06:52,120
+Veient com els temporals d'avents són cada cop més violents,
+
+149
+00:06:52,600 --> 00:06:54,660
+no sembla lògic pensar que una poda de cadascú
+
+150
+00:06:54,660 --> 00:06:57,720
+o una poda agressiva es fa només per seguretat.
+
+151
+00:06:58,280 --> 00:07:02,080
+Vull dir, si talles les branques grans i deixes l'arbre pelat,
+
+152
+00:07:02,240 --> 00:07:04,440
+és més petit, el vent i xoca menys,
+
+153
+00:07:04,500 --> 00:07:06,880
+i per tant elimines el risc que una branca caigui
+
+154
+00:07:06,880 --> 00:07:08,360
+sobre un cotxe o una persona.
+
+155
+00:07:08,940 --> 00:07:11,840
+La lògica ens diu que menys arbre és menys perill.
+
+156
+00:07:12,260 --> 00:07:15,800
+Clar. A veure, aquesta és la falsa percepció
+
+157
+00:07:15,800 --> 00:07:17,400
+que arrosseguem des de fa dècades.
+
+158
+00:07:17,880 --> 00:07:21,660
+Però la biomecànica moderna ens diu que funciona exactament al revés.
+
+159
+00:07:21,740 --> 00:07:22,000
+Ah, sí?
+
+160
+00:07:22,000 --> 00:07:24,640
+Sí, sí. El cap d'arbrat de Barcelona,
+
+161
+00:07:24,660 --> 00:07:26,680
+el Joan Guitart, ho explica molt bé.
+
+162
+00:07:27,240 --> 00:07:30,540
+Aquest costum de fer podes severes ve de la frutocultura,
+
+163
+00:07:30,660 --> 00:07:31,920
+de l'agricultura tradicional.
+
+164
+00:07:32,520 --> 00:07:35,240
+Allà, els fruters s'apoden de manera dràstica
+
+165
+00:07:35,240 --> 00:07:39,000
+per forçar que la fruita surti baixeta i sigui fàcil d'acollir,
+
+166
+00:07:39,500 --> 00:07:41,620
+assumint que la vida de l'arbre s'escurçarà.
+
+167
+00:07:41,780 --> 00:07:44,920
+Clar, busquen producció, no longevitat.
+
+168
+00:07:45,520 --> 00:07:46,080
+Exacte.
+
+169
+00:07:46,380 --> 00:07:48,960
+Però traslladar això a un plat en urba,
+
+170
+00:07:49,280 --> 00:07:51,900
+envoltat d'asfalt, és un despropòsit.
+
+171
+00:07:52,180 --> 00:07:54,640
+Un arbre adult amb la seva capçada natural,
+
+172
+00:07:54,660 --> 00:07:56,740
+funciona com la vela d'un vaixell.
+
+173
+00:07:57,140 --> 00:07:59,460
+Es morteja i flexiona la força del vent,
+
+174
+00:07:59,940 --> 00:08:03,260
+repartint tota aquesta càrrega des de les fulles fins a les arrels.
+
+175
+00:08:03,640 --> 00:08:06,280
+Llavors, què li passa físicament a l'arbre
+
+176
+00:08:06,280 --> 00:08:08,600
+quan rep un tall d'aquests tan dràstics?
+
+177
+00:08:08,820 --> 00:08:11,600
+Doncs que li amputes les branques principals
+
+178
+00:08:11,600 --> 00:08:15,160
+i li obres ferides enormes que no pot cicatritzar a temps.
+
+179
+00:08:15,700 --> 00:08:17,700
+Aquestes ferides queden exposades,
+
+180
+00:08:18,140 --> 00:08:21,740
+entren fongs, bacteris i la fusta es comença a podrir per dins.
+
+181
+00:08:22,040 --> 00:08:24,300
+I com que l'arbre necessita fulles
+
+182
+00:08:24,300 --> 00:08:26,900
+per fer la fotosíntese i no morir-se de gana,
+
+183
+00:08:27,180 --> 00:08:29,100
+treu brots nous a la desesperada.
+
+184
+00:08:29,380 --> 00:08:29,980
+Això mateix.
+
+185
+00:08:30,500 --> 00:08:32,140
+Genera un preixament explosiu.
+
+186
+00:08:32,520 --> 00:08:35,300
+Aquests brots, els xucladors, creixen ràpidament,
+
+187
+00:08:35,520 --> 00:08:38,300
+però la seva connexió amb la fusta antiga és molt fràgil.
+
+188
+00:08:38,700 --> 00:08:39,900
+Només s'agafen a l'escorça.
+
+189
+00:08:40,460 --> 00:08:42,160
+I justament aquestes són les branques
+
+190
+00:08:42,160 --> 00:08:44,260
+que cauran al carrer amb la pròxima ventada.
+
+191
+00:08:44,980 --> 00:08:46,900
+El mateix assessor de Tiana, en Pere Rifà,
+
+192
+00:08:47,300 --> 00:08:50,400
+argumenta això mateix i demana abandonar aquestes pràctiques.
+
+193
+00:08:50,660 --> 00:08:51,640
+És fascinant.
+
+194
+00:08:51,920 --> 00:08:53,440
+I alhora, desesperant.
+
+195
+00:08:53,820 --> 00:08:54,280
+Perquè, per exemple,
+
+196
+00:08:54,300 --> 00:08:57,780
+malgrat que l'Ajuntament té un pla de poda aprovat des de 2017
+
+197
+00:08:57,780 --> 00:08:58,640
+que diu això,
+
+198
+00:08:59,060 --> 00:09:02,020
+al Gamí de l'Alegria continuem veient arbres escapçats.
+
+199
+00:09:02,400 --> 00:09:04,640
+I aquesta contradicció obre la porta
+
+200
+00:09:04,640 --> 00:09:07,620
+a una altra dada del dossier que té la.
+
+201
+00:09:08,240 --> 00:09:09,880
+El tema de les espècies urbanes.
+
+202
+00:09:10,280 --> 00:09:11,300
+Mirem-ho als plàtans d'ombra.
+
+203
+00:09:11,660 --> 00:09:13,260
+Uf, el tema dels plàtans.
+
+204
+00:09:13,500 --> 00:09:16,740
+Clar, l'inventari diu que representen
+
+205
+00:09:16,740 --> 00:09:19,740
+el 24% de tot el cens urbà de Tiana,
+
+206
+00:09:20,400 --> 00:09:21,300
+però les ciutats capdavanteres
+
+207
+00:09:21,300 --> 00:09:24,140
+fiquen el límit en un 15%
+
+208
+00:09:24,140 --> 00:09:25,520
+per evitar els monocultius.
+
+209
+00:09:26,200 --> 00:09:28,100
+El document oficial diu, literal,
+
+210
+00:09:28,600 --> 00:09:31,260
+que no s'haurien de plantar més plàtans sota cap concepte.
+
+211
+00:09:31,580 --> 00:09:32,540
+Però, paradoxalment,
+
+212
+00:09:33,000 --> 00:09:34,700
+si algú passeja pel carrer Mates,
+
+213
+00:09:35,140 --> 00:09:36,080
+aquest 2026
+
+214
+00:09:36,080 --> 00:09:38,420
+veurà que n'acaben de plantar 3 de nous.
+
+215
+00:09:38,580 --> 00:09:40,060
+Sí, sí, i això demostra
+
+216
+00:09:40,060 --> 00:09:42,200
+que els informes tècnics es tracten
+
+217
+00:09:42,200 --> 00:09:44,420
+com a simples tràmits per omplir un calaix.
+
+218
+00:09:45,160 --> 00:09:46,680
+Aquest límit del 15%
+
+219
+00:09:46,680 --> 00:09:48,440
+és per blindar la ciutat.
+
+220
+00:09:49,080 --> 00:09:50,320
+Si tens una quarta part
+
+221
+00:09:50,320 --> 00:09:52,100
+del patrimoni verd que depèn
+
+222
+00:09:52,100 --> 00:09:53,160
+d'una sola genètica,
+
+223
+00:09:53,160 --> 00:09:55,480
+i arriba una plaga específica
+
+224
+00:09:55,480 --> 00:09:56,660
+com el tigre del plàtan,
+
+225
+00:09:57,160 --> 00:09:59,200
+et pots quedar sense gran part de l'ombra
+
+226
+00:09:59,200 --> 00:10:00,820
+del municipi en un sol estiu.
+
+227
+00:10:01,680 --> 00:10:02,820
+No fer cas a l'auditor
+
+228
+00:10:02,820 --> 00:10:05,620
+demostra zero planificació al llarg termini.
+
+229
+00:10:05,820 --> 00:10:07,300
+I si aprofundim
+
+230
+00:10:07,300 --> 00:10:08,980
+en com es decideix qui viu
+
+231
+00:10:08,980 --> 00:10:11,020
+i qui mor en l'arbrat urbà,
+
+232
+00:10:11,620 --> 00:10:13,000
+veiem que l'opacitat juga
+
+233
+00:10:13,000 --> 00:10:14,960
+un paper clau. Hi ha un patró
+
+234
+00:10:14,960 --> 00:10:17,100
+molt concret, el de l'Alt de l'Ella
+
+235
+00:10:17,100 --> 00:10:18,340
+de l'any 2023,
+
+236
+00:10:18,960 --> 00:10:21,180
+que mostra com l'administració adapta
+
+237
+00:10:21,180 --> 00:10:22,240
+els arguments com vol.
+
+238
+00:10:23,160 --> 00:10:25,580
+El cas és gravar un manual d'enginyeria burocràtic.
+
+239
+00:10:26,180 --> 00:10:27,260
+Mira, en ple estiu,
+
+240
+00:10:27,680 --> 00:10:28,860
+quan ningú hi fa gaire cas,
+
+241
+00:10:29,340 --> 00:10:30,840
+s'anuncia la intenció de talar
+
+242
+00:10:30,840 --> 00:10:33,160
+20 arbres madurs a l'Alt de l'Ella.
+
+243
+00:10:33,760 --> 00:10:34,780
+L'excusa oficial.
+
+244
+00:10:35,400 --> 00:10:37,100
+Que necessiten pavimentar per fer
+
+245
+00:10:37,100 --> 00:10:38,560
+27 places d'aparcament.
+
+246
+00:10:39,160 --> 00:10:41,760
+I clar, la gent es queixa o el projecte falla
+
+247
+00:10:41,760 --> 00:10:43,160
+i la lògica diria
+
+248
+00:10:43,160 --> 00:10:44,680
+que els arbres se salven, no?
+
+249
+00:10:45,160 --> 00:10:47,300
+Doncs no. El pàrquing no es fa,
+
+250
+00:10:47,740 --> 00:10:49,160
+però la tala s'executa igualment
+
+251
+00:10:49,160 --> 00:10:51,240
+més endavant. Simplement van
+
+252
+00:10:51,240 --> 00:10:52,980
+canviar el relat. De sobte,
+
+253
+00:10:53,160 --> 00:10:54,860
+els papers dient que els arbres patien
+
+254
+00:10:54,860 --> 00:10:57,660
+una malaltia incurable i s'havien de retirar.
+
+255
+00:10:57,800 --> 00:10:59,980
+És l'efecte boomerang de la burocràcia.
+
+256
+00:11:00,580 --> 00:11:01,760
+Si l'excusa inicial
+
+257
+00:11:01,760 --> 00:11:02,860
+de fer un pàrquing
+
+258
+00:11:02,860 --> 00:11:04,600
+xoca amb l'opinió pública,
+
+259
+00:11:04,600 --> 00:11:06,420
+et tornen al boomerang
+
+260
+00:11:06,420 --> 00:11:07,840
+amb una excusa invisible.
+
+261
+00:11:08,720 --> 00:11:10,720
+Apel·lar una malaltia és una barrera
+
+262
+00:11:10,720 --> 00:11:12,580
+imparetrable. Perquè,
+
+263
+00:11:12,940 --> 00:11:14,600
+a veure, cap ciutadà pot
+
+264
+00:11:14,600 --> 00:11:16,500
+auditar l'interior d'un tronc per saber
+
+265
+00:11:16,500 --> 00:11:18,680
+si estava malalt o si simplement
+
+266
+00:11:18,680 --> 00:11:20,440
+feia nosa. Exacte.
+
+267
+00:11:20,860 --> 00:11:22,680
+I aquesta falta de traçabilitat
+
+268
+00:11:22,680 --> 00:11:23,140
+és evident.
+
+269
+00:11:23,160 --> 00:11:24,720
+Hi ha casos molt més històrics,
+
+270
+00:11:25,120 --> 00:11:27,520
+com el famós garrofer centenari de la Riera.
+
+271
+00:11:28,160 --> 00:11:29,460
+Un arbre lligat al nostre
+
+272
+00:11:29,460 --> 00:11:31,160
+passat agrícola, gegant,
+
+273
+00:11:31,600 --> 00:11:33,020
+que ha donat ombres generacions.
+
+274
+00:11:33,360 --> 00:11:34,820
+Un monument natural, vaja.
+
+275
+00:11:35,160 --> 00:11:37,340
+I tant. Doncs va ser esborrat
+
+276
+00:11:37,340 --> 00:11:39,300
+del mapa, sense data de tala,
+
+277
+00:11:39,600 --> 00:11:41,320
+sense expedient públic i sense
+
+278
+00:11:41,320 --> 00:11:43,220
+un informe que en avali la necessitat.
+
+279
+00:11:43,600 --> 00:11:44,660
+Simplement desapareix.
+
+280
+00:11:44,940 --> 00:11:47,540
+I el més greu és que tenim un catàlog de patrimoni
+
+281
+00:11:47,540 --> 00:11:48,620
+de l'any 2002
+
+282
+00:11:48,620 --> 00:11:51,160
+dissenyat precisament per protegir
+
+283
+00:11:51,160 --> 00:11:53,120
+aquests arbres amb valor paisagístic.
+
+284
+00:11:53,160 --> 00:11:55,400
+Però, sabeu quants arbres
+
+285
+00:11:55,400 --> 00:11:57,680
+tenen aquesta protecció a Tiana ara mateix?
+
+286
+00:11:57,720 --> 00:11:58,040
+Zero.
+
+287
+00:11:58,380 --> 00:12:00,000
+Zero. Cap niu.
+
+288
+00:12:00,640 --> 00:12:02,140
+Ni el lledoner de la Casa Alta,
+
+289
+00:12:02,520 --> 00:12:03,780
+ni els plàtans de Can Goix.
+
+290
+00:12:04,280 --> 00:12:06,200
+Legalment, si no estan al catàleg,
+
+291
+00:12:06,380 --> 00:12:08,320
+són simple mobiliari urbà fungible,
+
+292
+00:12:08,760 --> 00:12:11,100
+com una paperera trencada que decideixen retirar.
+
+293
+00:12:11,160 --> 00:12:13,000
+I aquesta vulnerabilitat jurídica
+
+294
+00:12:13,000 --> 00:12:15,280
+té un impacte directe en la calor que patim.
+
+295
+00:12:15,860 --> 00:12:17,120
+Això ens connecta amb la càmera
+
+296
+00:12:17,120 --> 00:12:18,960
+tèrmica del principi i el famós
+
+297
+00:12:18,960 --> 00:12:20,720
+concepte de refugi climàtic.
+
+298
+00:12:20,720 --> 00:12:22,360
+Ui, els refugis climàtics.
+
+299
+00:12:23,160 --> 00:12:24,880
+Perquè, justament, la càmera FLIR
+
+300
+00:12:24,880 --> 00:12:27,160
+va desenmascarar el parc de les Tres Bisones.
+
+301
+00:12:27,720 --> 00:12:29,380
+Sobre el paper, és un refugi
+
+302
+00:12:29,380 --> 00:12:30,280
+climàtic oficial.
+
+303
+00:12:30,900 --> 00:12:32,400
+Però, quan la càmera hi posa l'ull,
+
+304
+00:12:32,780 --> 00:12:34,880
+veiem que no refresca res. I per què?
+
+305
+00:12:35,520 --> 00:12:37,280
+Perquè l'ombra no la fan els arbres.
+
+306
+00:12:37,740 --> 00:12:39,140
+La fa una marquesina artificial
+
+307
+00:12:39,140 --> 00:12:40,440
+de plàstic o lona.
+
+308
+00:12:40,620 --> 00:12:43,500
+És que la termodinàmica és molt tossuda.
+
+309
+00:12:43,960 --> 00:12:45,340
+Un tendal sintètic
+
+310
+00:12:45,340 --> 00:12:47,020
+bloqueja el sol directe
+
+311
+00:12:47,020 --> 00:12:49,020
+i et fa ombra. Sí, però
+
+312
+00:12:49,020 --> 00:12:51,040
+absorbeix energia tota l'estona.
+
+313
+00:12:51,560 --> 00:12:53,140
+S'escalfa i acaba actuant
+
+314
+00:12:53,140 --> 00:12:55,100
+com el panel radiant d'un forn,
+
+315
+00:12:55,420 --> 00:12:56,560
+tirant calor cap a sota.
+
+316
+00:12:57,080 --> 00:12:58,800
+En canvi, les fulles d'un arbre
+
+317
+00:12:58,800 --> 00:13:00,780
+fan el procés de vapor-transpiració.
+
+318
+00:13:01,140 --> 00:13:02,960
+Que actua com un aire condicionat,
+
+319
+00:13:03,160 --> 00:13:04,960
+literalment. Exactament.
+
+320
+00:13:05,520 --> 00:13:07,060
+Xuclen aigua, la pugen
+
+321
+00:13:07,060 --> 00:13:09,400
+a les fulles i la liberen com a vapor.
+
+322
+00:13:09,960 --> 00:13:11,440
+Això roba calor a aire.
+
+323
+00:13:11,940 --> 00:13:13,060
+L'arbre refreda
+
+324
+00:13:13,060 --> 00:13:14,860
+activament l'ambient, com passa
+
+325
+00:13:14,860 --> 00:13:16,820
+al jardí de l'Ola Anglada, on l'estudi
+
+326
+00:13:16,820 --> 00:13:19,040
+mostrava temperatures molt més baixes.
+
+327
+00:13:19,880 --> 00:13:20,920
+I és fonamental
+
+328
+00:13:20,920 --> 00:13:23,120
+entendre això perquè la meteorologia
+
+329
+00:13:23,140 --> 00:13:25,040
+ja no perdona. Si mirem
+
+330
+00:13:25,040 --> 00:13:27,420
+el Mateo Cat, des de 1972,
+
+331
+00:13:28,020 --> 00:13:29,220
+el clima ha canviat
+
+332
+00:13:29,220 --> 00:13:31,020
+radicalment. I des del
+
+333
+00:13:31,020 --> 00:13:32,980
+2021 cap aquí, no baixem
+
+334
+00:13:32,980 --> 00:13:34,740
+dels 17 graus de mitjanà anual.
+
+335
+00:13:35,100 --> 00:13:36,580
+Hem abandonat l'antic patró.
+
+336
+00:13:37,040 --> 00:13:38,940
+Ara la calor colpeja fort el juny
+
+337
+00:13:38,940 --> 00:13:40,580
+i s'allarga fins a la tardor.
+
+338
+00:13:40,880 --> 00:13:43,180
+I aquí és on el marc legal canvia les regles
+
+339
+00:13:43,180 --> 00:13:45,020
+del joc de manera innegociable.
+
+340
+00:13:45,300 --> 00:13:47,380
+Des d'Europa. El reglament europeu
+
+341
+00:13:47,380 --> 00:13:49,640
+2024-191,
+
+342
+00:13:50,080 --> 00:13:51,420
+la llei de restauració
+
+343
+00:13:51,420 --> 00:13:53,020
+de la natura, que no és un
+
+344
+00:13:53,020 --> 00:13:55,120
+suggeriment, eh? No, no. És d'oblidat
+
+345
+00:13:55,120 --> 00:13:57,300
+compliment des de l'agost de 2024.
+
+346
+00:13:58,020 --> 00:13:59,160
+Decreta que fins
+
+347
+00:13:59,160 --> 00:14:01,000
+al 2030 no es pot
+
+348
+00:14:01,000 --> 00:14:02,840
+perdre ni un sol metre quadrat
+
+349
+00:14:02,840 --> 00:14:04,560
+d'espai verd urbà net.
+
+350
+00:14:04,880 --> 00:14:07,520
+I el 2031 ha de començar a créixer.
+
+351
+00:14:07,540 --> 00:14:08,800
+I atenció, perquè
+
+352
+00:14:08,800 --> 00:14:11,400
+com ho auditaran això? Doncs necessiten
+
+353
+00:14:11,400 --> 00:14:13,020
+una línia de base, una
+
+354
+00:14:13,020 --> 00:14:14,840
+foto inicial. I justament
+
+355
+00:14:14,840 --> 00:14:17,060
+el gran inventari que ha tancat l'Ajuntament
+
+356
+00:14:17,060 --> 00:14:18,220
+l'any 2024,
+
+357
+00:14:18,880 --> 00:14:20,860
+amb aquells 541 arbres
+
+358
+00:14:20,860 --> 00:14:22,720
+perduts registrats oficialment,
+
+359
+00:14:23,020 --> 00:14:25,120
+serà la prova documental, la foto
+
+360
+00:14:25,120 --> 00:14:27,040
+de referència d'Europa. I Europa
+
+361
+00:14:27,040 --> 00:14:29,400
+ha audit amb la xarxa de satèl·lits Copernicus.
+
+362
+00:14:29,900 --> 00:14:31,340
+Admeren la ciutat des de l'espai.
+
+363
+00:14:31,780 --> 00:14:33,020
+Si on hi havia arbres el 2024,
+
+364
+00:14:33,800 --> 00:14:35,480
+el 2028, no hi són
+
+365
+00:14:35,480 --> 00:14:36,740
+perquè han posat formigó
+
+366
+00:14:36,740 --> 00:14:38,460
+o han podat salvatjament,
+
+367
+00:14:38,880 --> 00:14:40,900
+la pèrdua quedarà gravada automàticament
+
+368
+00:14:40,900 --> 00:14:42,460
+i poden caure sancions greus.
+
+369
+00:14:43,160 --> 00:14:45,500
+Això va lligat a la regla del 3-30-300,
+
+370
+00:14:45,900 --> 00:14:47,220
+que busca reduir no només
+
+371
+00:14:47,220 --> 00:14:49,060
+la calor, sinó problemes d'asma
+
+372
+00:14:49,060 --> 00:14:51,160
+i fins i tot de salut mental en barris
+
+373
+00:14:51,160 --> 00:14:52,920
+minarbrats. Això ens porta a
+
+374
+00:14:52,920 --> 00:14:55,360
+una reflexió final molt provocadora.
+
+375
+00:14:55,960 --> 00:14:57,400
+Totes aquestes decisions,
+
+376
+00:14:57,920 --> 00:14:59,280
+les podes agressives,
+
+377
+00:14:59,740 --> 00:15:01,160
+els escosells tapiats,
+
+378
+00:15:01,640 --> 00:15:03,440
+ens deixen un concepte sobre la taula,
+
+379
+00:15:03,840 --> 00:15:05,320
+que és el deute forestal.
+
+380
+00:15:05,920 --> 00:15:06,800
+Si el 2024
+
+381
+00:15:06,800 --> 00:15:09,000
+és la línia de base, aquests
+
+382
+00:15:09,000 --> 00:15:11,380
+541 arbres ja no són
+
+383
+00:15:11,380 --> 00:15:13,500
+només una anècdota o un problema estètic
+
+384
+00:15:13,500 --> 00:15:14,680
+d'una antiga legislatura.
+
+385
+00:15:15,220 --> 00:15:16,680
+Són un deute legal i sòlid.
+
+386
+00:15:17,220 --> 00:15:18,980
+Serà conscient el consistori que
+
+387
+00:15:18,980 --> 00:15:20,980
+cada nou arbre que tallen avui, sense
+
+388
+00:15:20,980 --> 00:15:22,900
+un motiu auditable, és directament
+
+389
+00:15:22,920 --> 00:15:24,900
+una infracció de la normativa europea
+
+390
+00:15:24,900 --> 00:15:26,520
+de demà? Aquesta és la clau.
+
+391
+00:15:26,960 --> 00:15:29,100
+Avui tenim càmeres tèrmiques i satèl·lits
+
+392
+00:15:29,100 --> 00:15:30,880
+que registren l'impacte d'esborrar
+
+393
+00:15:30,880 --> 00:15:32,900
+aquest patrimoni. La solució només
+
+394
+00:15:32,900 --> 00:15:34,940
+pot passar per l'exigència de transparència
+
+395
+00:15:34,940 --> 00:15:36,820
+absoluta i d'estudis tècnics
+
+396
+00:15:36,820 --> 00:15:38,640
+rigorosos abans de tocar
+
+397
+00:15:38,640 --> 00:15:40,740
+ni un sol arbre. I amb aquesta
+
+398
+00:15:40,740 --> 00:15:42,760
+reflexió tan contundent tanquem
+
+399
+00:15:42,760 --> 00:15:45,100
+aquesta immersió a fons on hem dissecionat
+
+400
+00:15:45,100 --> 00:15:46,780
+aquest dossier imprescindible sobre la
+
+401
+00:15:46,780 --> 00:15:49,020
+realitat del nostre bosc urbà. Moltíssimes
+
+402
+00:15:49,020 --> 00:15:50,660
+gràcies per posar claretat a tot aquest
+
+403
+00:15:50,660 --> 00:15:52,800
+engrenatge. Ha estat un plaer. Només
+
+404
+00:15:52,800 --> 00:15:54,720
+animarà a tothom a llegir les fonts
+
+405
+00:15:54,720 --> 00:15:56,660
+i treure les seves pròpies conclusions.
+
+406
+00:15:57,360 --> 00:15:58,920
+Exacte. No us quedem
+
+407
+00:15:58,920 --> 00:16:00,460
+només amb el que us hem explicat.
+
+408
+00:16:00,780 --> 00:16:01,980
+Aneu a la documentació.
+
+409
+00:16:02,640 --> 00:16:04,680
+I per no perdre-vos el proper programa
+
+410
+00:16:04,680 --> 00:16:06,740
+de Ràdio Can Galleta, us convido a
+
+411
+00:16:06,740 --> 00:16:08,640
+subscriure's des de la vostra plataforma
+
+412
+00:16:08,640 --> 00:16:10,400
+preferida. A més a més,
+
+413
+00:16:10,780 --> 00:16:12,560
+si no ho heu fet ja, apunteu-vos a
+
+414
+00:16:12,560 --> 00:16:14,580
+l'associació de Can Galleta. Teniu
+
+415
+00:16:14,580 --> 00:16:16,760
+l'anyuàs per fer-lo ara mateix a la descripció
+
+416
+00:16:16,760 --> 00:16:18,580
+del programa. Moltes gràcies
+
+417
+00:16:18,580 --> 00:16:20,540
+per escoltar-nos i ens retrobem a la
+
+418
+00:16:20,540 --> 00:16:21,340
+propera immersió.
+

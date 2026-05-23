@@ -1,0 +1,16 @@
+{
+  "version": "1.2.0",
+  "podcastName": "Podcast Associació Veïnal Can Gaietà",
+  "title": "Episodi 018: Trenta graus de diferència per un arbre",
+  "chapters": [
+    { "startTime": 0, "title": "Introducció i disclaimer" },
+    { "startTime": 133, "title": "L'experiment FLIR: 30 graus de diferència entre dos carrers" },
+    { "startTime": 232, "title": "Inventari 2024: 541 baixes i 56 escocells pavimentats" },
+    { "startTime": 354, "title": "Per què moren els arbres: podes agressives i biomecànica" },
+    { "startTime": 548, "title": "El plàtan al 24%: el risc del monocultiu" },
+    { "startTime": 605, "title": "Opacitat de les tales: Alt d'Alella i el garrofer sense rastre" },
+    { "startTime": 740, "title": "Refugis climàtics: el parc de les Tres Bessones que no refresca" },
+    { "startTime": 799, "title": "Marc legal: clima i Reglament UE 2024/1991" },
+    { "startTime": 895, "title": "Reflexió final: el deute forestal" }
+  ]
+}

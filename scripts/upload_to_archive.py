@@ -189,6 +189,16 @@ EPISODIS = [
         "date": "2026-05-03",
         "duration": "15:52",
         "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "plaques solars", "comunitat energetica", "energia renovable", "ordenança residus", "ecocàmeres", "intel·ligencia artificial", "vigilancia", "multes", "ple extraordinari", "majoria absoluta", "virreina"]
+    },
+    {
+        "num": "018",
+        "fitxer": "018-arbrat-escocells-trenta-graus.mp3",
+        "identifier": "podcast-cangaieta-018-arbrat-escocells-trenta-graus",
+        "title": "Episodi 018: Trenta graus de diferència per un arbre",
+        "description": "Dossier sobre la gestió de l'arbrat urbà a Tiana. El 2 de juliol de 2025 un veí va sortir al carrer amb una càmera tèrmica FLIR: l'asfalt del carrer de Cals Frares marcava 57,2 °C i, a quatre carrers, sota els arbres de Can Mates, 26,8 °C. A partir d'aquesta evidència, l'episodi creua les mesures veïnals amb l'inventari oficial d'arbrat 2024 (4.726 arbres vius i 541 baixes, un 10% del cens, amb 56 escocells pavimentats), la confessió del propi consultor que la causa principal d'alteració són les podes agressives i els escocells insuficients, el plàtan al 24% que l'inventari recomana no plantar més, el patró opac de les tales (Alt d'Alella, el garrofer centenari desaparegut sense rastre), els refugis climàtics que no refresquen i el Reglament UE 2024/1991 que converteix les 541 baixes en un deute forestal davant Europa.",
+        "date": "2026-05-23",
+        "duration": "16:21",
+        "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "arbrat", "arbres", "escocells", "verd urba", "poda", "inventari arbrat", "camera termica", "flir", "refugis climatics", "canvi climatic", "patrimoni", "reglament UE 2024/1991"]
     }
 ]
 
