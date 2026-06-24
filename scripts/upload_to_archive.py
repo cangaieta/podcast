@@ -199,6 +199,16 @@ EPISODIS = [
         "date": "2026-05-23",
         "duration": "16:21",
         "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "arbrat", "arbres", "escocells", "verd urba", "poda", "inventari arbrat", "camera termica", "flir", "refugis climatics", "canvi climatic", "patrimoni", "reglament UE 2024/1991"]
+    },
+    {
+        "num": "019",
+        "fitxer": "019-dopatge-financer-fira-atraccions.mp3",
+        "identifier": "podcast-cangaieta-019-dopatge-financer-fira-atraccions",
+        "title": "Episodi 019: Dopatge financer i la fira d'atraccions desterrada",
+        "description": "Anàlisi del ple municipal ordinari del 5 de maig de 2026 a Tiana, llegit des de la lletra petita: com un govern amb majoria absoluta controla el relat institucional. Actes que donen tres respostes diferents a una mateixa pregunta sobre el bar del Casal; la modificació de plantilla (eliminar set places C2 i crear-ne quatre de C1) que el regidor Albert Sales qualifica de «dopatge financer» perquè es paga amb romanent de tresoreria; la «discreció» sobre la residència de Sant Cebrià; una moció d'educació que és un còpia i enganxa d'un text autonòmic; i la moció d'ERC per tornar la fira d'atraccions al centre, rebutjada amb excuses canviants (seguretat, urbanisme, culpa dels firaires) mentre els macroconcerts —el veritable focus d'inseguretat— continuen. Tot rematat pel contrast entre l'advertència tova al bar del Casal i el ROM utilitzat com a arma contra el regidor en el «miracle dels escosells».",
+        "date": "2026-06-24",
+        "duration": "14:40",
+        "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "ple municipal", "majoria absoluta", "dopatge financer", "plantilla", "romanent de tresoreria", "residencia sant cebria", "fira atraccions", "macroconcerts", "moció educació", "bar del casal", "escocells", "rom", "actes", "transparencia"]
     }
 ]
 

@@ -1,0 +1,16 @@
+{
+  "version": "1.2.0",
+  "podcastName": "Podcast Associació Veïnal Can Gaietà",
+  "title": "Episodi 019: Dopatge financer i la fira d'atraccions desterrada",
+  "chapters": [
+    { "startTime": 0, "title": "Introducció i disclaimer" },
+    { "startTime": 150, "title": "Les actes del ple: controlar la veritat oficial" },
+    { "startTime": 238, "title": "Dopatge financer: la plantilla C2 → C1" },
+    { "startTime": 325, "title": "Residència Sant Cebrià: la discreció com a escut" },
+    { "startTime": 397, "title": "Repàs ràpid de tots els punts del ple" },
+    { "startTime": 449, "title": "Moció d'educació: el còpia i enganxa autonòmic" },
+    { "startTime": 563, "title": "La fira d'atraccions desterrada i els macroconcerts" },
+    { "startTime": 701, "title": "Bar del Casal vs. el miracle dels escosells" },
+    { "startTime": 813, "title": "Reflexió final: majoria absoluta i dissidència" }
+  ]
+}
