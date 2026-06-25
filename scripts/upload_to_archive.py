@@ -209,6 +209,16 @@ EPISODIS = [
         "date": "2026-06-24",
         "duration": "14:40",
         "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "ple municipal", "majoria absoluta", "dopatge financer", "plantilla", "romanent de tresoreria", "residencia sant cebria", "fira atraccions", "macroconcerts", "moció educació", "bar del casal", "escocells", "rom", "actes", "transparencia"]
+    },
+    {
+        "num": "020",
+        "fitxer": "020-tiana-aillada-escola-bressol.mp3",
+        "identifier": "podcast-cangaieta-020-tiana-aillada-escola-bressol",
+        "title": "Episodi 020: Tiana aïllada i sense escola bressol",
+        "description": "Anàlisi del ple municipal del 2 de juny de 2026 a Tiana, en plena precampanya, llegit des de la lletra petita. El fil conductor: un govern amb majoria absoluta que, davant de cada gran crisi, assenyala un tercer actor. El «xec en blanc» del camí dels frares, on l'Ajuntament cedeix el control del pla urbanístic a l'AMB i es compromet a pagar tota la urbanització sense estudi econòmic, mentre l'informe del secretari adverteix que la reserva de pisos per a gent de Tiana no consta al conveni; la moció d'ERC d'auditoria externa esquivada amb l'excusa de la «viabilitat tècnica» quan el pressupost ha pujat 3 milions des del 2022 a base de romanent; els 47 nadons sense plaça d'escola bressol amb la regidora carregant la culpa a la Generalitat i oferint xecs per a la privada; la nova línia B32 que deixa barris sencers incomunicats; i, als precs i preguntes, el requeriment sense sanció al Casal i els 27.000 € del mur de les monges maquillats com un «esforç compartit». La pregunta de fons: si tot depèn d'un altre, quina és la sobirania real d'aquest Ajuntament?",
+        "date": "2026-06-25",
+        "duration": "19:58",
+        "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "ple municipal", "majoria absoluta", "escola bressol", "habitatge social", "AMB", "cami dels frares", "auditoria externa", "romanent de tresoreria", "linia b32", "transport public", "mobilitat", "mur de les monges", "precs i preguntes", "sobirania municipal"]
     }
 ]
 

@@ -1,0 +1,15 @@
+{
+  "version": "1.2.0",
+  "podcastName": "Podcast Associació Veïnal Can Gaietà",
+  "title": "Episodi 020: Tiana aïllada i sense escola bressol",
+  "chapters": [
+    { "startTime": 0, "title": "Introducció i disclaimer" },
+    { "startTime": 123, "title": "Punt 4: Habitatge al camí dels frares i el xec en blanc a l'AMB" },
+    { "startTime": 366, "title": "Repàs ràpid de l'ordre del dia (punts 1-7)" },
+    { "startTime": 427, "title": "Punt 10: Auditoria externa i el romanent de tresoreria" },
+    { "startTime": 580, "title": "Punt 8: 47 nadons sense plaça d'escola bressol" },
+    { "startTime": 729, "title": "Punt 11: La línia B32 i els barris aïllats" },
+    { "startTime": 895, "title": "Precs i preguntes: el Casal i el mur de les monges" },
+    { "startTime": 1071, "title": "Reflexió final: quina és la sobirania real de l'Ajuntament?" }
+  ]
+}
