@@ -1,5 +1,7 @@
-# Claude Code settings
-.claude/
+# Claude Code: la configuració personal (permisos) NO es versiona,
+# però les comandes compartides del projecte SÍ (.claude/commands/)
+.claude/*
+!.claude/commands/
 
 # Jekyll build files
 _site/
