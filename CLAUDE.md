@@ -105,10 +105,16 @@ python scripts/upload_to_archive.py --episodi XXX
 ```
 
 **Què fa l'script:**
+- 🛑 **Comprova que hi hagi caràtula ABANS de pujar res.** Si falta, s'atura,
+  no puja res i et diu la comanda per generar-la (surt amb codi 1)
+- ✅ **Genera la versió reduïda** per als llistats web si falta
 - ✅ Puja l'MP3 **i la caràtula** a archive.org amb totes les metadades
 - ✅ Genera la URL pública automàticament
 - ✅ Actualitza el camp `audio_file` del markdown
-- ✅ Verifica que la caràtula hi hagi arribat de debò
+- ✅ Verifica que la caràtula hi hagi arribat de debò, amb reintents
+
+Així no es pot publicar un episodi sense caràtula per descuit. Si mai en tens un
+motiu, l'escapatòria explícita és `--permet-sense-caratula`.
 
 **IMPORTANT:** Si reps error de "rate limit", espera 30-60 minuts i torna a intentar.
 
@@ -409,10 +415,14 @@ python scripts/generate_all_thumbnails.py
 # Regenerar un episodi concret
 python scripts/generate_all_thumbnails.py 014 --force
 
-# ⚠️ SEMPRE després: generar la versió reduïda per als llistats web
+# Generar la versió reduïda per als llistats web
 python scripts/generate_thumbnails_small.py          # només els que falten
 python scripts/generate_thumbnails_small.py 014 --force
 ```
+
+**No cal executar-ho a mà en el flux normal:** `upload_to_archive.py` genera la
+versió reduïda tot sol si falta. Aquest script és per a regeneracions o per
+processar-los tots de cop.
 
 Sense la versió reduïda el llistat segueix funcionant (cau a l'original), però
 la pàgina `/episodis` carrega ~1,3 MB per episodi en comptes de ~30 KB.
@@ -488,8 +498,8 @@ pip install --upgrade openai-whisper
 2. **Generar capítols JSON** (Copilot llegeix el SRT → proposa → `sources/XXX-chapters.json`)
 3. **Seleccionar soundbite** (Copilot llegeix el SRT → `soundbite_*` al frontmatter)
 4. **Generar thumbnail** (`python scripts/generate_thumbnail.py ...`)
-   + **versió reduïda** (`python scripts/generate_thumbnails_small.py XXX`)
-5. **Pujar a archive.org** automàticament (MP3 + caràtula al mateix upload)
+5. **Pujar a archive.org** automàticament — puja MP3 + caràtula al mateix
+   upload, genera la versió reduïda si falta, i s'atura si no hi ha caràtula
 6. Obtenir durada amb ffprobe
 7. Personalitzar contingut i verificar fonts
 8. Afegir referències creuades a episodis anteriors

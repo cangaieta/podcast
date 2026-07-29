@@ -241,6 +241,55 @@ def ruta_caratula(episodi, project_dir):
     return project_dir / 'assets' / 'thumbnails' / episodi['fitxer'].replace('.mp3', '.png')
 
 
+def ruta_caratula_petita(episodi, project_dir):
+    """Ruta local de la versió reduïda que fan servir els llistats web"""
+    nom = episodi['fitxer'].replace('.mp3', '.webp')
+    return project_dir / 'assets' / 'thumbnails' / 'small' / nom
+
+
+def assegurar_caratula(episodi, project_dir):
+    """
+    Comprova que la caràtula hi sigui ABANS de pujar res, i genera la versió
+    reduïda per als llistats web si falta.
+
+    Retorna (ok: bool, missatge: str). Si retorna False, no s'ha de pujar
+    l'episodi: cal generar la caràtula primer.
+    """
+    cover = ruta_caratula(episodi, project_dir)
+
+    if not cover.exists():
+        return False, (
+            f"No hi ha caràtula per a l'episodi {episodi['num']}.\n"
+            f"      S'esperava: {cover}\n"
+            f"\n"
+            f"      Genera-la abans de pujar l'episodi:\n"
+            f"        python scripts/generate_thumbnail.py \\\n"
+            f"          --episodi {episodi['num']} \\\n"
+            f"          --nom {episodi['fitxer'].replace('.mp3', '')} \\\n"
+            f"          --prompt-suffix \"element visual del tema, en anglès\"\n"
+            f"\n"
+            f"      (si tens un motiu per publicar sense caràtula: --permet-sense-caratula)"
+        )
+
+    # Versió reduïda per als llistats: si falta, la generem aquí mateix
+    petita = ruta_caratula_petita(episodi, project_dir)
+    if petita.exists():
+        return True, f"{cover.name} + {petita.name} (ja hi era)"
+
+    try:
+        sys.path.insert(0, str(Path(__file__).parent))
+        from generate_thumbnails_small import genera
+    except ImportError as e:
+        return False, f"no s'ha pogut carregar generate_thumbnails_small.py: {e}"
+
+    resultat = genera(cover, petita)
+    if resultat.startswith('error'):
+        return False, f"no s'ha pogut generar la versió reduïda: {resultat}"
+
+    return True, (f"{cover.name} + {petita.name} "
+                  f"(reduïda generada ara, {petita.stat().st_size / 1024:.0f} KB)")
+
+
 def nom_remot_caratula(episodi):
     """Nom amb què es desa la caràtula a archive.org"""
     return episodi['fitxer'].replace('.mp3', COVER_SUFFIX)
@@ -430,8 +479,14 @@ Podcast: {PODCAST_URL}"""
     return metadata
 
 
-def pujar_episodi(episodi, episodes_dir, dry_run=False):
-    """Puja un episodi a archive.org"""
+def pujar_episodi(episodi, episodes_dir, dry_run=False, permet_sense_caratula=False):
+    """
+    Puja un episodi (MP3 + caràtula) a archive.org.
+
+    Si no hi ha caràtula local s'atura i no puja res, tret que
+    permet_sense_caratula sigui True. Si falta la versió reduïda per als
+    llistats web, la genera automàticament.
+    """
     
     fitxer_path = episodes_dir / episodi['fitxer']
     
@@ -441,21 +496,30 @@ def pujar_episodi(episodi, episodes_dir, dry_run=False):
     
     identifier = episodi['identifier']
     metadata = crear_metadata(episodi)
-
-    # La caràtula va al MATEIX upload() que l'MP3: en un ítem nou encara no hi ha
-    # cap derive en curs, així que tots dos fitxers hi arriben segurs (trampa 1).
-    fitxers = {episodi['fitxer']: str(fitxer_path)}
-    cover_local = ruta_caratula(episodi, episodes_dir.parent)
-    if cover_local.exists():
-        fitxers[nom_remot_caratula(episodi)] = str(cover_local)
-    else:
-        print(f"   ⚠️  Sense caràtula local ({cover_local.name}): es puja només l'MP3")
+    project_dir = episodes_dir.parent
+    cover_local = ruta_caratula(episodi, project_dir)
 
     print(f"\n📦 Pujant episodi {episodi['num']}: {episodi['title']}")
     print(f"   Fitxer: {fitxer_path}")
     print(f"   Identifier: {identifier}")
-    if cover_local.exists():
-        print(f"   Caràtula: {cover_local.name} → {nom_remot_caratula(episodi)}")
+
+    # ── Comprovació prèvia: sense caràtula no es puja res ──────────────────
+    ok_cover, missatge = assegurar_caratula(episodi, project_dir)
+    if ok_cover:
+        print(f"   Caràtula: {missatge}")
+    elif permet_sense_caratula:
+        print(f"   ⚠️  {missatge.splitlines()[0]}")
+        print("   ⚠️  --permet-sense-caratula: es puja només l'MP3")
+    else:
+        print(f"   ❌ ATURAT: {missatge}")
+        return None
+
+    # La caràtula va al MATEIX upload() que l'MP3: en un ítem nou encara no hi ha
+    # cap derive en curs, així que tots dos fitxers hi arriben segurs (trampa 1).
+    fitxers = {episodi['fitxer']: str(fitxer_path)}
+    if ok_cover:
+        fitxers[nom_remot_caratula(episodi)] = str(cover_local)
+        print(f"   Nom remot: {nom_remot_caratula(episodi)}")
 
     if dry_run:
         print("   🔍 MODE DRY-RUN: No es puja realment")
@@ -491,16 +555,26 @@ def pujar_episodi(episodi, episodes_dir, dry_run=False):
             print(f"   📍 URL: {url}")
             print(f"   🌐 Pàgina: https://archive.org/details/{identifier}")
 
-            # ⚠️ Un 200 no és garantia: verifiquem la caràtula contra l'API
-            if cover_local.exists():
-                ok, motiu = caratula_confirmada(
-                    identifier, nom_remot_caratula(episodi), cover_local.stat().st_size)
-                if ok:
+            # ⚠️ TRAMPA 1: un 200 no és garantia que el fitxer hi hagi arribat.
+            #    Verifiquem la caràtula contra l'API de metadades, amb reintents
+            #    (la caràtula pot trigar uns segons a aparèixer-hi).
+            if ok_cover:
+                mida_local = cover_local.stat().st_size
+                cover_name = nom_remot_caratula(episodi)
+                confirmada, motiu = False, "encara no hi és"
+                for _ in range(6):
+                    time.sleep(10)
+                    confirmada, motiu = caratula_confirmada(identifier, cover_name, mida_local)
+                    if confirmada:
+                        break
+
+                if confirmada:
                     print(f"   ✅ Caràtula verificada ({motiu})")
                 else:
                     print(f"   ⚠️  Caràtula NO confirmada: {motiu}")
-                    print(f"      Reintenta-ho amb: "
-                          f"python scripts/upload_to_archive.py --nomes-cover --episodi {episodi['num']}")
+                    print(f"      L'MP3 sí que ha pujat. Arregla la caràtula amb:")
+                    print(f"        python scripts/upload_to_archive.py "
+                          f"--nomes-cover --episodi {episodi['num']}")
 
             return url
         else:
@@ -558,6 +632,9 @@ def main():
                             'tornar a pujar l\'àudio. Idempotent: salta els que ja en tenen.')
     parser.add_argument('--force-cover', action='store_true',
                        help='Amb --nomes-cover, torna a pujar la caràtula encara que ja hi sigui')
+    parser.add_argument('--permet-sense-caratula', action='store_true',
+                       help='Permet pujar un episodi sense caràtula. Per defecte, si no '
+                            'hi ha caràtula local l\'script s\'atura i no puja res.')
 
     args = parser.parse_args()
     
@@ -618,9 +695,14 @@ def main():
 
     # Processar cada episodi
     urls_generades = {}
+    aturats_sense_caratula = []
     for episodi in episodis_a_pujar:
-        url = pujar_episodi(episodi, episodes_dir, dry_run=args.dry_run)
-        
+        url = pujar_episodi(episodi, episodes_dir, dry_run=args.dry_run,
+                            permet_sense_caratula=args.permet_sense_caratula)
+
+        if url is None and not ruta_caratula(episodi, project_dir).exists():
+            aturats_sense_caratula.append(episodi['num'])
+
         if url:
             urls_generades[episodi['num']] = url
             
@@ -632,7 +714,12 @@ def main():
     print("📊 RESUM")
     print("=" * 60)
     print(f"✅ Episodis processats: {len(urls_generades)}/{len(episodis_a_pujar)}")
-    
+
+    if aturats_sense_caratula:
+        print(f"\n❌ ATURATS per falta de caràtula: {', '.join(aturats_sense_caratula)}")
+        print("   No s'ha pujat res d'aquests episodis. Genera'ls la caràtula amb")
+        print("   scripts/generate_thumbnail.py i torna a executar aquesta comanda.")
+
     if urls_generades:
         print("\n📍 URLs generades:")
         for num, url in sorted(urls_generades.items()):
@@ -640,9 +727,11 @@ def main():
     
     if not args.dry_run and urls_generades and not args.no_update_md:
         print("\n💡 Recorda fer:")
-        print("   git add _episodes/")
+        print("   git add _episodes/ assets/thumbnails/")
         print("   git commit -m 'Migrar URLs a archive.org'")
         print("   git push")
+
+    sys.exit(1 if aturats_sense_caratula else 0)
 
 
 if __name__ == '__main__':
