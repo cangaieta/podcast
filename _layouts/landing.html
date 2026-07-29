@@ -461,6 +461,15 @@
             border-color: var(--terra-cuita);
         }
 
+        .latest-thumb {
+            width: 110px;
+            height: 110px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
         .latest-number {
             background: var(--verd-natura);
             color: white;
@@ -1835,11 +1844,22 @@
 
             .latest-card {
                 flex-direction: column;
+                align-items: center;
                 text-align: center;
+            }
+
+            /* Apilada: la caràtula creix en comptes d'encongir-se */
+            .latest-thumb {
+                width: 180px;
+                height: 180px;
             }
 
             .latest-number {
                 margin: 0 auto;
+            }
+
+            .latest-content {
+                width: 100%;
             }
 
             .latest-content h3 {

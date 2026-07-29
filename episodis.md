@@ -25,6 +25,13 @@ permalink: /episodis/
     <div class="episodes-grid">
       {% for episode in sorted_episodes %}
         <article class="episode-card">
+          {% if episode.thumbnail %}
+          <a href="{{ episode.url | relative_url }}" class="episode-thumb-link" tabindex="-1" aria-hidden="true">
+            {% include episode-thumb.html episode=episode class="episode-thumb" size=140 %}
+          </a>
+          {% endif %}
+
+          <div class="episode-body">
           <header class="episode-header">
             <h2><a href="{{ episode.url | relative_url }}">{{ episode.title }}</a></h2>
             <div class="episode-meta">
@@ -59,6 +66,7 @@ permalink: /episodis/
               <a href="{{ '/episodes/' | append: episode.audio_file | relative_url }}" download class="btn-download">⬇️ Descarregar</a>
               {% endif %}
             {% endif %}
+          </div>
           </div>
         </article>
       {% endfor %}
@@ -189,10 +197,34 @@ permalink: /episodis/
   box-shadow: 0 5px 15px var(--shadow-color);
   transition: all 0.3s ease;
   border: 1px solid var(--border-color);
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
 }
 
 .episode-card:hover {
   box-shadow: 0 10px 30px var(--shadow-color-strong);
+}
+
+.episode-thumb-link {
+  flex-shrink: 0;
+  display: block;
+  line-height: 0;
+}
+
+.episode-thumb {
+  width: 140px;
+  height: 140px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  object-fit: cover;
+  display: block;
+}
+
+/* Perquè el contingut llarg no desbordi la fila flex */
+.episode-body {
+  flex: 1;
+  min-width: 0;
 }
 
 .episode-header h2 {
@@ -286,6 +318,19 @@ permalink: /episodis/
 
   .episode-card {
     padding: 1.5rem;
+    /* Apilada: la caràtula creix en comptes d'encongir-se */
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .episode-thumb {
+    width: 200px;
+    height: 200px;
+  }
+
+  .episode-body {
+    width: 100%;
   }
 
   .episode-actions {

@@ -1,0 +1,29 @@
+{%- comment -%}
+  Caràtula d'un episodi per als llistats.
+
+  Paràmetres:
+    episode  (obligatori) l'objecte episodi
+    class    (obligatori) classe CSS de la imatge
+    size     (obligatori) mida en px, per als atributs width/height
+
+  Fa servir la versió reduïda de assets/thumbnails/small/ (WebP 400x400, ~30 KB)
+  si existeix; si no, cau a l'original PNG. Si l'episodi no té thumbnail no
+  renderitza res i la targeta segueix sent vàlida.
+
+  Generar les versions reduïdes: python scripts/generate_thumbnails_small.py
+{%- endcomment -%}
+{%- if include.episode.thumbnail -%}
+  {%- assign small_path = include.episode.thumbnail | replace: '/assets/thumbnails/', '/assets/thumbnails/small/' | replace: '.png', '.webp' -%}
+  {%- assign thumb_src = include.episode.thumbnail -%}
+  {%- for static_file in site.static_files -%}
+    {%- if static_file.path == small_path -%}
+      {%- assign thumb_src = small_path -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+  <img src="{{ thumb_src | relative_url }}"
+       alt="Caràtula de {{ include.episode.title | escape }}"
+       class="{{ include.class }}"
+       width="{{ include.size }}" height="{{ include.size }}"
+       loading="lazy" decoding="async">
+{%- endif -%}

@@ -67,6 +67,7 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
             <div class="latest-grid">
                 {% for episode in latest_episodes %}
                 <article class="latest-card">
+                    {% include episode-thumb.html episode=episode class="latest-thumb" size=110 %}
                     <div class="latest-number">{{ episode.episode_number | default: forloop.index }}</div>
                     <div class="latest-content">
                         <h3><a href="{{ episode.url | relative_url }}">{{ episode.title }}</a></h3>
