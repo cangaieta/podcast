@@ -28,6 +28,10 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Python (upload_to_archive.py importa generate_thumbnails_small)
+__pycache__/
+*.pyc
+
 # Temporary files
 *.tmp
 *.temp
