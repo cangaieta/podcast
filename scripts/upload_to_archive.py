@@ -7,7 +7,10 @@ Configuració: ia configure (només primera vegada)
 
 import os
 import sys
+import time
 from pathlib import Path
+
+import requests
 from internetarchive import upload, get_item
 
 # Configuració del podcast
@@ -17,6 +20,16 @@ LICENSE = "http://creativecommons.org/licenses/by/4.0/"
 LANGUAGE = "cat"
 WEBSITE = "https://cangaieta.cat"
 PODCAST_URL = "https://cangaieta.github.io/podcast"
+
+# --- Caràtules -------------------------------------------------------------
+# Sufix del nom REMOT de la caràtula a archive.org.
+#
+# ⚠️ NO fer servir "<nom>.png" a seques: archive.org genera, a partir de l'MP3,
+#    un derivat anomenat exactament així (és la forma d'ona). Veure la trampa 2
+#    documentada a caratula_confirmada().
+COVER_SUFFIX = "-cover.png"
+
+METADATA_API = "https://archive.org/metadata/{}"
 
 # Definició dels episodis amb les seves metadades
 EPISODIS = [
@@ -223,6 +236,170 @@ EPISODIS = [
 ]
 
 
+def ruta_caratula(episodi, project_dir):
+    """Ruta local de la caràtula (el PNG gran, no la versió reduïda dels llistats)"""
+    return project_dir / 'assets' / 'thumbnails' / episodi['fitxer'].replace('.mp3', '.png')
+
+
+def nom_remot_caratula(episodi):
+    """Nom amb què es desa la caràtula a archive.org"""
+    return episodi['fitxer'].replace('.mp3', COVER_SUFFIX)
+
+
+def obtenir_metadades(identifier, intents=5):
+    """Consulta l'API de metadades d'archive.org, amb reintents."""
+    ultim_error = None
+    for intent in range(1, intents + 1):
+        try:
+            r = requests.get(METADATA_API.format(identifier), timeout=30)
+            r.raise_for_status()
+            return r.json()
+        except Exception as e:
+            ultim_error = e
+            if intent < intents:
+                time.sleep(min(30, 2 ** intent))
+    raise RuntimeError(f"No s'han pogut llegir les metadades de {identifier}: {ultim_error}")
+
+
+def caratula_confirmada(identifier, cover_name, mida_local, metadades=None):
+    """
+    Comprova de debò si la caràtula hi és. Retorna (bool, motiu).
+
+    ⚠️ TRAMPA 2 - COL·LISIÓ DE NOMS (fals positiu)
+    archive.org genera, a partir de l'MP3, un derivat anomenat sovint exactament
+    igual que la nostra imatge (<nom>.png): és la forma d'ona, d'uns 45 KB.
+    Si només comproves que el fitxer existeix (un HEAD, o que surti al llistat de
+    fitxers) tindràs un 200 per a TOTS els episodis i te'ls saltaràs tots
+    pensant que ja tenen caràtula.
+
+    La comprovació correcta exigeix les dues coses:
+      - source == "original"  (no "derivative": això descarta la forma d'ona)
+      - size == mida del fitxer local (això descarta una pujada truncada)
+    """
+    d = metadades if metadades is not None else obtenir_metadades(identifier)
+
+    for f in d.get('files', []):
+        if f.get('name') != cover_name:
+            continue
+
+        if f.get('source') != 'original':
+            return False, (f"hi ha un '{cover_name}' però és source={f.get('source')} "
+                           f"— és un derivat d'archive.org, no la nostra caràtula")
+
+        try:
+            mida_remota = int(f.get('size', -1))
+        except (TypeError, ValueError):
+            mida_remota = -1
+
+        if mida_remota != mida_local:
+            return False, (f"la mida no coincideix (remot {mida_remota} B, "
+                           f"local {mida_local} B) — pujada incompleta")
+
+        return True, f"source=original, {mida_remota} B"
+
+    return False, "no hi és"
+
+
+def esperar_derive(identifier, timeout=1200, interval=20, verbose=True):
+    """
+    Espera que l'ítem no tingui tasques pendents. Retorna True si està lliure.
+
+    ⚠️ TRAMPA 1 - UN 200 NO VOL DIR QUE EL FITXER HI HAGI ARRIBAT
+    Si l'ítem té un derive en curs, upload() retorna 200 i archive.org descarta
+    el fitxer EN SILENCI. No hi ha cap error: simplement, després, el fitxer no
+    hi és. Per això cal esperar que pending_tasks sigui fals ABANS de pujar,
+    i verificar DESPRÉS de pujar.
+    """
+    inici = time.time()
+    while True:
+        d = obtenir_metadades(identifier)
+        if not d.get('pending_tasks'):
+            return True
+
+        transcorregut = int(time.time() - inici)
+        if transcorregut > timeout:
+            return False
+        if verbose:
+            print(f"   ⏳ derive en curs a archive.org, esperant… ({transcorregut}s)")
+        time.sleep(interval)
+
+
+def pujar_caratula(episodi, project_dir, dry_run=False, force=False, intents=3):
+    """
+    Puja la caràtula a un ítem ja existent i verifica que hi hagi arribat.
+
+    Retorna un dels estats: 'ja-hi-era', 'pujada', 'saltat', o 'error: <motiu>'.
+    És idempotent: si la caràtula ja hi és (de debò), no fa res.
+    """
+    identifier = episodi['identifier']
+    cover_local = ruta_caratula(episodi, project_dir)
+    cover_name = nom_remot_caratula(episodi)
+
+    if not cover_local.exists():
+        return f"error: no existeix la caràtula local {cover_local}"
+
+    mida_local = cover_local.stat().st_size
+
+    print(f"\n🖼️  Episodi {episodi['num']} — {identifier}")
+    print(f"   Caràtula local: {cover_local.name} ({mida_local / 1024:.0f} KB)")
+    print(f"   Nom remot:      {cover_name}")
+
+    try:
+        metadades = obtenir_metadades(identifier)
+    except RuntimeError as e:
+        return f"error: {e}"
+
+    if not metadades.get('files'):
+        return "error: l'ítem no existeix a archive.org (puja primer l'MP3)"
+
+    # Idempotència: si ja hi és de debò, saltem
+    ja_hi_es, motiu = caratula_confirmada(identifier, cover_name, mida_local, metadades)
+    if ja_hi_es and not force:
+        print(f"   ⏭️  Ja té caràtula ({motiu}) — saltat")
+        return 'ja-hi-era'
+
+    if dry_run:
+        print(f"   🔍 DRY-RUN: es pujaria ({motiu})")
+        return 'saltat'
+
+    for intent in range(1, intents + 1):
+        if intent > 1:
+            print(f"   🔁 Reintent {intent}/{intents}")
+
+        # TRAMPA 1: no pugem mai amb un derive en curs
+        if not esperar_derive(identifier):
+            print("   ⚠️  El derive no ha acabat dins el temps d'espera")
+            continue
+
+        try:
+            r = upload(
+                identifier,
+                files={cover_name: str(cover_local)},
+                retries=3,
+                verbose=False,
+                queue_derive=True,   # cal per regenerar __ia_thumb.jpg
+            )
+            codi = r[0].status_code if r else None
+            print(f"   ⬆️  upload() ha retornat {codi} (no és garantia de res)")
+        except Exception as e:
+            print(f"   ❌ Error pujant: {e}")
+            time.sleep(15)
+            continue
+
+        # TRAMPA 1+2: verificació real contra l'API de metadades
+        time.sleep(10)
+        for comprovacio in range(6):
+            ok, motiu = caratula_confirmada(identifier, cover_name, mida_local)
+            if ok:
+                print(f"   ✅ Verificat a l'API de metadades ({motiu})")
+                return 'pujada'
+            time.sleep(10)
+
+        print(f"   ⚠️  Després de pujar, la verificació falla: {motiu}")
+
+    return f"error: no s'ha pogut confirmar la caràtula després de {intents} intents"
+
+
 def crear_metadata(episodi):
     """Crea el diccionari de metadades per archive.org"""
     
@@ -264,11 +441,22 @@ def pujar_episodi(episodi, episodes_dir, dry_run=False):
     
     identifier = episodi['identifier']
     metadata = crear_metadata(episodi)
-    
+
+    # La caràtula va al MATEIX upload() que l'MP3: en un ítem nou encara no hi ha
+    # cap derive en curs, així que tots dos fitxers hi arriben segurs (trampa 1).
+    fitxers = {episodi['fitxer']: str(fitxer_path)}
+    cover_local = ruta_caratula(episodi, episodes_dir.parent)
+    if cover_local.exists():
+        fitxers[nom_remot_caratula(episodi)] = str(cover_local)
+    else:
+        print(f"   ⚠️  Sense caràtula local ({cover_local.name}): es puja només l'MP3")
+
     print(f"\n📦 Pujant episodi {episodi['num']}: {episodi['title']}")
     print(f"   Fitxer: {fitxer_path}")
     print(f"   Identifier: {identifier}")
-    
+    if cover_local.exists():
+        print(f"   Caràtula: {cover_local.name} → {nom_remot_caratula(episodi)}")
+
     if dry_run:
         print("   🔍 MODE DRY-RUN: No es puja realment")
         print(f"   Metadades: {metadata}")
@@ -286,22 +474,34 @@ def pujar_episodi(episodi, episodes_dir, dry_run=False):
                 url = f"https://archive.org/download/{identifier}/{episodi['fitxer']}"
                 return url
         
-        # Pujar el fitxer
+        # Pujar els fitxers (MP3 + caràtula)
         r = upload(
             identifier,
-            files=[str(fitxer_path)],
+            files=fitxers,
             metadata=metadata,
             verify=True,
             verbose=True,
             queue_derive=True,
             retries=3
         )
-        
+
         if r[0].status_code == 200:
             url = f"https://archive.org/download/{identifier}/{episodi['fitxer']}"
             print(f"   ✅ Pujat correctament!")
             print(f"   📍 URL: {url}")
             print(f"   🌐 Pàgina: https://archive.org/details/{identifier}")
+
+            # ⚠️ Un 200 no és garantia: verifiquem la caràtula contra l'API
+            if cover_local.exists():
+                ok, motiu = caratula_confirmada(
+                    identifier, nom_remot_caratula(episodi), cover_local.stat().st_size)
+                if ok:
+                    print(f"   ✅ Caràtula verificada ({motiu})")
+                else:
+                    print(f"   ⚠️  Caràtula NO confirmada: {motiu}")
+                    print(f"      Reintenta-ho amb: "
+                          f"python scripts/upload_to_archive.py --nomes-cover --episodi {episodi['num']}")
+
             return url
         else:
             print(f"   ❌ Error en pujar: {r[0].status_code}")
@@ -353,7 +553,12 @@ def main():
                        help='Pujar només un episodi específic (ex: 001)')
     parser.add_argument('--no-update-md', action='store_true',
                        help='No actualitzar els fitxers markdown')
-    
+    parser.add_argument('--nomes-cover', action='store_true',
+                       help='Només pujar la caràtula a ítems JA publicats, sense '
+                            'tornar a pujar l\'àudio. Idempotent: salta els que ja en tenen.')
+    parser.add_argument('--force-cover', action='store_true',
+                       help='Amb --nomes-cover, torna a pujar la caràtula encara que ja hi sigui')
+
     args = parser.parse_args()
     
     # Directoris del projecte
@@ -373,10 +578,44 @@ def main():
             sys.exit(1)
     
     print(f"\n📋 Episodis a processar: {len(episodis_a_pujar)}")
-    
+
     if args.dry_run:
         print("\n🔍 MODE DRY-RUN ACTIVAT - No es pujarà res realment\n")
-    
+
+    # ------------------------------------------------------------------
+    # Mode "només caràtula": per a ítems ja publicats
+    # ------------------------------------------------------------------
+    if args.nomes_cover:
+        print("🖼️  MODE NOMÉS CARÀTULA - no es torna a pujar cap àudio")
+        resultats = {}
+        for episodi in episodis_a_pujar:
+            resultats[episodi['num']] = pujar_caratula(
+                episodi, project_dir, dry_run=args.dry_run, force=args.force_cover)
+
+        print("\n" + "=" * 60)
+        print("📊 RESUM CARÀTULES")
+        print("=" * 60)
+        pujades = [n for n, r in resultats.items() if r == 'pujada']
+        ja_hi_eren = [n for n, r in resultats.items() if r == 'ja-hi-era']
+        errors = {n: r for n, r in resultats.items() if r.startswith('error')}
+
+        print(f"✅ Pujades i verificades: {len(pujades)}   "
+              f"⏭️  Ja en tenien: {len(ja_hi_eren)}   ❌ Errors: {len(errors)}")
+        if pujades:
+            print(f"   Pujades: {', '.join(sorted(pujades))}")
+        if ja_hi_eren:
+            print(f"   Ja hi eren: {', '.join(sorted(ja_hi_eren))}")
+        for num, motiu in sorted(errors.items()):
+            print(f"   ❌ {num}: {motiu}")
+
+        print("\n💡 archive.org ha de refer el derive per regenerar __ia_thumb.jpg.")
+        print("   Als llistats la caràtula pot trigar a aparèixer; això NO vol dir")
+        print("   que hagi fallat. Comprova-ho amb:")
+        print("   curl -sIL https://archive.org/services/img/<identifier>")
+        print("   (forma d'ona = 180x45 gris; caràtula = 180x180 en color)")
+
+        sys.exit(1 if errors else 0)
+
     # Processar cada episodi
     urls_generades = {}
     for episodi in episodis_a_pujar:
