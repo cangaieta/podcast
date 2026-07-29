@@ -10,6 +10,9 @@ pyyaml>=6.0
 # Pujada automàtica a archive.org
 internetarchive>=3.0.0
 
+# Thumbnails reduïts per als llistats web (generate_thumbnails_small.py)
+Pillow>=10.0.0
+
 # Opcional: per millor rendiment amb GPU
 # torch>=1.13.0
 # torchaudio>=0.13.0
