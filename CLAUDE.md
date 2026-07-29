@@ -105,13 +105,96 @@ python scripts/upload_to_archive.py --episodi XXX
 ```
 
 **Què fa l'script:**
-- ✅ Puja l'MP3 a archive.org amb totes les metadades
+- ✅ Puja l'MP3 **i la caràtula** a archive.org amb totes les metadades
 - ✅ Genera la URL pública automàticament
 - ✅ Actualitza el camp `audio_file` del markdown
+- ✅ Verifica que la caràtula hi hagi arribat de debò
 
 **IMPORTANT:** Si reps error de "rate limit", espera 30-60 minuts i torna a intentar.
 
 **Més detalls:** Consulta [ARCHIVE_ORG.md](ARCHIVE_ORG.md) o [scripts/README_UPLOAD.md](scripts/README_UPLOAD.md)
+
+#### Posar la caràtula a un ítem ja publicat
+
+Sense això, als llistats d'archive.org surt l'espectrograma/forma d'ona que
+genera ell per defecte per als àudios, en comptes de la caràtula.
+
+```bash
+# Tots els episodis que encara no en tinguin (idempotent: salta els que ja hi són)
+caffeinate -i python scripts/upload_to_archive.py --nomes-cover
+
+# Només un episodi
+python scripts/upload_to_archive.py --nomes-cover --episodi 014
+
+# Forçar la repujada encara que ja hi sigui
+python scripts/upload_to_archive.py --nomes-cover --episodi 014 --force-cover
+```
+
+La caràtula es puja com a **`XXX-nom-cover.png`** (amb sufix `-cover`), no com a
+`XXX-nom.png`. El motiu és la trampa 2 d'aquí sota.
+
+---
+
+### ⚠️ Les dues trampes d'archive.org
+
+Totes dues et fan **donar per bo el que no funciona**. Estan encapsulades a
+`scripts/upload_to_archive.py` (`esperar_derive()` i `caratula_confirmada()`);
+si mai toques aquest codi o escrius res que pugi fitxers a archive.org,
+llegeix-te-les abans.
+
+#### Trampa 1 — Un 200 no vol dir que el fitxer hi hagi arribat
+
+Si l'ítem té un **derive en curs**, `upload()` retorna **200** i archive.org
+**descarta el fitxer en silenci**. No hi ha cap error enlloc: simplement,
+després, el fitxer no hi és.
+
+**Solució:**
+1. Espera que `pending_tasks` sigui fals a `https://archive.org/metadata/<identifier>`
+2. Puja
+3. **Verifica** (trampa 2)
+4. Posa-hi reintents
+
+Per això, en pujar un episodi nou, l'MP3 i la caràtula van al **mateix**
+`upload()`: en un ítem nou encara no hi ha cap derive en curs i tots dos
+fitxers hi arriben segurs.
+
+#### Trampa 2 — Col·lisió de noms (fals positiu)
+
+A partir de l'MP3, archive.org genera un derivat anomenat **exactament igual
+que la nostra imatge** (`XXX-nom.png`): és la **forma d'ona**, d'uns 45 KB.
+
+Si comproves només que el fitxer existeix (un `HEAD`, o que surti al llistat de
+fitxers) obtindràs **200 a tots els episodis** i te'ls saltaràs tots pensant que
+ja tenen caràtula. Comprovat: el HEAD ingenu dona 200 a 20/20 episodis que en
+realitat no en tenien cap.
+
+**La comprovació correcta** consulta l'API de metadades i exigeix les dues coses:
+
+```bash
+curl -s https://archive.org/metadata/<identifier> | jq '.files[] | select(.name=="XXX-nom-cover.png")'
+```
+
+- `source == "original"` → descarta la forma d'ona (que és `"derivative"`)
+- `size` == mida del fitxer local → descarta una pujada truncada
+
+#### Com verificar que ha funcionat de debò
+
+```bash
+# 1. La imatge hi és com a original i amb la mida correcta
+curl -s https://archive.org/metadata/<identifier> | jq '.files[] | select(.source=="original" and (.name|endswith("-cover.png")))'
+
+# 2. La tessel·la dels llistats
+curl -sIL https://archive.org/services/img/<identifier>
+```
+
+| Tessel·la | Mida | Mode |
+|---|---|---|
+| ❌ Forma d'ona (per defecte) | **180×45** | escala de grisos (~3,6 KB) |
+| ✅ Caràtula | **180×180** | color (~20 KB) |
+
+**Important:** un cop pujada la imatge, archive.org ha de **refer el derive**
+per regenerar `__ia_thumb.jpg`. Als llistats pot trigar. Que la imatge encara no
+es vegi a la graella **NO vol dir que hagi fallat** — mira els dos punts de dalt.
 
 ### 5. **Personalitzar l'episodi**
 Editar `_episodes/XXX-nom-episodi.md`:
@@ -201,7 +284,18 @@ A la pàgina de detall de cada episodi (`_layouts/episode.html`) hi ha una secci
 - **Transcripcions**: `sources/XXX-nom-descriptiu-transcripcio.txt`
 - **Subtítols (SRT)**: `sources/XXX-nom-descriptiu-transcripcio.srt`
 - **Capítols**: `sources/XXX-nom-descriptiu-chapters.json`
-- **Thumbnails**: `assets/thumbnails/XXX-nom-descriptiu.png`
+- **Thumbnails**: `assets/thumbnails/XXX-nom-descriptiu.png` (1024×1024, ~1,3 MB)
+- **Thumbnails reduïts**: `assets/thumbnails/small/XXX-nom-descriptiu.webp` (400×400, ~30 KB)
+- **Caràtula a archive.org**: `XXX-nom-descriptiu-cover.png` (sufix `-cover` obligatori)
+
+**Quina versió del thumbnail fa servir cadascú:**
+
+| Ús | Versió | Per què |
+|---|---|---|
+| Llistats web (portada, `/episodis`) | `small/*.webp` | 20 imatges a la mateixa pàgina: 25,75 MB → 0,54 MB |
+| Detall de l'episodi | `*.png` | Una sola imatge, es vol qualitat |
+| RSS (`itunes:image`) | `*.png` | Les apps de podcast volen resolució alta |
+| Caràtula d'archive.org | `*.png` | Idem |
 
 ### **Qualitat MP3**
 - **Bitrate**: 128 kbps
@@ -219,6 +313,7 @@ A la pàgina de detall de cada episodi (`_layouts/episode.html`) hi ha una secci
 ### **Thumbnails**
 - `scripts/generate_thumbnail.py` - Genera thumbnail per a un episodi
 - `scripts/generate_all_thumbnails.py` - Genera thumbnails per a tots els episodis
+- `scripts/generate_thumbnails_small.py` - Genera les versions reduïdes per als llistats
 - Model: `ollama x/z-image-turbo` (cal tenir ollama instal·lat)
 
 ### **Models i Backends de Whisper**
@@ -313,7 +408,14 @@ python scripts/generate_all_thumbnails.py
 
 # Regenerar un episodi concret
 python scripts/generate_all_thumbnails.py 014 --force
+
+# ⚠️ SEMPRE després: generar la versió reduïda per als llistats web
+python scripts/generate_thumbnails_small.py          # només els que falten
+python scripts/generate_thumbnails_small.py 014 --force
 ```
+
+Sense la versió reduïda el llistat segueix funcionant (cau a l'original), però
+la pàgina `/episodis` carrega ~1,3 MB per episodi en comptes de ~30 KB.
 
 **Prompt base del thumbnail:** Escena del barri de Can Gaietà (masía blanca + blocs de maons + pins mediterranis) amb uns grans headphones futurstes a la masía. Cada episodi afegeix un element visual específic del seu tema.
 
@@ -386,7 +488,8 @@ pip install --upgrade openai-whisper
 2. **Generar capítols JSON** (Copilot llegeix el SRT → proposa → `sources/XXX-chapters.json`)
 3. **Seleccionar soundbite** (Copilot llegeix el SRT → `soundbite_*` al frontmatter)
 4. **Generar thumbnail** (`python scripts/generate_thumbnail.py ...`)
-5. **Pujar a archive.org** automàticament
+   + **versió reduïda** (`python scripts/generate_thumbnails_small.py XXX`)
+5. **Pujar a archive.org** automàticament (MP3 + caràtula al mateix upload)
 6. Obtenir durada amb ffprobe
 7. Personalitzar contingut i verificar fonts
 8. Afegir referències creuades a episodis anteriors
