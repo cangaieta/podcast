@@ -349,7 +349,44 @@ def caratula_confirmada(identifier, cover_name, mida_local, metadades=None):
     return False, "no hi és"
 
 
-def esperar_derive(identifier, timeout=1200, interval=20, verbose=True):
+def esperes_creixents(timeout, inicial=15, maxim=240):
+    """Genera esperes que es dupliquen: 15, 30, 60, 120, 240, 240… segons.
+
+    S'atura quan la suma passaria de `timeout`. Sondejar archive.org a interval
+    fix i curt durant minuts sembla un atac; amb esperes creixents els casos
+    ràpids es resolen de seguida i els lents fan quatre peticions comptades.
+    """
+    espera, total = inicial, 0
+    while total + espera <= timeout:
+        yield espera
+        total += espera
+        espera = min(espera * 2, maxim)
+
+
+def _format_espera(segons):
+    return f"{segons}s" if segons < 60 else f"{segons // 60} min"
+
+
+def esperar_caratula(identifier, cover_name, mida_local, timeout=480):
+    """
+    Sondeja fins que la caràtula surt a l'API de metadades. Retorna (bool, motiu).
+
+    Just després de pujar, l'API triga una estona a llistar els fitxers: una
+    comprovació massa d'hora dona fals negatiu (al Podcast del Doctor, el
+    2026-09-20, als 30 s encara no hi eren). Amb timeout=480 fa cinc
+    comprovacions: als 15 s, 45 s, 1:45, 3:45 i 7:45.
+    """
+    motiu = "encara no hi és"
+    for espera in esperes_creixents(timeout):
+        print(f"   ⏳ esperant {_format_espera(espera)} abans de comprovar…")
+        time.sleep(espera)
+        ok, motiu = caratula_confirmada(identifier, cover_name, mida_local)
+        if ok:
+            return True, motiu
+    return False, motiu
+
+
+def esperar_derive(identifier, timeout=1200, verbose=True):
     """
     Espera que l'ítem no tingui tasques pendents. Retorna True si està lliure.
 
@@ -359,18 +396,18 @@ def esperar_derive(identifier, timeout=1200, interval=20, verbose=True):
     hi és. Per això cal esperar que pending_tasks sigui fals ABANS de pujar,
     i verificar DESPRÉS de pujar.
     """
-    inici = time.time()
+    esperes = esperes_creixents(timeout)
     while True:
         d = obtenir_metadades(identifier)
         if not d.get('pending_tasks'):
             return True
 
-        transcorregut = int(time.time() - inici)
-        if transcorregut > timeout:
+        espera = next(esperes, None)
+        if espera is None:
             return False
         if verbose:
-            print(f"   ⏳ derive en curs a archive.org, esperant… ({transcorregut}s)")
-        time.sleep(interval)
+            print(f"   ⏳ derive en curs a archive.org, esperant {_format_espera(espera)}…")
+        time.sleep(espera)
 
 
 def pujar_caratula(episodi, project_dir, dry_run=False, force=False, intents=3):
@@ -436,13 +473,10 @@ def pujar_caratula(episodi, project_dir, dry_run=False, force=False, intents=3):
             continue
 
         # TRAMPA 1+2: verificació real contra l'API de metadades
-        time.sleep(10)
-        for comprovacio in range(6):
-            ok, motiu = caratula_confirmada(identifier, cover_name, mida_local)
-            if ok:
-                print(f"   ✅ Verificat a l'API de metadades ({motiu})")
-                return 'pujada'
-            time.sleep(10)
+        ok, motiu = esperar_caratula(identifier, cover_name, mida_local)
+        if ok:
+            print(f"   ✅ Verificat a l'API de metadades ({motiu})")
+            return 'pujada'
 
         print(f"   ⚠️  Després de pujar, la verificació falla: {motiu}")
 
@@ -561,12 +595,7 @@ def pujar_episodi(episodi, episodes_dir, dry_run=False, permet_sense_caratula=Fa
             if ok_cover:
                 mida_local = cover_local.stat().st_size
                 cover_name = nom_remot_caratula(episodi)
-                confirmada, motiu = False, "encara no hi és"
-                for _ in range(6):
-                    time.sleep(10)
-                    confirmada, motiu = caratula_confirmada(identifier, cover_name, mida_local)
-                    if confirmada:
-                        break
+                confirmada, motiu = esperar_caratula(identifier, cover_name, mida_local)
 
                 if confirmada:
                     print(f"   ✅ Caràtula verificada ({motiu})")
@@ -619,6 +648,13 @@ def actualitzar_markdown(episodi, url, episodes_md_dir):
 
 def main():
     import argparse
+
+    # Sortida línia a línia encara que vagi a un fitxer o a una canonada:
+    # si no, el progrés de les esperes no es veu fins que l'script acaba.
+    try:
+        sys.stdout.reconfigure(line_buffering=True)
+    except AttributeError:
+        pass
     
     parser = argparse.ArgumentParser(description='Puja episodis a archive.org')
     parser.add_argument('--dry-run', action='store_true', 

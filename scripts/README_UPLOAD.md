@@ -177,3 +177,19 @@ Cada episodi es puja amb:
 - [internetarchive CLI](https://github.com/jjjake/internetarchive)
 - [ARCHIVE_ORG.md](../ARCHIVE_ORG.md) - Guia completa d'archive.org
 - [ARCHIVE_ORG_METADADES_EPISODIS.md](../ARCHIVE_ORG_METADADES_EPISODIS.md) - Metadades de cada episodi
+
+## Esperes contra archive.org
+
+Tots els sondejos a archive.org (verificar la caràtula després de pujar, esperar
+que acabi el *derive*) fan servir **esperes creixents**: 15 s, 30 s, 1 min,
+2 min, 4 min. Mai a interval fix curt, per no semblar un atac.
+
+Ve d'un incident al Podcast del Doctor (2026-09-20): just després de pujar,
+l'API de metadades triga a llistar els fitxers, i una comprovació massa d'hora
+donava fals negatiu. Allà l'script esperava 15 minuts de *derive* per re-pujar
+una caràtula que ja hi era. Aquí només avisava «Caràtula NO confirmada», però
+sondejava cada 10-20 s. Els apunts complets són a `scripts/README_UPLOAD.md`
+del repositori `podcast-del-doctor`.
+
+El `.venv` s'ha de crear amb **Python 3.11**: amb 3.12 no compila el `tiktoken`
+antic que fixa `lightning-whisper-mlx`.
