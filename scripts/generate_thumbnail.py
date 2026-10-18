@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Genera un thumbnail per a un episodi del podcast amb Qwen Image 2.1 (Draw Things).
+Genera un thumbnail per a un episodi del podcast amb Krea 2 / Qwen Image 2.1 (Draw Things).
 
 Hi ha dos backends:
 
@@ -20,8 +20,9 @@ d'ollama només funciona amb 0.32.5 o anterior.
 Requisits (draw-things-cli):
     - brew install draw-things-cli  (26.1011.0 o posterior: les anteriors no
       coneixen Qwen Image 2.1)
-    - El model qwen_image_2.1_turbo_q6p.ckpt al directori de models de Draw Things.
-      Si falta: draw-things-cli models ensure --model qwen_image_2.1_turbo_q6p.ckpt
+    - Els models al directori de models de Draw Things. Si falten:
+        draw-things-cli models ensure --model krea_2_turbo_q6p.ckpt
+        draw-things-cli models ensure --model qwen_image_2.1_turbo_q6p.ckpt  (--model qwen)
 
 Requisits (ollama, llegat):
     - ollama <= 0.32.5 i el model: ollama pull x/z-image-turbo
@@ -38,33 +39,80 @@ import shutil
 import time
 import tempfile
 
-# Prompt base — escena del barri de Can Gaietà amb els headphones icònics
-BASE_PROMPT = (
-    "The Can Gaietà neighborhood of Tiana. The design features the traditional white Catalan masía "
-    "with terracotta roof on one side, and multiple modern red brick duplex, triples and walk-up buildings of different "
-    "heights clustered together on the other side going uphill. Mediterranean umbrella pines (Pinus pinea) "
-    "with their distinctive flat tops and umbrella-like canopies appear on the hill in the background, "
-    "NOT Christmas-like fir or spruce trees. Use a clean, minimalist style with flat colors and defined "
-    "outlines suitable for small display. The color palette includes white, red brick, terracotta, olive "
-    "green for the pines, and light blue for the sky. The overall composition should balance historic and "
-    "contemporary elements, large futuristic blue-black headphones worn by the white house as if it's a "
-    "character - the headphones should be oversized and playfully positioned on the house like it's wearing "
-    "them. The headphones should have a sleek, futuristic design with clean geometric lines, matte or "
-    "metallic finish, and subtle blue glowing details"
+# Prompt base. Qwen Image i Krea 2 volen prompts llargs i descrits per parts:
+# amb l'antic (escena + "In the foreground or as a visual element: <sufix>")
+# Qwen 2.1 gairebé ometia el tema de l'episodi (es va veure provant el 013).
+# Ara el tema té secció pròpia, mida i posició explícites, i la paleta va al
+# final perquè no la tapi.
+STYLE_PROMPT = (
+    "Square flat vector illustration for a local news podcast cover, clean minimalist "
+    "editorial style with flat colors, crisp dark outlines and no gradients, designed to "
+    "stay readable as a tiny 110-pixel thumbnail."
+)
+
+SETTING_PROMPT = (
+    "Setting: the Can Gaietà neighbourhood of Tiana, a small Mediterranean town near "
+    "Barcelona, on a hillside under a pale light-blue sky. On the left stands a traditional "
+    "whitewashed Catalan masia farmhouse with a terracotta tile roof, green wooden shutters "
+    "and a small arched doorway. On the right, climbing the slope behind it, a cluster of "
+    "modern red-brick apartment blocks of three and four storeys with small balconies. On "
+    "the hilltop in the background, a few Mediterranean umbrella pines (Pinus pinea) with "
+    "tall bare trunks and wide flat-topped olive-green canopies; no fir trees, no Christmas "
+    "trees."
+)
+
+MASCOT_PROMPT = (
+    "Mascot: the white masia wears a pair of oversized futuristic headphones as if the house "
+    "were a character, the matte navy-blue headband arching over the terracotta roof and the "
+    "two large round ear cups pressed against the side walls, with thin glowing cyan rings "
+    "around the ear cups."
+)
+
+THEME_PROMPT = (
+    "Episode theme, large and in the foreground, occupying the lower right third of the "
+    "image: {suffix}"
+)
+
+PALETTE_PROMPT = (
+    "Colour palette limited to white, red brick, terracotta, olive green, light sky blue and "
+    "navy blue, with accents of glowing cyan and the episode's own colours. Strong "
+    "silhouettes, high contrast, uncluttered composition with the masia and the episode "
+    "theme as the two clear focal points."
 )
 
 
-# Qwen Image 2.1 Turbo ja ve destil·lat per a pocs passos: no cal LoRA.
-# Paràmetres explícits perquè, sense passar-los, draw-things-cli aplica els
-# "recommended settings" del model, que no són els que fa servir el David a
-# l'app de Draw Things. Aquests en són una còpia, amb la resolució baixada a
-# 1024 perquè tot el catàleg de thumbnails és 1024x1024.
-DT_MODEL = "qwen_image_2.1_turbo_q6p.ckpt"
-DT_STEPS = 8
-DT_SAMPLER = 16
-DT_SHIFT = 6.5
-DT_GUIDANCE = 1
+def build_prompt(prompt_suffix):
+    parts = [STYLE_PROMPT, SETTING_PROMPT, MASCOT_PROMPT]
+    if prompt_suffix:
+        parts.append(THEME_PROMPT.format(suffix=prompt_suffix))
+    parts.append(PALETTE_PROMPT)
+    return "\n\n".join(parts)
+
+
+# Models de Draw Things, provats amb el 013 (2026-10):
+#
+#   krea   Krea 2 Turbo. Per defecte: sempre correcte (masia, maó, pins, tema
+#          sencer) i estil pla com el catàleg antic. ~4 min per imatge.
+#   qwen   Qwen Image 2.1 Turbo. Imatges més interessants, però de tant en tant
+#          en surt una de malament. ~2 min. Per triar a mà entre llavors.
+#
+# Krea 2 fa servir els "recommended settings" del model; només se'n fixa la
+# mida. Els de Qwen 2.1 són els que fa servir el David a l'app de Draw Things.
+# Tot el catàleg de thumbnails és 1024x1024.
 DT_SIZE = 1024
+DT_MODELS = {
+    "krea": {"model": "krea_2_turbo_q6p.ckpt"},
+    "qwen": {
+        "model": "qwen_image_2.1_turbo_q6p.ckpt",
+        "sampler": 16,
+        "steps": 8,
+        "guidanceScale": 1,
+        "shift": 6.5,
+        "resolutionDependentShift": False,
+        "loras": [],
+    },
+}
+DT_DEFAULT_MODEL = "krea"
 DT_TIMEOUT = 1800
 
 
@@ -81,26 +129,20 @@ def _resolve_backend(backend):
     sys.exit(1)
 
 
-def _generate_draw_things(full_prompt, dest_image, seed):
+def _generate_draw_things(full_prompt, dest_image, seed, model):
     """draw-things-cli escriu directament a --output; no cal temporal."""
-    config = {
-        "model": DT_MODEL,
-        "sampler": DT_SAMPLER,
-        "steps": DT_STEPS,
-        "guidanceScale": DT_GUIDANCE,
-        "shift": DT_SHIFT,
-        "resolutionDependentShift": False,
+    config = dict(DT_MODELS[model])
+    config.update({
         "width": DT_SIZE,
         "height": DT_SIZE,
         "batchCount": 1,
         "batchSize": 1,
         "strength": 1,
-        "loras": [],
-    }
+    })
 
     cmd = [
         "draw-things-cli", "generate",
-        "--model", DT_MODEL,
+        "--model", config["model"],
         "--config-json", json.dumps(config),
         "--prompt", full_prompt,
         "--seed", str(seed),
@@ -170,12 +212,10 @@ def _generate_ollama(full_prompt, dest_image, episodi):
 
 
 def generate_thumbnail(episodi, nom, prompt_suffix, output_dir="assets/thumbnails",
-                       backend="auto", seed=None):
+                       backend="auto", seed=None, model=DT_DEFAULT_MODEL):
     """Genera un thumbnail i el desa a output_dir."""
 
-    full_prompt = BASE_PROMPT
-    if prompt_suffix:
-        full_prompt = f"{BASE_PROMPT}. In the foreground or as a visual element: {prompt_suffix}"
+    full_prompt = build_prompt(prompt_suffix)
 
     backend = _resolve_backend(backend)
 
@@ -187,7 +227,7 @@ def generate_thumbnail(episodi, nom, prompt_suffix, output_dir="assets/thumbnail
     print(f"🎨 Generant thumbnail per episodi {episodi} ({nom})")
     print(f"🖼️ Suffix: {prompt_suffix}")
     print(f"📝 Prompt (primeres 150 chars): {full_prompt[:150]}...")
-    print(f"⚙️ Backend: {backend}")
+    print(f"⚙️ Backend: {backend}" + (f" ({model})" if backend == "draw-things" else ""))
     print(f"🎲 Seed: {seed}")
     print("⏳ Generant...")
 
@@ -196,7 +236,7 @@ def generate_thumbnail(episodi, nom, prompt_suffix, output_dir="assets/thumbnail
 
     start = time.perf_counter()
     if backend == "draw-things":
-        _generate_draw_things(full_prompt, dest_image, seed)
+        _generate_draw_things(full_prompt, dest_image, seed, model)
     else:
         _generate_ollama(full_prompt, dest_image, episodi)
     elapsed = time.perf_counter() - start
@@ -207,7 +247,7 @@ def generate_thumbnail(episodi, nom, prompt_suffix, output_dir="assets/thumbnail
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Genera thumbnail per episodi de podcast amb Qwen Image 2.1 (Draw Things)"
+        description="Genera thumbnail per episodi de podcast amb Krea 2 / Qwen Image 2.1 (Draw Things)"
     )
     parser.add_argument(
         "--episodi", required=True, help="Número de l'episodi (ex: 013)"
@@ -220,7 +260,11 @@ def main():
     parser.add_argument(
         "--prompt-suffix",
         default="",
-        help="Element visual específic per a aquest episodi (en anglès per millors resultats)",
+        help="Escena del tema de l'episodi, en anglès i DETALLADA: què hi surt, com és, "
+             "quines persones hi ha i què fan, quin text curt hi apareix (ex: 'a giant "
+             "smartphone leaning against the masia, its screen showing a red subscribe "
+             "button and a big counter reading 100K, next to an open municipal "
+             "magazine whose back cover shows a smiling teenage boy holding a camera')",
     )
     parser.add_argument(
         "--output-dir",
@@ -234,6 +278,13 @@ def main():
         help="Motor de generació (per defecte: auto — draw-things-cli si hi és)",
     )
     parser.add_argument(
+        "--model",
+        choices=sorted(DT_MODELS),
+        default=DT_DEFAULT_MODEL,
+        help="Model de Draw Things (per defecte: krea — sempre correcte; qwen — més "
+             "interessant però irregular, per triar a mà entre llavors)",
+    )
+    parser.add_argument(
         "--seed", type=int, default=None,
         help="Llavor per a resultats reproduïbles (només backend draw-things)",
     )
@@ -242,7 +293,7 @@ def main():
 
     dest = generate_thumbnail(
         args.episodi, args.nom, args.prompt_suffix, args.output_dir,
-        backend=args.backend, seed=args.seed,
+        backend=args.backend, seed=args.seed, model=args.model,
     )
     ext = os.path.splitext(dest)[1]
     print(f"\n🔧 Afegeix al frontmatter de _episodes/{args.nom}.md:")

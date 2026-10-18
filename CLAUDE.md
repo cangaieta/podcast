@@ -320,7 +320,7 @@ A la pàgina de detall de cada episodi (`_layouts/episode.html`) hi ha una secci
 - `scripts/generate_thumbnail.py` - Genera thumbnail per a un episodi
 - `scripts/generate_all_thumbnails.py` - Genera thumbnails per a tots els episodis
 - `scripts/generate_thumbnails_small.py` - Genera les versions reduïdes per als llistats
-- Model: Qwen Image 2.1 Turbo via `draw-things-cli` (backend `ollama` encara disponible amb `--backend ollama`, però només funciona amb ollama <= 0.32.5)
+- Model: Krea 2 Turbo via `draw-things-cli` (~4 min; sempre correcte). Amb `--model qwen`, Qwen Image 2.1 Turbo (~2 min; més interessant però de tant en tant en surt una de malament: generar-ne unes quantes llavors i triar) (backend `ollama` encara disponible amb `--backend ollama`, però només funciona amb ollama <= 0.32.5)
 - Cada generació imprimeix la **llavor** que ha fet servir: apunta-te-la si vols poder reproduir o retocar un thumbnail
 
 ### **Models i Backends de Whisper**
@@ -404,13 +404,18 @@ _episodes/XXX-nom.md els camps soundbite_start, soundbite_duration i soundbite_t
 # Primer cop: instal·lar l'eina i assegurar el model
 # (cal draw-things-cli 26.1011.0 o posterior per a Qwen Image 2.1)
 brew install draw-things-cli
-draw-things-cli models ensure --model qwen_image_2.1_turbo_q6p.ckpt
+draw-things-cli models ensure --model krea_2_turbo_q6p.ckpt
+draw-things-cli models ensure --model qwen_image_2.1_turbo_q6p.ckpt  # opcional, --model qwen
 
 # Generar thumbnail per un episodi
 python scripts/generate_thumbnail.py \
   --episodi 014 \
   --nom 014-nom-episodi \
-  --prompt-suffix "element visual específic en anglès"
+  --prompt-suffix "escena DETALLADA del tema, en anglès"
+
+# ⚠️ El sufix ha de ser llarg i concret: quins objectes, com són, quines persones
+# hi ha i què fan, quin text curt hi surt. Ocupa el terç inferior dret en primer
+# pla. Amb una frase curta, el model omet el tema i surt la masia sola.
 
 # Generar thumbnails per a tots els episodis
 python scripts/generate_all_thumbnails.py

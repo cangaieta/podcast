@@ -187,16 +187,24 @@ soundbite_title: "Títol curt del soundbite (màx 128 caràcters)"
 
 ### PAS 5d: Generar thumbnail
 
-Decidir un element visual específic per a l'episodi (en anglès, per millors resultats).
-Exemples: `"a PlayStation controller as an excuse"`, `"a ghost bus floating down a road"`.
+Escriure una **escena detallada** del tema de l'episodi, en anglès: quins objectes,
+com són, quines persones hi ha i què fan, quin text curt hi apareix. Ocuparà el terç
+inferior dret, en primer pla, al costat de la masia amb auriculars. Amb una frase curta
+el model omet el tema i surt la masia sola.
 
-**Prerequisit:** `draw-things-cli` (26.1011.0 o posterior) i el model Qwen Image 2.1:
+Exemple (013): `"a giant smartphone leaning against the masia, its bright screen showing
+a video play button, a red subscribe button and a big counter reading \"100K\". Next to
+the phone lies an open municipal magazine whose back cover shows a smiling teenage boy
+holding a camera, and a small worried mother and child stand beside it"`.
+
+**Prerequisit:** `draw-things-cli` (26.1011.0 o posterior) i el model Krea 2 Turbo:
 ```bash
 brew install draw-things-cli
-draw-things-cli models ensure --model qwen_image_2.1_turbo_q6p.ckpt
+draw-things-cli models ensure --model krea_2_turbo_q6p.ckpt
 ```
 
-Triga uns 2 min per imatge. L'script imprimeix la llavor (`🎲 Seed`): si el
+Triga uns 4 min per imatge. Amb `--model qwen` (Qwen Image 2.1, ~2 min) surten imatges
+més interessants però irregulars: només si el David vol triar entre unes quantes llavors. L'script imprimeix la llavor (`🎲 Seed`): si el
 resultat gairebé funciona, es pot reproduir amb `--seed N`. Si s'han de generar
 diversos episodis, sempre d'un en un, mai en paral·lel (memòria).
 
@@ -411,5 +419,5 @@ git push
 - **SRT**: Sempre es genera automàticament amb la transcripció — no cal acció addicional
 - **Capítols**: Sempre crear `sources/XXX-chapters.json` amb mínim introducció + temes principals + conclusió
 - **Soundbite**: Sempre seleccionar un fragment representatiu de 30-90 segons
-- **Thumbnail**: Sempre generar amb Qwen Image 2.1 via draw-things-cli; si no està disponible, indicar-ho a l'usuari
+- **Thumbnail**: Sempre generar amb Krea 2 via draw-things-cli i amb un sufix detallat; si no està disponible, indicar-ho a l'usuari
 - **Deploy**: SEMPRE fer `git commit` i `git push` al final, automàticament i sense demanar confirmació. Generar un episodi sense fer commit+push es considera incomplet.
