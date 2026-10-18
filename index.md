@@ -170,59 +170,7 @@ description: "Podcast informatiu que ofereix una font d'informació alternativa 
     </section>
 
     <!-- Subscribe Section -->
-    <section id="subscribe" class="subscribe fade-in">
-        <div class="container">
-            <h2><i data-feather="smartphone"></i> Subscriu-te al Podcast</h2>
-            <p>Escolta quan vulguis i rep els nous episodis automàticament</p>
-
-            <!-- Opcions principals -->
-            <div class="subscribe-main-options">
-                <div class="subscribe-option-card">
-                    <div class="option-icon"><i data-feather="globe"></i></div>
-                    <h3>Escoltar aquí</h3>
-                    <p>No cal instal·lar res</p>
-                    <a href="{{ '/episodis' | relative_url }}" class="subscribe-btn listen-btn">
-                        <i data-feather="play"></i> Escoltar ara
-                    </a>
-                </div>
-
-                <div class="subscribe-option-card">
-                    <div class="option-icon"><i data-feather="smartphone"></i></div>
-                    <h3>Subscriu-te amb l'App</h3>
-                    <p>Detecta les teves apps de podcasts</p>
-                    <a href="https://www.subscribeonandroid.com/cangaieta.github.io/podcast/feed.xml"
-                       target="_blank" rel="noopener" class="subscribe-btn app-btn">
-                        <i data-feather="download"></i> Subscriu-te ara
-                    </a>
-                </div>
-
-                <div class="subscribe-option-card">
-                    <div class="option-icon"><i data-feather="list"></i></div>
-                    <h3>Afegir manualment</h3>
-                    <p>Copia l'URL RSS</p>
-                    <button onclick="copyRSSNoAlert()" class="subscribe-btn copy-btn-action">
-                        <i data-feather="clipboard"></i> Copiar URL
-                    </button>
-                </div>
-            </div>
-
-            <!-- Instruccions ràpides -->
-            <details class="quick-instructions">
-                <summary><i data-feather="settings"></i> Com afegir un podcast manualment?</summary>
-                <div class="instructions-content">
-                    <p><strong>URL del Feed RSS:</strong></p>
-                    <code class="rss-display">{{ site.url }}{{ site.baseurl }}/feed.xml</code>
-                    <ol>
-                        <li>Copia l'URL de dalt</li>
-                        <li>Obre la teva app de podcasts (Apple Podcasts, Pocket Casts, AntennaPod...)</li>
-                        <li>Busca "Afegir per URL" o "Add by RSS"</li>
-                        <li>Enganxa l'URL i subscriu-te</li>
-                    </ol>
-                    <p class="note"><i data-feather="alert-circle"></i> Spotify no suporta RSS externs. Utilitza una altra app.</p>
-                </div>
-            </details>
-        </div>
-    </section>
+    {% include subscribe.html %}
 </main>
 
 <!-- Footer -->
