@@ -87,6 +87,26 @@ Si no existeix, demanar a l'usuari que el copiï a `episodes/`.
 
 ---
 
+### PAS 1b: Afegir els jingles d'entrada i sortida
+
+**Sempre, i ABANS de transcriure.** Així l'SRT, els capítols, el soundbite, la durada
+i `audio_size` ja es calculen sobre l'àudio definitiu. Si s'afegissin després, tots els
+temps quedarien desplaçats ~8 s.
+
+```bash
+python scripts/add_jingles.py --episodi XXX
+```
+
+L'script iguala el volum dels jingles (`assets/audio/jingle-entrada.wav` i
+`jingle-sortida.wav`) amb el de l'episodi, desa l'original a `episodes/sense-jingles/`
+i marca l'MP3 amb l'etiqueta `jingles`. Si ja la té, no fa res: es pot tornar a
+executar sense por de duplicar-los.
+
+Els jingles són a `assets/audio/` (referència) i es poden regenerar o retocar amb
+`scripts/generate_jingles.py`. Episodis amb jingles: des del 021.
+
+---
+
 ### PAS 2: Transcripció automàtica
 
 Executar la transcripció amb el backend recomanat per M1 MAX:

@@ -57,6 +57,16 @@ Els fitxers MP3 dels episodis **NO s'allotgen a GitHub** (massa grans). En lloc 
 pip install -r requirements.txt
 ```
 
+### 2b. **Afegir jingles** 🎵 (ABANS de transcriure)
+```bash
+python scripts/add_jingles.py --episodi XXX
+```
+Posa `assets/audio/jingle-entrada.wav` al principi i `jingle-sortida.wav` al final,
+igualant-ne el volum amb el de l'episodi. Ha d'anar abans de transcriure perquè l'SRT,
+els capítols i el soundbite quadrin. Desa l'original a `episodes/sense-jingles/` i no
+duplica mai els jingles (etiqueta `jingles` a l'MP3). Des de l'episodi 021.
+Els jingles es generen amb `scripts/generate_jingles.py` (síntesi, notes compostes a mà).
+
 ### 3. **Transcripció automàtica**
 
 **Backends disponibles:**
@@ -502,7 +512,8 @@ pip install --upgrade openai-whisper
 
 ### **Cada episodi:**
 0. **DEMANAR fonts oficials** (acta + videoacta) ⚠️ OBLIGATORI
-1. Transcriure automàticament (genera `.txt` + **`.srt`** automàticament)
+1. **Afegir jingles** (`python scripts/add_jingles.py --episodi XXX`) — sempre abans de transcriure
+1b. Transcriure automàticament (genera `.txt` + **`.srt`** automàticament)
 2. **Generar capítols JSON** (Copilot llegeix el SRT → proposa → `sources/XXX-chapters.json`)
 3. **Seleccionar soundbite** (Copilot llegeix el SRT → `soundbite_*` al frontmatter)
 4. **Generar thumbnail** (`python scripts/generate_thumbnail.py ...`)
