@@ -21,7 +21,7 @@ layout: landing
   </header>
 
   {% if page.audio_file %}
-  <div class="audio-player">
+  <div class="audio-player{% if page.thumbnail %} has-thumb{% endif %}">
     {% if page.thumbnail %}
     <div class="player-with-thumb">
       <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}" class="player-thumb" loading="lazy">
@@ -46,8 +46,8 @@ layout: landing
       El teu navegador no suporta l'element d'audio.
     </audio>
     {% endif %}
-    {% include listen-also.html %}
   </div>
+  {% include listen-also.html %}
   {% endif %}
 
   {% if page.chapters_file %}
@@ -619,5 +619,17 @@ layout: landing
   .disclaimer {
     padding: 1.5rem;
   }
+}
+/* Reproductor amb portada: la imatge omple tota l'esquerra de la caixa i
+   "Escolta'l també a" queda fora, sense marc, entre el reproductor i els capítols. */
+.audio-player.has-thumb { padding: 0; overflow: hidden; margin-bottom: 1.25rem; }
+.audio-player.has-thumb .player-with-thumb { align-items: stretch; gap: 0; max-width: none; }
+.audio-player.has-thumb .player-thumb { width: 220px; height: 220px; border-radius: 0; box-shadow: none; }
+.audio-player.has-thumb .player-controls { display: flex; align-items: center; padding: 1.5rem 2rem; }
+.audio-player.has-thumb + .listen-also { margin: 0 0 3rem 0; }
+@media (max-width: 600px) {
+  .audio-player.has-thumb .player-with-thumb { flex-direction: column; gap: 0; }
+  .audio-player.has-thumb .player-thumb { width: 100%; height: auto; aspect-ratio: 1 / 1; }
+  .audio-player.has-thumb .player-controls { padding: 1.2rem; }
 }
 </style>
