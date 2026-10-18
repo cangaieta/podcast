@@ -46,6 +46,7 @@ layout: landing
       El teu navegador no suporta l'element d'audio.
     </audio>
     {% endif %}
+    {% include listen-also.html %}
   </div>
   {% endif %}
 
@@ -252,6 +253,33 @@ layout: landing
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   color: var(--text-primary);
+}
+
+.listen-also {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+}
+
+.listen-also-label {
+  color: var(--text-tertiary);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.listen-also .btn {
+  padding: 0.45rem 0.9rem;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+.listen-also .btn i {
+  width: 15px;
+  height: 15px;
 }
 
 .audio-player {
