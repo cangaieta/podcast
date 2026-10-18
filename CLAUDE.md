@@ -28,7 +28,7 @@ Els fitxers MP3 dels episodis **NO s'allotgen a GitHub** (massa grans). En lloc 
 ├── sources/            # Fonts, transcripcions (.txt), subtjtols (.srt) i capítols (.json)
 ├── scripts/            # Scripts d'automatització
 ├── assets/
-│   ├── thumbnails/     # Thumbnails per episodi (generats amb ollama)
+│   ├── thumbnails/     # Thumbnails per episodi (generats amb draw-things-cli)
 │   └── logo-podcast.jpg
 ├── _layouts/           # Plantilles Jekyll
 └── feed.xml           # RSS feed del podcast (inclou Podcast 2.0 namespace)
@@ -320,7 +320,8 @@ A la pàgina de detall de cada episodi (`_layouts/episode.html`) hi ha una secci
 - `scripts/generate_thumbnail.py` - Genera thumbnail per a un episodi
 - `scripts/generate_all_thumbnails.py` - Genera thumbnails per a tots els episodis
 - `scripts/generate_thumbnails_small.py` - Genera les versions reduïdes per als llistats
-- Model: `ollama x/z-image-turbo` (cal tenir ollama instal·lat)
+- Model: Qwen Image 2.1 Turbo via `draw-things-cli` (backend `ollama` encara disponible amb `--backend ollama`, però només funciona amb ollama <= 0.32.5)
+- Cada generació imprimeix la **llavor** que ha fet servir: apunta-te-la si vols poder reproduir o retocar un thumbnail
 
 ### **Models i Backends de Whisper**
 
@@ -397,11 +398,13 @@ de 30-90 segons que representi bé l'episodi. Afegeix al frontmatter de
 _episodes/XXX-nom.md els camps soundbite_start, soundbite_duration i soundbite_title.
 ```
 
-### Workflow: Generar thumbnail (ollama)
+### Workflow: Generar thumbnail (draw-things-cli)
 
 ```bash
-# Primer cop: descarregar el model (uns minuts)
-ollama pull x/z-image-turbo
+# Primer cop: instal·lar l'eina i assegurar el model
+# (cal draw-things-cli 26.1011.0 o posterior per a Qwen Image 2.1)
+brew install draw-things-cli
+draw-things-cli models ensure --model qwen_image_2.1_turbo_q6p.ckpt
 
 # Generar thumbnail per un episodi
 python scripts/generate_thumbnail.py \

@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 """
-Genera thumbnails per a tots els episodis del podcast usant ollama x/z-image-turbo.
+Genera thumbnails per a tots els episodis del podcast amb Qwen Image 2.1 (Draw Things).
 
 Ús:
     python scripts/generate_all_thumbnails.py           # tots els episodis
     python scripts/generate_all_thumbnails.py 013       # un episodi concret
     python scripts/generate_all_thumbnails.py --force   # regenera fins i tot si ja existeix
 
-Requisits:
-    - ollama instal·lat: https://ollama.com
-    - Model descarregat: ollama pull x/z-image-turbo
+Requisits: els de scripts/generate_thumbnail.py (draw-things-cli i el model
+qwen_image_2.1_turbo_q6p.ckpt).
 """
 
 import os

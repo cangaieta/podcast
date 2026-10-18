@@ -190,10 +190,15 @@ soundbite_title: "Títol curt del soundbite (màx 128 caràcters)"
 Decidir un element visual específic per a l'episodi (en anglès, per millors resultats).
 Exemples: `"a PlayStation controller as an excuse"`, `"a ghost bus floating down a road"`.
 
-**Prerequisit:** ollama instal·lat i model disponible:
+**Prerequisit:** `draw-things-cli` (26.1011.0 o posterior) i el model Qwen Image 2.1:
 ```bash
-ollama pull x/z-image-turbo
+brew install draw-things-cli
+draw-things-cli models ensure --model qwen_image_2.1_turbo_q6p.ckpt
 ```
+
+Triga uns 2 min per imatge. L'script imprimeix la llavor (`🎲 Seed`): si el
+resultat gairebé funciona, es pot reproduir amb `--seed N`. Si s'han de generar
+diversos episodis, sempre d'un en un, mai en paral·lel (memòria).
 
 Executar:
 ```bash
@@ -406,5 +411,5 @@ git push
 - **SRT**: Sempre es genera automàticament amb la transcripció — no cal acció addicional
 - **Capítols**: Sempre crear `sources/XXX-chapters.json` amb mínim introducció + temes principals + conclusió
 - **Soundbite**: Sempre seleccionar un fragment representatiu de 30-90 segons
-- **Thumbnail**: Sempre generar amb ollama x/z-image-turbo; si ollama no disponible, indicar-ho a l'usuari
+- **Thumbnail**: Sempre generar amb Qwen Image 2.1 via draw-things-cli; si no està disponible, indicar-ho a l'usuari
 - **Deploy**: SEMPRE fer `git commit` i `git push` al final, automàticament i sense demanar confirmació. Generar un episodi sense fer commit+push es considera incomplet.
