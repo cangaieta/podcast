@@ -2090,12 +2090,32 @@
     </style>
 
     <!-- Feather Icons CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.29.2/dist/feather.min.js"></script>
 
     <!-- Icon styling -->
     <style>
-        .btn i, .btn-primary i, .btn-secondary i, .btn-spotify i, .btn-apple i, 
-        .btn-android i, .subscribe-btn i, .listen-btn i, .app-btn i, .copy-btn-action i {
+        /* Reserva l'espai de la icona abans que Feather substitueixi l'<i> per l'<svg>: sense això els botons salten en carregar. */
+        i[data-feather] { display: inline-block; width: 24px; height: 24px; vertical-align: middle; }
+        .btn i,
+        .btn-primary i,
+        .btn-secondary i,
+        .btn-spotify i,
+        .btn-apple i,
+        .btn-android i,
+        .subscribe-btn i,
+        .listen-btn i,
+        .app-btn i,
+        .copy-btn-action i,
+        .btn svg.feather,
+        .btn-primary svg.feather,
+        .btn-secondary svg.feather,
+        .btn-spotify svg.feather,
+        .btn-apple svg.feather,
+        .btn-android svg.feather,
+        .subscribe-btn svg.feather,
+        .listen-btn svg.feather,
+        .app-btn svg.feather,
+        .copy-btn-action svg.feather {
             margin-right: 0.5rem;
             width: 20px;
             height: 20px;

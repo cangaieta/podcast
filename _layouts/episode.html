@@ -2,162 +2,6 @@
 layout: landing
 ---
 
-<div class="episode-navigation">
-  <div class="nav-links-left">
-    <a href="{{ '/' | relative_url }}" class="nav-link">← Inici</a>
-    <a href="{{ '/episodis' | relative_url }}" class="nav-link">← Tots els episodis</a>
-  </div>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1bA1mx4xQhM_6gspCBxSr2KE0M-26eks1wwwk5B4r4z1Psg/viewform" target="_blank" class="nav-link nav-cta">Uneix-te</a>
-</div>
-
-<article class="episode">
-  <header class="episode-header">
-    <h1>{{ page.title }}</h1>
-    <div class="episode-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d de %B de %Y" }}</time>
-      {% if page.duration %}<span class="duration">Durada: {{ page.duration }}</span>{% endif %}
-      {% if page.episode_number %}<span class="episode-number">Episodi {{ page.episode_number }}</span>{% endif %}
-    </div>
-  </header>
-
-  {% if page.audio_file %}
-  <div class="audio-player{% if page.thumbnail %} has-thumb{% endif %}">
-    {% if page.thumbnail %}
-    <div class="player-with-thumb">
-      <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}" class="player-thumb" loading="lazy">
-      <div class="player-controls">
-        <audio id="episode-audio" controls preload="metadata">
-          {% if page.audio_file contains "http" %}
-          <source src="{{ page.audio_file }}" type="audio/mpeg">
-          {% else %}
-          <source src="{{ '/episodes/' | append: page.audio_file | relative_url }}" type="audio/mpeg">
-          {% endif %}
-          El teu navegador no suporta l'element d'audio.
-        </audio>
-      </div>
-    </div>
-    {% else %}
-    <audio id="episode-audio" controls preload="metadata">
-      {% if page.audio_file contains "http" %}
-      <source src="{{ page.audio_file }}" type="audio/mpeg">
-      {% else %}
-      <source src="{{ '/episodes/' | append: page.audio_file | relative_url }}" type="audio/mpeg">
-      {% endif %}
-      El teu navegador no suporta l'element d'audio.
-    </audio>
-    {% endif %}
-  </div>
-  {% include listen-also.html %}
-  {% endif %}
-
-  {% if page.chapters_file %}
-  <section class="episode-chapters" id="episode-chapters">
-    <h2>🎯 Capítols</h2>
-    <div class="chapters-list" id="chapters-list">
-      <p class="chapters-loading">Carregant capítols…</p>
-    </div>
-  </section>
-  <script>
-  (function() {
-    var chaptersUrl = '{{ "/sources/" | append: page.chapters_file | relative_url }}';
-    var audio = document.getElementById('episode-audio');
-    var section = document.getElementById('episode-chapters');
-    var list = document.getElementById('chapters-list');
-    if (!list) return;
-
-    fetch(chaptersUrl)
-      .then(function(r) { return r.json(); })
-      .then(function(data) {
-        if (!data.chapters || !data.chapters.length) { section.style.display = 'none'; return; }
-        var chapters = data.chapters;
-        list.innerHTML = chapters.map(function(ch, i) {
-          var m = Math.floor(ch.startTime / 60);
-          var s = Math.floor(ch.startTime % 60);
-          var t = m + ':' + (s < 10 ? '0' : '') + s;
-          return '<button class="chapter-item" data-time="' + ch.startTime + '" data-idx="' + i + '">'
-            + '<span class="chapter-time">' + t + '</span>'
-            + '<span class="chapter-title">' + ch.title + '</span>'
-            + '<span class="chapter-play-icon">▶</span>'
-            + '</button>';
-        }).join('');
-
-        list.addEventListener('click', function(e) {
-          var btn = e.target.closest('.chapter-item');
-          if (!btn || !audio) return;
-          audio.currentTime = parseFloat(btn.dataset.time);
-          audio.play();
-        });
-
-        function updateActive() {
-          var t = audio ? audio.currentTime : 0;
-          var active = 0;
-          chapters.forEach(function(ch, i) { if (t >= ch.startTime) active = i; });
-          list.querySelectorAll('.chapter-item').forEach(function(btn, i) {
-            btn.classList.toggle('active', i === active);
-          });
-        }
-
-        if (audio) {
-          audio.addEventListener('timeupdate', updateActive);
-          audio.addEventListener('seeked', updateActive);
-        }
-      })
-      .catch(function() { section.style.display = 'none'; });
-  })();
-  </script>
-  {% endif %}
-
-  <div class="episode-content">
-    {{ content }}
-  </div>
-
-  {% if page.sources %}
-  <section class="sources">
-    <h2>📚 fonts Utilitzades</h2>
-    <ul>
-    {% for source in page.sources %}
-      <li>
-        {% if source.url %}
-          <a href="{{ source.url }}" target="_blank">{{ source.title }}</a>
-        {% else %}
-          {{ source.title }}
-        {% endif %}
-        {% if source.description %} - {{ source.description }}{% endif %}
-      </li>
-    {% endfor %}
-    </ul>
-  </section>
-  {% endif %}
-
-  {% if page.disclaimer %}
-  <div class="disclaimer">
-    <h3>⚠️ Disclaimer</h3>
-    <p>{{ page.disclaimer }}</p>
-  </div>
-  {% endif %}
-
-  <!-- Uneix-te CTA -->
-  <div class="join-cta">
-    <p><i data-feather="users"></i> T'agrada el que fem?</p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1bA1mx4xQhM_6gspCBxSr2KE0M-26eks1wwwk5B4r4z1Psg/viewform" target="_blank" class="join-btn">Uneix-te al projecte</a>
-  </div>
-
-  <footer class="episode-footer">
-    <p><strong>Recordatori:</strong> Aquest contingut ha estat generat amb Google NotebookLM basant-se en les fonts oficials indicades. Consulta sempre les fonts originals per obtenir la informació completa.</p>
-
-    <div class="navigation">
-      {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="nav-link prev">← Episodi anterior</a>
-      {% endif %}
-      {% if page.next %}
-        <a href="{{ page.next.url }}" class="nav-link next">Episodi següent →</a>
-      {% endif %}
-    </div>
-  </footer>
-</article>
-
-{% include subscribe.html %}
-
 <style>
 .episode-navigation {
   max-width: 1000px;
@@ -277,7 +121,8 @@ layout: landing
   box-shadow: 0 2px 6px rgba(0,0,0,0.12);
 }
 
-.listen-also .btn i {
+.listen-also .btn i,
+.listen-also .btn svg.feather {
   width: 15px;
   height: 15px;
 }
@@ -634,3 +479,160 @@ layout: landing
   .audio-player.has-thumb .player-controls { padding: 1.2rem; }
 }
 </style>
+
+<div class="episode-navigation">
+  <div class="nav-links-left">
+    <a href="{{ '/' | relative_url }}" class="nav-link">← Inici</a>
+    <a href="{{ '/episodis' | relative_url }}" class="nav-link">← Tots els episodis</a>
+  </div>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1bA1mx4xQhM_6gspCBxSr2KE0M-26eks1wwwk5B4r4z1Psg/viewform" target="_blank" class="nav-link nav-cta">Uneix-te</a>
+</div>
+
+<article class="episode">
+  <header class="episode-header">
+    <h1>{{ page.title }}</h1>
+    <div class="episode-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d de %B de %Y" }}</time>
+      {% if page.duration %}<span class="duration">Durada: {{ page.duration }}</span>{% endif %}
+      {% if page.episode_number %}<span class="episode-number">Episodi {{ page.episode_number }}</span>{% endif %}
+    </div>
+  </header>
+
+  {% if page.audio_file %}
+  <div class="audio-player{% if page.thumbnail %} has-thumb{% endif %}">
+    {% if page.thumbnail %}
+    <div class="player-with-thumb">
+      <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}" class="player-thumb" loading="lazy">
+      <div class="player-controls">
+        <audio id="episode-audio" controls preload="metadata">
+          {% if page.audio_file contains "http" %}
+          <source src="{{ page.audio_file }}" type="audio/mpeg">
+          {% else %}
+          <source src="{{ '/episodes/' | append: page.audio_file | relative_url }}" type="audio/mpeg">
+          {% endif %}
+          El teu navegador no suporta l'element d'audio.
+        </audio>
+      </div>
+    </div>
+    {% else %}
+    <audio id="episode-audio" controls preload="metadata">
+      {% if page.audio_file contains "http" %}
+      <source src="{{ page.audio_file }}" type="audio/mpeg">
+      {% else %}
+      <source src="{{ '/episodes/' | append: page.audio_file | relative_url }}" type="audio/mpeg">
+      {% endif %}
+      El teu navegador no suporta l'element d'audio.
+    </audio>
+    {% endif %}
+  </div>
+  {% include listen-also.html %}
+  {% endif %}
+
+  {% if page.chapters_file %}
+  <section class="episode-chapters" id="episode-chapters">
+    <h2>🎯 Capítols</h2>
+    <div class="chapters-list" id="chapters-list">
+      <p class="chapters-loading">Carregant capítols…</p>
+    </div>
+  </section>
+  <script>
+  (function() {
+    var chaptersUrl = '{{ "/sources/" | append: page.chapters_file | relative_url }}';
+    var audio = document.getElementById('episode-audio');
+    var section = document.getElementById('episode-chapters');
+    var list = document.getElementById('chapters-list');
+    if (!list) return;
+
+    fetch(chaptersUrl)
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        if (!data.chapters || !data.chapters.length) { section.style.display = 'none'; return; }
+        var chapters = data.chapters;
+        list.innerHTML = chapters.map(function(ch, i) {
+          var m = Math.floor(ch.startTime / 60);
+          var s = Math.floor(ch.startTime % 60);
+          var t = m + ':' + (s < 10 ? '0' : '') + s;
+          return '<button class="chapter-item" data-time="' + ch.startTime + '" data-idx="' + i + '">'
+            + '<span class="chapter-time">' + t + '</span>'
+            + '<span class="chapter-title">' + ch.title + '</span>'
+            + '<span class="chapter-play-icon">▶</span>'
+            + '</button>';
+        }).join('');
+
+        list.addEventListener('click', function(e) {
+          var btn = e.target.closest('.chapter-item');
+          if (!btn || !audio) return;
+          audio.currentTime = parseFloat(btn.dataset.time);
+          audio.play();
+        });
+
+        function updateActive() {
+          var t = audio ? audio.currentTime : 0;
+          var active = 0;
+          chapters.forEach(function(ch, i) { if (t >= ch.startTime) active = i; });
+          list.querySelectorAll('.chapter-item').forEach(function(btn, i) {
+            btn.classList.toggle('active', i === active);
+          });
+        }
+
+        if (audio) {
+          audio.addEventListener('timeupdate', updateActive);
+          audio.addEventListener('seeked', updateActive);
+        }
+      })
+      .catch(function() { section.style.display = 'none'; });
+  })();
+  </script>
+  {% endif %}
+
+  <div class="episode-content">
+    {{ content }}
+  </div>
+
+  {% if page.sources %}
+  <section class="sources">
+    <h2>📚 fonts Utilitzades</h2>
+    <ul>
+    {% for source in page.sources %}
+      <li>
+        {% if source.url %}
+          <a href="{{ source.url }}" target="_blank">{{ source.title }}</a>
+        {% else %}
+          {{ source.title }}
+        {% endif %}
+        {% if source.description %} - {{ source.description }}{% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if page.disclaimer %}
+  <div class="disclaimer">
+    <h3>⚠️ Disclaimer</h3>
+    <p>{{ page.disclaimer }}</p>
+  </div>
+  {% endif %}
+
+  <!-- Uneix-te CTA -->
+  <div class="join-cta">
+    <p><i data-feather="users"></i> T'agrada el que fem?</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1bA1mx4xQhM_6gspCBxSr2KE0M-26eks1wwwk5B4r4z1Psg/viewform" target="_blank" class="join-btn">Uneix-te al projecte</a>
+  </div>
+
+  <footer class="episode-footer">
+    <p><strong>Recordatori:</strong> Aquest contingut ha estat generat amb Google NotebookLM basant-se en les fonts oficials indicades. Consulta sempre les fonts originals per obtenir la informació completa.</p>
+
+    <div class="navigation">
+      {% if page.previous %}
+        <a href="{{ page.previous.url }}" class="nav-link prev">← Episodi anterior</a>
+      {% endif %}
+      {% if page.next %}
+        <a href="{{ page.next.url }}" class="nav-link next">Episodi següent →</a>
+      {% endif %}
+    </div>
+  </footer>
+</article>
+
+{% include subscribe.html %}
+
