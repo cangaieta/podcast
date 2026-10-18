@@ -622,11 +622,12 @@ layout: landing
 }
 /* Reproductor amb portada: la imatge omple tota l'esquerra de la caixa i
    "Escolta'l també a" queda fora, sense marc, entre el reproductor i els capítols. */
-.audio-player.has-thumb { padding: 0; overflow: hidden; margin-bottom: 1.25rem; }
+.audio-player.has-thumb { padding: 0; overflow: hidden; margin-bottom: 2rem; }
 .audio-player.has-thumb .player-with-thumb { align-items: stretch; gap: 0; max-width: none; }
 .audio-player.has-thumb .player-thumb { width: 220px; height: 220px; border-radius: 0; box-shadow: none; }
 .audio-player.has-thumb .player-controls { display: flex; align-items: center; padding: 1.5rem 2rem; }
-.audio-player.has-thumb + .listen-also { margin: 0 0 3rem 0; }
+/* Mateix espai a sobre i a sota: 2rem del reproductor i 2rem del margin-top dels capítols. */
+.audio-player + .listen-also { margin: 0; }
 @media (max-width: 600px) {
   .audio-player.has-thumb .player-with-thumb { flex-direction: column; gap: 0; }
   .audio-player.has-thumb .player-thumb { width: 100%; height: auto; aspect-ratio: 1 / 1; }
