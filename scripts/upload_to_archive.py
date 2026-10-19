@@ -242,6 +242,16 @@ EPISODIS = [
         "date": "2026-10-19",
         "duration": "17:19",
         "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "ple municipal", "majoria absoluta", "romanent de tresoreria", "pressupost", "contracte de neteja", "recollida de residus", "porta a porta", "taxa de residus", "TERSA", "habitatge social", "AMB", "calcfrares", "mutacio demanial", "incendis forestals"]
+    },
+    {
+        "num": "022",
+        "fitxer": "022-aigua-publica-retallades-tiana.mp3",
+        "identifier": "podcast-cangaieta-022-aigua-publica-retallades-tiana",
+        "title": "Episodi 022: L'aigua cap a l'AMB i el milió que cal retallar",
+        "description": "Anàlisi del ple ordinari del 8 de setembre de 2026 a Tiana, a les portes de les eleccions i amb un govern amb majoria absoluta. El compte general del 2025 es presenta amb 2,5 milions de superàvit, uns 9 milions de romanent i tres semàfors verds, però l'interventor recomana «revisar la pressió fiscal», el romanent paga fins a un milió de despesa corrent i l'alcalde admet que caldrà retallar gairebé un milió per culpa del contracte de neteja més car de la història. La mutació demanial cedeix totes les instal·lacions de l'aigua a l'AMB per una sentència del TSJC, mentre el PAM del govern dona per complerta al 100% la defensa de l'aigua pública. I la moció del transport públic destapa l'acusació de postureig. I just llavors rebenta una canonada a Can Matas. Si ho deleguem tot, triem gestors o un departament de relacions públiques?",
+        "date": "2026-10-19",
+        "duration": "23:36",
+        "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "ple municipal", "majoria absoluta", "compte general", "romanent de tresoreria", "pressio fiscal", "retallades", "contracte de neteja", "aigua publica", "mutacio demanial", "AMB", "TSJC", "transport public", "la virreina", "can matas"]
     }
 ]
 

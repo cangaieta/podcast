@@ -1,0 +1,17 @@
+{
+  "version": "1.2.0",
+  "podcastName": "Podcast Associació Veïnal Can Gaietà",
+  "title": "Episodi 022: L'aigua cap a l'AMB i el milió que cal retallar",
+  "chapters": [
+    { "startTime": 0, "title": "Introducció i disclaimer: la canonada que rebenta en ple debat" },
+    { "startTime": 141.2, "title": "El context: majoria absoluta a les portes de les eleccions" },
+    { "startTime": 180.2, "title": "Punt 4: el compte general del 2025 i la lletra petita" },
+    { "startTime": 387.5, "title": "«Revisar la pressió fiscal», el milió a retallar i el contracte de neteja" },
+    { "startTime": 542.8, "title": "Vista d'ocell de l'ordre del dia" },
+    { "startTime": 675.2, "title": "Punt 5: la mutació demanial de l'aigua cap a l'AMB" },
+    { "startTime": 733.9, "title": "La sentència del TSJC i el semàfor verd del PAM" },
+    { "startTime": 899.9, "title": "L'espiral del buidatge de competències" },
+    { "startTime": 978.9, "title": "Punt 8: la moció del transport públic i l'acusació de postureig" },
+    { "startTime": 1181.0, "title": "Reflexió final: gestors o relacions públiques?" }
+  ]
+}
