@@ -232,6 +232,16 @@ EPISODIS = [
         "date": "2026-06-25",
         "duration": "19:58",
         "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "ple municipal", "majoria absoluta", "escola bressol", "habitatge social", "AMB", "cami dels frares", "auditoria externa", "romanent de tresoreria", "linia b32", "transport public", "mobilitat", "mur de les monges", "precs i preguntes", "sobirania municipal"]
+    },
+    {
+        "num": "021",
+        "fitxer": "021-diners-brossa-pisos-tiana.mp3",
+        "identifier": "podcast-cangaieta-021-diners-brossa-pisos-tiana",
+        "title": "Episodi 021: Diners, brossa i pisos: qui paga el preu de les etiquetes?",
+        "description": "Anàlisi del ple municipal del 7 de juliol de 2026 a Tiana, a pocs mesos de les eleccions, a partir de les etiquetes que posa el govern. La «prudència» d'injectar 1,78 milions de romanent de tresoreria, quan el 60% va a despesa corrent (hores extres de la policia, gasolina, neteja) i en surten 25.000 € per a comunicació i 90.000 € per a festes, tot sostingut pels ingressos del totxo; la «taxa justa» del macrocontracte de neteja i residus de 18,4 milions per a 10 anys, amb un porta a porta de cinc fraccions que no serà obligatori fins al 2028, després de les eleccions, mentre els veïns ja paguen una taxa un 140% més alta; i la «mutació demanial subjectiva» que cedeix gratuïtament a l'AMB, durant 50 anys, la parcel·la de Calçfrares per fer-hi 40 habitatges dotacionals sense un pla per al barri. La pregunta de fons: qui pagarà demà el preu de les etiquetes que els polítics pengen avui?",
+        "date": "2026-10-19",
+        "duration": "17:19",
+        "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "ple municipal", "majoria absoluta", "romanent de tresoreria", "pressupost", "contracte de neteja", "recollida de residus", "porta a porta", "taxa de residus", "TERSA", "habitatge social", "AMB", "calcfrares", "mutacio demanial", "incendis forestals"]
     }
 ]
 
@@ -483,6 +493,83 @@ def pujar_caratula(episodi, project_dir, dry_run=False, force=False, intents=3):
     return f"error: no s'ha pogut confirmar la caràtula després de {intents} intents"
 
 
+def pujar_mp3(episodi, episodes_dir, project_dir, dry_run=False, intents=4, espera=1800):
+    """
+    Substitueix l'MP3 d'un ítem ja publicat (mateix nom, la URL no canvia) i
+    verifica que hi hagi arribat. Si hi ha caràtula local, va a la mateixa
+    crida (un sol derive) i també es verifica.
+
+    Serveix per afegir els jingles retroactivament. Retorna True si tot hi és.
+    archive.org processa l'MP3 abans de llistar-lo i triga més de 8 min: al
+    Podcast del Doctor, amb l'espera de les caràtules (480 s), es donava per
+    perdut i es tornava a pujar sencer. Per això aquí 30 min.
+    """
+    identifier = episodi['identifier']
+    mp3 = episodes_dir / episodi['fitxer']
+    print(f"\n🎵 MP3 episodi {episodi['num']} — {identifier}")
+    if not mp3.exists():
+        print(f"   ❌ No s'ha trobat {mp3}")
+        return False
+
+    fitxers = {episodi['fitxer']: mp3}
+    cover = ruta_caratula(episodi, project_dir)
+    if cover.exists():
+        fitxers[nom_remot_caratula(episodi)] = cover
+
+    try:
+        metadades = obtenir_metadades(identifier)
+    except RuntimeError as e:
+        print(f"   ❌ {e}")
+        return False
+    if not metadades.get('files'):
+        print("   ❌ L'ítem no existeix a archive.org (puja primer l'episodi)")
+        return False
+
+    pendents = {}
+    for nom, local in fitxers.items():
+        ok, motiu = caratula_confirmada(identifier, nom, local.stat().st_size, metadades)
+        if ok:
+            print(f"   ⏭️  {nom} ja hi és ({motiu})")
+        else:
+            pendents[nom] = local
+    if not pendents or dry_run:
+        if pendents:
+            print(f"   🔍 DRY-RUN: es pujaria {', '.join(pendents)}")
+        return True
+
+    for intent in range(1, intents + 1):
+        print(f"   🔄 Intent {intent}/{intents}: {', '.join(pendents)}")
+
+        # TRAMPA 1: no pugem mai amb un derive en curs
+        if not esperar_derive(identifier, timeout=espera):
+            print("   ⚠️  El derive no ha acabat dins el temps d'espera")
+            continue
+
+        try:
+            r = upload(identifier, files={n: str(f) for n, f in pendents.items()},
+                       verbose=False, queue_derive=True, retries=3)
+            codi = r[0].status_code if r else None
+            print(f"   ⬆️  upload() ha retornat {codi} (no és garantia de res)")
+        except Exception as e:
+            print(f"   ❌ Error pujant: {e}")
+            time.sleep(15)
+            continue
+
+        # Les esperes comencen quan acaba la pujada: el primer fitxer fa
+        # l'espera llarga i els altres normalment ja hi són.
+        for nom in list(pendents):
+            ok, motiu = esperar_caratula(identifier, nom, pendents[nom].stat().st_size, timeout=espera)
+            if ok:
+                print(f"   ✅ {nom} verificat ({motiu})")
+                del pendents[nom]
+            else:
+                print(f"   ⚠️  {nom} no confirmat: {motiu}")
+        if not pendents:
+            return True
+
+    return False
+
+
 def crear_metadata(episodi):
     """Crea el diccionari de metadades per archive.org"""
     
@@ -668,6 +755,9 @@ def main():
                             'tornar a pujar l\'àudio. Idempotent: salta els que ja en tenen.')
     parser.add_argument('--force-cover', action='store_true',
                        help='Amb --nomes-cover, torna a pujar la caràtula encara que ja hi sigui')
+    parser.add_argument('--nomes-mp3', action='store_true',
+                       help='Substituir l\'MP3 (i la caràtula, a la mateixa crida) d\'ítems JA '
+                            'publicats (ex: jingles retroactius). No pregunta: verifica que hi arriben')
     parser.add_argument('--permet-sense-caratula', action='store_true',
                        help='Permet pujar un episodi sense caràtula. Per defecte, si no '
                             'hi ha caràtula local l\'script s\'atura i no puja res.')
@@ -694,6 +784,15 @@ def main():
 
     if args.dry_run:
         print("\n🔍 MODE DRY-RUN ACTIVAT - No es pujarà res realment\n")
+
+    if args.nomes_mp3:
+        print("🎵 MODE NOMÉS MP3 - substitueix l'àudio d'ítems ja publicats")
+        fallats = [e['num'] for e in episodis_a_pujar
+                   if not pujar_mp3(e, episodes_dir, project_dir, dry_run=args.dry_run)]
+        print(f"\n✅ MP3 confirmats: {len(episodis_a_pujar) - len(fallats)}/{len(episodis_a_pujar)}")
+        if fallats:
+            print(f"❌ No confirmats: {', '.join(fallats)}")
+        sys.exit(1 if fallats else 0)
 
     # ------------------------------------------------------------------
     # Mode "només caràtula": per a ítems ja publicats

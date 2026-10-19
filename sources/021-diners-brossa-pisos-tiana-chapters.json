@@ -1,0 +1,15 @@
+{
+  "version": "1.2.0",
+  "podcastName": "Podcast Associació Veïnal Can Gaietà",
+  "title": "Episodi 021: Diners, brossa i pisos: qui paga el preu de les etiquetes?",
+  "chapters": [
+    { "startTime": 0, "title": "Introducció i disclaimer" },
+    { "startTime": 185.9, "title": "Punts 4 i 5: el romanent i l'etiqueta de la «prudència»" },
+    { "startTime": 382.2, "title": "Festes, comunicació i la dependència del totxo" },
+    { "startTime": 453.2, "title": "Resum llampec de l'ordre del dia" },
+    { "startTime": 527.3, "title": "Punt 6: el contracte de neteja de 18,4 milions i la «taxa justa»" },
+    { "startTime": 657.3, "title": "El calendari electoral i la taxa de la brossa (+140%)" },
+    { "startTime": 727.7, "title": "Punt 8: Calçfrares, la mutació demanial i 50 anys a l'AMB" },
+    { "startTime": 906.4, "title": "Reflexió final: qui paga la factura de les paraules?" }
+  ]
+}
