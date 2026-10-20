@@ -1,0 +1,17 @@
+{
+  "version": "1.2.0",
+  "podcastName": "Podcast Associació Veïnal Can Gaietà",
+  "title": "Episodi 023: Aiguats, cinc fraccions i la lletra petita de Cals Frares",
+  "chapters": [
+    { "startTime": 0, "title": "Introducció i disclaimer: dues tempestes el mateix dia" },
+    { "startTime": 88.5, "title": "El context: majoria absoluta a la recta final del mandat" },
+    { "startTime": 131.9, "title": "Punt 4: el contracte de residus de 18 milions i les millores" },
+    { "startTime": 184.4, "title": "L'elefant a l'habitació: el porta a porta de cinc fraccions" },
+    { "startTime": 310.2, "title": "L'ordenança marc de l'abril convertida en xec en blanc" },
+    { "startTime": 382.9, "title": "Vista d'ocell de l'ordre del dia i els 12.000 € de TERSA" },
+    { "startTime": 480.3, "title": "Punt 9: Cals Frares i la mutació demanial" },
+    { "startTime": 571.5, "title": "La clàusula de reversió i l'escalada de retrets" },
+    { "startTime": 695.8, "title": "L'alerta vermella: el ple suspès pels aiguats" },
+    { "startTime": 732.8, "title": "Reflexió final: el llenguatge tècnic com a eina" }
+  ]
+}

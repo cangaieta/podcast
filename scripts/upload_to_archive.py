@@ -252,6 +252,16 @@ EPISODIS = [
         "date": "2026-10-19",
         "duration": "23:36",
         "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "ple municipal", "majoria absoluta", "compte general", "romanent de tresoreria", "pressio fiscal", "retallades", "contracte de neteja", "aigua publica", "mutacio demanial", "AMB", "TSJC", "transport public", "la virreina", "can matas"]
+    },
+    {
+        "num": "023",
+        "fitxer": "023-aiguats-polemica-residus-tiana.mp3",
+        "identifier": "podcast-cangaieta-023-aiguats-polemica-residus-tiana",
+        "title": "Episodi 023: Aiguats, cinc fraccions i la lletra petita de Cals Frares",
+        "description": "Anàlisi del ple ordinari del 6 d'octubre de 2026 a Tiana, suspès per una alerta vermella de Protecció Civil mentre queien 327 litres per metre quadrat. A dins, una altra tempesta: el contracte de residus i neteja de més de 18 milions per a 10 anys, amb vehicles elèctrics i més operaris, però lligat al porta a porta de cinc fraccions en un poble que ja recicla al voltant del 90%; el govern diu que l'oposició ja ho va aprovar a l'abril amb l'ordenança marc. Els 12.000 € per entrar a TERSA, sortits de la partida de neteja viària. I la mutació demanial de Cals Frares, on el conveni diu que el terreny revertirà a Tiana, sí, però després que l'AMB hagi amortitzat la inversió. El llenguatge tècnic s'ha convertit en l'eina per desactivar l'opinió ciutadana?",
+        "date": "2026-10-20",
+        "duration": "13:26",
+        "tags": ["podcast", "tiana", "ajuntament", "can gaieta", "catalunya", "notebooklm", "ple municipal", "majoria absoluta", "aiguats", "gota freda", "proteccio civil", "contracte de residus", "neteja viaria", "porta a porta", "cinc fraccions", "FCC", "TERSA", "mutacio demanial", "cals frares", "AMB"]
     }
 ]
 
